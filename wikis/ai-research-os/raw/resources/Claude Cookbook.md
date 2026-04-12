@@ -5,6 +5,7 @@ author:
 published:
 created: 2026-04-12
 description: "Practical guides and code examples for building with Claude. Learn prompting techniques, tool use, multimodal capabilities, and more."
+status: processed
 tags:
   - "clippings"
 ---

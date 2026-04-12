@@ -6,6 +6,7 @@ author:
 published: 2026-03-30
 created: 2026-04-12
 description: "How can we autonomously improve LLM harnesses on problems humans are actively working on? Doing so requires solving a hard, long-horizon cr"
+status: processed
 tags:
   - "clippings"
 ---

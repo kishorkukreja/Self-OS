@@ -6,6 +6,7 @@ author:
 published: 2026-04-06
 created: 2026-04-12
 description: "Code hallucinations are not a model problem. They're a data problem.Every day, APIs ship breaking changes, deprecate endpoints, and rename  ..."
+status: processed
 tags:
   - "clippings"
 ---

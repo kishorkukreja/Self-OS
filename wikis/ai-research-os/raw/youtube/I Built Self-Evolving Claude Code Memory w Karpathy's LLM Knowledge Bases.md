@@ -6,6 +6,7 @@ author:
 published: 2026-04-06
 created: 2026-04-12
 description: "Andrej Karpathy posted about using LLMs to build personal knowledge bases - raw articles go in, an LLM compiles them into an interconnected wiki, and health ..."
+status: processed
 tags:
   - "clippings"
 ---
