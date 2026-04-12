@@ -1,0 +1,43 @@
+name: Research Request Handler
+
+on:
+  push:
+    paths:
+      - 'wikis/*/raw/requests/**'
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Identify request files
+        id: requests
+        run: |
+          REQUESTS=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+            | grep '/raw/requests/' \
+            | tr '\n' ',')
+          echo "files=${REQUESTS}" >> "$GITHUB_OUTPUT"
+          echo "New request files: ${REQUESTS}"
+
+      - name: Trigger VPS research agent
+        env:
+          VPS_WEBHOOK_URL: ${{ secrets.VPS_WEBHOOK_URL }}
+          VPS_WEBHOOK_TOKEN: ${{ secrets.VPS_WEBHOOK_TOKEN }}
+        run: |
+          if [ -z "$VPS_WEBHOOK_URL" ]; then
+            echo "VPS_WEBHOOK_URL not set — skipping VPS trigger"
+            echo "Request files: ${{ steps.requests.outputs.files }}"
+            echo "Set VPS_WEBHOOK_URL and VPS_WEBHOOK_TOKEN in repo secrets to enable automation"
+            exit 0
+          fi
+          curl -f -X POST "${VPS_WEBHOOK_URL}" \
+            -H "Authorization: Bearer ${VPS_WEBHOOK_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "event": "research_request",
+              "files": "${{ steps.requests.outputs.files }}",
+              "ref": "${{ github.ref }}",
+              "sha": "${{ github.sha }}"
+            }'

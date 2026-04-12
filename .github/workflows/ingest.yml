@@ -1,0 +1,60 @@
+name: Ingest Raw Files
+
+on:
+  push:
+    paths:
+      - 'wikis/*/raw/articles/**'
+      - 'wikis/*/raw/papers/**'
+      - 'wikis/*/raw/x-threads/**'
+      - 'wikis/*/raw/newsletters/**'
+      - 'wikis/*/raw/youtube/**'
+      - 'wikis/*/raw/repos/**'
+      - 'wikis/*/raw/client-docs/**'
+      - 'wikis/*/raw/industry-reports/**'
+      - 'wikis/*/raw/frameworks/**'
+      - 'wikis/*/raw/deepchand-bakers/**'
+      - 'wikis/*/raw/deepchand-weddings/**'
+      - 'wikis/*/raw/self-finance/**'
+      - 'wikis/*/raw/family-finance/**'
+      - 'wikis/*/raw/health/**'
+      - 'wikis/*/raw/sessions/**'
+      - 'wikis/*/raw/projects/**'
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Identify changed wikis
+        id: changed
+        run: |
+          CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+            | grep '^wikis/' \
+            | cut -d'/' -f2 \
+            | sort -u \
+            | tr '\n' ',')
+          echo "wikis=${CHANGED}" >> "$GITHUB_OUTPUT"
+          echo "Changed wikis: ${CHANGED}"
+
+      - name: Trigger VPS ingest agent
+        env:
+          VPS_WEBHOOK_URL: ${{ secrets.VPS_WEBHOOK_URL }}
+          VPS_WEBHOOK_TOKEN: ${{ secrets.VPS_WEBHOOK_TOKEN }}
+        run: |
+          if [ -z "$VPS_WEBHOOK_URL" ]; then
+            echo "VPS_WEBHOOK_URL not set — skipping VPS trigger"
+            echo "Changed wikis: ${{ steps.changed.outputs.wikis }}"
+            echo "Set VPS_WEBHOOK_URL and VPS_WEBHOOK_TOKEN in repo secrets to enable automation"
+            exit 0
+          fi
+          curl -f -X POST "${VPS_WEBHOOK_URL}" \
+            -H "Authorization: Bearer ${VPS_WEBHOOK_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "event": "ingest",
+              "wikis": "${{ steps.changed.outputs.wikis }}",
+              "ref": "${{ github.ref }}",
+              "sha": "${{ github.sha }}"
+            }'
