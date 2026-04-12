@@ -1,53 +1,124 @@
-# AI Research OS
+# AI Research OS — Schema
 
-**Domain:** AI & Machine Learning
-**Purpose:** Track and synthesize AI/ML research, papers, frameworks, tools, and community knowledge.
+## Overview
 
----
+Personal knowledge base on AI & Machine Learning: models, agents, frameworks, research papers, tooling, and community knowledge. Raw sources live in `raw/`. The compiled wiki lives in `wiki/`. You (the AI) maintain all wiki content. I direct strategy; you execute compilation, maintenance, and queries.
 
-## Raw Folder Sources
+## Directory Structure
 
-| Folder | Content Type | Filename Convention |
-|--------|-------------|---------------------|
-| `raw/articles/` | Blog posts, Substack, Medium, personal sites | `YYYY-MM-DD-{slug}.md` |
-| `raw/papers/` | arXiv papers, conference papers | `YYYY-MM-DD-{author}-{title-slug}.md` |
-| `raw/x-threads/` | X/Twitter threads saved as markdown | `YYYY-MM-DD-{username}-{topic}.md` |
-| `raw/newsletters/` | Newsletter issues (The Batch, TLDR AI, etc.) | `YYYY-MM-DD-{newsletter}-{issue}.md` |
-| `raw/youtube/` | Video transcripts, summaries | `YYYY-MM-DD-{channel}-{title-slug}.md` |
-| `raw/repos/` | README files, key source files from notable repos | `{repo-name}-{YYYY-MM-DD}.md` |
-| `raw/requests/` | NotebookLM research request tickets | `YYYY-MM-DD-{topic}-request.md` |
+```
+raw/
+  articles/     — Blog posts, Substack, Medium, personal sites
+  papers/       — arXiv papers, conference papers
+  x-threads/    — X/Twitter threads saved as markdown
+  newsletters/  — Newsletter issues (The Batch, TLDR AI, etc.)
+  youtube/      — Video transcripts, summaries
+  repos/        — README files, key source files from notable repos
+  resources/    — Official docs, cookbooks, reference material
+  requests/     — NotebookLM research request tickets
 
-## Required Frontmatter
+wiki/index.md       — Master index linking every page with a one-line summary
+wiki/log.md         — Append-only changelog of all operations
+wiki/concepts/      — One article per concept (technique, idea, pattern)
+wiki/entities/      — People, organisations, tools, models (one per file)
+wiki/sources/       — One summary per raw source document
+wiki/syntheses/     — Cross-cutting analysis articles, comparisons, research answers
+wiki/outputs/       — Filed answers to queries
+```
 
-Every raw file must include:
+## Raw File Conventions
+
+| Folder | Filename Convention |
+|--------|---------------------|
+| `articles/` | `YYYY-MM-DD-{slug}.md` |
+| `papers/` | `YYYY-MM-DD-{author}-{title-slug}.md` |
+| `x-threads/` | `YYYY-MM-DD-{username}-{topic}.md` |
+| `newsletters/` | `YYYY-MM-DD-{newsletter}-{issue}.md` |
+| `youtube/` | `YYYY-MM-DD-{channel}-{title-slug}.md` |
+| `repos/` | `{repo-name}-{YYYY-MM-DD}.md` |
+| `resources/` | `{title-slug}-{YYYY-MM-DD}.md` |
+| `requests/` | `YYYY-MM-DD-{topic}-request.md` |
+
+Required frontmatter on every raw file:
 
 ```yaml
 ---
 source: {url or reference}
 date: YYYY-MM-DD
-type: article | paper | thread | newsletter | video | repo | request
+type: article | paper | thread | newsletter | video | repo | resource | request
 tags: [tag1, tag2]
 status: raw | processed
 ---
 ```
 
-## Ingest Rules
+## Wiki File Conventions
 
-1. Files land in the correct subfolder — never directly in `raw/`
-2. Ingest fires automatically on any push to `raw/`
-3. After processing, mark raw file frontmatter `status: processed`
-4. Wiki files are updated incrementally — existing entries are enhanced, not replaced
-5. Contradictions between sources are flagged in `wiki/log.md`
+- All filenames: kebab-case, lowercase (e.g., `active-inference.md`)
+- Source summaries: `{author-or-handle}-{year}-{short-title}.md`
+- Every wiki page MUST have YAML frontmatter:
 
-## Wiki Output Structure
+```yaml
+---
+title: "Page Title"
+date_created: YYYY-MM-DD
+date_modified: YYYY-MM-DD
+summary: "One to two sentences describing this page"
+tags: [topic-tag, domain-tag]
+type: concept | entity | source | synthesis | output
+status: draft | review | final
+---
+```
 
-| Folder | Purpose |
-|--------|---------|
-| `wiki/concepts/` | Foundational ideas, techniques, mental models |
-| `wiki/entities/` | Models, companies, people, frameworks as named entries |
-| `wiki/sources/` | Source registry — one file per source |
-| `wiki/syntheses/` | Multi-source analysis, comparisons, research answers |
-| `wiki/outputs/` | Final outputs ready to use: reports, briefs, essays |
+- Use `[[wikilinks]]` for all internal cross-references
+- Link only the first occurrence of a concept per section
+- **Bold key terms** on first use in each article
+
+## Operations
+
+### INGEST (when new raw sources are added)
+
+1. Read the new source document(s)
+2. Create a source summary in `wiki/sources/` using the source file schema
+3. Identify concepts and entities mentioned
+4. Create new concept/entity pages if they don't exist yet
+5. Update existing pages with new information (append — don't rewrite from scratch)
+6. Add `[[wikilinks]]` to connect new content to existing pages
+7. Mark the raw file `status: processed` in its frontmatter
+8. Rebuild `wiki/index.md` to reflect all current wiki files
+9. Append to `wiki/log.md`
+
+### QUERY (when asked a research question)
+
+1. Read `wiki/index.md` to understand available content
+2. Read the relevant wiki pages (concepts, entities, syntheses)
+3. Synthesise an answer with citations to wiki pages
+4. Save the answer as `wiki/outputs/{question-slug}.md`
+5. Update `wiki/index.md` and append to `wiki/log.md`
+
+### LINT (periodic health check)
+
+1. Find contradictions between pages — flag with ⚠️, noting both positions
+2. Find orphan pages (no inbound wikilinks)
+3. Find broken `[[wikilinks]]` pointing to non-existent files
+4. Identify missing or incomplete frontmatter fields
+5. Flag stale content (source date >6 months, no updates)
+6. Suggest new articles for frequently mentioned but stub-only concepts
+7. Output a lint report and fix what can be fixed automatically
+8. Append lint report to `wiki/log.md`
+
+## Page Creation Threshold
+
+- Create a **full concept/entity page** when a subject appears in 2+ sources
+- For single-mention subjects, create a **stub page** (frontmatter + one-line definition + link back to the source that mentioned it)
+- Never leave a `[[wikilink]]` pointing to nothing — always create at least a stub
+
+## Quality Standards
+
+- **Source summaries:** 200–500 words, synthesise — don't copy
+- **Concept articles:** 500–1500 words with a clear lead section
+- Always trace claims to specific source pages via `[[wikilinks]]`
+- Flag contradictions with ⚠️, noting both positions
+- Prefer recency when sources conflict on facts
 
 ## What NOT to Put Here
 

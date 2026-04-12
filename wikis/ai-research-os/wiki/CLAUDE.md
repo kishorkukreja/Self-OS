@@ -47,9 +47,19 @@ Append-only. One entry per ingest run. Do not edit manually.
 
 ## concepts/ File Schema
 
-One concept per file.
+One concept per file. Minimum 500 words for full pages; stubs allowed for single-mention subjects.
 
 ```markdown
+---
+title: "{Concept Name}"
+date_created: YYYY-MM-DD
+date_modified: YYYY-MM-DD
+summary: "One to two sentences describing this concept"
+tags: [tag1, tag2]
+type: concept
+status: draft | review | final
+---
+
 # {Concept Name}
 
 **Definition:** One sentence.
@@ -68,6 +78,16 @@ _Last updated: YYYY-MM-DD_
 One entity per file (model, company, person, framework, tool).
 
 ```markdown
+---
+title: "{Entity Name}"
+date_created: YYYY-MM-DD
+date_modified: YYYY-MM-DD
+summary: "One sentence description"
+tags: [tag1, tag2]
+type: entity
+status: draft | review | final
+---
+
 # {Entity Name}
 
 **Type:** model | company | person | framework | tool
@@ -87,17 +107,27 @@ _Last updated: YYYY-MM-DD_
 
 ## sources/ File Schema
 
-One source per file — the source registry.
+One source per file — the source registry. 200–500 words, synthesise don't copy.
 
 ```markdown
+---
+title: "{Source Title}"
+date_created: YYYY-MM-DD
+date_modified: YYYY-MM-DD
+summary: "One to two sentences"
+tags: [tag1, tag2]
+type: source
+status: final
+---
+
 # {Source Title}
 
-**Type:** article | paper | thread | newsletter | video | repo
+**Type:** article | paper | thread | newsletter | video | repo | resource
 **Date:** YYYY-MM-DD
 **URL:** {url}
 **Raw file:** [[../raw/{subfolder}/{filename}]]
 
-**Summary:** 2-3 sentences.
+**Summary:** 2–3 sentences.
 
 **Key contributions:**
 - point 1
@@ -111,6 +141,16 @@ One source per file — the source registry.
 Multi-source analysis documents.
 
 ```markdown
+---
+title: "{Research Question or Topic}"
+date_created: YYYY-MM-DD
+date_modified: YYYY-MM-DD
+summary: "One to two sentences"
+tags: [tag1, tag2]
+type: synthesis
+status: draft | review | final
+---
+
 # {Research Question or Topic}
 
 **Status:** draft | complete
@@ -125,7 +165,7 @@ Multi-source analysis documents.
 
 ## Evidence
 - [[sources/source1]]: supports X
-- [[sources/source2]]: supports Y, nuances Z
+- [[sources/source2]]: supports Y, nuances Z ⚠️ contradicts Z from source1
 
 ## Confidence
 {high | medium | low} — {reason}
@@ -136,10 +176,19 @@ Multi-source analysis documents.
 
 ## outputs/ File Schema
 
-Final outputs ready to use. No fixed schema — format for the intended use (essay, brief, report).
-Always include this header:
+Filed answers to queries. Format for intended use (essay, brief, report).
 
 ```markdown
+---
+title: "{Question or Output Title}"
+date_created: YYYY-MM-DD
+date_modified: YYYY-MM-DD
+summary: "One sentence"
+tags: [tag1, tag2]
+type: output
+status: draft | final
+---
+
 _Generated: YYYY-MM-DD | Sources: [[syntheses/synthesis-slug]] | Status: draft | final_
 
 ---
