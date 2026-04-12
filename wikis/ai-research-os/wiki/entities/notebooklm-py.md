@@ -1,3 +1,13 @@
+---
+title: "notebooklm-py"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Unofficial Python library and CLI providing full programmatic access to Google NotebookLM, used in Self OS for deep research automation."
+tags: [tool, notebooklm, python, cli, automation, self-os]
+type: entity
+status: final
+---
+
 # notebooklm-py
 
 **Type:** tool

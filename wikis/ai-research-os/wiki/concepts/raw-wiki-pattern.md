@@ -1,3 +1,13 @@
+---
+title: "Raw-Wiki Pattern"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Folder convention where raw/ holds unstructured source material and wiki/ holds LLM-curated knowledge — the LLM is the only writer of wiki/ content."
+tags: [llm, knowledge-base, workflow, folder-structure]
+type: concept
+status: final
+---
+
 # Raw-Wiki Pattern
 
 **Definition:** A folder convention where `raw/` holds unstructured source material and `wiki/` holds LLM-curated, synthesised knowledge — with the LLM as the only writer of wiki/ content.

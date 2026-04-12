@@ -1,3 +1,13 @@
+---
+title: "nia-docs / agentsearch.sh"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Tool that mounts any documentation website as a Unix filesystem, letting AI agents browse docs with cat, grep, tree and find — no RAG or MCP schemas needed."
+tags: [tool, web-as-filesystem, documentation, rag-alternative]
+type: entity
+status: final
+---
+
 # nia-docs / agentsearch.sh
 
 **Type:** tool

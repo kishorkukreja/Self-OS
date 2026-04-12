@@ -1,3 +1,13 @@
+---
+title: "notebooklm-py — Unofficial Python API and CLI for Google NotebookLM"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Unofficial Python library and CLI for Google NotebookLM with native Claude Code skill integration, used in Self OS for deep research automation."
+tags: [notebooklm, python, cli, tool, automation, claude-code, self-os]
+type: source
+status: final
+---
+
 # notebooklm-py — Unofficial Python API and CLI for Google NotebookLM
 
 **Type:** repo

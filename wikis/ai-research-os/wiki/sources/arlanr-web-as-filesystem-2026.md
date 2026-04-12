@@ -1,3 +1,13 @@
+---
+title: "Turning the Entire Web Into a Filesystem"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Code hallucination is a docs staleness problem — the solution is mounting documentation sites as Unix filesystems so agents browse with familiar shell tools instead of RAG."
+tags: [web-as-filesystem, nia-docs, code-hallucination, rag-alternative, agent-tools]
+type: source
+status: final
+---
+
 # Turning the Entire Web Into a Filesystem
 
 **Type:** thread

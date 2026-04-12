@@ -1,3 +1,13 @@
+---
+title: "Knowledge Compounding"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Property of an LLM knowledge base where each new input and query answer enriches the base, compounding rather than resetting."
+tags: [llm, knowledge-base, compounding, workflow]
+type: concept
+status: final
+---
+
 # Knowledge Compounding
 
 **Definition:** The property of an LLM knowledge base where each new input and each query answer enriches the base, making future queries more accurate and complete — compounding rather than resetting.

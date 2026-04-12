@@ -1,3 +1,13 @@
+---
+title: "I Want to Extend My Claude Sessions (Full Guide)"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Guide to four workflows for extending Claude sessions beyond context limits, centred on running /wrap-up before closing each session to extract and persist insights."
+tags: [claude-code, session-management, wrap-up, context-limits, knowledge-base]
+type: source
+status: final
+---
+
 # I Want to Extend My Claude Sessions (Full Guide)
 
 **Type:** thread

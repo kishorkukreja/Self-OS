@@ -1,3 +1,13 @@
+---
+title: "Wiki Agent Memory"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Pattern of giving an LLM agent lifecycle hooks into a knowledge wiki — loading context on session start, filing insights on session end, and running maintenance on schedule."
+tags: [llm, agent-memory, session-lifecycle, hooks]
+type: concept
+status: final
+---
+
 # Wiki Agent Memory
 
 **Definition:** The pattern of giving an LLM agent lifecycle hooks into a knowledge wiki — loading context on session start, filing insights on session end, and running maintenance automatically on schedule.

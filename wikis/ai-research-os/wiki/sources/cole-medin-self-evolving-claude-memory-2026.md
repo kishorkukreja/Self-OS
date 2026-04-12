@@ -1,3 +1,13 @@
+---
+title: "I Built Self-Evolving Claude Code Memory w/ Karpathy's LLM Knowledge Bases"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Applies Karpathy's raw→wiki pattern to internal coding session data using Claude Code hooks and Agent SDK — creating self-evolving memory that compounds with every session."
+tags: [claude-code, claude-code-hooks, session-memory, knowledge-base, compounding-loop, agent-sdk]
+type: source
+status: final
+---
+
 # I Built Self-Evolving Claude Code Memory w/ Karpathy's LLM Knowledge Bases
 
 **Type:** video

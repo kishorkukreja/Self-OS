@@ -1,3 +1,13 @@
+---
+title: "LLM Wiki v2 — Extending Karpathy's Pattern with Agent Memory"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Extends the raw→wiki pattern with agent lifecycle hooks, supersession, retention decay, and quality-gated query filing — automating the bookkeeping that causes wikis to be abandoned."
+tags: [llm, knowledge-base, agent-memory, session-lifecycle, automation]
+type: source
+status: final
+---
+
 # LLM Wiki v2 — Extending Karpathy's Pattern with Agent Memory
 
 **Type:** repo

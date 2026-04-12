@@ -1,3 +1,13 @@
+---
+title: "Andrej Karpathy"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "AI researcher and engineer who popularised the raw→wiki LLM knowledge base pattern in April 2026."
+tags: [person, ai-research, knowledge-base, llm]
+type: entity
+status: final
+---
+
 # Andrej Karpathy
 
 **Type:** person

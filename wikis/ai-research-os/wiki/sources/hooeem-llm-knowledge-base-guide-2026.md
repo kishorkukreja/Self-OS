@@ -1,3 +1,13 @@
+---
+title: "How to Create Your Own LLM Knowledge Bases Today (Full Course)"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Step-by-step guide covering three levels of LLM knowledge base implementation — no-code, semi-automated, and fully automated with GitHub Actions."
+tags: [llm, knowledge-base, obsidian, workflow, automation, compounding-loop]
+type: source
+status: final
+---
+
 # How to Create Your Own LLM Knowledge Bases Today (Full Course)
 
 **Type:** thread

@@ -1,3 +1,13 @@
+---
+title: "Meta-Harness: Autonomously Improving LLM Harnesses"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Research introducing Meta-Harness — a coding agent that autonomously optimises LLM evaluation harnesses by reading the full history of prior attempts."
+tags: [meta-learning, harness-optimization, agent-self-improvement, research, evaluation]
+type: source
+status: final
+---
+
 # Meta-Harness: Autonomously Improving LLM Harnesses
 
 **Type:** thread

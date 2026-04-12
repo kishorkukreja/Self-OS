@@ -1,3 +1,13 @@
+---
+title: "Web as Filesystem"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Pattern of mounting web documentation as a Unix filesystem so AI agents can browse docs using cat, grep, tree, and find — eliminating the need for RAG or MCP tool schemas."
+tags: [web, filesystem, rag-alternative, agent-tools, documentation]
+type: concept
+status: final
+---
+
 # Web as Filesystem
 
 **Definition:** The pattern of mounting web documentation as a Unix filesystem so AI agents can browse docs using `cat`, `grep`, `tree`, and `find` — the same tools they were pre-trained on — instead of using RAG or MCP tool schemas.

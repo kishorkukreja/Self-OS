@@ -1,3 +1,13 @@
+---
+title: "Karpathy on LLM Knowledge Bases (April 2026)"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Karpathy's tweet describing the raw→wiki LLM knowledge base pattern and framing the LLM as an OS layer for personal knowledge management."
+tags: [karpathy, llm, knowledge-base, raw-wiki-pattern, workflow]
+type: source
+status: final
+---
+
 # Karpathy on LLM Knowledge Bases (April 2026)
 
 **Type:** article

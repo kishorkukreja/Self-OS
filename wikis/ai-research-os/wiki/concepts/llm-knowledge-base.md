@@ -1,3 +1,13 @@
+---
+title: "LLM Knowledge Base"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "LLM-maintained repository where an AI reads raw inputs and writes synthesised wiki entries, enabling compounding knowledge accumulation over time."
+tags: [llm, knowledge-base, workflow, raw-wiki-pattern]
+type: concept
+status: final
+---
+
 # LLM Knowledge Base
 
 **Definition:** A structured, LLM-maintained knowledge repository where an AI reads raw inputs and writes synthesised wiki entries, enabling compounding knowledge accumulation over time.

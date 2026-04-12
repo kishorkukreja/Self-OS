@@ -1,3 +1,13 @@
+---
+title: "Obsidian"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Local-first markdown note-taking application with graph view and wikilinks — used as the visual IDE and frontend for the knowledge base."
+tags: [tool, note-taking, markdown, knowledge-base, obsidian]
+type: entity
+status: final
+---
+
 # Obsidian
 
 **Type:** tool

@@ -1,3 +1,13 @@
+---
+title: "Claude Code Hooks"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Shell commands configured in Claude Code's settings.json that execute at lifecycle events, enabling automated session knowledge capture and context loading."
+tags: [claude-code, hooks, session-management, automation]
+type: concept
+status: final
+---
+
 # Claude Code Hooks
 
 **Definition:** Shell commands configured in Claude Code's `settings.json` that execute automatically at lifecycle events — session start, session end, pre-compact, and tool use — enabling automated knowledge capture and context loading.

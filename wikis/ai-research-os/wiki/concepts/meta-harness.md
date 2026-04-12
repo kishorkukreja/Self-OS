@@ -1,3 +1,13 @@
+---
+title: "Meta-Harness"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "System where a coding agent autonomously improves LLM evaluation harnesses by reading the full history of prior attempts and proposing targeted modifications."
+tags: [meta-learning, harness-optimization, agent-self-improvement, evaluation]
+type: concept
+status: final
+---
+
 # Meta-Harness
 
 **Definition:** A system where a coding agent autonomously improves LLM evaluation harnesses by reading the full history of prior attempts and proposing targeted modifications — a meta-learning approach with minimal imposed structure.

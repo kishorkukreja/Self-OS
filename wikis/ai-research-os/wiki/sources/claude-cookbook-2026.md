@@ -1,3 +1,13 @@
+---
+title: "Claude Cookbook — Official Anthropic Practical Guides"
+date_created: 2026-04-12
+date_modified: 2026-04-12
+summary: "Anthropic's official library of practical guides covering agent patterns, Managed Agents, Claude Agent SDK, tool use, RAG, context engineering, and more."
+tags: [anthropic, claude, cookbook, managed-agents, tool-use, context-engineering, agent-sdk]
+type: source
+status: final
+---
+
 # Claude Cookbook — Official Anthropic Practical Guides
 
 **Type:** article
