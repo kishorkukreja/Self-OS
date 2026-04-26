@@ -11,10 +11,14 @@
             "id": "1433a768e31291b7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wikis/supply-chain-os/raw/requests/2026-04-26-unilever-forecast-accuracy-customer-experience-request.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-26-unilever-forecast-accuracy-customer-experience-request"
             }
           }
         ]
@@ -196,6 +200,7 @@
   },
   "active": "1433a768e31291b7",
   "lastOpenFiles": [
+    "wikis/supply-chain-os/raw/requests/2026-04-26-unilever-forecast-accuracy-customer-experience-request.md",
     "Untitled.canvas",
     "MASTER.md",
     "docs.md",
