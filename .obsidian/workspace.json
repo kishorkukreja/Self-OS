@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "5f3c8982ab9f4872",
+    "type": "split",
+    "children": [
+      {
+        "id": "533f80fdc69a87aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1433a768e31291b7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8d097944c1a206e",
+    "type": "split",
+    "children": [
+      {
+        "id": "18d5adc873206ea7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9c07bf788430d03",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12889532c8198a9c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a7531437f5dc6a2a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 427.5
+  },
+  "right": {
+    "id": "4583a8ac9f8083fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a195a760dececd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c99dc82dd38c438d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wikis/ai-research-os/raw/x-threads/Thread by @yoonholeee.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Thread by @yoonholeee"
+            }
+          },
+          {
+            "id": "4fd2dc0531582c51",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wikis/ai-research-os/raw/x-threads/Thread by @yoonholeee.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Thread by @yoonholeee"
+            }
+          },
+          {
+            "id": "926169f17bf45cc7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b1a402f269a5c990",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "46e4960dbe0843a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wikis/ai-research-os/raw/x-threads/Thread by @yoonholeee.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Thread by @yoonholeee"
+            }
+          },
+          {
+            "id": "663ca55c27550f45",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "marp-slides:Show Slide Preview": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "1433a768e31291b7",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "MASTER.md",
+    "docs.md",
+    "wikis/supply-chain-os/CLAUDE.md",
+    "wikis/personal-os/CLAUDE.md",
+    "wikis/coding-projects-os/CLAUDE.md",
+    "wikis/ai-research-os/CLAUDE.md",
+    "wikis/ai-research-os/raw/repos/multica-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/karpathy-skills-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/awesome-ai-memory-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/mem0-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/reme-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/simplemem-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/agentic-memory-lhl-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/memoryagentbench-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/claude-code-patterns-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/mempalace-2026-04-13.md",
+    "wikis/ai-research-os/raw/papers/2026-04-13-sharma-cua-verifier.md",
+    "wikis/ai-research-os/raw/papers/2026-04-13-qiao-memory-intelligence-agent.md",
+    "wikis/ai-research-os/raw/repos/memento-2026-04-13.md",
+    "wikis/ai-research-os/raw/repos/graph-of-skills-2026-04-12.md",
+    "wikis/ai-research-os/raw/repos/hy-embodied-2026-04-12.md",
+    "wikis/ai-research-os/raw/repos/skillclaw-2026-04-12.md",
+    "wikis/ai-research-os/raw/papers/2026-04-12-tencent-hy-embodied.md",
+    "wikis/ai-research-os/raw/papers/2026-04-12-ma-skillclaw.md",
+    "wikis/ai-research-os/raw/papers/2026-04-13-liu-graph-of-skills.md",
+    "wikis/ai-research-os/raw/x-threads/sedpLMqI7",
+    "wikis/ai-research-os/raw/x-threads/sedaO9LAR",
+    "wikis/ai-research-os/wiki/sources/cole-medin-self-evolving-claude-memory-2026.md.tmp.18324.1776031265292",
+    "wikis/ai-research-os/wiki/sources/claude-cookbook-2026.md.tmp.18324.1776031235508",
+    "wikis/ai-research-os/raw/articles/2026-04-12-karpathy-llm-os-tweet.md.tmp.18324.1776031041413",
+    "wikis/ai-research-os/wiki/concepts/raw-wiki-pattern.md.tmp.18324.1776031011040",
+    "wikis/ai-research-os/wiki/concepts/llm-knowledge-base.md.tmp.18324.1776031003342",
+    "wikis/ai-research/x-threads",
+    "wikis/ai-research",
+    "wikis/ai-research-os/raw/resources"
+  ]
+}
