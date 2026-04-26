@@ -198,8 +198,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1433a768e31291b7",
+  "active": "f9c07bf788430d03",
   "lastOpenFiles": [
+    "wikis/ai-research-os/wiki/syntheses/claude-code-vs-hermes-vs-openclaw-knowledge-building.md",
+    "wikis/ai-research-os/wiki/entities/openclaw.md",
+    "wikis/ai-research-os/wiki/entities/hermes-agent.md",
+    "wikis/ai-research-os/raw/requests/2026-04-26-claude-code-vs-hermes-vs-openclaw-knowledge-building-request.md",
     "wikis/supply-chain-os/raw/requests/2026-04-26-unilever-forecast-accuracy-customer-experience-request.md",
     "Untitled.canvas",
     "MASTER.md",
@@ -223,10 +227,6 @@
     "wikis/ai-research-os/raw/repos/memento-2026-04-13.md",
     "wikis/ai-research-os/raw/repos/graph-of-skills-2026-04-12.md",
     "wikis/ai-research-os/raw/repos/hy-embodied-2026-04-12.md",
-    "wikis/ai-research-os/raw/repos/skillclaw-2026-04-12.md",
-    "wikis/ai-research-os/raw/papers/2026-04-12-tencent-hy-embodied.md",
-    "wikis/ai-research-os/raw/papers/2026-04-12-ma-skillclaw.md",
-    "wikis/ai-research-os/raw/papers/2026-04-13-liu-graph-of-skills.md",
     "wikis/ai-research-os/raw/x-threads/sedpLMqI7",
     "wikis/ai-research-os/raw/x-threads/sedaO9LAR",
     "wikis/ai-research-os/wiki/sources/cole-medin-self-evolving-claude-memory-2026.md.tmp.18324.1776031265292",
