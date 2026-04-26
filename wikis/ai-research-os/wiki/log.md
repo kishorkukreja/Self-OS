@@ -20,3 +20,9 @@ _Append-only. Updated automatically by ingest runs._
 - Added: concepts/claude-code-hooks.md, concepts/web-as-filesystem.md, concepts/meta-harness.md, entities/anthropic.md, entities/claude-code.md, entities/nia-docs.md, sources/claude-cookbook-2026.md, sources/hooeem-extend-claude-sessions-2026.md, sources/yoonholeee-meta-harness-2026.md, sources/arlanr-web-as-filesystem-2026.md, sources/cole-medin-self-evolving-claude-memory-2026.md
 - Updated: index.md
 - Conflicts: none
+
+## 2026-04-26 — Ingest run 3 (1 request + derived pages)
+- Ingested: 1 file from requests
+- Added: entities/openclaw.md, entities/hermes-agent.md, syntheses/claude-code-vs-hermes-vs-openclaw-knowledge-building.md
+- Updated: entities/claude-code.md, index.md
+- Conflicts: none

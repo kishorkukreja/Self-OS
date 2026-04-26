@@ -19,6 +19,8 @@ status: final
 - Supports custom skills (slash commands) stored as `.md` files in `~/.claude/commands/`
 - Hooks system: session-start, session-end, pre-compact, post-tool — configured in `settings.json`
 - Manages context window with automatic compaction
+- Memory is project-scoped via `CLAUDE.md` and auto-memory in `~/.claude/projects/<name>/memory/` (25 KB limit)
+- Can orchestrate subagents but skills do not self-evolve; manual curation required
 - Used in Self OS for: wiki-ingest, wiki-query, wiki-lint, notebooklm-research, wrap-up
 
 **Relationships:** [[concepts/claude-code-hooks]], [[entities/anthropic]], [[concepts/wiki-agent-memory]]
