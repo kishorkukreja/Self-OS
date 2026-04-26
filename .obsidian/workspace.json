@@ -200,6 +200,17 @@
   },
   "active": "f9c07bf788430d03",
   "lastOpenFiles": [
+    "wikis/supply-chain-os/raw/papers/2026-04-26-mit-sloan-unilever-demand-forecasting-segmented.md",
+    "wikis/supply-chain-os/raw/papers",
+    "wikis/supply-chain-os/wiki/syntheses/unilever-forecast-accuracy-customer-experience-research-report.md",
+    "wikis/supply-chain-os/raw/articles/2026-04-26-unilever-kaizen-amazon-supply-chain.md",
+    "wikis/supply-chain-os/raw/articles/2026-04-26-retail-velocity-retail-intelligence-trends-2026.md",
+    "wikis/supply-chain-os/raw/articles/2026-04-26-doss-cpg-trends-2026.md",
+    "wikis/supply-chain-os/raw/articles/2026-04-26-bringoz-cpg-last-mile-challenges.md",
+    "wikis/supply-chain-os/raw/articles/2026-04-26-aws-cpg-demand-forecasting-amazon.md",
+    "wikis/supply-chain-os/raw/articles/2026-04-26-atomix-last-mile-cpg-customer-experience.md",
+    "wikis/supply-chain-os/raw/articles/2026-04-26-ai-in-the-chain-ai-demand-sensing-unilever-amazon.md",
+    "wikis/supply-chain-os/raw/articles",
     "wikis/ai-research-os/wiki/syntheses/claude-code-vs-hermes-vs-openclaw-knowledge-building.md",
     "wikis/ai-research-os/wiki/entities/openclaw.md",
     "wikis/ai-research-os/wiki/entities/hermes-agent.md",
@@ -218,15 +229,6 @@
     "wikis/ai-research-os/raw/repos/mem0-2026-04-13.md",
     "wikis/ai-research-os/raw/repos/reme-2026-04-13.md",
     "wikis/ai-research-os/raw/repos/simplemem-2026-04-13.md",
-    "wikis/ai-research-os/raw/repos/agentic-memory-lhl-2026-04-13.md",
-    "wikis/ai-research-os/raw/repos/memoryagentbench-2026-04-13.md",
-    "wikis/ai-research-os/raw/repos/claude-code-patterns-2026-04-13.md",
-    "wikis/ai-research-os/raw/repos/mempalace-2026-04-13.md",
-    "wikis/ai-research-os/raw/papers/2026-04-13-sharma-cua-verifier.md",
-    "wikis/ai-research-os/raw/papers/2026-04-13-qiao-memory-intelligence-agent.md",
-    "wikis/ai-research-os/raw/repos/memento-2026-04-13.md",
-    "wikis/ai-research-os/raw/repos/graph-of-skills-2026-04-12.md",
-    "wikis/ai-research-os/raw/repos/hy-embodied-2026-04-12.md",
     "wikis/ai-research-os/raw/x-threads/sedpLMqI7",
     "wikis/ai-research-os/raw/x-threads/sedaO9LAR",
     "wikis/ai-research-os/wiki/sources/cole-medin-self-evolving-claude-memory-2026.md.tmp.18324.1776031265292",
@@ -234,8 +236,6 @@
     "wikis/ai-research-os/raw/articles/2026-04-12-karpathy-llm-os-tweet.md.tmp.18324.1776031041413",
     "wikis/ai-research-os/wiki/concepts/raw-wiki-pattern.md.tmp.18324.1776031011040",
     "wikis/ai-research-os/wiki/concepts/llm-knowledge-base.md.tmp.18324.1776031003342",
-    "wikis/ai-research/x-threads",
-    "wikis/ai-research",
-    "wikis/ai-research-os/raw/resources"
+    "wikis/ai-research/x-threads"
   ]
 }
