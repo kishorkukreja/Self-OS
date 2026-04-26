@@ -4,7 +4,9 @@ topic: Unilever Forecast Accuracy & Customer Experience
 wiki: supply-chain-os
 requested_by: Kish
 date_requested: 2026-04-26
-status: pending
+status: processed
+date_completed: 2026-04-26
+report: wikis/supply-chain-os/wiki/syntheses/unilever-forecast-accuracy-customer-experience-research-report.md
 depth: deep
 client: Unilever
 ---
