@@ -1,11 +1,12 @@
 ---
-source: internal request
-date: 2026-04-26
-type: request
+type: research-request
+topic: Unilever Forecast Accuracy & Customer Experience
+wiki: supply-chain-os
+requested_by: Kish
+date_requested: 2026-04-26
+status: pending
+depth: deep
 client: Unilever
-tags: [forecasting, ecommerce, omnichannel, dc-fulfillment, amazon, target]
-status: raw
-confidential: true
 ---
 
 # Research Request: Unilever Forecast Accuracy & Customer Experience
