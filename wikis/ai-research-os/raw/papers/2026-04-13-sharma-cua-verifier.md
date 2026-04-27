@@ -3,7 +3,7 @@ source: https://arxiv.org/abs/2604.06240
 date: 2026-04-13
 type: paper
 tags: [computer-use-agents, verification, reward-model, web-agents, microsoft-research]
-status: raw
+status: processed
 ---
 
 Preprint. Under review.

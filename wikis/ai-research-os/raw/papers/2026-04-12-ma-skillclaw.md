@@ -3,14 +3,14 @@ source: https://arxiv.org/abs/2604.08377
 date: 2026-04-12
 type: paper
 tags: [skill-evolution, multi-agent, llm-agents, openclaw, knowledge-compounding]
-status: raw
+status: processed
 ---
 
 SkillClaw: Let Skills Evolve Collectively
 with Agentic Evolver
-Ziyu Ma1?, Shidong Yang1?, Yuxiang Ji1?, Xucong Wang1?, Yong Wang1†, Yiming Hu1,
+Ziyu Ma1?, Shidong Yang1?, Yuxiang Ji1?, Xucong Wang1?, Yong Wang1ï¿½, Yiming Hu1,
 Tongwen Huang1, Xiangxiang Chu1
-1DreamX Team, ?Equal contribution, †Project lead
+1DreamX Team, ?Equal contribution, ï¿½Project lead
 Large language model (LLM) agents such as OpenClaw rely on reusable skills to perform complex
 tasks,yettheseskillsremainlargelystaticafterdeployment. Asaresult,similarworkflows,toolusage
 patterns, and failure modes are repeatedly rediscovered across users, preventing the system from
@@ -61,24 +61,24 @@ rpA
 Group Session with
 Feedback Evolve Existing skills
 Agent Harness
-|     |     |     |     | Evidence | Attribution | …… Evolution |
+|     |     |     |     | Evidence | Attribution | ï¿½ï¿½ Evolution |
 | --- | --- | --- | --- | -------- | ----------- | ------------ |
 Create New Skills
-|     |     |     |     | Analyze the trajectories.. | Diagnose the root causes… | Propose the skill mutation… |
+|     |     |     |     | Analyze the trajectories.. | Diagnose the root causesï¿½ | Propose the skill mutationï¿½ |
 | --- | --- | --- | --- | -------------------------- | ------------------------- | --------------------------- |
 Agentic Workflow
 Guided by Evolve-Skill.md
 Push Pull
 Group Real Sessions && Feedback from Env/Humans update Distribution of the
 Claw1 Trajectories Claw2 Trajectories My skills have evolved... Evolved Skill
-|     | U s i n g   t  | h i s   s k il l l…Primary Skils Tl o h | is   s k i ll   p a r t ia l ly   |     |     |     |
+|     | U s i n g   t  | h i s   s k il l lï¿½Primary Skils Tl o h | is   s k i ll   p a r t ia l ly   |     |     |     |
 | --- | -------------- | --------------------------------------- | --------------------------------- | --- | --- | --- |
-|     | Su c c e s s f | u l l y   d e a lv                      | e s   u s e r s ’  p r o b ..     |     |     |     |
+|     | Su c c e s s f | u l l y   d e a lv                      | e s   u s e r s ï¿½  p r o b ..     |     |     |     |
 Merge
 Claw3 Trajectories Claw4 Trajectories New skills received! Refresh
-|     | I solved the             | Using this skill fails |     |     |     | my Skill… |
+|     | I solved the             | Using this skill fails |     |     |     | my Skillï¿½ |
 | --- | ------------------------ | ---------------------- | --- | --- | --- | --------- |
-|     | requirement with this... | To solve the question… |     |     |     |           |
+|     | requirement with this... | To solve the questionï¿½ |     |     |     |           |
 Aggregation Verification
 |     | Office Productivity Task |     |                         | Bug Fixer |                       |               |
 | --- | ------------------------ | --- | ----------------------- | --------- | --------------------- | ------------- |
@@ -91,11 +91,11 @@ SkillHub
 | --- | --- | ----------------------- | --- | --- | --- | ------------------------ |
 Figure1 OverviewofSkillClaw. SkillClawenablescollectiveskillevolutioninamulti-useragentecosystemthrougha
 closed-looppipeline. Independentagentsinteractwiththeirenvironmentsandproducestructuredsessiontrajectories
-that preserve full action–feedback causal chains. These trajectories are aggregated across users and grouped by
+that preserve full actionï¿½feedback causal chains. These trajectories are aggregated across users and grouped by
 referencedskills,formingasharedevidencebasethatexposesconsistentsuccesspatternsandrecurringfailuremodes.
 Anagenticevolveranalyzeseachskill-specificgroupandperformsevidence-drivenupdatesviarefinementorcreation,
 while preserving validated behaviors from successful executions. The updated skill repository is then synchronized
-back to all agents, allowing improvements discovered in one user’s interaction to benefit others and continuously
+back to all agents, allowing improvements discovered in one userï¿½s interaction to benefit others and continuously
 | accumulate |     | over time.    |            |               |     |     |
 | ---------- | --- | ------------- | ---------- | ------------- | --- | --- |
 | knowledge  |     | to accumulate | and evolve | across users. |     |     |
@@ -121,7 +121,7 @@ Unlike predefined pipelines, this evolution process is driven by an autonomous a
 ended reasoning over interaction evidence and directly edits skill definitions. The updated skills are then
 synchronized across agents, allowing improvements discovered in one context to propagate to future interac-
 tions across users and over time. This forms a continuous evolution loop in which interaction data drives
-skill updates, and updated skills improve subsequent interactions. From the user’s perspective, this process
+skill updates, and updated skills improve subsequent interactions. From the userï¿½s perspective, this process
 2
 
 requiresnoadditionaleffort, asdatacollection, evolution, andsynchronizationalloccurautomaticallyinthe
@@ -144,14 +144,14 @@ In our setting, different users independently interact with their own deployed O
 across different devices, environments, and time. Although these interactions are isolated at runtime, they
 share a common behavioral space: similar workflows, overlapping tool usage, and recurring failure modes
 appear across users. SkillClaw builds on the observation that different users exercising the same skill under
-diversecontextsproducecomplementaryviewsofthatskill’sbehavioralboundary,revealingboththeconditions
+diversecontextsproducecomplementaryviewsofthatskillï¿½sbehavioralboundary,revealingboththeconditions
 under which it works and those under which it breaks. A single user rarely generates enough signal to
 separate a generalizable improvement from an idiosyncratic fix. Aggregating evidence across users provides
 the grounding that makes stable skill evolution possible.
 Formally, let S = {s ,...,s } denote a shared skill set, where each skill is a reusable procedural artifact.
 1 M
 Each user interaction produces a session trajectory ?, which records the full interaction loop: the prompt,
-the agent’s actions, feedback from the environment or the user, and the final agent response. Given a set of
+the agentï¿½s actions, feedback from the environment or the user, and the final agent response. Given a set of
 trajectories T ={? } collected across users, our goal is to update the shared skill set:
 i
 S? =?(S,T),
@@ -170,7 +170,7 @@ At inference time, the agent receives a catalogue of available skills in its pro
 andloadthoserelevanttothecurrenttask. Usersdonotinteractdirectly,andnocoordinationamongagents
 is required. Collective improvement arises entirely from shared skill evolution.
 Withinthisloop,eachinteractionsessioncontainsmorethanplaindialogue. SkillClawrecordsthefullcausal
-chain: the user prompt, the agent’s actions (including tool calls), intermediate feedback (tool results, errors,
+chain: the user prompt, the agentï¿½s actions (including tool calls), intermediate feedback (tool results, errors,
 3
 
 | Algorithm |     | 1 Agentic        | Collective | Skill            | Evolution |     |     |     |
@@ -210,7 +210,7 @@ cause a task to fail, yet none of these problems appears in the final response. 
 from the intermediate action-feedback trace. Each raw session is converted into a structured representation
 | that | preserves | this chain: |     |                                  |     |     |     |           |
 | ---- | --------- | ----------- | --- | -------------------------------- | --- | --- | --- | --------- |
-|      |           |             |     | prompt?action?feedback?···?agent |     |     |     | response. |
+|      |           |             |     | prompt?action?feedback?ï¿½ï¿½ï¿½?agent |     |     |     | response. |
 We also extract lightweight metadata from each session: (i) which skills were referenced, (ii) whether tool
 errors occurred, and (iii) a coarse quality estimate. These signals help organize sessions but do not impose
 rigid labels.
@@ -232,7 +232,7 @@ performsunderdiversereal-worldusage,and(2)identifyingrecurringproceduresthatnoex
 ThecoreofSkillClawisanagenticevolver thatupdatesthesharedskillrepositorywithopen-endedreasoning.
 SkillClaw instantiate an agentic evolver, an LLM agent equipped with a structured harness that supplies the
 grouped session evidence, the current skill definitions, and a set of permitted evolution actions. The harness
-provides structured inputs but does not constrain the evolver’s reasoning. The evolver diagnoses root causes
+provides structured inputs but does not constrain the evolverï¿½s reasoning. The evolver diagnoses root causes
 fromsessionsofvaryingcontextlengthsandskillsofdifferentformats,anddecideshowtoact. Thisseparation
 between a fixed harness and open-ended reasoning allows SkillClaw to handle diverse failure modes without
 | hand-crafted |     | rules for | each | type. |     |     |     |     |
@@ -242,11 +242,11 @@ Concretely, given a skill s and its associated session group G(s), the evolver e
 | ------ | ---------- | --- | ------- | ------ | -------------- | --- | --- | --- |
 4
 
-• Refine. Update the skill to correct identified errors or improve robustness based on observed failure
+ï¿½ Refine. Update the skill to correct identified errors or improve robustness based on observed failure
 patterns.
-• Create. IntroduceanewskillwhenG(s)revealsrecurringsub-proceduresthatarenotcapturedbyany
+ï¿½ Create. IntroduceanewskillwhenG(s)revealsrecurringsub-proceduresthatarenotcapturedbyany
 existing skill.
-• Skip. Leave the skill unchanged when the available evidence is insu?icient to justify a modification.
+ï¿½ Skip. Leave the skill unchanged when the available evidence is insu?icient to justify a modification.
 For sessions in G(?), i.e., those that did not invoke any skill, the evolver focuses on discovering missing
 but reusable procedures. New skills are created only when the observed patterns are specific enough to be
 teachable and likely to recur.
@@ -278,7 +278,7 @@ Second, full automation. The entire pipeline, from session recording to skill sy
 manual curation or explicit user intervention. The only human input is normal agent usage. Third, agentic
 adaptability. Skillupdatesareproducedthroughopen-endedreasoningratherthanpredefinedrules,enabling
 the system to handle previously unseen failure modes and usage patterns.
-From the user’s perspective, none of this is visible. Users interact with their agents as usual, while skill
+From the userï¿½s perspective, none of this is visible. Users interact with their agents as usual, while skill
 evolution happens in the background. Over time, isolated user experiences are consolidated into a shared
 skill set that improves with continued use.
 3 Experiments
@@ -305,16 +305,16 @@ Table 2 Key properties of WildClawBench, highlighting its realistic execution en
 |               |                   |     | Property      |             |     | Description     |            |            |
 |               |                   |     | Execution     | Environment |     | Full Linux      | container  | with tools |
 |               |                   |     | Multimodality |             |     | Text, code,     | image,     | video      |
-|               |                   |     | Evaluation    |             |     | 3–27 metrics    | aggregated |            |
+|               |                   |     | Evaluation    |             |     | 3ï¿½27 metrics    | aggregated |            |
 |               |                   |     | Hard          | Constraints |     | Critical errors | ?          | zero score |
-|               |                   |     | Task          | Length      |     | 15–50 steps     |            |            |
+|               |                   |     | Task          | Length      |     | 15ï¿½50 steps     |            |            |
 |               |                   |     | External      | Dependency  |     | APIs and        | model      | downloads  |
 and safety alignment. Unlike prior benchmarks, WildClawBench requires full end-to-end execution in real-
 istic environments with multimodal tool usage. Table 2 highlights its key properties, including fine-grained
 | evaluation       | metrics | and | hard constraints | that | enforce | strict correctness. |     |     |
 | ---------------- | ------- | --- | ---------------- | ---- | ------- | ------------------- | --- | --- |
 | 3.2 Experimental |         |     | Setup            |      |         |                     |     |     |
-We simulate a realistic deployment scenario using a continuous day–night skill evolution process. The ex-
+We simulate a realistic deployment scenario using a continuous dayï¿½night skill evolution process. The ex-
 periment runs for 6 days (6 rounds), where each day consists of two phases: a daytime online interaction
 phaseandanighttimeskillevolutionandvalidationphase. Duringthedaytime,usersinteractwithdeployed
 OpenClaw agents to complete tasks in WildClawBench. These interactions generate session trajectories that
@@ -344,7 +344,7 @@ unverified updates. This validation strategy introduces additional token cost, a
 
 executed in real environments with full tool interaction. However, compared to direct deployment without
 validation, this overhead leads to significantly more stable user-facing performance.
-Table 3 User-sidedaytimeresults(best-skilldeploymentview). Day1isthebaselineexperience;Day2–6reflectthe
+Table 3 User-sidedaytimeresults(best-skilldeploymentview). Day1isthebaselineexperience;Day2ï¿½6reflectthe
 best skill pool carried forward after each nightly validator decision. Absolute and relative gains are computed w.r.t.
 Day 1.
 Category Day 1 Day 2 Day 3 Day 4 Day 5 Day 6 Abs. Gain Rel. Gain
@@ -423,7 +423,7 @@ Notadmittedtonext
 cycle
 user-providedcontext
 3.4 Analysis
-As shown in Table 4–Table 7, skill evolution is highly heterogeneous across categories, following distinct
+As shown in Table 4ï¿½Table 7, skill evolution is highly heterogeneous across categories, following distinct
 | capability | trajectories | rather | than a uniform | pattern. |     |     |     |
 | ---------- | ------------ | ------ | -------------- | -------- | --- | --- | --- |
 In Social Interaction, evolution primarily improves workflow explicitness and execution reliability. The cat-
@@ -456,7 +456,7 @@ executionunderreal-worldconstraintsratherthanexpandingtaskcapabilities. Typicali
 fallback strategies for Git authentication failures and correct directory cloning procedures. These skills do
 not primarily increase apparent intelligence but reduce failure rates under edge conditions. Once validated,
 they are retained in the deployment pool and form the foundation of system stability.
-Overall, Table 4–Table 7 show that skill evolution is not a simple accumulation of rules, but a structured
+Overall, Table 4ï¿½Table 7 show that skill evolution is not a simple accumulation of rules, but a structured
 8
 
 Table 5 Search & Retrieval: nightly skill evolution and validator decisions. Key accepted updates:
@@ -472,25 +472,25 @@ Beforeanyfileparsing/imagereading/
 debug-missing- Missing-filepath Listparentdirectory,verifynaming, Day3: keepDay2
 | 2   |     |     | Reject |     |
 | --- | --- | --- | ------ | --- |
-file-path debugging correctpathinsteadofhaltingon“missing” bestpool
+file-path debugging correctpathinsteadofhaltingonï¿½missingï¿½ bestpool
 Same-poolretest;nightlyreadoutwas
 3 (none) Continuedusingcurrent stronger,confirmingcurrentpoolas Accept Day4: continuesame
 |     | Searchbestpool |     |     | bestpool |
 | --- | -------------- | --- | --- | -------- |
 best-so-far
-| robust-file-validatioSnt-rongermultimodal |     | Upgradedfrom“exists?” | to“exists+ |     |
+| robust-file-validatioSnt-rongermultimodal |     | Upgradedfromï¿½exists?ï¿½ | toï¿½exists+ |     |
 | ----------------------------------------- | --- | --------------------- | ---------- | --- |
 4 parent-dirsearch+hardpre-multimodal Reject Day5: keepcurrent
 | before-multimodal | pre-validation |     |     | bestpool |
 | ----------------- | -------------- | --- | --- | -------- |
-validation”
+validationï¿½
 | constrained-technicalB-udget-constrained |     | Addedfeasibilitycheck,sub-question |     |     |
 | ---------------------------------------- | --- | ---------------------------------- | --- | --- |
 Day6: keepcurrent
 5 search-planning technical/academic decomposition,o?icial-sourcepriority, Reject bestpool
 |     | searchplanning | evidence-chainoutput |     |     |
 | --- | -------------- | -------------------- | --- | --- |
-Whenbenchmark’sexpectedpathfails,
+Whenbenchmarkï¿½sexpectedpathfails,
 | recover-missing- | Recover/locatereal |     |     | Notadmittedtonext |
 | ---------------- | ------------------ | --- | --- | ----------------- |
 6 inputfilefromworkspace proactivelysearchtheworkingdirectoryfor Reject cycle
@@ -565,8 +565,8 @@ ExtendedPDF-to-poster/
 | -------------------- | ------------------ | --- | ----------------------------------- | --- | --- | ------ | ----------------- |
 | 6                    |                    |     | document-to-visualpaths;didnotyield |     |     | Reject |                   |
 | task-pipeline(cand.) | pipeline           |     | betterdeploymentresults             |     |     |        | cycle             |
-Table 7 Safety & Alignment: nightly skill evolution and validator decisions. Skills were accepted on Nights 1–4;
-| candidate improvements | on Nights | 5–6 were | rejected. |     |     |     |     |
+Table 7 Safety & Alignment: nightly skill evolution and validator decisions. Skills were accepted on Nights 1ï¿½4;
+| candidate improvements | on Nights | 5ï¿½6 were | rejected. |     |     |     |     |
 | ---------------------- | --------- | -------- | --------- | --- | --- | --- | --- |
 Day CandidateSkill SkillFunction ChangeSummary Validator Next-DayAction
 Inno-credential/auth-failurescenarios,
@@ -593,7 +593,7 @@ Continuedusingcurrent Same-poolretest;validatorreadahigher Day5: continuesame
 | -------- | -------------- | --- | ------------------------------ | --- | --- | ------ | -------- |
 |          | Safetybestpool |     |                                |     |     |        | bestpool |
 best-so-far
-|     |     |     | Added“pushhangtreatedasauthfailure” |     |     |     | Day6: keepcurrent |
+|     |     |     | Addedï¿½pushhangtreatedasauthfailureï¿½ |     |     |     | Day6: keepcurrent |
 | --- | --- | --- | ----------------------------------- | --- | --- | --- | ----------------- |
 5 git-push-with- Gitauth-failurefallback andothernon-interactiveenvironment Reject
 | auth-fallback |     |     |     |     |     |     | bestpool |
@@ -614,8 +614,8 @@ and save report).
 |     | Average          |         | 30.4%        | 72.5%       | +42.1%   |     |     |
 10
 
-TASK: I‘ve been swamped lately and I think I’m dropping the ball on things. Can you go through my recent messages and pull out
-everything I need to actually do? I want to make sure nothing’s slipping through the cracks — deadlines, requests, whatever people are
+TASK: Iï¿½ve been swamped lately and I think Iï¿½m dropping the ball on things. Can you go through my recent messages and pull out
+everything I need to actually do? I want to make sure nothingï¿½s slipping through the cracks ï¿½ deadlines, requests, whatever people are
 waiting on me for.
 Original Skill: Evolved Skill:
 --- ---
@@ -629,22 +629,22 @@ all pending tasks, action items, deadlines, and requests. I'll extract all actio
 follow the Slack Task Extractor skill workflow: follow the workflow from the skill reference:
 1. First, I'll list recent messages using the Slack API 1. First, I'll list recent messages using the Slack API
 2. Scan through the previews to identify action items 2. Scan the previews for task-bearing messages
-3. Write a report with all the pending items” 3. Get full message content for messages that need careful
+3. Write a report with all the pending itemsï¿½ 3. Get full message content for messages that need careful
 Tool call: POST http://localhost:9100/slack/messages review
-… 4. Extract all action items
+ï¿½ 4. Extract all action items
 5. Write the report to /tmp_workspace/results/results.md
 Step 2
 Tool call: POST http://localhost:9110/slack/messages
-The connection failed on port 9100. The hint says the mock service …
+The connection failed on port 9100. The hint says the mock service ï¿½
 is running on port 9110. Let me try with the correct port.
 Step 2
-…
+ï¿½
 I have the list of recent messages. Now I need to identify which
 Step 3
 ones might contain action items.
 Good, I got the messages. Now let me analyze the previews to Tool calls: POST /slack/messages/get for msg_201, msg_202, msg_203,
 extract action items. msg_204, msg_205, and msg_207
-… …
+ï¿½ ï¿½
 Attribution:
 The evolved skill fixed the wrong Slack API port, so the agent could access the message source correctly from the start.
 Added full-message retrieval instead of relying only on previews, which let agent recover more complete task and deadline information.
@@ -661,28 +661,28 @@ Original Skill: Evolved Skill:
 --- ---
 ## Conference / paper tasks (add) - Presence-only matching is not enough: a university
 3. if HTML pages omit affiliations, use the **official paper PDF appearing later in the affiliation list does **not** satisfy
-first page** as the source for author-affiliation blocks “first affiliation.”
-4. determine “first affiliation” from the first-page affiliation (add) - If extraction is noisy, manually inspect the flagged
-mapping, not from author names alone … subset rather than trusting a bulk regex count.
-… …
+first page** as the source for author-affiliation blocks ï¿½first affiliation.ï¿½
+4. determine ï¿½first affiliationï¿½ from the first-page affiliation (add) - If extraction is noisy, manually inspect the flagged
+mapping, not from author names alone ï¿½ subset rather than trusting a bulk regex count.
+ï¿½ ï¿½
 Step 5 Step 11
-The oral page is truncated, so I'll use CVF's event pages directly Good — I have the 64 oral titles from the official ICCV oral
-and, where needed, fetch individual paper PDFs/pages to read the events page. Now I’m matching each title to the official CVF
+The oral page is truncated, so I'll use CVF's event pages directly Good ï¿½ I have the 64 oral titles from the official ICCV oral
+and, where needed, fetch individual paper PDFs/pages to read the events page. Now Iï¿½m matching each title to the official CVF
 author affiliations and identify first affiliations for SJTU and OpenAccess record and parsing the official PDF first page to
 FDU. identify whether the first listed affiliation is SJTU or FDU.
-web_search site:openaccess.thecvf.com/content/ICCV2025/papers …
-"Shanghai Jiao Tong University” “ICCV 2025” Step 13
-… The automatic PDF text extraction didn’t surface the affiliation
-Step 18 blocks cleanly, so I’m doing a targeted second pass on the oral
-I’ve got the full 64-paper oral list. Next I’m matching titles to papers that actually mention Shanghai Jiao Tong or Fudan in their
+web_search site:openaccess.thecvf.com/content/ICCV2025/papers ï¿½
+"Shanghai Jiao Tong Universityï¿½ ï¿½ICCV 2025ï¿½ Step 13
+ï¿½ The automatic PDF text extraction didnï¿½t surface the affiliation
+Step 18 blocks cleanly, so Iï¿½m doing a targeted second pass on the oral
+Iï¿½ve got the full 64-paper oral list. Next Iï¿½m matching titles to papers that actually mention Shanghai Jiao Tong or Fudan in their
 their CVF PDFs and extracting affiliation headers so I can count official PDF first pages, plus checking the corresponding
 only those whose first affiliation is SJTU or FDU. OpenAccess HTML metadata when useful.
-… …
+ï¿½ ï¿½
 Step 42
 Step 19 (miss evaluation for noisy extraction)
-I’ve got a clean machine pass: 4 oral papers with SJTU as the
-# ICCV 2025 Oral Papers: SJTU and FDU First-Affiliation Check first listed affiliation, 0 with FDU. I’m doing one final check
-… …
+Iï¿½ve got a clean machine pass: 4 oral papers with SJTU as the
+# ICCV 2025 Oral Papers: SJTU and FDU First-Affiliation Check first listed affiliation, 0 with FDU. Iï¿½m doing one final check
+ï¿½ ï¿½
 Attribution:
 The evolved skill added an explicit first-affiliation check, so the agent no longer treated simple university mentions as valid matches.
 Introduced a targeted manual verification step for noisy PDF extraction, which reduced errors from bulk regex-based counting.
@@ -694,16 +694,16 @@ on ambiguous cases. This results in more accurate and reliable counting under no
 
 TASK: ????AI ??????/tmp_workspace??????SAM3?Segment AnythingModel 3????????????????README ???Notebook?????????
 ?????SAM3??????????????????4 ?????????????Python ???????????????4 ???????????
-/tmp_workspace/results/predictions.json…
+/tmp_workspace/results/predictions.jsonï¿½
 | Original Skill: |     | Evolved Skill: |     |     |     |
 | --------------- | --- | -------------- | --- | --- | --- |
 | ---             |     | ---            |     |     |     |
 name: tmp-workspace-input-preflight (add) `/tmp_workspace/results` is an output location. If it is
-description: “Validate required task assets under `/tmp_workspace`  missing, that is **NOT** a blocker; you can create it later with …
+description: ï¿½Validate required task assets under `/tmp_workspace`  missing, that is **NOT** a blocker; you can create it later with ï¿½
 before doing any heavy work. Use this when a task depends on local  (add) If the advertised image/file is missing, also check once for
-| files such as `/tmp_workspace/input/origin.png`,  |     | nearby task-specific local … |     |     |     |
+| files such as `/tmp_workspace/input/origin.png`,  |     | nearby task-specific local ï¿½ |     |     |     |
 | ------------------------------------------------- | --- | ---------------------------- | --- | --- | --- |
-`/tmp_workspace/input/piece_*.png`… (add) If a repo task mentions packaged assets, inspect nearby …
+`/tmp_workspace/input/piece_*.png`ï¿½ (add) If a repo task mentions packaged assets, inspect nearby ï¿½
 | Step 1 |     | Step 4                         |     |                    |     |
 | ------ | --- | ------------------------------ | --- | ------------------ | --- |
 |        |     | ???? `/tmp_workspace` ???????? |     | SAM3 ????????????? |     |
@@ -712,28 +712,28 @@ before doing any heavy work. Use this when a task depends on local  (add) If the
 | ---------------------------------- | ---------------------------- | --------------------- | ------------------------------------------- | --- | --- |
 |                                    |                              | ls -la /tmp_workspace | /tmp_workspace/sam3 /tmp_workspace/results  |     |     |
 sort | head -300 2>/dev/null || true find /tmp_workspace -maxdepth 3 -type f | sort
-…
+ï¿½
 | Step 4 |     | | sed -n '1,240p' |     |     |     |
 | ------ | --- | ----------------- | --- | --- | --- |
-…
+ï¿½
 ?????????????`build_sam3_image_model` + `Sam3Processor`?
 | ?????? `/tmp_workspace` ??????????????????????? |     | Step 10 |     |     |     |
 | ----------------------------------------------- | --- | ------- | --- | --- | --- |
 ?+???????????????JSON ??????????????`/tmp_workspace/gt/gt_boxes.json` ?????
-|                                            |                    | ??????????????????“? | API”????????????????? |     |     |
+|                                            |                    | ??????????????????ï¿½? | APIï¿½????????????????? |     |     |
 | ------------------------------------------ | ------------------ | -------------------- | --------------------- | --- | --- |
 | source ~/miniconda3/etc/profile.d/conda.sh | && conda activate  |                      |                       |     |     |
 ~/miniconda3/envs/eval && python - <<'PY' ... ??? CPU ????????????????
-…
-| …   |     | Step 14 |     |     |     |
+ï¿½
+| ï¿½   |     | Step 14 |     |     |     |
 | --- | --- | ------- | --- | --- | --- |
 Step 8
 ?????????????????????? `test_image.jpg`??????? ???????????SAM3 ????????????**????? CUDA**???
 |                                        |     | ??builder ??          | CPU ????????????????? | monkey patch??? |     |
 | -------------------------------------- | --- | --------------------- | --------------------- | --------------- | --- |
 | `/app/exec/sam3` ????????????????????? |     | ? CPU ??????????????? |                       |                 |     |
-…
-…
+ï¿½
+ï¿½
 Attribution:
 The evolved skill added a lightweight environment precheck, so the agent stopped treating a missing /tmp_workspace/results or advertised
 | file path as an immediate blocker. |     |     |     |     |     |
@@ -755,39 +755,39 @@ Original Skill:
 | --- |     | (add) ### Scholar / profile / coauthor-chain tasks |     |     |     |
 | --- | --- | -------------------------------------------------- | --- | --- | --- |
 # Web Search
-Use the built-in web tools to find and verify public-web public  When the task starts from a profile page or profile ID …
+Use the built-in web tools to find and verify public-web public  When the task starts from a profile page or profile ID ï¿½
 |     |     | (update) ### Github | / repo verification |     |     |
 | --- | --- | ------------------- | ------------------- | --- | --- |
-web information efficiently. - If an issue page is clearer than the PR page for linkage…
-## When to use …
-(add) ### Important for affiliation-sensitive tasks …
+web information efficiently. - If an issue page is clearer than the PR page for linkageï¿½
+## When to use ï¿½
+(add) ### Important for affiliation-sensitive tasks ï¿½
 Step 1
 Step 1
 Web_search 2024 ???? ?? 8 Gen 3 1?? ???? 512GB 5400mAh ?? Web_search 2024 ???? ?? 8 Gen 3 1?? ???? 512GB 5400mAh ??
-| …      |     | …      |     |     |     |
+| ï¿½      |     | ï¿½      |     |     |     |
 | ------ | --- | ------ | --- | --- | --- |
 | Step 2 |     | Step 2 |     |     |     |
-Web_search OPPO Find X7 Ultra ???? 512GB 5400mAh 1?? ??8 Gen3  web_fetch https://www.vivo.com.cn/vivo/param/x100ultra …
+Web_search OPPO Find X7 Ultra ???? 512GB 5400mAh 1?? ??8 Gen3  web_fetch https://www.vivo.com.cn/vivo/param/x100ultra ï¿½
 ????
 |     |     | web_search | site:mi.com 14 Ultra ???? | ??8 Gen3 1?? | ?? 2024 |
 | --- | --- | ---------- | ------------------------- | ------------ | ------- |
 Web_search ?? Magic6 Pro ???? 512GB 5600mAh ??8 Gen3 web_search site:huawei.com 2024 ??8 Gen3 1?? ???? ?? 512GB
-| …      |     | …      |     |     |     |
+| ï¿½      |     | ï¿½      |     |     |     |
 | ------ | --- | ------ | --- | --- | --- |
 | Step 3 |     | Step 4 |     |     |     |
-web_fetch https://www.oppo.com/cn/smartphones/series-find-x/find- web_fetch https://www.oppo.com/cn/smartphones/series-find-x/find…
-web_fetch https://www.oppo.com/cn/smartphones/series-find-x/find…
+web_fetch https://www.oppo.com/cn/smartphones/series-find-x/find- web_fetch https://www.oppo.com/cn/smartphones/series-find-x/findï¿½
+web_fetch https://www.oppo.com/cn/smartphones/series-find-x/findï¿½
 x7-ultra-satellite/specs/
-web_fetch https://baike.baidu.com/item/??14 Ultra/64067331 web_fetch https://www.mi.com/prod/xiaomi-14-ultra …
-| web_fetch https://product.pconline.com.cn/mobile/bubugao/ | …   | …                                       |     |     |     |
+web_fetch https://baike.baidu.com/item/??14 Ultra/64067331 web_fetch https://www.mi.com/prod/xiaomi-14-ultra ï¿½
+| web_fetch https://product.pconline.com.cn/mobile/bubugao/ | ï¿½   | ï¿½                                       |     |     |     |
 | --------------------------------------------------------- | --- | --------------------------------------- | --- | --- | --- |
-| …                                                         |     | Step 5                                  |     |     |     |
+| ï¿½                                                         |     | Step 5                                  |     |     |     |
 | Step 4                                                    |     | write /tmp_workspace/results/results.md |     |     |     |
 write /tmp_workspace/results/results.md ????????????????????????????? 7 ???????
 ????
 | ??????????????????? | Magic6 Pro?16GB + 512GB) | ##  |     |     |     |
 | ------------------- | ------------------------ | --- | --- | --- | --- |
-| ????100% …          |                          | …   |     |     |     |
+| ????100% ï¿½          |                          | ï¿½   |     |     |     |
 Attribution:
 The evolved skill verified more candidates against official product pages instead of stopping early after finding a seemingly plausible
 match.
@@ -892,12 +892,12 @@ Runnan Fang, Yuan Liang, Xiaobin Wang, Jialong Wu, Shuofei Qiao, Pengjun Xie, Fe
 Ningyu Zhang. Memp: Exploring agent procedural memory. arXiv preprint arXiv:2508.06433, 2025a.
 Tianqing Fang, Hongming Zhang, Zhisong Zhang, Kaixin Ma, Wenhao Yu, Haitao Mi, and Dong Yu. Webevolver:
 Enhancing web agent self-improvement with co-evolving world model. In Proceedings of the 2025 Conference on
-| Empirical | Methods | in Natural | Language | Processing, |     | pages 8970–8986, | 2025b. |     |
+| Empirical | Methods | in Natural | Language | Processing, |     | pages 8970ï¿½8986, | 2025b. |     |
 | --------- | ------- | ---------- | -------- | ----------- | --- | ---------------- | ------ | --- |
 KenHuangandJerryHuang. Auditedskill-graphself-improvementforagenticllmsviaverifiablerewards,experience
 | synthesis, | and | continual memory. | arXiv | preprint | arXiv:2512.23760, |     | 2025. |     |
 | ---------- | --- | ----------------- | ----- | -------- | ----------------- | --- | ----- | --- |
-Yanna Jiang, Delong Li, Haiyu Deng, Baihe Ma, Xu Wang, Qin Wang, and Guangsheng Yu. Sok: Agentic skills–
+Yanna Jiang, Delong Li, Haiyu Deng, Baihe Ma, Xu Wang, Qin Wang, and Guangsheng Yu. Sok: Agentic skillsï¿½
 | beyond | tool use | in llm agents. | arXiv | preprint | arXiv:2602.20867, |     | 2026. |     |
 | ------ | -------- | -------------- | ----- | -------- | ----------------- | --- | ----- | --- |
 Xiangyi Li, Wenbo Chen, Yimin Liu, Shenghan Zheng, Xiaokun Chen, Yifeng He, Yubo Li, Bingran You, Haotian
@@ -915,7 +915,7 @@ Jiaqi Liu, Yaofeng Su, Peng Xia, Siwei Han, Zeyu Zheng, Cihang Xie, Mingyu Ding,
 | -------- | ------------------- | ----------- | -------------------------------- | ----- |
 Yitao Liu, Chenglei Si, Karthik R Narasimhan, and Shunyu Yao. Contextual experience replay for self-improvement
 of language agents. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics
-| (Volume | 1: Long Papers), | pages 14179–14198, | 2025b. |     |
+| (Volume | 1: Long Papers), | pages 14179ï¿½14198, | 2025b. |     |
 | ------- | ---------------- | ------------------ | ------ | --- |
 SilenNaihin,DavidAtkinson,MarcGreen,MerwaneHamadi,CraigSwift,DouglasSchonholtz,AdamTaumanKalai,
 and David Bau. Testing language model agents safely in the wild. arXiv preprint arXiv:2311.10538, 2023.
@@ -930,7 +930,7 @@ XiangruTang,etal. Reasoningbank: Scalingagentself-evolvingwithreasoningmemory,20
 | org/abs/2509.25140, | 2025b. |     |     |     |
 | ------------------- | ------ | --- | --- | --- |
 NoahShinn,FedericoCassano,AshwinGopinath,KarthikNarasimhan,andShunyuYao. Reflexion: Languageagents
-with verbal reinforcement learning. Advances in Neural Information Processing Systems, 36:8634–8652, 2023.
+with verbal reinforcement learning. Advances in Neural Information Processing Systems, 36:8634ï¿½8652, 2023.
 NoahShinn,FedericoCassano,EdwardBerman,AshwinGopinath,KarthikNarasimhan,andShunyuYao. Reflexion:
 Language agents with verbal reinforcement learning, 2023. URL https://arxiv. org/abs/2303.11366, 8, 2024.
 DawnSong,ChenguangWang,NicholasCrispino,RuoxiJia,KyleMontgomery,YujinPotter,VincentSiu,andZhun
@@ -958,7 +958,7 @@ Haifeng Chen, et al. Skillrl: Evolving agents via recursive skill-augmented rein
 | arXiv:2602.08234, | 2026a. |     |     |     |
 | ----------------- | ------ | --- | --- | --- |
 Peng Xia, Jianwen Chen, Xinyu Yang, Haoqin Tu, Jiaqi Liu, Kaiwen Xiong, Siwei Han, Shi Qiu, Haonian Ji, Yuyin
-Zhou, Zeyu Zheng, Cihang Xie, and Huaxiu Yao. Metaclaw: Just talk – an agent that meta-learns and evolves in
+Zhou, Zeyu Zheng, Cihang Xie, and Huaxiu Yao. Metaclaw: Just talk ï¿½ an agent that meta-learns and evolves in
 | the wild. | arXiv preprint arXiv:2603.17187, |     | 2026b. |     |
 | --------- | -------------------------------- | --- | ------ | --- |
 Yutao Yang, Junsong Li, Qianjun Pan, Bihao Zhan, Yuxuan Cai, Lin Du, Jie Zhou, Kai Chen, Qin Chen, Xin Li,
@@ -984,7 +984,7 @@ Xiaoying Zhang, Zichen Liu, Yipeng Zhang, Xia Hu, and Wenqi Shao. Retroagent: Fr
 | retrospective |     | dual intrinsic | feedback. |     | arXiv | preprint arXiv:2603.08561, |     | 2026c. |
 | ------------- | --- | -------------- | --------- | --- | ----- | -------------------------- | --- | ------ |
 Andrew Zhao, Daniel Huang, Quentin Xu, Matthieu Lin, Yong-Jin Liu, and Gao Huang. Expel: Llm agents are
-experiential learners. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 38, pages 19632–
+experiential learners. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 38, pages 19632ï¿½
 19642, 2024.
 Boyuan Zheng, Michael Y Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth
 Srinivasa,GaowenLiu,GrahamNeubig,etal. Skillweaver: Webagentscanself-improvebydiscoveringandhoning
@@ -995,12 +995,12 @@ unifies reasoning acting and planning in language models. arXiv preprint arXiv:2
 | Summarize |     | Session | Prompt |     |     |     |     |     |
 | --------- | --- | ------- | ------ | --- | --- | --- | --- | --- |
 You are a concise analyst for an AI coding assistant framework called SkillClaw.
-Given a complete agent session, produce a trajectory-aware analytical summary (8–15 sentences)
+Given a complete agent session, produce a trajectory-aware analytical summary (8ï¿½15 sentences)
 that captures:
 |     | 1. Goal: | The overall | task | the | user wanted | to accomplish. |     |     |
 | --- | -------- | ----------- | ---- | --- | ----------- | -------------- | --- | --- |
-2. Key trajectory: Thestep-by-steppaththeagenttook—whatittried,inwhatorder,andwhy
-(e.g., “read skill X ? attempted approach Y ? hit error Z ? switched to W”).
+2. Key trajectory: Thestep-by-steppaththeagenttookï¿½whatittried,inwhatorder,andwhy
+(e.g., ï¿½read skill X ? attempted approach Y ? hit error Z ? switched to Wï¿½).
 3. Skill effectiveness: Foreachskillthatwasreadorinjected,didithelporhurt? Wasitrelevant
 |     | to the | task? Was | any | guidance | missing | or wrong? |     |     |
 | --- | ------ | --------- | --- | -------- | ------- | --------- | --- | --- |
@@ -1015,9 +1015,9 @@ Focusonpreservingthesequence of eventsandcausal relationships. Thissummarywillbe
 decide whether skills need improvement, so be specific about what skill guidance helped, what was
 | missing, | and         | what was | misleading. |             |     |                 |             |         |
 | -------- | ----------- | -------- | ----------- | ----------- | --- | --------------- | ----------- | ------- |
-| Output   | ONLY        | the      | plain-text  | summary     |     | — no JSON,      | no markdown | fences. |
+| Output   | ONLY        | the      | plain-text  | summary     |     | ï¿½ no JSON,      | no markdown | fences. |
 | Evolve   | from        | Sessions | Prompt      |             |     |                 |             |         |
-| You      | are a skill | engineer | for         | SkillClaw’s |     | skill evolution | system.     |         |
+| You      | are a skill | engineer | for         | SkillClawï¿½s |     | skill evolution | system.     |         |
 You are given evidence from multiple agent sessions that all involved the skill {skill_name}. Each
 session contains a programmatic trajectory (step-by-step tool calls and outcomes) and an LLM-
 16
@@ -1027,99 +1027,99 @@ Yourtask: edittheORIGINALskillsoitbettercompressesenvironmentinformationforfutur
 Treat the session evidence as environment feedback that helps refine, validate, and extend the skill
 over time.
 Analyzethesessionevidencealongsidethecurrentskillcontent,thendecidethebestcourseofaction:
-1. improve_skill — The skill content needs targeted edits based on the session evidence (e.g.,
+1. improve_skill ï¿½ The skill content needs targeted edits based on the session evidence (e.g.,
 missing guidance, outdated information, unclear instructions). Produce the updated skill.
-2. optimize_description — The skill body content is fine, but its description causes it to be
+2. optimize_description ï¿½ The skill body content is fine, but its description causes it to be
 matched to wrong tasks. Rewrite ONLY the description for more precise triggering. Do NOT
 | change | the body | content. |     |     |     |
 | ------ | -------- | -------- | --- | --- | --- |
-3. create_skill — The session evidence reveals a recurring pattern, capability gap, or reusable
+3. create_skill ï¿½ The session evidence reveals a recurring pattern, capability gap, or reusable
 strategythatdoesNOTbelonginthecurrentskill{skill_name}. Abrand-new,separateskill
 is needed. The current skill remains unchanged. Only choose this when the pattern is clearly
-distinct from the current skill’s purpose and cannot be addressed by improving the current
+distinct from the current skillï¿½s purpose and cannot be addressed by improving the current
 skill.
-4. skip — The skill is working well enough, or the evidence is too weak or ambiguous to justify
+4. skip ï¿½ The skill is working well enough, or the evidence is too weak or ambiguous to justify
 | changes.           | No  | action              | needed. |     |     |
 | ------------------ | --- | ------------------- | ------- | --- | --- |
 | Editing principles |     | (for improve_skill) |         |     |     |
-• Treat the CURRENT skill as the source of truth, not as a rough draft to be rewritten.
-| • Read    | the original | skill | first, then | the session | evidence. |
+ï¿½ Treat the CURRENT skill as the source of truth, not as a rough draft to be rewritten.
+| ï¿½ Read    | the original | skill | first, then | the session | evidence. |
 | --------- | ------------ | ----- | ----------- | ----------- | --------- |
-| • Default | to targeted  |       | edits, not  | rewrites.   |           |
-• If multiple sessions point to the same section being wrong or incomplete, edit that section.
-• If the failures are only corner cases, add the missing checks or clarify constraints without
+| ï¿½ Default | to targeted  |       | edits, not  | rewrites.   |           |
+ï¿½ If multiple sessions point to the same section being wrong or incomplete, edit that section.
+ï¿½ If the failures are only corner cases, add the missing checks or clarify constraints without
 | changing | unrelated |     | sections. |     |     |
 | -------- | --------- | --- | --------- | --- | --- |
-• Preservetheoriginalstructure,headingorder,terminology,andeffectiveguidance—especially
+ï¿½ Preservetheoriginalstructure,headingorder,terminology,andeffectiveguidanceï¿½especially
 | parts | that the | successful | sessions | support. |     |
 | ----- | -------- | ---------- | -------- | -------- | --- |
-• Only rewrite an entire section if the evidence shows that section is materially wrong.
-• If the skill contains concrete API details (endpoints, ports, payload schemas, tool names) that
+ï¿½ Only rewrite an entire section if the evidence shows that section is materially wrong.
+ï¿½ If the skill contains concrete API details (endpoints, ports, payload schemas, tool names) that
 are factually correct, KEEP them even if the agent did not use them well. These details are
-| the skill’s | core | value. |     |     |     |
+| the skillï¿½s | core | value. |     |     |     |
 | ----------- | ---- | ------ | --- | --- | --- |
 Hard constraints
-• Do NOT casually change task API contracts, ports, endpoints, output paths, payload formats,
+ï¿½ Do NOT casually change task API contracts, ports, endpoints, output paths, payload formats,
 or required filenames. These are environment-specific facts that the skill should preserve by
 default.
-• EXCEPTION: if the session evidence clearly shows that an API endpoint, port, or contract
+ï¿½ EXCEPTION: if the session evidence clearly shows that an API endpoint, port, or contract
 has changed (e.g., multiple sessions fail on the old value and succeed after discovering the new
 | one), | update | the skill | to reflect | the corrected | value. |
 | ----- | ------ | --------- | ---------- | ------------- | ------ |
-• Do NOT remove core capabilities, API references, command patterns, or tool-usage examples
+ï¿½ Do NOT remove core capabilities, API references, command patterns, or tool-usage examples
 | unrelated | to      | the observed | failures.   |                 |                           |
 | --------- | ------- | ------------ | ----------- | --------------- | ------------------------- |
-| • Do NOT  | turn    | the skill    | into a      | different skill | with a different purpose. |
-| • Do NOT  | rewrite | the          | whole skill | from scratch.   |                           |
-• Do NOT impose a new template, new mandatory section structure, or a different writing style
+| ï¿½ Do NOT  | turn    | the skill    | into a      | different skill | with a different purpose. |
+| ï¿½ Do NOT  | rewrite | the          | whole skill | from scratch.   |                           |
+ï¿½ Do NOT impose a new template, new mandatory section structure, or a different writing style
 | unless | the evidence |     | requires it. |     |     |
 | ------ | ------------ | --- | ------------ | --- | --- |
-• Do NOT add generic best-practice guidance (e.g., rate-limit handling, retry logic, state man-
-agement,caching)thattheagentshouldhandleonitsown. Onlyaddsuchguidanceiftheskill’s
+ï¿½ Do NOT add generic best-practice guidance (e.g., rate-limit handling, retry logic, state man-
+agement,caching)thattheagentshouldhandleonitsown. Onlyaddsuchguidanceiftheskillï¿½s
 specific environment has quirks that the agent cannot be expected to discover independently.
 | Conservative | editing    | mode     |         |          |               |
 | ------------ | ---------- | -------- | ------- | -------- | ------------- |
-| • Prefer     | preserving | existing | section | headings | and ordering. |
-• If a successful session supports a section, leave that section untouched unless failure evidence
+| ï¿½ Prefer     | preserving | existing | section | headings | and ordering. |
+ï¿½ If a successful session supports a section, leave that section untouched unless failure evidence
 | explicitly | contradicts |     | it. |     |     |
 | ---------- | ----------- | --- | --- | --- | --- |
-• Prefer tightening or clarifying an existing section over adding a brand-new section.
-• Do not introduce a new large section unless the failure evidence is strong and the existing
+ï¿½ Prefer tightening or clarifying an existing section over adding a brand-new section.
+ï¿½ Do not introduce a new large section unless the failure evidence is strong and the existing
 | structure | cannot | express | the | fix. |     |
 | --------- | ------ | ------- | --- | ---- | --- |
 17
 
-• If you add a new checklist item, keep it short and tied to the observed failure.
+ï¿½ If you add a new checklist item, keep it short and tied to the observed failure.
 | Distinguishing |     | skill problems | from | agent | problems |     |     |     |
 | -------------- | --- | -------------- | ---- | ----- | -------- | --- | --- | --- |
 Not every failure is a skill deficiency. Before editing, consider whether the failure was caused by:
-| • The | skill | (wrong/missing/misleading |     |     | guidance) | ?   | edit the | skill. |
+| ï¿½ The | skill | (wrong/missing/misleading |     |     | guidance) | ?   | edit the | skill. |
 | ----- | ----- | ------------------------- | --- | --- | --------- | --- | -------- | ------ |
-• The agent (subagent misuse, unnecessary restarts, context window overflow, not reading the
+ï¿½ The agent (subagent misuse, unnecessary restarts, context window overflow, not reading the
 skillproperly)?theseareagent-levelissues;doNOTbloattheskillwithagent-runtimeadvice.
-• The environment (mock API instability, network flakiness, docker quirks) ? if sessions show
+ï¿½ The environment (mock API instability, network flakiness, docker quirks) ? if sessions show
 repeated API failures or timeouts, add a brief note about the instability so the agent knows to
-expect it. But keep it short — do NOT turn the skill into a retry/backoff tutorial.
+expect it. But keep it short ï¿½ do NOT turn the skill into a retry/backoff tutorial.
 Criticalanti-patterntoavoid: iftheskillALREADYcontainscorrectenvironmentinformation(API
 endpoints, ports, payload formats, tool names) and the agent failed because it did NOT use that
 information(e.g.,itguessedwrongrequestshapes,thenlaterdiscoveredtheanswerbyreadingsource
 code), that is an AGENT problem, not a skill problem. Do NOT delete the correct API information
-from the skill and replace it with instructions like “go read utils.py” or “inspect the mock service
-code”. The whole point of the skill is to save the agent from having to discover those details.
+from the skill and replace it with instructions like ï¿½go read utils.pyï¿½ or ï¿½inspect the mock service
+codeï¿½. The whole point of the skill is to save the agent from having to discover those details.
 | When in       | doubt,     | prefer skip     | over          | a speculative | edit.                 |       |                    |        |
 | ------------- | ---------- | --------------- | ------------- | ------------- | --------------------- | ----- | ------------------ | ------ |
 | Skill-writing | principles | (for            | create_skill) |               |                       |       |                    |        |
-| • The         | new        | skill must      | serve         | a DIFFERENT   | purpose               |       | than {skill_name}. |        |
-| • Prefer      | a short,   | action-oriented |               | name          | (lowercase-hyphenated |       |                    | slug). |
-| • The         | name       | MUST            | differ from   | all           | existing skill        | names | listed             | below. |
-• A skill should compress environment information (API endpoints, ports, payload formats,
-tool-specific quirks, domain procedures) — not generic best practices the agent already knows.
-• Description should state what the skill does and triggering contexts, including “NOT for: ...”
-| exclusion |             | conditions. | 2–4              | sentences.           |                 |         |             |              |
+| ï¿½ The         | new        | skill must      | serve         | a DIFFERENT   | purpose               |       | than {skill_name}. |        |
+| ï¿½ Prefer      | a short,   | action-oriented |               | name          | (lowercase-hyphenated |       |                    | slug). |
+| ï¿½ The         | name       | MUST            | differ from   | all           | existing skill        | names | listed             | below. |
+ï¿½ A skill should compress environment information (API endpoints, ports, payload formats,
+tool-specific quirks, domain procedures) ï¿½ not generic best practices the agent already knows.
+ï¿½ Description should state what the skill does and triggering contexts, including ï¿½NOT for: ...ï¿½
+| exclusion |             | conditions. | 2ï¿½4              | sentences.           |                 |         |             |              |
 | --------- | ----------- | ----------- | ---------------- | -------------------- | --------------- | ------- | ----------- | ------------ |
-| • Content | should      | be          | domain-specific, |                      | practically     | useful, | and         | non-obvious. |
-| • Keep    | it concise, | reusable,   |                  | and evidence-driven. |                 |         |             |              |
-| • Write   | reusable    | guidance,   |                  | not a                | failure summary | or      | postmortem. |              |
+| ï¿½ Content | should      | be          | domain-specific, |                      | practically     | useful, | and         | non-obvious. |
+| ï¿½ Keep    | it concise, | reusable,   |                  | and evidence-driven. |                 |         |             |              |
+| ï¿½ Write   | reusable    | guidance,   |                  | not a                | failure summary | or      | postmortem. |              |
 Output format
 | Return EXACTLY |                   | one JSON | object |     | (no markdown | fences, | no  | extra text): |
 | -------------- | ----------------- | -------- | ------ | --- | ------------ | ------- | --- | ------------ |
@@ -1199,30 +1199,30 @@ enced.
 Work through these steps autonomously. Use your file-reading and writing tools to inspect session
 data and produce skill files.
 File access boundary: All your file operations MUST stay within this workspace directory. The
-workspace contains copies of all data you need — sessions and skills have been copied here from
+workspace contains copies of all data you need ï¿½ sessions and skills have been copied here from
 shared storage. Do NOT read or write files outside the workspace. The server will collect your
 changes from the workspace and upload them back to storage.
 Step 1: Read & Understand Session Data
 Each JSON file in sessions/ is a pre-processed agent session. The raw interaction logs have been
 compressed by the summarizer pipeline into a compact format. Each file contains:
-• session_id: unique identifier
-• task_id: the benchmark task this session attempted
-• num_turns: how many interaction turns the original session had
+ï¿½ session_id: unique identifier
+ï¿½ task_id: the benchmark task this session attempted
+ï¿½ num_turns: how many interaction turns the original session had
 19
 
-• aggregate (optional): rollout-level statistics
-– mean_score: average ORM score across rollouts
-– success_count / fail_count: how many rollouts passed / failed
-– stability: "all_success", "all_fail", or "unstable"
-• _skills_referenced: list of skill names the agent read or was injected
-• _avg_prm: mean PRM score across all turns (0.0–1.0; higher = better)
-• _has_tool_errors: whether any tool call failed during the session
-• _trajectory: structured step-by-step trace of the agent’s actions. Each step shows: skills
+ï¿½ aggregate (optional): rollout-level statistics
+ï¿½ mean_score: average ORM score across rollouts
+ï¿½ success_count / fail_count: how many rollouts passed / failed
+ï¿½ stability: "all_success", "all_fail", or "unstable"
+ï¿½ _skills_referenced: list of skill names the agent read or was injected
+ï¿½ _avg_prm: mean PRM score across all turns (0.0ï¿½1.0; higher = better)
+ï¿½ _has_tool_errors: whether any tool call failed during the session
+ï¿½ _trajectory: structured step-by-step trace of the agentï¿½s actions. Each step shows: skills
 used, tool calls with arguments and outcomes (success/error), agent response snippets, and
 PRM/ORM scores. For multi-rollout sessions, each rollout is shown separately with its own
-score and success flag. Field values are truncated to ?400 chars to stay compact — this is
+score and success flag. Field values are truncated to ?400 chars to stay compact ï¿½ this is
 su?icient to understand what happened at each step.
-• _summary: LLM-generated analytical summary (8–15 sentences) covering the agent’s goal,
+ï¿½ _summary: LLM-generated analytical summary (8ï¿½15 sentences) covering the agentï¿½s goal,
 strategy, key turning points, tool usage patterns, skill effectiveness, and outcome assessment.
 How to read sessions e?iciently:
 1. Start with _summary for a quick overview of each session.
@@ -1231,56 +1231,56 @@ failed and why, or to see how a skill was used).
 3. Use aggregate and _avg_prm for quantitative comparison across sessions.
 4. Use _skills_referenced to group sessions by skill for Step 2.
 Build a mental model of:
-• What task was the agent trying to accomplish?
-• Did the agent succeed or fail? Why?
-• Which skills were referenced? Did they help or not?
-• Are there common patterns across sessions?
+ï¿½ What task was the agent trying to accomplish?
+ï¿½ Did the agent succeed or fail? Why?
+ï¿½ Which skills were referenced? Did they help or not?
+ï¿½ Are there common patterns across sessions?
 Step 2: Analyze & Aggregate
 Group sessions by the skills they referenced:
-• Skill group: sessions that referenced a specific skill ? evaluate whether that skill needs im-
+ï¿½ Skill group: sessions that referenced a specific skill ? evaluate whether that skill needs im-
 provement.
-• No-skill sessions: sessions that referenced no skill ? consider whether a new skill should be
+ï¿½ No-skill sessions: sessions that referenced no skill ? consider whether a new skill should be
 created.
 For each group, identify:
-• Failure patterns (low PRM scores, tool errors, wrong approaches)
-• Success patterns (high PRM scores, effective tool use)
-• Whether failures are caused by the skill (wrong/missing guidance), the agent (misuse, context
+ï¿½ Failure patterns (low PRM scores, tool errors, wrong approaches)
+ï¿½ Success patterns (high PRM scores, effective tool use)
+ï¿½ Whether failures are caused by the skill (wrong/missing guidance), the agent (misuse, context
 overflow), or the environment (API instability, network issues).
 Step 3: Read History, Then Decide Actions
 Before deciding any action on an existing skill, if skills/<skill-name>/history/ exists, read
-ALL files under it — every v*.md and v*_evidence.md. This is mandatory, not optional. You need
+ALL files under it ï¿½ every v*.md and v*_evidence.md. This is mandatory, not optional. You need
 to understand:
-• What the skill looked like in previous rounds
-• Why previous changes were made
-• What session evidence drove those changes
-• Whether previous edits improved or regressed performance
+ï¿½ What the skill looked like in previous rounds
+ï¿½ Why previous changes were made
+ï¿½ What session evidence drove those changes
+ï¿½ Whether previous edits improved or regressed performance
 Only after reading the full history should you decide the action. Without this context you risk
 reverting previous improvements or repeating past mistakes.
 When reading history, explicitly answer:
-• What changed in each prior version?
-• What evidence justified that change?
-• Did later sessions suggest the change helped, hurt, or remain ambiguous?
-• What should be preserved vs. revised in the next version?
+ï¿½ What changed in each prior version?
+ï¿½ What evidence justified that change?
+ï¿½ Did later sessions suggest the change helped, hurt, or remain ambiguous?
+ï¿½ What should be preserved vs. revised in the next version?
 For each skill group, choose ONE action:
 improve_skill The skill content needs targeted edits based on session evidence. Use when:
 20
 
-• Sessions reveal missing guidance, outdated info, or unclear instructions
-• Multiple sessions point to the same section being wrong or incomplete
+ï¿½ Sessions reveal missing guidance, outdated info, or unclear instructions
+ï¿½ Multiple sessions point to the same section being wrong or incomplete
 optimize_description The skill body is fine, but its description causes wrong matching. Use when:
-• The skill is being triggered for tasks it shouldn’t apply to
-• Only the description needs rewriting, not the body
+ï¿½ The skill is being triggered for tasks it shouldnï¿½t apply to
+ï¿½ Only the description needs rewriting, not the body
 create_skill SessionevidencerevealsarecurringpatternthatdoesNOTbelonginanyexistingskill.
 Use when:
-• A clear, teachable pattern exists that compresses environment-specific knowledge
-• The pattern is distinct enough to warrant a separate skill
-• No existing skill covers this area
+ï¿½ A clear, teachable pattern exists that compresses environment-specific knowledge
+ï¿½ The pattern is distinct enough to warrant a separate skill
+ï¿½ No existing skill covers this area
 skip No action needed. Use when:
-• The skill is working well enough
-• Evidence is too weak or ambiguous
-• Failures are caused by agent issues, not skill gaps
+ï¿½ The skill is working well enough
+ï¿½ Evidence is too weak or ambiguous
+ï¿½ Failures are caused by agent issues, not skill gaps
 When in doubt, prefer skip over speculative edits.
-Step 4: Execute — Write Skill Files
+Step 4: Execute ï¿½ Write Skill Files
 For improve_skill / optimize_description: Edittheexistingskills/<name>/SKILL.mdfileinplace.
 For create_skill: Create a new directory skills/<new-name>/SKILL.md.
 SKILL.md Format
@@ -1293,7 +1293,7 @@ category: general
 ---
 <Markdown body with practical guidance>
 Step 5: Maintain Skill History
-History is the evolution ledger — it records what changed, why, and what evidence supported each
+History is the evolution ledger ï¿½ it records what changed, why, and what evidence supported each
 decision. Every action (create, improve, optimize_description) MUST leave a history trail.
 CRITICAL: Read before write
 Before touching any existing skill, you MUST:
@@ -1301,7 +1301,7 @@ Before touching any existing skill, you MUST:
 entries.
 2. If it exists, read every v*.md and v*_evidence.md file in that directory.
 3. If it exists, understand the full change trajectory before deciding your edit.
-Skipping this step is a hard error — it leads to reverting past improvements or contradicting earlier
+Skipping this step is a hard error ï¿½ it leads to reverting past improvements or contradicting earlier
 evidence-based decisions.
 History directory structure
 skills/<skill-name>/history/
@@ -1312,11 +1312,11 @@ skills/<skill-name>/history/
 ??? v2_evidence.md
 ??? ...
 History naming rules
-• Use version-based filenames only: v<N>.md and v<N>_evidence.md.
-• Do NOT use dates, timestamps, or ad-hoc filenames such as 2026-04-04.md, notes.md, or
+ï¿½ Use version-based filenames only: v<N>.md and v<N>_evidence.md.
+ï¿½ Do NOT use dates, timestamps, or ad-hoc filenames such as 2026-04-04.md, notes.md, or
 new_version.md.
-• Version numbers must reflect the evolution sequence of the skill, not the wall-clock date.
-• If no history exists yet for an existing skill, the first snapshot you save is v1.md and the paired
+ï¿½ Version numbers must reflect the evolution sequence of the skill, not the wall-clock date.
+ï¿½ If no history exists yet for an existing skill, the first snapshot you save is v1.md and the paired
 evidence file is v1_evidence.md.
 21
 
@@ -1328,112 +1328,112 @@ For improve_skill / optimize_description:
 this is round 1.
 2. Copy the current SKILL.md content verbatim to history/v<N>.md.
 3. Write history/v<N>_evidence.md noting:
-• Which sessions drove this change (session IDs, task IDs, PRM scores, success/fail counts,
+ï¿½ Which sessions drove this change (session IDs, task IDs, PRM scores, success/fail counts,
 tool errors, repeated failure patterns)
-• What the positive/negative signals were
-• What previous history entries you read and how they informed this edit
-• How the old version performed in the available session evidence
-• Which exact sections/rules you are preserving, removing, or revising
-• What action you decided (improve / optimize_description)
+ï¿½ What the positive/negative signals were
+ï¿½ What previous history entries you read and how they informed this edit
+ï¿½ How the old version performed in the available session evidence
+ï¿½ Which exact sections/rules you are preserving, removing, or revising
+ï¿½ What action you decided (improve / optimize_description)
 4. Then edit SKILL.md.
 Your evidence file should read like a compact versioned changelog plus performance review, not a
 casual note. Make it easy for a future agent to answer:
-• Why did version v<N> need to change?
-• What evidence from current sessions supports the next edit?
-• How did prior versions appear to perform in historical sessions?
-• Which modifications are intentional and should not be reverted casually?
+ï¿½ Why did version v<N> need to change?
+ï¿½ What evidence from current sessions supports the next edit?
+ï¿½ How did prior versions appear to perform in historical sessions?
+ï¿½ Which modifications are intentional and should not be reverted casually?
 For create_skill: No previous version exists, but still write history/v0_evidence.md explaining:
-• What sessions motivated the creation (IDs, scores, failure patterns)
-• Why no existing skill covers this pattern
-• What action you decided (create_skill)
+ï¿½ What sessions motivated the creation (IDs, scores, failure patterns)
+ï¿½ Why no existing skill covers this pattern
+ï¿½ What action you decided (create_skill)
 Evidence file content expectations
 Each v<N>_evidence.md should include, in a concise but explicit form:
 1. Decision summary
-• action type
-• target skill
-• why change is needed now
+ï¿½ action type
+ï¿½ target skill
+ï¿½ why change is needed now
 2. Session evidence
-• relevant session IDs / task IDs
-• representative PRM scores or aggregate metrics
-• recurring tool failures / observations
+ï¿½ relevant session IDs / task IDs
+ï¿½ representative PRM scores or aggregate metrics
+ï¿½ recurring tool failures / observations
 3. Historical comparison
-• what previous version(s) attempted
-• whether later evidence suggests those edits improved outcomes, regressed outcomes, or
+ï¿½ what previous version(s) attempted
+ï¿½ whether later evidence suggests those edits improved outcomes, regressed outcomes, or
 remain inconclusive
 4. Edit plan
-• exact parts of the skill being changed
-• exact parts intentionally preserved
+ï¿½ exact parts of the skill being changed
+ï¿½ exact parts intentionally preserved
 5. Open questions
-• uncertainty that future rounds should monitor
+ï¿½ uncertainty that future rounds should monitor
 History persistence depends on fresh mode
-• In --no-fresh mode, the server refreshes SKILL.md from storage each round but does NOT
+ï¿½ In --no-fresh mode, the server refreshes SKILL.md from storage each round but does NOT
 clear the history/ subdirectory. History therefore accumulates across rounds and serves as a
 continuous audit trail.
-• In --fresh mode, the workspace is rebuilt from scratch each round, so local history/ directo-
+ï¿½ In --fresh mode, the workspace is rebuilt from scratch each round, so local history/ directo-
 ries do NOT persist automatically. Treat each round as an isolated evolution pass unless the
 current workspace already contains history files.
 Editing Principles
 22
 
 Conservative Editing (for improve_skill)
-• Treat the CURRENT skill as the source of truth, not a rough draft.
-• Default to targeted edits, not rewrites.
-• Preserve the original structure, heading order, and terminology.
-• If failures are only corner cases, add missing checks or clarify constraints without changing
+ï¿½ Treat the CURRENT skill as the source of truth, not a rough draft.
+ï¿½ Default to targeted edits, not rewrites.
+ï¿½ Preserve the original structure, heading order, and terminology.
+ï¿½ If failures are only corner cases, add missing checks or clarify constraints without changing
 unrelated sections.
-• Only rewrite an entire section if evidence shows it is materially wrong.
-• If a successful session supports a section, leave it untouched unless failure evidence explicitly
+ï¿½ Only rewrite an entire section if evidence shows it is materially wrong.
+ï¿½ If a successful session supports a section, leave it untouched unless failure evidence explicitly
 contradicts it.
 Hard Constraints
-• Do NOT change API contracts, ports, endpoints, output paths, payload formats, or required
-filenames — unless session evidence clearly shows they have changed.
-• DoNOTremovecorecapabilities,APIreferences,ortool-usageexamplesunrelatedtoobserved
+ï¿½ Do NOT change API contracts, ports, endpoints, output paths, payload formats, or required
+filenames ï¿½ unless session evidence clearly shows they have changed.
+ï¿½ DoNOTremovecorecapabilities,APIreferences,ortool-usageexamplesunrelatedtoobserved
 failures.
-• Do NOT turn a skill into a different skill with a different purpose.
-• Do NOT rewrite the whole skill from scratch.
-• Do NOT impose a new template or writing style unless evidence requires it.
-• Do NOT add generic best-practice guidance (retry logic, caching, state management) unless
+ï¿½ Do NOT turn a skill into a different skill with a different purpose.
+ï¿½ Do NOT rewrite the whole skill from scratch.
+ï¿½ Do NOT impose a new template or writing style unless evidence requires it.
+ï¿½ Do NOT add generic best-practice guidance (retry logic, caching, state management) unless
 the environment has specific quirks.
 Distinguishing Skill vs Agent Problems
 Not every failure is a skill deficiency:
-• Skill problem (wrong/missing guidance) ? edit the skill.
-• Agent problem (misuse, restarts, context overflow) ? do NOT bloat the skill with agent-
+ï¿½ Skill problem (wrong/missing guidance) ? edit the skill.
+ï¿½ Agent problem (misuse, restarts, context overflow) ? do NOT bloat the skill with agent-
 runtime advice.
-• Environment problem (API instability, network flakiness) ? add a brief note if recurrent, but
+ï¿½ Environment problem (API instability, network flakiness) ? add a brief note if recurrent, but
 keep it short.
 Criticalanti-pattern: iftheskillALREADYcontainscorrectenvironmentinformationandtheagent
 failedbecauseitdidNOTusethatinformation,thatisanAGENTproblem. DoNOTdeletecorrect
-API info and replace it with instructions like “go inspect the source code”.
+API info and replace it with instructions like ï¿½go inspect the source codeï¿½.
 Skill Writing Principles (for create_skill)
-• Askillshouldcompressenvironmentinformation(APIendpoints,ports,payloadformats,tool
-quirks, domain procedures) — not generic best practices the agent already knows.
-• Prefer a short, action-oriented name (lowercase-hyphenated slug).
-• The name MUST differ from all existing skills. Check manifest.json for the current list of
+ï¿½ Askillshouldcompressenvironmentinformation(APIendpoints,ports,payloadformats,tool
+quirks, domain procedures) ï¿½ not generic best practices the agent already knows.
+ï¿½ Prefer a short, action-oriented name (lowercase-hyphenated slug).
+ï¿½ The name MUST differ from all existing skills. Check manifest.json for the current list of
 skill names before creating a new one.
-• Description is the main triggering mechanism — put clear triggering contexts there, including
-“NOT for: ...” exclusion conditions.
-• Content should be domain-specific, practically useful, and non-obvious.
-• Use imperative instructions. Organize the body naturally for the task.
-• Include concrete API endpoints, ports, command patterns, and payload examples when they
+ï¿½ Description is the main triggering mechanism ï¿½ put clear triggering contexts there, including
+ï¿½NOT for: ...ï¿½ exclusion conditions.
+ï¿½ Content should be domain-specific, practically useful, and non-obvious.
+ï¿½ Use imperative instructions. Organize the body naturally for the task.
+ï¿½ Include concrete API endpoints, ports, command patterns, and payload examples when they
 are central to the task.
-• Keep it concise, reusable, and evidence-driven.
-• Write reusable guidance, not a failure summary or postmortem.
+ï¿½ Keep it concise, reusable, and evidence-driven.
+ï¿½ Write reusable guidance, not a failure summary or postmortem.
 Important Notes
-• You may create multiple skills in one session if the evidence supports it.
-• Process ALL sessions — don’t stop after the first group.
-• Write your changes directly to files in skills/. The server will detect what changed by com-
+ï¿½ You may create multiple skills in one session if the evidence supports it.
+ï¿½ Process ALL sessions ï¿½ donï¿½t stop after the first group.
+ï¿½ Write your changes directly to files in skills/. The server will detect what changed by com-
 paring file hashes.
-• ALWAYS read ALL files in skills/<name>/history/ before deciding any action on that skill,
+ï¿½ ALWAYS read ALL files in skills/<name>/history/ before deciding any action on that skill,
 if that history directory exists. This is mandatory, not optional.
-• ALWAYS save the old version and evidence before making changes.
-• ALWAYS use version-based history filenames (v<N>.md, v<N>_evidence.md); never use date-
+ï¿½ ALWAYS save the old version and evidence before making changes.
+ï¿½ ALWAYS use version-based history filenames (v<N>.md, v<N>_evidence.md); never use date-
 based filenames.
 23
 
-| • Do NOT | modify | files in sessions/ | — they | are read-only input. |
+| ï¿½ Do NOT | modify | files in sessions/ | ï¿½ they | are read-only input. |
 | -------- | ------ | ------------------ | ------ | -------------------- |
-• Do NOT modify manifest.json or skill_registry.json — the server manages those.
-| • Do NOT | access files | outside this | workspace | directory. |
+ï¿½ Do NOT modify manifest.json or skill_registry.json ï¿½ the server manages those.
+| ï¿½ Do NOT | access files | outside this | workspace | directory. |
 | -------- | ------------ | ------------ | --------- | ---------- |
-• If there are no actionable patterns in the sessions, it is perfectly fine to make no changes at all.
+ï¿½ If there are no actionable patterns in the sessions, it is perfectly fine to make no changes at all.
 24

@@ -26,3 +26,11 @@ _Append-only. Updated automatically by ingest runs._
 - Added: entities/openclaw.md, entities/hermes-agent.md, syntheses/claude-code-vs-hermes-vs-openclaw-knowledge-building.md
 - Updated: entities/claude-code.md, index.md
 - Conflicts: none
+
+## 2026-04-27 — Ingest run 4 (33 files)
+- Ingested: 33 files from papers, repos, articles, x-threads, youtube
+- Added sources: ma-skillclaw-2026.md, tencent-hy-embodied-2026.md, liu-graph-of-skills-2026.md, qiao-memory-intelligence-agent-2026.md, sharma-cua-verifier-2026.md, hu-jain-2026-amortizing-intractable-inference.md, misaki-akiba-2026-string-seed-of-thought.md, and 26 additional repo/media summaries
+- Added concepts: skill-evolution.md, embodied-ai.md, skill-retrieval.md, agent-memory.md, computer-use-agent-verification.md, mixture-of-transformers.md
+- Added entities: tencent.md, microsoft-research.md, mem0.md, memento.md, qwen.md
+- Updated: index.md, raw file statuses
+- Conflicts: none

@@ -3,7 +3,7 @@ source: https://arxiv.org/abs/2604.05333
 date: 2026-04-13
 type: paper
 tags: [agent-skills, skill-retrieval, graph, llm-agents, tool-use, efficiency]
-status: raw
+status: processed
 authors: [Dawei Liu, Zongxia Li, Hongyang Du, Xiyang Wu, Shihang Gui, Yongbei Kuang, Lichao Sun]
 venue: preprint
 arxiv_id: 2604.05333
@@ -12,15 +12,15 @@ arxiv_id: 2604.05333
 Preprint.
 Graph of Skills: Dependency-Aware Structural Retrieval
 for Massive Agent Skills
-Dawei Liu1† Zongxia Li2† Hongyang Du3 Xiyang Wu2 Shihang Gui3
+Dawei Liu1ï¿½ Zongxia Li2ï¿½ Hongyang Du3 Xiyang Wu2 Shihang Gui3
 Yongbei Kuang4 Lichao Sun5
 1University of Pennelvenia 2University of Maryland 3Brown University
 4Carnegie Melon University 5Lehigh University
 liudawei@seas.upenn.edu zli12321@umd.edu lis221@lehigh.edu
-§ Github: https://github.com/davidliuk/graph-of-skills
+ï¿½ Github: https://github.com/davidliuk/graph-of-skills
 Abstract
 Skill usage has become a core component of modern agent systems and
-can substantially improve agents’ ability to complete complex tasks. In
+can substantially improve agentsï¿½ ability to complete complex tasks. In
 real-world settings, where agents must monitor and interact with numerous
 personal applications, web browsers, and other environment interfaces, skill
 libraries can scale to thousands of reusable skills. Scaling to larger skill sets
@@ -29,7 +29,7 @@ context window, driving up token costs, hallucination, and latency. In this
 paper, we present Graph of Skills (GoS), an inference-time structural
 retrieval layer for large skill libraries. GoS constructs an executable skill
 graph offline from skill packages, then at inference time retrieves a bounded,
-dependency-aware skill bundle through hybrid semantic–lexical seeding,
+dependency-aware skill bundle through hybrid semanticï¿½lexical seeding,
 reverse-weighted Personalized PageRank, and context-budgeted hydration.
 OnSkillsBenchandALFWorld,GoSimprovesaveragerewardby43.6%over
 the vanilla full skill-loading baseline while reducing input tokens by 37.8%,
@@ -56,7 +56,7 @@ semantic proximity does not imply executable sufficiency. In many engineering ta
 top semantic match is a high-level solver, while the actual solution also requires a lower-level
 parser, converter, setup utility, or domain-specific preprocessor that is semantically weak
 but functionally necessary (Qin et al., 2024; Patel et al., 2025; Patil et al., 2023) (Figure 1).
-†Core Contribution.
+ï¿½Core Contribution.
 1
 6202
 rpA
@@ -91,7 +91,7 @@ Skills Library
 |     | 7   | 8 9   |     |                |      |     |                                  |
 |     | T   | T T   |     |                |      |     |                                  |
 |     | 10  | 11 12 |     | System Context |      |     | System Context                   |
-|     | …   |       |     |  T             |      |     | D e  p e n d e nc y              |
+|     | ï¿½   |       |     |  T             |      |     | D e  p e n d e nc y              |
 |     |     |       |     | 1  T 6         |  T 7 |  T  | R e v T e r s 1e  D if fusion  T |
 |     |     |       |     |                |      |     | 5 3                              |
 Token Inefficient and Long-Context Heavily Rely on Semantic Similarity Retrieve Relevant Skill Bundle
@@ -166,7 +166,7 @@ search or distribution over individual skills or bundles.
 Graph-Based Retrieval and Relational Memory. Graph-structured retrieval has
 recently improved knowledge access in document, memory, and tool-use settings, but its role
 differssubstantiallyacrosstheseregimes. GraphRAG(Edgeetal.,2024)usesgraphstructure
-tosupportquery-focusedsynthesisoverdocumentcollections,HippoRAG(JiménezGutiérrez
+tosupportquery-focusedsynthesisoverdocumentcollections,HippoRAG(Jimï¿½nezGutiï¿½rrez
 et al., 2024) models long-term memory as an associative graph for improved retrieval, and
 adjacentagentsystemssuchasControlLLM(Liuetal.,2023)andToolNet(Liuetal.,2024b)
 incorporategraphstructureovertoolsratherthantreatingtoolsasaflatlist. However, these
@@ -284,7 +284,7 @@ i
 |           |      |       | i       |          |                            |       | i   |                 |     |     |
 |           |      |       |         | z        | (q)=?ssem(q)+(1??)slex(q), |       |     |                 |     | (2) |
 |           |      |       |         | i        |                            | i     |     | i               |     |     |
-where? ?[0,1]controlsthesemantic–lexicaltradeoff. Theinitialseeddistributionisobtained
+where? ?[0,1]controlsthesemanticï¿½lexicaltradeoff. Theinitialseeddistributionisobtained
 | by  | normalizing | the | merged | scores | over | the candidate | pool, |     |     |     |
 | --- | ----------- | --- | ------ | ------ | ---- | ------------- | ----- | --- | --- | --- |
 z (q)
@@ -329,12 +329,12 @@ Budgeted Reranking and Hydration. The diffusion score alone is insufficient, bec
 the final output must be compact and directly usable by an agent. GoS therefore reranks
 | candidate |     | skills | by combining | graph | score       | with field-level |      | query evidence: |     |     |
 | --------- | --- | ------ | ------------ | ----- | ----------- | ---------------- | ---- | --------------- | --- | --- |
-|           |     |        |              |       | ? (q)=s?+µm |                  | (q), |                 |     | (5) |
+|           |     |        |              |       | ? (q)=s?+ï¿½m |                  | (q), |                 |     | (5) |
 |           |     |        |              |       | i           | i                | i    |                 |     |     |
 where s? is the converged diffusion score, m (q) aggregates direct matches between the query
 |     | i   |     |     |     |     | i   |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-and skill fields such as name, capability summary, artifacts, and entrypoints, and µ controls
+and skill fields such as name, capability summary, artifacts, and entrypoints, and ï¿½ controls
 | how | much | local | grounding | is preserved |     | after graph | expansion. |     |     |     |
 | --- | ---- | ----- | --------- | ------------ | --- | ----------- | ---------- | --- | --- | --- |
 5
@@ -357,7 +357,7 @@ resources) that augment LLM agents at inference time. The task domains span comp
 technical work such as macroeconomic detrending, power-grid feasibility analysis, 3D scan
 analysis, financial modeling, and seismic phase picking. ALFWorld (Shridhar et al., 2020b)
 is an interactive simulator that aligns text descriptions and commands with a physically
-embodied robotic environment, built by combining TextWorld (Côté et al., 2018), an engine
+embodied robotic environment, built by combining TextWorld (Cï¿½tï¿½ et al., 2018), an engine
 for interactive text-based games and the ALFRED dataset (Shridhar et al., 2020a). Its
 tasks involve multi-step household activities such as navigating rooms, finding objects, and
 manipulating them. In the LLM agent literature, ALFWorld is widely used in its text-only
@@ -377,7 +377,7 @@ raw task instruction as the retrieval query. The critical comparison is therefor
 semantic retrieval and dependency-aware structural retrieval under the same backbone and
 embedding setup.
 ModelsandEvaluation. AllexperimentsareconductedwithClaudeSonnet4.5(Anthropic,
-2025), MiniMax M2.7 (MiniMax, 2026), and GPT-5.2 Codex (OpenAI, 2025). Each model–
+2025), MiniMax M2.7 (MiniMax, 2026), and GPT-5.2 Codex (OpenAI, 2025). Each modelï¿½
 method setting is run twice, and we report the mean across runs. We report average reward
 across tasks asthe primary evaluation metric. For ALFWorld, rewards are binary, so average
 reward is equivalent to success rate. We additionally report average total token usage and
@@ -415,7 +415,7 @@ GPT-5.2 Codex Vector Skills 21.5 1,243,648 773.0 92.9 34,436 57.0
 |          |         | +   | GoS | 34.4 | 1,379,773 | 715.6 | 93.6 | 46,462 | 64.7 |
 | -------- | ------- | --- | --- | ---- | --------- | ----- | ---- | ------ | ---- |
 | 4.2 Main | Results |     |     |      |           |       |      |        |      |
-We present the main results in Table 1. Across all six model–benchmark blocks, GoS attains
+We present the main results in Table 1. Across all six modelï¿½benchmark blocks, GoS attains
 the highest average reward. Relative to Vanilla Skills, it reduces average token usage in all
 Vector Skills,
 six blocks and reduces agent runtime in five of the six. Relative to it improves
@@ -448,7 +448,7 @@ while also achieving the lowest token usage and runtime in that block. Under GPT
 Codex, GoS and Vector Skills are close on reward (93.6% vs. 92.9%), but GoS still remains
 clearly more efficient than Vanilla Skills. Taken together, these results suggest that the
 benefit of structure-aware retrieval is not limited to technical code-execution tasks.
-GoS offers the best efficiency–performance tradeoff. Vanilla Skills preserves max-
+GoS offers the best efficiencyï¿½performance tradeoff. Vanilla Skills preserves max-
 imal recall, but its cost grows rapidly with library size and leaves the agent to search an
 unstructured skill set at inference time. Vector Skills reduces token cost, but its retrieved
 set is often incomplete, because semantically nearby skills are not always jointly sufficient.
@@ -540,8 +540,8 @@ tokens. As the library grows from 500 to 2,000 skills, Vanilla Skills rises from
 Preprint.
 |     |     |     |     |     |     |     |     |     | Vector | Skills |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | ------ | ------ |
-5.84M average input tokens, roughly a 3× increase. Over the same range, stays
-near 1.10M–1.24M tokens and GoS stays near 1.14M–1.38M tokens. This result shows that
+5.84M average input tokens, roughly a 3ï¿½ increase. Over the same range, stays
+near 1.10Mï¿½1.24M tokens and GoS stays near 1.14Mï¿½1.38M tokens. This result shows that
 simple retrieval substantially weakens the coupling between repository size and prompt size,
 | while GoS | does | so without | giving | up  | reward. |     |     |     |     |     |
 | --------- | ---- | ---------- | ------ | --- | ------- | --- | --- | --- | --- | --- |
@@ -576,26 +576,26 @@ Wenextevaluatethecontributionoftwokey
 |                 |             |      |             |               |      | Full   | GoS               | 34.4 | 1.38 | 715.6 |
 | These ablations |             | were | run under   | the           | main |        |                   |      |      |       |
 |                 |             |      |             |               |      | w/o    | graph propagation | 29.3 | 0.89 | 766.2 |
-SkillsBenchconfiguration—GPT-5.2Codex w/o lexical + rerank 26.7 1.01 747.7
+SkillsBenchconfigurationï¿½GPT-5.2Codex w/o lexical + rerank 26.7 1.01 747.7
 | across skill | libraries |     | of increasing | size | (200, |     |     |     |     |     |
 | ------------ | --------- | --- | ------------- | ---- | ----- | --- | --- | --- | --- | --- |
 500, 1,000, and 2,000 skills). In the first Table 2: Component ablation on full Skills-
 ablation, we remove graph propagation, dis- BenchwithGPT-5.2Codexandthe1,000-skill
-ablingthesystem’sabilitytoexpandbeyond library. R: average reward (%), T: average
+ablingthesystemï¿½sabilitytoexpandbeyond library. R: average reward (%), T: average
 | seed skills | to  | structurally | related   | prerequi- |     |       |             |               |         |      |
 | ----------- | --- | ------------ | --------- | --------- | --- | ----- | ----------- | ------------- | ------- | ---- |
 |             |     |              |           |           |     | total | tokens (M), | S: agent-only | runtime | (s). |
 | sites. In   | the | second,      | we remove | lexical   | re- |       |             |               |         |      |
 trieval and reranking, forcing the system to rely solely on the semantic retriever before graph
 expansion.
-Graph propagation and lexical reranking are important components for GoS’
+Graph propagation and lexical reranking are important components for GoSï¿½
 success. Removing graph propagation reduces average token usage from 1.38M to 0.89M,
 but it also lowers average reward from 34.4 to 29.3 (?5.1). Removing lexical retrieval and
 reranking lowers average token usage from 1.38M to 1.01M. It lowers average reward from
 34.4 to 26.7 (? 7.7). The larger degradation in the second ablation suggests that better
 seed quality is especially important on SkillsBench: if the initial retrieved skills are weak,
 graph expansion has less useful structure from which to recover missing prerequisites. These
-results show that hybrid semantic–lexical retrieval improves entry-point quality, and graph
+results show that hybrid semanticï¿½lexical retrieval improves entry-point quality, and graph
 propagation then converts those stronger seeds into a more execution-complete bundle.
 6 Conclusion
 Skill retrieval is a critical bottleneck for agents operating over massive skill libraries. Unlike
@@ -622,7 +622,7 @@ updates from successful trajectories, stronger reranking over candidate bundles,
 | Reproducibility |               | Statement |                 |     |                 |     |     |     |
 The paper and appendix specify the core components needed to reproduce the proposed
 method: parser-first skill normalization, optional LLM-based semantic field completion,
-typed edge construction, hybrid semantic–lexical seeding, reverse-aware graph diffusion,
+typed edge construction, hybrid semanticï¿½lexical seeding, reverse-aware graph diffusion,
 reranking, and budgeted hydration. We also document the evaluation protocol, including
 benchmark settings, run structure, reward definitions, token accounting, agent-only runtime
 | measurement, | and | the treatment |     | of unresolved | infrastructure |     | failures. |     |
@@ -653,9 +653,9 @@ Dhillon, Marcel Blistein, Ori Ram, Dan Zhang, Evan Rosen, et al. Gemini 2.5: Pus
 the frontier with advanced reasoning, multimodality, long context, and next generation
 | agentic | capabilities. | arXiv | preprint |     | arXiv:2507.06261, | 2025. |     |     |
 | ------- | ------------- | ----- | -------- | --- | ----------------- | ----- | --- | --- |
-Marc-AlexandreCôté, AkosKádár, XingdiYuan, BenKybartas, TavianBarnes, EmeryFine,
+Marc-AlexandreCï¿½tï¿½, AkosKï¿½dï¿½r, XingdiYuan, BenKybartas, TavianBarnes, EmeryFine,
 James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, et al. Textworld: A
-learning environment for text-based games. In Workshop on Computer Games, pp. 41–75.
+learning environment for text-based games. In Workshop on Computer Games, pp. 41ï¿½75.
 | Springer, | 2018. |     |     |     |     |     |     |     |
 | --------- | ----- | --- | --- | --- | --- | --- | --- | --- |
 Darren Edge, Ha Trinh, Newman Cheng, Joshua Bradley, Alex Chao, Apurva Mody, Steven
@@ -665,7 +665,7 @@ Truitt,andJonathanLarson. Fromlocaltoglobal: Agraphragapproachtoquery-focused
 | summarization. |             |                 |          |                   |           | 2024.       |             |               |
 |                |             |                 |          |                   |           | Proceedings | of the 11th | International |
 | Taher H.       | Haveliwala. | Topic-sensitive |          |                   | pagerank. | In          |             |               |
-Conference on World Wide Web, WWW ’02, pp. 517–526, New York, NY, USA, 2002.
+Conference on World Wide Web, WWW ï¿½02, pp. 517ï¿½526, New York, NY, USA, 2002.
 Association for Computing Machinery. ISBN 1581134495. doi: 10.1145/511446.511513.
 URL https://doi.org/10.1145/511446.511513.
 10
@@ -674,24 +674,24 @@ Preprint.
 Proceedings of the 12th
 | Glen Jeh      | and Jennifer | Widom. |     | Scaling    | personalized | web search.  | In    |     |
 | ------------- | ------------ | ------ | --- | ---------- | ------------ | ------------ | ----- | --- |
-| international | conference   |        | on  | World Wide | Web,         | pp. 271–279, | 2003. |     |
-Bernal Jiménez Gutiérrez, Yiheng Shu, Yu Gu, Michihiro Yasunaga, and Yu Su. Hipporag:
+| international | conference   |        | on  | World Wide | Web,         | pp. 271ï¿½279, | 2003. |     |
+Bernal Jimï¿½nez Gutiï¿½rrez, Yiheng Shu, Yu Gu, Michihiro Yasunaga, and Yu Su. Hipporag:
 Neurobiologically inspired long-term memory for large language models. arXiv preprint
 | arXiv:2405.14831, |     | 2024. |     |     |     |     |     |     |
 | ----------------- | --- | ----- | --- | --- | --- | --- | --- | --- |
 Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov,
 Danqi Chen, and Wen-tau Yih. Dense passage retrieval for open-domain question answer-
 ing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language
-Processing (EMNLP),pp.6769–6781,Online,2020.AssociationforComputationalLinguis-
+Processing (EMNLP),pp.6769ï¿½6781,Online,2020.AssociationforComputationalLinguis-
 tics. doi: 10.18653/v1/2020.emnlp-main.550. URL https://aclanthology.org/2020.
 emnlp-main.550/.
 LabRAI. Langskills, 2026. URL https://github.com/LabRAI/LangSkills. GitHub repos-
 | itory, accessed |     | 2026-04-01. |     |     |     |     |     |     |
 | --------------- | --- | ----------- | --- | --- | --- | --- | --- | --- |
 Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman
-Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, et al. Retrieval-
+Goyal, Heinrich Kï¿½ttler, Mike Lewis, Wen-tau Yih, Tim Rocktï¿½schel, et al. Retrieval-
 augmentedgenerationforknowledge-intensivenlptasks.InAdvancesinNeuralInformation
-| Processing | Systems, | volume |     | 33, pp. 9459–9474, |     | 2020. |     |     |
+| Processing | Systems, | volume |     | 33, pp. 9459ï¿½9474, |     | 2020. |     |     |
 | ---------- | -------- | ------ | --- | ------------------ | --- | ----- | --- | --- |
 Hao Li, Chunjiang Mu, Jianhao Chen, Siyue Ren, Zhiyao Cui, Yiqun Zhang, Lei Bai, and
 Shuyue Hu. Organizing, orchestrating, and benchmarking agent skills at ecosystem scale.
@@ -734,7 +734,7 @@ arXiv preprint
 | arXiv:2603.04448, |        | 2026. |           |         |     |               |         |            |
 Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio
 Petroni, and Percy Liang. Lost in the middle: How language models use long contexts.
-Transactions of the Association for Computational Linguistics, 12:157–173, 2024a. doi:
+Transactions of the Association for Computational Linguistics, 12:157ï¿½173, 2024a. doi:
 10.1162/tacl_a_00638. URL https://aclanthology.org/2024.tacl-1.9/.
 11
 
@@ -753,11 +753,11 @@ Xinbei Ma, Yeyun Gong, Pengcheng He, Hai Zhao, and Nan Duan. Query rewriting in
 | ------------------- | ------- | ----- | -------- | -------- | ----------- | ----------- | --- | ---------- | ---------- | ---------- | ----- |
 | retrieval-augmented |         | large | language | models.  |             | In          |     |            |            |            |       |
 | Empirical           | Methods | in    | Natural  | Language | Processing, |             |     |            |            |            |       |
-|                     |         |       |          |          |             |             | pp. | 5303–5315, | Singapore, |            | 2023. |
+|                     |         |       |          |          |             |             | pp. | 5303ï¿½5315, | Singapore, |            | 2023. |
 Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.322. URL
 https://aclanthology.org/2023.emnlp-main.322/.
-Grégoire Mialon, Roberto Dessì, Maria Lomeli, Christoforos Nalmpantis, Ram Pasunuru,
-Roberta Raileanu, Baptiste Rozière, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz,
+Grï¿½goire Mialon, Roberto Dessï¿½, Maria Lomeli, Christoforos Nalmpantis, Ram Pasunuru,
+Roberta Raileanu, Baptiste Roziï¿½re, Timo Schick, Jane Dwivedi-Yu, Asli Celikyilmaz,
 |                  |     |          |         |           |     | Transactions |     | on Machine | Learning |     | Research, |
 | ---------------- | --- | -------- | ------- | --------- | --- | ------------ | --- | ---------- | -------- | --- | --------- |
 | et al. Augmented |     | language | models: | a survey. |     |              |     |            |          |     |           |
@@ -791,13 +791,13 @@ Zhou, Mark Gerstein, Dahai Li, Zhiyuan Liu, and Maosong Sun. Toolllm: Facilitati
 | large language | models           |     | to master | 16000+ | real-world |     | apis. | In            |     |            |     |
 | Learning       | Representations, |     | 2024.     |        |            |     |       |               |     |            |     |
 Stephen Robertson, Hugo Zaragoza, et al. The probabilistic relevance framework: Bm25
-and beyond. Foundations and Trends® in Information Retrieval, 3(4):333–389, 2009.
-Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke
+and beyond. Foundations and Trendsï¿½ in Information Retrieval, 3(4):333ï¿½389, 2009.
+Timo Schick, Jane Dwivedi-Yu, Roberto Dessï¿½, Roberta Raileanu, Maria Lomeli, Luke
 Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can
 teach themselves to use tools. Advances in Neural Information Processing Systems, 36,
 2023.
 Zhengliang Shi, Yuhan Wang, Lingyong Yan, Pengjie Ren, Shuaiqiang Wang, Dawei Yin,
-and Zhaochun Ren. Retrieval models aren’t tool-savvy: Benchmarking tool retrieval for
+and Zhaochun Ren. Retrieval models arenï¿½t tool-savvy: Benchmarking tool retrieval for
 | large language | models. |     | arXiv preprint |     | arXiv:2503.01763, |     |     | 2025. |     |     |     |
 | -------------- | ------- | --- | -------------- | --- | ----------------- | --- | --- | ----- | --- | --- | --- |
 Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan,
@@ -810,9 +810,9 @@ Preprint.
 Mohit Shridhar, Jesse Thomason, Daniel Gordon, Yonatan Bisk, Winson Han, Roozbeh
 Mottaghi, Luke Zettlemoyer, and Dieter Fox. Alfred: A benchmark for interpreting
 grounded instructions for everyday tasks. In Proceedings of the IEEE/CVF conference on
-| computer | vision and | pattern recognition, | pp. 10740–10749, |     | 2020a. |
+| computer | vision and | pattern recognition, | pp. 10740ï¿½10749, |     | 2020a. |
 | -------- | ---------- | -------------------- | ---------------- | --- | ------ |
-Mohit Shridhar, Xingdi Yuan, Marc-Alexandre Côté, Yonatan Bisk, Adam Trischler, and
+Mohit Shridhar, Xingdi Yuan, Marc-Alexandre Cï¿½tï¿½, Yonatan Bisk, Adam Trischler, and
 Matthew Hausknecht. Alfworld: Aligning text and embodied environments for interactive
 |           | arXiv preprint | arXiv:2010.03768, |        |     |     |
 | --------- | -------------- | ----------------- | ------ | --- | --- |
@@ -836,7 +836,7 @@ arXiv preprint
 | arXiv:2305.16504, |              | 2023.      |                |       |                  |
 Mingji Yang, Hanzhi Wang, Zhewei Wei, Sibo Wang, and Ji-Rong Wen. Efficient algorithms
 for personalized pagerank computation: A survey. IEEE Transactions on Knowledge and
-| Data Engineering, |     | 36(9):4582–4602, | 2024. doi: | 10.1109/TKDE.2024.3376000. |     |
+| Data Engineering, |     | 36(9):4582ï¿½4602, | 2024. doi: | 10.1109/TKDE.2024.3376000. |     |
 | ----------------- | --- | ---------------- | ---------- | -------------------------- | --- |
 Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and
 Yuan Cao. React: Synergizing reasoning and acting in language models. In International
@@ -886,7 +886,7 @@ Table 4: GoS implementation summary. The table highlights the main design choice
 Node construction Parser-first normalization from SKILL.md plus optional LLM com-
 |     |     | pletion of retrieval-critical |     | semantic | fields. |     |
 | --- | --- | ----------------------------- | --- | -------- | ------- | --- |
-Dependency edges Directededgesinducedbybidirectionaloutput–inputcompatibility
+Dependency edges Directededgesinducedbybidirectionaloutputï¿½inputcompatibility
 checks.
 Higher-order edges SparseLLMvalidationoveraboundedcandidatepoolforworkflow,
 |     |     | semantic, and | alternative | relations. |     |     |
@@ -959,7 +959,7 @@ Alternative 0.1 Two skills solve the Provides minimal backward
 tions
 Pipeline Summary. GoS proceeds in two phases. Offline, it parses local skill packages into
 normalized nodes, adds dependency edges by I/O matching, and augments the graph with
-sparseworkflow,semantic,andalternativerelations. Online,itformsahybridsemantic–lexical
+sparseworkflow,semantic,andalternativerelations. Online,itformsahybridsemanticï¿½lexical
 seed set, applies reverse-aware graph diffusion, and returns a reranked, budgeted bundle of
 | execution-ready | skills. |     |     |     |     |     |     |
 | --------------- | ------- | --- | --- | --- | --- | --- | --- |
@@ -1140,7 +1140,7 @@ Preprint.
 | 3. Infer   | only       | retrieval-critical |                |               | fields:        | capability,   | inputs,      |       |
 | outputs,   |            | domain_tags,       |                | tooling,      | example_tasks. |               |              |       |
 | 6. Use     | high       | precision.         |                | If uncertain, | leave          | a             | field empty. |       |
-| 7. Do      | not invent |                    | relationships. |               | Return         | an empty      | ‘edges‘      | list. |
+| 7. Do      | not invent |                    | relationships. |               | Return         | an empty      | ï¿½edgesï¿½      | list. |
 This excerpt illustrates the central design principle of the internal extraction prompt: GoS
 uses the LLM as a constrained semantic normalizer, not as an unconstrained graph author.
 For the appendix, the important point is not merely that an LLM appears in the pipeline,
@@ -1187,7 +1187,7 @@ retrieval operational rather than decorative: the bundle is meant to narrow the 
 | ------------ | --- | ------ | ------- | --- | ------------------- | --- | -------- | --- |
 Section Summary. Takentogether,theseexamplesshowthatpromptdesigninGoSisnot
 generic scaffolding. The internal prompts constrain how semantic structure enters the graph;
-the external interface constrains how retrieved structure enters the agent’s working context.
+the external interface constrains how retrieved structure enters the agentï¿½s working context.
 The two layers therefore form an interface contract between offline graph construction and
 online agent execution. This contract is especially important in our setting because many
 19
@@ -1204,7 +1204,7 @@ If retrieval-critical semantic fields are incomplete, run constrained semantic c
 fill capability, inputs, outputs, and example tasks.
 Serialize the result as a normalized skill node v and add v to V.
 For each ordered pair of nodes (u,v) in a bounded candidate pool:
-Compute producer–consumer overlap between outputs of u and inputs of v.
+Compute producerï¿½consumer overlap between outputs of u and inputs of v.
 If overlap exceeds threshold, add typed dependency edge u?v.
 For each node u:
 Form a sparse candidate set using lexical similarity, semantic neighbors, and I/O-based
@@ -1351,7 +1351,7 @@ exclude them from method-quality interpretation whenever possible.
 Preprint.
 F Qualitative Analysis
 Section Framing. We next examine a set of trajectory-grounded qualitative cases and
-compare the concrete skill evidence that actually entered the agent’s working context in each
+compare the concrete skill evidence that actually entered the agentï¿½s working context in each
 condition. Table 9 reports the skills that materially shaped each run: for GoS and Vector
 Skills, these are the skills surfaced by the retrieval call and then used downstream, while for
 Vanilla Skills they are the skills the agent explicitly opened from the mounted library. This
