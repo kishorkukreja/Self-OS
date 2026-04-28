@@ -3,6 +3,7 @@ source: Gencay newsletter (Substack)
 date: 2026-04-26
 type: newsletter
 tags: [notebooklm, prompting, personas, marketing, studying, research, design, content-generation]
+status: processed
 ---
 
 # I Built 4 NotebookLM Personas With 24 Prompts (Steal All)

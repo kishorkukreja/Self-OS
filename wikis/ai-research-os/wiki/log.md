@@ -34,3 +34,9 @@ _Append-only. Updated automatically by ingest runs._
 - Added entities: tencent.md, microsoft-research.md, mem0.md, memento.md, qwen.md
 - Updated: index.md, raw file statuses
 - Conflicts: none
+
+## 2026-04-28 — Ingest run 5 (1 file)
+- Ingested: 1 file from newsletters
+- Added: sources/gencay-2026-notebooklm-personas.md, concepts/persona-based-prompting.md, concepts/prompt-engineering.md, entities/google-notebooklm.md, entities/gencay.md
+- Updated: index.md, ingest-log.md created
+- Conflicts: none
