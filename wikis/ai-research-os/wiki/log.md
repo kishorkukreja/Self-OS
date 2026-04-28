@@ -40,3 +40,8 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/gencay-2026-notebooklm-personas.md, concepts/persona-based-prompting.md, concepts/prompt-engineering.md, entities/google-notebooklm.md, entities/gencay.md
 - Updated: index.md, ingest-log.md created
 - Conflicts: none
+
+## 2026-04-28 — Cleanup
+- Fixed malformed source file: sources/karpathy-skills-2026-04-13.md (regenerated from raw with proper parsing)
+- Rebuilt index.md to reflect clean source summaries
+- Conflicts: none
