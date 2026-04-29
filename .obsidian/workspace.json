@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wikis/supply-chain-os/raw/requests/2026-04-26-unilever-forecast-accuracy-customer-experience-request.md",
+                "file": "wikis/ai-research-os/raw/repos/agentic-memory-lhl-2026-04-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-26-unilever-forecast-accuracy-customer-experience-request"
+              "title": "agentic-memory-lhl-2026-04-13"
             }
           }
         ]
@@ -200,6 +200,10 @@
   },
   "active": "f9c07bf788430d03",
   "lastOpenFiles": [
+    "wikis/ai-research-os/wiki/sources/karpathy-skills-2026-04-13.md",
+    "wikis/ai-research-os/wiki/log.md",
+    "wikis/ai-research-os/wiki/index.md",
+    "wikis/supply-chain-os/raw/requests/2026-04-26-unilever-forecast-accuracy-customer-experience-request.md",
     "wikis/ai-research-os/wiki/sources/gencay-2026-notebooklm-personas.md",
     "wikis/ai-research-os/wiki/ingest-log.md",
     "wikis/ai-research-os/wiki/entities/google-notebooklm.md",
@@ -222,10 +226,6 @@
     "wikis/supply-chain-os/wiki/entities/toolsgroup.md",
     "wikis/supply-chain-os/wiki/entities/unilever.md",
     "wikis/supply-chain-os/wiki/entities/vendor-central.md",
-    "wikis/supply-chain-os/wiki/entities/walmart.md",
-    "wikis/ai-research-os/wiki/sources/aaron-roe-2026-claude-code-patterns.md",
-    "wikis/ai-research-os/wiki/sources/adam-cad-2026-cadam.md",
-    "wikis/ai-research-os/wiki/sources/agentscope-2026-reme.md",
     "wikis/supply-chain-os/raw/papers",
     "wikis/supply-chain-os/raw/articles",
     "Untitled.canvas",
