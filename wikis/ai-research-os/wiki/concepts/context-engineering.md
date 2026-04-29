@@ -1,0 +1,28 @@
+---
+title: "Context Engineering"
+date_created: 2026-04-29
+date_modified: 2026-04-29
+summary: "Concept stub created from restored AI research queue items."
+tags: [ai-tools, research]
+type: concept
+status: draft
+confidence: emerging
+source_count: 1
+---
+
+# Context Engineering
+
+**Definition:** Context Engineering is a recurring theme in the AI Research OS corpus, currently represented by [[sources/ace-2026-ace-agentic-context-engineering-2026-04-28]].
+
+**Why it matters:** This concept helps group related tools, papers, and workflows so future wiki compilation can compare approaches rather than leaving each source isolated.
+
+**Related:** [[agent-orchestration]], [[context-engineering]], [[coding-agents]]
+
+**Sources:** [[sources/ace-2026-ace-agentic-context-engineering-2026-04-28]]
+
+_Last updated: 2026-04-29_
+- [[sources/claude-code-hook-2026-claude-code-hook-context-timeline-2026]] adds another example touching this concept.
+- [[sources/keep-your-claude-code-context-clean-with-subagents-2026-claude]] adds another example touching this concept.
+- [[sources/how-to-give-claude-perfect-memory-2026-claude-perfect-memory]] adds another example touching this concept.
+- [[sources/recursive-language-models-2026-rlm-recursive-lm-2026-04-28]] adds another example touching this concept.
+- [[sources/collaborative-ai-engineering-2026-2026-04-28-maggie-appleton-ace]] adds another example touching this concept.

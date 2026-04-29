@@ -21,3 +21,5 @@ source_count: 1
 **Sources:** [[sources/gencay-2026-notebooklm-personas]]
 
 _Last updated: 2026-04-28_
+- [[sources/prompt-master-2026-prompt-master-2026-04-28]] adds another example touching this concept.
+- [[sources/40-powerful-ai-prompts-for-claude-that-produce-expert-level]] adds another example touching this concept.
