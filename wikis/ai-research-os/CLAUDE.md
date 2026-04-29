@@ -11,6 +11,7 @@ raw/
   articles/     — Blog posts, Substack, Medium, personal sites
   papers/       — arXiv papers, conference papers
   x-threads/    — X/Twitter threads saved as markdown
+  x-blogs/      — Daily digests of AI/ML articles and blog links discovered via X/Twitter
   newsletters/  — Newsletter issues (The Batch, TLDR AI, etc.)
   youtube/      — Video transcripts, summaries
   repos/        — README files, key source files from notable repos
@@ -34,6 +35,7 @@ wiki/outputs/        — Filed answers to queries
 |`articles/`|`YYYY-MM-DD-{slug}.md`|
 |`papers/`|`YYYY-MM-DD-{author}-{title-slug}.md`|
 |`x-threads/`|`YYYY-MM-DD-{username}-{topic}.md`|
+|`x-blogs/`|`YYYY-MM-DD-x-blogs-digest.md`|
 |`newsletters/`|`YYYY-MM-DD-{newsletter}-{issue}.md`|
 |`youtube/`|`YYYY-MM-DD-{channel}-{title-slug}.md`|
 |`repos/`|`{repo-name}-{YYYY-MM-DD}.md`|
