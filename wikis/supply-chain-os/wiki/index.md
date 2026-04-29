@@ -50,7 +50,8 @@ _Last updated: 2026-04-27_
 ## Collaterals (0)
 _No collaterals yet._
 
-## Syntheses (1)
+## Syntheses (2)
+- [supply-chain-signals](syntheses/supply-chain-signals.md)
 - [unilever-forecast-accuracy-customer-experience-research-report](syntheses/unilever-forecast-accuracy-customer-experience-research-report.md)
 
 ## Outputs (0)
