@@ -11,6 +11,7 @@ raw/
   client-docs/       — Client-provided documents, briefs, data files
   industry-reports/  — Third-party reports, government data, analyst publications
   frameworks/        — Supply chain methodologies, academic frameworks, playbooks
+  newsletters/       — Non-confidential newsletter research folders and draft briefs
   requests/          — Research request tickets (triggers research-request.yml)
 
 wiki/index.md        — Master index linking every page with a one-line summary
@@ -32,6 +33,7 @@ wiki/outputs/        — Filed answers to internal queries
 |`client-docs/`|`{client}-{YYYY-MM-DD}-{doc-type}.md`|
 |`industry-reports/`|`YYYY-MM-DD-{publisher}-{title-slug}.md`|
 |`frameworks/`|`{framework-name}-{YYYY-MM-DD}.md`|
+|`newsletters/`|`supply-chain-signals/YYYY-Www/{daily,sources,brief}/...`|
 |`requests/`|`YYYY-MM-DD-{topic}-request.md`|
 
 Required frontmatter on every raw file:
@@ -40,7 +42,7 @@ Required frontmatter on every raw file:
 ---
 source: {url, client name, or reference}
 date: YYYY-MM-DD
-type: client-doc | industry-report | framework | request
+type: client-doc | industry-report | framework | newsletter-research | newsletter | request
 client: {client-name or "internal"}
 confidential: true | false
 tags: [tag1, tag2]
