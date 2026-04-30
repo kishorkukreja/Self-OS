@@ -3,6 +3,7 @@ source: https://cdn.prod.website-files.com/691ef0a011466cf6dc334d6a/69aff666e112
 date: 2026-01-21
 type: paper
 tags: [guardrails, synthetic-data, ai-safety, llm-evaluation, debate, custom-policy-classifiers, plurai]
+status: processed
 ---
 
 # BARRED: Synthetic Training of Custom Policy Guardrails via Asymmetric Debate

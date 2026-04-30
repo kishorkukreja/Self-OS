@@ -1,7 +1,7 @@
 ---
 title: "Qwen"
 date_created: 2026-04-27
-date_modified: 2026-04-27
+date_modified: 2026-04-30
 summary: "Family of large language and vision-language models by Alibaba Cloud, used in agent and embodied systems."
 tags: ['model', 'llm', 'vlm']
 type: entity
@@ -20,4 +20,6 @@ status: draft
 **Sources:**
 - See related wiki sources
 
-_Last updated: 2026-04-27_
+_Last updated: 2026-04-30_
+- 2026-04-30: Added evidence from [[sources/qwen3-6-35b-a3b-claude-4-7-opus-reasoning-distilled-apex-gguf-2026]].
+

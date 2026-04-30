@@ -1,7 +1,7 @@
 ---
 title: "Agent Orchestration"
 date_created: 2026-04-29
-date_modified: 2026-04-29
+date_modified: 2026-04-30
 summary: "Concept stub created from restored AI research queue items."
 tags: [ai-tools, research]
 type: concept
@@ -20,7 +20,7 @@ source_count: 1
 
 **Sources:** [[sources/ace-2026-ace-agentic-context-engineering-2026-04-28]]
 
-_Last updated: 2026-04-29_
+_Last updated: 2026-04-30_
 - [[sources/agent-of-empires-2026-agent-of-empires-2026-04-28]] adds another example touching this concept.
 - [[sources/agentconnect-2026-agentconnect-2026-04-28]] adds another example touching this concept.
 - [[sources/agentfield-2026-agentfield-2026-04-28]] adds another example touching this concept.
@@ -36,3 +36,5 @@ _Last updated: 2026-04-29_
 - [[sources/40-powerful-ai-prompts-for-claude-that-produce-expert-level]] adds another example touching this concept.
 - [[sources/cursor-2026-2026-04-28-leerob-cursor-coding-agents-tutorial]] adds another example touching this concept.
 - [[sources/collaborative-ai-engineering-2026-2026-04-28-maggie-appleton-ace]] adds another example touching this concept.
+- 2026-04-30: Added evidence from [[sources/mistral-workflows-for-work-that-runs-the-business-2026]].
+

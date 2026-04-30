@@ -3,6 +3,7 @@ source: https://github.com/openai/realtime-voice-component
 date: 2026-04-29
 type: repo
 tags: [openai, realtime-api, voice-ui, react, browser-agents, tool-use, typescript, apache-2]
+status: processed
 ---
 
 # OpenAI Realtime Voice Component

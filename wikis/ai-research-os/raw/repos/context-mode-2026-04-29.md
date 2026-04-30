@@ -3,6 +3,7 @@ source: https://github.com/mksglu/context-mode
 date: 2026-04-29
 type: repo
 tags: [context-mode, mcp, coding-agents, context-window, claude-code, agent-harnesses]
+status: processed
 ---
 
 # mksglu/context-mode

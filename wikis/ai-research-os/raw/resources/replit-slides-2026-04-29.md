@@ -3,6 +3,7 @@ source: https://docs.replit.com/replitai/slide-decks
 date: 2026-04-29
 type: resource
 tags: [ai-slides, replit, agentic-tools, presentation-generation, productivity]
+status: processed
 ---
 
 # Replit Slides

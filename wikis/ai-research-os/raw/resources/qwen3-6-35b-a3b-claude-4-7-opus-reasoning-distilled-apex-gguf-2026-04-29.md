@@ -3,6 +3,7 @@ source: https://huggingface.co/mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-
 date: 2026-04-29
 type: resource
 tags: [huggingface, gguf, qwen, qwen3-6, moe, local-llm, quantization, apex, reasoning-distillation]
+status: processed
 ---
 
 # mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-GGUF

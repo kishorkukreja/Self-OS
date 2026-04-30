@@ -3,6 +3,7 @@ source: https://addyosmani.com/blog/long-running-agents/?utm_source=tldrnewslett
 date: 2026-04-29
 type: article
 tags: [agents, long-running-agents, agent-harnesses, persistent-state, verification, ai-engineering]
+status: processed
 ---
 
 # Addy Osmani — Long-running Agents

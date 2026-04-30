@@ -5,6 +5,7 @@ type: newsletter-research
 client: internal
 confidential: false
 tags: [supply-chain-signals, newsletter, weekly-folder]
+status: processed
 ---
 
 # Supply Chain Signals — 2026-W18

@@ -3,6 +3,7 @@ source: user-provided Telegram note; related: https://x.com/noahzweben/status/20
 date: 2026-04-29
 type: resource
 tags: [claude-code, monitor-tool, background-tasks, agent-harnesses, token-efficiency, developer-tools]
+status: processed
 ---
 
 # Claude Code Monitor tool for background tasks

@@ -3,6 +3,7 @@ source: https://mistral.ai/news/workflows
 date: 2026-04-29
 type: article
 tags: [mistral-ai, workflows, agents, enterprise-ai, orchestration, human-in-the-loop]
+status: processed
 ---
 
 # Mistral AI Workflows for work that runs the business

@@ -3,6 +3,7 @@ source: https://addyosmani.com/blog/agent-harness-engineering/
 date: 2026-04-29
 type: article
 tags: [agents, harness-engineering, coding-agents, ai-engineering, verification, agentic-workflows]
+status: processed
 ---
 
 # Addy Osmani — Agent Harness Engineering

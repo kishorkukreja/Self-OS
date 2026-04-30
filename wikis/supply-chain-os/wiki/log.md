@@ -21,3 +21,6 @@ _Append-only. Updated automatically by ingest runs._
 - Added concepts: demand-forecasting.md, omnichannel-fulfillment.md, last-mile-delivery.md, cpg-supply-chain.md, decision-centric-planning.md
 - Updated: index.md, raw file statuses
 - Conflicts: none
+
+## 2026-04-30 00:04
+- Compiled 3 raw files into 12 added wiki files; updated index and ingest log.

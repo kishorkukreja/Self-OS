@@ -3,6 +3,7 @@ source: https://x.ai/grok
 date: 2026-04-29
 type: resource
 tags: [xai, grok, ai-slides, presentation-generation, document-analysis, structured-outputs]
+status: processed
 ---
 
 # Using xAI Grok for slide generation workflows

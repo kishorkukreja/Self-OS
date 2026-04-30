@@ -3,6 +3,7 @@ source: https://www.ui-skills.com/skills/
 date: 2026-04-29
 type: resource
 tags: [ui-skills, design-engineering, frontend, skills, ai-coding]
+status: processed
 ---
 
 # UI Skills Directory for Design Engineers

@@ -3,6 +3,7 @@ source: https://github.com/trending?since=weekly
 date: 2026-04-29
 type: repo
 tags: [github, trending, weekly, repositories, ai-research]
+status: processed
 ---
 
 # GitHub Trending Weekly Repositories — 2026-04-29

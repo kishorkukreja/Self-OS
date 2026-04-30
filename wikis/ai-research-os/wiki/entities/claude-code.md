@@ -1,7 +1,7 @@
 ---
 title: "Claude Code"
 date_created: 2026-04-12
-date_modified: 2026-04-12
+date_modified: 2026-04-30
 summary: "Anthropic's official CLI for Claude enabling agentic coding sessions with file system access, tool use, hooks, and skills — the primary interface for Self OS on the laptop."
 tags: [tool, claude-code, cli, agentic, self-os]
 type: entity
@@ -27,4 +27,7 @@ status: final
 
 **Sources:** [[sources/cole-medin-self-evolving-claude-memory-2026]], [[sources/hooeem-extend-claude-sessions-2026]]
 
-_Last updated: 2026-04-12_
+_Last updated: 2026-04-30_
+- 2026-04-30: Added evidence from [[sources/context-mode-2026]].
+- 2026-04-30: Added evidence from [[sources/claude-code-monitor-tool-background-tasks-2026]].
+
