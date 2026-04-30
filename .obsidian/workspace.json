@@ -196,6 +196,7 @@
   },
   "active": "f9c07bf788430d03",
   "lastOpenFiles": [
+    "wikis/ai-research-os/raw/repos/tradingagents-2026-04-30.md",
     "wikis/ai-research-os/wiki/sources/addy-osmani-agent-harness-engineering-2026.md",
     "wikis/ai-research-os/wiki/sources/addy-osmani-long-running-agents-2026.md",
     "wikis/ai-research-os/wiki/sources/claude-code-monitor-tool-background-tasks-2026.md",
@@ -221,7 +222,6 @@
     "wikis/ai-research-os/wiki/concepts/structured-output-generation.md",
     "wikis/ai-research-os/wiki/concepts/synthetic-training-data.md",
     "wikis/ai-research-os/wiki/concepts/token-efficient-agents.md",
-    "wikis/ai-research-os/wiki/concepts/tool-constrained-agents.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/sources",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/daily",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18",
