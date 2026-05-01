@@ -11,10 +11,14 @@
             "id": "1433a768e31291b7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/daily/2026-05-01-daily-research.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-01-daily-research"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 305.5
   },
   "right": {
     "id": "4583a8ac9f8083fb",
@@ -196,6 +200,8 @@
   },
   "active": "f9c07bf788430d03",
   "lastOpenFiles": [
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/sources/2026-05-01-sources.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/daily/2026-05-01-daily-research.md",
     "wikis/ai-research-os/raw/repos/obscura-2026-05-01.md",
     "wikis/ai-research-os/raw/articles/2026-05-01-claude-code-setup-plugin-configures-everything.md",
     "wikis/ai-research-os/raw/x-blogs/2026-05-01-x-blogs-digest.md",
@@ -220,8 +226,6 @@
     "wikis/supply-chain-os/wiki/concepts/decision-grade-visibility.md",
     "wikis/supply-chain-os/wiki/concepts/critical-mineral-traceability.md",
     "wikis/ai-research-os/wiki/sources/x-blogs-digest-2026-04-30.md",
-    "wikis/ai-research-os/wiki/sources/tauricresearch-2026-tradingagents.md",
-    "wikis/ai-research-os/wiki/sources/pbakaus-2026-impeccable-frontend-design-ai-skill.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/sources",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/daily",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18",
