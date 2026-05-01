@@ -3,6 +3,7 @@ source: https://github.com/cursor/cookbook
 date: 2026-04-30
 type: repo
 tags: [cursor, coding-agents, sdk, agent-workflows, examples]
+status: processed
 ---
 
 # cursor/cookbook

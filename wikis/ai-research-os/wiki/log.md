@@ -55,3 +55,8 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-04-30 00:04
 - Compiled 15 raw files into 61 added wiki files; updated index and ingest log.
+
+## 2026-05-01 00:02
+- Ingested: 6 raw files (article=1, thread=1, repo=4)
+- Added/updated source summaries, concept/entity stubs, and index.md
+- Conflicts: none

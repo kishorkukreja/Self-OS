@@ -1,7 +1,7 @@
 ---
 title: "Agent Orchestration"
 date_created: 2026-04-29
-date_modified: 2026-04-30
+date_modified: 2026-05-01
 summary: "Concept stub created from restored AI research queue items."
 tags: [ai-tools, research]
 type: concept
@@ -38,3 +38,17 @@ _Last updated: 2026-04-30_
 - [[sources/collaborative-ai-engineering-2026-2026-04-28-maggie-appleton-ace]] adds another example touching this concept.
 - 2026-04-30: Added evidence from [[sources/mistral-workflows-for-work-that-runs-the-business-2026]].
 
+## Update — 2026-05-01
+Agent Orchestration is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/mattpocock-2026-sandcastle]].
+
+_Last updated: 2026-05-01_
+
+## Update — 2026-05-01
+Agent Orchestration is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/tauricresearch-2026-tradingagents]].
+
+_Last updated: 2026-05-01_
+
+## Update — 2026-05-01
+Agent Orchestration is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/cursor-2026-cookbook]].
+
+_Last updated: 2026-05-01_

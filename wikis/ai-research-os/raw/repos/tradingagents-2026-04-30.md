@@ -3,6 +3,7 @@ source: https://github.com/TauricResearch/TradingAgents
 date: 2026-04-30
 type: repo
 tags: [tradingagents, tauric-research, multi-agent, finance, trading, stock-analysis, langgraph]
+status: processed
 ---
 
 # TauricResearch/TradingAgents

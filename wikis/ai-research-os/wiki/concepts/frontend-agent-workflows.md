@@ -1,7 +1,7 @@
 ---
 title: "Frontend Agent Workflows"
 date_created: 2026-04-30
-date_modified: 2026-04-30
+date_modified: 2026-05-01
 summary: "Frontend Agent Workflows as tracked across source material."
 tags: [ui-skills, design-engineering, frontend, skills, astro, typescript]
 type: concept
@@ -23,3 +23,7 @@ source_count: 1
 _Last updated: 2026-04-30_
 - 2026-04-30: Added evidence from [[sources/ui-skills-directory-2026]].
 
+## Update — 2026-05-01
+Frontend Agent Workflows is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/pbakaus-2026-impeccable-frontend-design-ai-skill]].
+
+_Last updated: 2026-05-01_

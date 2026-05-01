@@ -3,6 +3,7 @@ source: https://x.com/mattpocockuk/status/2049506712801935611?s=2
 date: 2026-04-30
 type: thread
 tags: [sandcastle, matt-pocock, coding-agents, afk-agents, software-factory]
+status: processed
 ---
 
 # Matt Pocock: Sandcastle open-sourced

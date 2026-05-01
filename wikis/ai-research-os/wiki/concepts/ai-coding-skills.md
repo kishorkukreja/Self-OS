@@ -1,7 +1,7 @@
 ---
 title: "AI Coding Skills"
 date_created: 2026-04-30
-date_modified: 2026-04-30
+date_modified: 2026-05-01
 summary: "AI Coding Skills as tracked across source material."
 tags: [ui-skills, design-engineering, frontend, skills, ai-coding]
 type: concept
@@ -22,3 +22,8 @@ The resource is relevant because it packages frontend and design-engineering kno
 **Sources:** [[sources/ui-skills-directory-2026]]
 
 _Last updated: 2026-04-30_
+
+## Update — 2026-05-01
+Ai Coding Skills is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/pbakaus-2026-impeccable-frontend-design-ai-skill]].
+
+_Last updated: 2026-05-01_

@@ -1,7 +1,7 @@
 ---
 title: "Structured Output Generation"
 date_created: 2026-04-30
-date_modified: 2026-04-30
+date_modified: 2026-05-01
 summary: "Structured Output Generation as tracked across source material."
 tags: [xai, grok, ai-slides, presentation-generation, document-analysis, structured-outputs]
 type: concept
@@ -22,3 +22,8 @@ For slide production, the practical pattern
 **Sources:** [[sources/using-xai-grok-for-slides-2026]]
 
 _Last updated: 2026-04-30_
+
+## Update — 2026-05-01
+Structured Output Generation is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/tauricresearch-2026-tradingagents]].
+
+_Last updated: 2026-05-01_

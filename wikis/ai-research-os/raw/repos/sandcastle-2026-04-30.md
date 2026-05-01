@@ -3,6 +3,7 @@ source: https://github.com/mattpocock/sandcastle
 date: 2026-04-30
 type: repo
 tags: [sandcastle, coding-agents, sandboxing, claude-code, afk-agents, typescript]
+status: processed
 ---
 
 # mattpocock/sandcastle

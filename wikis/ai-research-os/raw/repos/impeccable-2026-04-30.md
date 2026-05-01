@@ -3,6 +3,7 @@ source: https://github.com/pbakaus/impeccable
 date: 2026-04-30
 type: repo
 tags: [impeccable, frontend-design, ai-skills, design-systems, cursor, mcp, ui-ux]
+status: processed
 ---
 
 # pbakaus/impeccable

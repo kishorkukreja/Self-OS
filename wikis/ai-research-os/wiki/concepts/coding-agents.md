@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents"
 date_created: 2026-04-29
-date_modified: 2026-04-30
+date_modified: 2026-05-01
 summary: "Concept stub created from restored AI research queue items."
 tags: [ai-tools, research]
 type: concept
@@ -32,3 +32,12 @@ _Last updated: 2026-04-30_
 - 2026-04-30: Added evidence from [[sources/addy-osmani-agent-harness-engineering-2026]].
 - 2026-04-30: Added evidence from [[sources/context-mode-2026]].
 
+## Update — 2026-05-01
+Coding Agents is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/mattpocock-2026-sandcastle]].
+
+_Last updated: 2026-05-01_
+
+## Update — 2026-05-01
+Coding Agents is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/cursor-2026-cookbook]].
+
+_Last updated: 2026-05-01_
