@@ -43,6 +43,14 @@ A curated index of tools for AI research, agentic development, and knowledge man
 
 ---
 
+## Browser Automation & Web Scraping
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [Obscura](raw/repos/obscura-2026-05-01.md) | Lightweight Rust headless browser for AI agents and scraping — V8, CDP, Playwright/Puppeteer-compatible, single binary, optional stealth mode | Rust | Apache 2.0 |
+
+---
+
 ## Related Videos
 
 - [Cursor: Coding Agents Tutorial (2026) — Lee Robinson](raw/youtube/2026-04-28-leerob-cursor-coding-agents-tutorial.md)
