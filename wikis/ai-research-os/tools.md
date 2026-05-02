@@ -12,6 +12,7 @@ A curated index of tools for AI research, agentic development, and knowledge man
 | [OpenAI Symphony](raw/repos/openai-symphony-2026-04-28.md) | Codex orchestration spec — turns Linear boards into always-on autonomous implementation runs | Elixir/Python | Apache 2.0 |
 | [Agent of Empires](raw/repos/agent-of-empires-2026-04-28.md) | Multi-agent session manager — tmux persistence, git worktrees, Docker sandboxing, web dashboard, remote phone access | Rust | MIT |
 | [AgentConnect](raw/repos/agentconnect-2026-04-28.md) | Decentralized collaboration framework — A2A messaging, capability broadcasts, agent economy via Coinbase CDP | Python | Apache 2.0 |
+| [Ruflo](raw/repos/ruflo-2026-05-02.md) | Multi-agent AI orchestration for Claude Code — 32 plugins, swarm coordination, memory, RuVector intelligence, WASM Rust policy engine | TypeScript/Rust | MIT |
 
 ---
 
@@ -32,6 +33,7 @@ A curated index of tools for AI research, agentic development, and knowledge man
 | [Claude Context](raw/repos/claude-context-2026-04-26.md) | MCP plugin for semantic code search — hybrid BM25 + dense vector search via Milvus/Zilliz Cloud | Python | MIT |
 | [apply-yc](raw/repos/apply-yc-2026-04-28.md) | Claude Code skill for YC applications — 3-phase workflow with partner-style critique gates | Markdown (skill) | MIT |
 | [DESIGN.md](raw/repos/design-md-2026-04-26.md) | Machine-readable design tokens + Markdown design rationale format spec | Markdown | Apache 2.0 |
+| [design-md-chrome](raw/repos/design-md-chrome-2026-05-02.md) | Chrome extension that extracts styles from any site and generates DESIGN.md / SKILL.md files | JavaScript | MIT |
 
 ---
 
