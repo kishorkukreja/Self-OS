@@ -1,3 +1,13 @@
+---
+title: "Supply Chain Signals"
+date_created: 2026-05-02
+date_modified: 2026-05-02
+summary: "Auto-generated summary."
+tags: [stub, auto-fix]
+type: synthesis
+status: draft
+---
+
 # Supply Chain Signals
 
 **Status:** active
