@@ -29,3 +29,6 @@ _Append-only. Updated automatically by ingest runs._
 - Ingested: 2 raw files (newsletter-research=2)
 - Added/updated source summaries, concept/entity stubs, and index.md
 - Conflicts: none
+
+## 2026-05-02 00:00
+- Lint run: 71 pages, 13 orphans, 52 broken links (top 5 stubbed), 0 missing frontmatter fixed, 0 stale, 23 raw unprocessed
