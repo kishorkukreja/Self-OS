@@ -1,7 +1,7 @@
 ---
 title: "Claude Code"
 date_created: 2026-04-12
-date_modified: 2026-05-01
+date_modified: 2026-05-02
 summary: "Anthropic's official CLI for Claude enabling agentic coding sessions with file system access, tool use, hooks, and skills — the primary interface for Self OS on the laptop."
 tags: [tool, claude-code, cli, agentic, self-os]
 type: entity
@@ -35,3 +35,7 @@ _Last updated: 2026-04-30_
 - Claude Code is referenced by this source and tracked as a wiki entity. Supporting source: [[sources/mattpocock-2026-sandcastle]].
 
 _Last updated: 2026-05-01_
+
+## Update — 2026-05-02
+
+[[sources/alphasignal-2026-claude-code-setup-plugin]] adds Anthropic's `claude-code-setup` plugin as evidence that Claude Code is becoming a configurable project runtime. The plugin scans a repo read-only and recommends targeted MCP servers, skills, hooks, subagents, and slash commands suited to the current codebase.

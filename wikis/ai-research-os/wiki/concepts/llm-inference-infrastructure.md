@@ -1,7 +1,7 @@
 ---
 title: "LLM Inference Infrastructure"
 date_created: 2026-05-01
-date_modified: 2026-05-01
+date_modified: 2026-05-02
 summary: "Systems, hardware, data architecture, and serving techniques needed to run LLM and agent workloads at production scale."
 tags: [wiki, concept]
 type: concept
@@ -21,3 +21,7 @@ source_count: 1
 **Sources:** [[sources/x-blogs-digest-2026-04-30]]
 
 _Last updated: 2026-05-01_
+
+## Update — 2026-05-02
+
+[[sources/newsletter-digest-2026-05-01]] highlights KV-cache locality as an operational serving variable: routing decisions can change throughput and latency even when model, GPUs, and traffic appear constant. This adds a systems-level complement to model-side optimization: serving stacks need locality-aware scheduling, not just more capacity.
