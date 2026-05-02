@@ -3,6 +3,7 @@ source: Gmail newsletter digest (multi-source) — updated run
 date: 2026-05-01
 type: newsletter
 tags: [ai, daily-digest, rundown, unwind, superhuman, alpha-signal, daily-dose-ds, friday]
+status: processed
 ---
 
 # Newsletter Digest — Friday, 1 May 2026 (Updated)

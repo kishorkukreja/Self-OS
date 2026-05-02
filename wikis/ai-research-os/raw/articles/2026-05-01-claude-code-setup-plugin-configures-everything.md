@@ -3,6 +3,7 @@ source: https://www.linkedin.com/pulse/claude-code-plugin-configures-everything-
 date: 2026-05-01
 type: article
 tags: [claude-code, plugins, agentic-workflows, mcp, skills, hooks, subagents]
+status: processed
 ---
 
 # A Claude Code Plugin That Configures Everything for You

@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents"
 date_created: 2026-04-29
-date_modified: 2026-05-01
+date_modified: 2026-05-02
 summary: "Concept stub created from restored AI research queue items."
 tags: [ai-tools, research]
 type: concept
@@ -41,3 +41,7 @@ _Last updated: 2026-05-01_
 Coding Agents is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/cursor-2026-cookbook]].
 
 _Last updated: 2026-05-01_
+
+## Update — 2026-05-02
+
+Two 2026-05-01 newsletter sources, [[sources/newsletter-digest-2026-05-01]] and [[sources/newsletter-digest-v2-2026-05-01]], show coding agents being packaged as managed work systems: Cursor SDK, OpenAI Symphony, Claude Security, and Warp-style agent boards all turn coding assistance into orchestration, review, security scanning, and CI/CD integration.

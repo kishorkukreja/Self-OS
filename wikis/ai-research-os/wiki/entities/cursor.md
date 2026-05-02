@@ -1,7 +1,7 @@
 ---
 title: "Cursor"
 date_created: 2026-04-29
-date_modified: 2026-05-01
+date_modified: 2026-05-02
 summary: "AI research entity captured from the queued source cursor-2026-2026-04-28-leerob-cursor-coding-agents-tutorial."
 tags: [coding-agents, agent-orchestration]
 type: entity
@@ -28,3 +28,7 @@ _Last updated: 2026-04-29_
 - Cursor is referenced by this source and tracked as a wiki entity. Supporting source: [[sources/cursor-2026-cookbook]].
 
 _Last updated: 2026-05-01_
+
+## Update — 2026-05-02
+
+[[sources/newsletter-digest-2026-05-01]] and [[sources/newsletter-digest-v2-2026-05-01]] capture newsletter coverage of Cursor as both an application surface for coding agents and an SDK/runtime layer for embedding agent workflows into CI/CD, products, and background workspaces. Treat acquisition/valuation claims from newsletters as signals requiring primary-source verification.

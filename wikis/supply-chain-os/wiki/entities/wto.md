@@ -1,7 +1,7 @@
 ---
 title: "WTO"
 date_created: 2026-05-01
-date_modified: 2026-05-01
+date_modified: 2026-05-02
 summary: "World Trade Organization, source for global trade outlook data."
 tags: [wiki, entity]
 type: entity
@@ -23,3 +23,7 @@ status: draft
 **Sources:** [[sources/supply-chain-signals-2026-04-30-source-registry]]
 
 _Last updated: 2026-05-01_
+
+## Update — 2026-05-02
+
+[[sources/supply-chain-signals-2026-05-01-source-registry]] cites WTO's March 2026 Global Trade Outlook as a baseline for slowing merchandise trade growth and sensitivity to oil-price shocks.

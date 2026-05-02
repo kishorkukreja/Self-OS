@@ -30,3 +30,9 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: index.md, concepts/agent-evaluation.md, concepts/llm-inference-infrastructure.md, concepts/agent-memory.md, entities/ibm-research.md, entities/berkeley-rdi.md, entities/mem0.md, entities/galileo-ai.md, concepts/sandboxed-coding-agents.md, concepts/software-factory-workflows.md, entities/matt-pocock.md, entities/sandcastle.md, concepts/frontend-agent-workflows.md, concepts/design-engineering-skills.md, concepts/ai-coding-skills.md, concepts/agent-orchestration.md, concepts/coding-agents.md, entities/claude-code.md, concepts/structured-output-generation.md, entities/cursor.md
 - Conflicts: none
 - Audit: confirmed already-processed source present for ai-research-os/raw/resources/claude-code-monitor-tool-background-tasks-2026-04-29.md; no duplicate source created
+## 2026-05-02 00:00
+- Ingested: 5 files from article=2, newsletter=2, repo=1
+- Raw files: x-blogs/2026-05-01-x-blogs-digest.md, newsletters/2026-05-01-daily-digest.md, newsletters/2026-05-01-newsletter-digest-v2.md, repos/obscura-2026-05-01.md, articles/2026-05-01-claude-code-setup-plugin-configures-everything.md
+- Added: sources/x-blogs-digest-2026-05-01.md, sources/newsletter-digest-2026-05-01.md, sources/newsletter-digest-v2-2026-05-01.md, sources/obscura-2026-headless-browser-for-ai-agents.md, sources/alphasignal-2026-claude-code-setup-plugin.md, concepts/browser-automation-runtime.md, concepts/project-aware-agent-configuration.md, entities/obscura.md, entities/claude-code-setup.md, entities/google-deepmind.md
+- Updated: index.md, concepts/agent-evaluation.md, concepts/agent-memory.md, concepts/llm-inference-infrastructure.md, concepts/coding-agents.md, concepts/agent-skills.md, entities/claude-code.md, entities/qwen.md, entities/cursor.md
+- Conflicts: none
