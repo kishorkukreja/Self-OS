@@ -1,7 +1,7 @@
 ---
 title: "Agent Memory"
 date_created: 2026-04-27
-date_modified: 2026-05-01
+date_modified: 2026-05-02
 summary: "Systems that enable agents to store, retrieve, and learn from historical experiences to improve future reasoning and planning."
 tags: ['agent-memory', 'deep-research', 'parametric-memory', 'memory-system']
 type: concept
@@ -25,3 +25,7 @@ _Last updated: 2026-04-27_
 Architectures and benchmarks for retaining, retrieving, and evaluating persistent context across agent interactions. New supporting source: [[sources/x-blogs-digest-2026-04-30]].
 
 _Last updated: 2026-05-01_
+
+## Update — 2026-05-02
+
+[[sources/x-blogs-digest-2026-05-01]] adds LifelongAgentBench as another benchmark focused on whether agents can accumulate and transfer knowledge across interdependent tasks. The reported weakness of naive experience replay reinforces the existing wiki theme that memory systems need retrieval discipline, compression, and task relevance rather than unfiltered transcript replay.

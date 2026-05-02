@@ -29,3 +29,8 @@ _Append-only. Updated automatically by ingest runs._
 - Ingested: 2 raw files (newsletter-research=2)
 - Added/updated source summaries, concept/entity stubs, and index.md
 - Conflicts: none
+
+## 2026-05-02 00:00
+- Ingested: 2 raw files (source-log=1, newsletter-research=1)
+- Added/updated source summaries, concept/entity stubs, and index.md
+- Conflicts: none
