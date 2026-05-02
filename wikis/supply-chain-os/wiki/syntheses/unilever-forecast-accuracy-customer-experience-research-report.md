@@ -1,5 +1,5 @@
 ---
-title: "Unilever Forecast Accuracy & Customer Experience — Research Report"
+title: Unilever Forecast Accuracy & Customer Experience — Research Report
 date_created: 2026-04-26
 date_modified: 2026-04-26
 type: synthesis
@@ -9,7 +9,9 @@ depth: deep
 client: Unilever
 tags: []
 status: draft
+summary: Auto-generated summary.
 ---
+
 
 # Unilever Forecast Accuracy & Customer Experience — Research Report
 
