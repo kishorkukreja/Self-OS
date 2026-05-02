@@ -60,3 +60,8 @@ _Append-only. Updated automatically by ingest runs._
 - Ingested: 6 raw files (article=1, thread=1, repo=4)
 - Added/updated source summaries, concept/entity stubs, and index.md
 - Conflicts: none
+
+## 2026-05-02 00:00
+- Ingested: 5 raw files (article=2, newsletter=2, repo=1)
+- Added/updated source summaries, concept/entity stubs, and index.md
+- Conflicts: none
