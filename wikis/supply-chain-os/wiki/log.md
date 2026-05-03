@@ -35,3 +35,9 @@ _Append-only. Updated automatically by ingest runs._
 - Added/updated source summaries, concept/entity stubs, and index.md
 - Conflicts: none
 - Lint run: 71 pages, 13 orphans, 52 broken links (top 5 stubbed), 0 missing frontmatter fixed, 0 stale, 23 raw unprocessed
+## 2026-05-03 00:04
+- Ingested: 2 file(s) from newsletter-research, source-log
+- Added: concepts/sources.md, concepts/supply-chain.md, entities/supply-chain-signals-daily-research.md, entities/supply-chain-signals-sources.md, sources/2026-05-02-daily-research.md, sources/2026-05-02-sources.md
+- Updated: concepts/daily-supply-chain-research.md, concepts/supply-chain-signals.md, concepts/supply-chain.md, entities/mckinsey.md, index.md, ingest-log.md, log.md
+- Conflicts: none
+

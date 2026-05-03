@@ -3,6 +3,7 @@ source: https://ghost.build/developers/
 date: 2026-05-02
 type: resource
 tags: [postgres, database-branching, ai-agents, coding-agents, preview-environments, migrations, evals, ghost]
+status: processed
 ---
 
 # Ghost — Unlimited Postgres for Agents

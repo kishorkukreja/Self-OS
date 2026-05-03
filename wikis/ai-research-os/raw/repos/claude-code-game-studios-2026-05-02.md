@@ -3,6 +3,7 @@ source: https://github.com/Donchitos/Claude-Code-Game-Studios
 date: 2026-05-02
 type: repo
 tags: [claude-code, game-development, ai-agents, agentic-workflows, skills, hooks, templates, gamedev, multi-agent-systems]
+status: processed
 ---
 
 # Donchitos/Claude-Code-Game-Studios

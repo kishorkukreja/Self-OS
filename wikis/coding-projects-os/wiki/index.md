@@ -1,15 +1,13 @@
 # Coding Projects OS — Index
-_Last updated: 2026-04-27_
+_Last updated: 2026-05-03_
 
-## Projects (0)
-_No projects yet._
+## Projects (1)
+- [Self Os Operating Loop](projects/self-os-operating-loop.md) — Project memory for the Self-OS operating loop and daily brief workflow.
 
-## Patterns (0)
-_No patterns yet._
+## Patterns (1)
+- [Self-OS Operating Brief](patterns/self-os-operating-brief.md) — A workflow pattern for producing daily Self-OS status briefs from repo, cron, raw, and wiki signals.
 
 ## Decisions (0)
-_No decisions yet._
 
-## Outputs (0)
-_No outputs yet._
-
+## Outputs (1)
+- [Lint Report: Coding Projects OS — 2026-05-02](outputs/lint-report-2026-05-02.md) — Weekly health check for Coding Projects OS

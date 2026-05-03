@@ -24,3 +24,9 @@ It is useful for teams buildin
 **Sources:** [[sources/realtime-voice-component-2026]]
 
 _Last updated: 2026-04-30_
+
+## 2026-05-03 update
+
+This page was linked from [[sources/2026-05-02-x-blogs-digest]]. OpenAI is an entity referenced by X/Twitter AI Blogs and Articles — 2026-05-02.
+
+**Sources:** [[sources/2026-05-02-x-blogs-digest]]

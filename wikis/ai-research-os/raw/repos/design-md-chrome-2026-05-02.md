@@ -3,6 +3,7 @@ source: https://github.com/bergside/design-md-chrome
 date: 2026-05-02
 type: repo
 tags: [design-md, chrome-extension, design-systems, typeui, frontend, skills, design-tokens]
+status: processed
 ---
 
 # design-md-chrome (TypeUI DESIGN.md Extractor)

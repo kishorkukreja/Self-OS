@@ -11,3 +11,10 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-02 00:00
 - Lint run: 0 pages, 0 orphans, 0 broken links (top 5 stubbed), 0 missing frontmatter fixed, 0 stale, 0 raw unprocessed
+## 2026-05-03 00:04
+- Session ingested: 1 raw project/ops file(s)
+- Project: self-os-operating-loop
+- Patterns extracted: 1 (self-os-operating-brief)
+- Decisions extracted: 0
+- Updated: projects/self-os-operating-loop.md
+

@@ -3,6 +3,7 @@ source: https://youtu.be/bCljOfCH8Ms?si=vGjFaJfxuPKG5fi4
 date: 2026-05-02
 type: video
 tags: [ai-operating-system, claude-code, self-os, automation, skills, routines, dashboards, google-workspace, clickup, llm-wiki, personal-os, agentic-workflows]
+status: processed
 ---
 
 # Build & Sell Claude Code Operating Systems (2+ Hour Course)

@@ -21,3 +21,9 @@ source_count: 1
 **Sources:** [[sources/daily-research-2026]]
 
 _Last updated: 2026-04-30_
+
+## 2026-05-03 update
+
+This page was linked from [[sources/2026-05-02-daily-research]]. Daily Supply Chain Research as evidenced by Supply Chain Signals Daily Research — 2026-05-02.
+
+**Sources:** [[sources/2026-05-02-daily-research]]

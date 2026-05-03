@@ -25,3 +25,9 @@ _Last updated: 2026-05-01_
 ## Update — 2026-05-02
 
 The 2026-05-01 X/blog digest added three evaluation signals: [[sources/x-blogs-digest-2026-05-01]] points to LifelongAgentBench for memory accumulation over time, ACEBench for function-calling/tool-learning scenarios, and a broad survey of LLM-agent evaluation. Together they reinforce that agent evaluation is moving beyond single-turn correctness into dynamic environments, persistent memory, tool use, and reproducible task frameworks.
+
+## 2026-05-03 update
+
+This page was linked from [[sources/2026-05-02-newsletter-digest]]. Agent Evaluation as evidenced by Newsletter Digest — Saturday, 02 May 2026.
+
+**Sources:** [[sources/2026-05-02-newsletter-digest]]
