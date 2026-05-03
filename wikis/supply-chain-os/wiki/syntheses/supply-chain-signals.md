@@ -1,30 +1,36 @@
 ---
 title: "Supply Chain Signals"
 date_created: 2026-05-02
-date_modified: 2026-05-02
-summary: "Auto-generated summary."
-tags: [stub, auto-fix]
+date_modified: 2026-05-03
+summary: "Stable landing page for the Supply Chain Signals weekly newsletter pipeline and latest issue drafts."
+tags: [supply-chain-signals, newsletter, synthesis]
 type: synthesis
 status: draft
 ---
 
 # Supply Chain Signals
 
-**Status:** active
-**Date:** 2026-04-29
-**Sources consulted:** [[../raw/newsletters/supply-chain-signals/2026-W18/README]]
+**Status:** active  
+**Latest issue:** 2026-W18  
+**Latest issue status:** Sunday draft package generated  
+**Latest update:** 2026-05-03
 
-## Question
+## Open the latest issue
 
-What is the weekly Supply Chain Signals publishing pipeline, and where should the latest issue material be found?
+- Weekly folder: [[../../raw/newsletters/supply-chain-signals/2026-W18/README]]
+- Substack draft: [[../../raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-brief]]
+- LinkedIn drafts: [[../../raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-linkedin]]
+- X thread: [[../../raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-x-thread]]
+- Carousel outline: [[../../raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-carousel-outline]]
+- PPT outline: [[../../raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-ppt-outline]]
 
-## Findings
+## What this pipeline does
 
-Supply Chain Signals is the weekly supply chain newsletter pipeline for tracking the bottlenecks, breakthroughs, and hidden systems shaping global supply chains.
+Supply Chain Signals is the weekly newsletter pipeline for tracking the bottlenecks, breakthroughs, and hidden systems shaping global supply chains. It collects daily research during the week and turns the strongest recurring patterns into a Sunday publishing package.
 
 The source of truth for each issue is the weekly raw folder:
 
-- Current week: [[../raw/newsletters/supply-chain-signals/2026-W18/README]]
+- Current week: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/`
 - Root folder: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/`
 
 Each weekly folder contains:
@@ -33,8 +39,6 @@ Each weekly folder contains:
 - `sources/` — source lists and extraction notes
 - `brief/` — Sunday publishing drafts for Substack, LinkedIn, X/thread, carousel outline, and PPT/consulting-style outline
 
-The automation runs at 1 PM UK time. During the week it collects research. On Sundays it creates the publishable weekly package.
-
 ## Current editorial defaults
 
 - First Chain of the Week: Wafer to Rack
@@ -42,22 +46,22 @@ The automation runs at 1 PM UK time. During the week it collects research. On Su
 - Voice: clear, specific, humanized, operator-useful, not AI-sounding
 - Output formats: Substack draft, LinkedIn posts, X/thread, carousel outline, PPT/consulting-style outline
 
-## Automation
+## Current issue angle
 
-- BST months cron: `eaf6208b3a6b`, 12:00 UTC, equivalent to 1 PM UK time
-- GMT months cron: `f42ba370f3a2`, 13:00 UTC, equivalent to 1 PM UK time
-- Daily wiki compile cron: `f1e3ba7d9109`, midnight UTC, processes raw files into structured wiki pages
+The 2026-W18 draft argues that this week’s supply-chain story is cash, not chaos. Hormuz disruption, manufacturing input inflation, tariff-refund workflows, AI infrastructure constraints, and port rerouting all point to the same operating question: where does the business need better decisions under constraint?
 
 ## Evidence
 
-- [[../raw/newsletters/supply-chain-signals/2026-W18/README]]: current weekly research folder
+- [[../../raw/newsletters/supply-chain-signals/2026-W18/daily/2026-05-03-daily-research]]: latest daily research capture
+- [[../../raw/newsletters/supply-chain-signals/2026-W18/sources/2026-05-03-sources]]: latest source registry
+- [[../../raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-brief]]: current weekly Substack draft
 
 ## Confidence
 
-high — cron jobs and current weekly folder have been verified.
+high — latest weekly research folder and Sunday draft files have been generated from non-confidential sources.
 
 ## Gaps
 
-This page should be updated as new weekly issue folders are generated.
+The raw drafts are internal and may still need final editorial review before publishing.
 
-_Last updated: 2026-04-29_
+_Last updated: 2026-05-03_
