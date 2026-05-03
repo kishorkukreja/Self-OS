@@ -36,3 +36,24 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/x-blogs-digest-2026-05-01.md, sources/newsletter-digest-2026-05-01.md, sources/newsletter-digest-v2-2026-05-01.md, sources/obscura-2026-headless-browser-for-ai-agents.md, sources/alphasignal-2026-claude-code-setup-plugin.md, concepts/browser-automation-runtime.md, concepts/project-aware-agent-configuration.md, entities/obscura.md, entities/claude-code-setup.md, entities/google-deepmind.md
 - Updated: index.md, concepts/agent-evaluation.md, concepts/agent-memory.md, concepts/llm-inference-infrastructure.md, concepts/coding-agents.md, concepts/agent-skills.md, entities/claude-code.md, entities/qwen.md, entities/cursor.md
 - Conflicts: none
+## 2026-05-03 00:04
+- Ingested: 14 file(s) from article, repo, resource, source, thread, video
+- Added: concepts/agent-architecture.md, concepts/agent-harness.md, concepts/agent-infrastructure.md, concepts/agent-web-extraction.md, concepts/ai-engineering.md, concepts/ai-operating-system.md, concepts/ai-research.md, concepts/automated-data-science.md, concepts/chrome-extension.md, concepts/claude-code-workflows.md, concepts/claude-design.md, concepts/database-branching.md, concepts/design-creation.md, concepts/design-md.md, concepts/design-systems-for-agents.md, concepts/document-parsing.md, concepts/foundation-models.md, concepts/game-development.md, concepts/github.md, concepts/knowledge-ingest.md, concepts/llms.md, concepts/meta-ai.md, concepts/multi-agent.md, concepts/open-design.md, concepts/orchestration.md, concepts/self-os.md, concepts/synthetic-data.md, concepts/trending.md, concepts/warp.md, concepts/weekly.md, entities/ai-engineering.md, entities/design-md-chrome-typeui-design-md-extractor.md, entities/design-md.md, entities/firecrawl.md, entities/ghost.md, entities/github.md, entities/google-cloud.md, entities/meta-ai.md, entities/open-design.md, entities/refero-styles.md, entities/refero.md, entities/ruflo.md, entities/self-os.md, entities/warp.md, sources/2026-05-02-newsletter-digest.md, sources/2026-05-02-x-blogs-digest.md, sources/aie-book-2026-05-02.md, sources/claude-code-game-studios-2026-05-02.md, sources/design-md-chrome-2026-05-02.md, sources/firecrawl-parse-browser-trace-skill-integration-2026-05-02.md, sources/ghost-unlimited-postgres-for-agents-2026-05-02.md, sources/github-trending-weekly-2026-05-02.md, sources/googlecloudtech-harness-vs-warp-agent-architecture-2026.md, sources/meta-ai-autodata-automatic-data-scientist-2026.md, sources/nate-herk-build-sell-claude-code-operating-systems-2026.md, sources/open-design-2026-05-02.md, sources/refero-styles-design-reference-library-2026-05-02.md, sources/ruflo-2026-05-02.md
+- Updated: concepts/agent-evaluation.md, concepts/agent-harness-engineering.md, concepts/agent-infrastructure.md, concepts/ai-research-discovery.md, concepts/claude-code-workflows.md, concepts/coding-agents.md, concepts/design-md.md, concepts/design-systems-for-agents.md, entities/claude-code.md, entities/design-md.md, entities/github.md, entities/openai.md, entities/self-os.md, index.md, ingest-log.md, log.md
+- Conflicts: none
+
+- raw/articles/2026-05-02-meta-ai-autodata-automatic-data-scientist.md -> sources/meta-ai-autodata-automatic-data-scientist-2026.md
+- raw/newsletters/2026-05-02-newsletter-digest.md -> sources/2026-05-02-newsletter-digest.md
+- raw/repos/aie-book-2026-05-02.md -> sources/aie-book-2026-05-02.md
+- raw/repos/claude-code-game-studios-2026-05-02.md -> sources/claude-code-game-studios-2026-05-02.md
+- raw/repos/design-md-chrome-2026-05-02.md -> sources/design-md-chrome-2026-05-02.md
+- raw/repos/github-trending-weekly-2026-05-02.md -> sources/github-trending-weekly-2026-05-02.md
+- raw/repos/open-design-2026-05-02.md -> sources/open-design-2026-05-02.md
+- raw/repos/ruflo-2026-05-02.md -> sources/ruflo-2026-05-02.md
+- raw/resources/firecrawl-parse-browser-trace-skill-integration-2026-05-02.md -> sources/firecrawl-parse-browser-trace-skill-integration-2026-05-02.md
+- raw/resources/ghost-unlimited-postgres-for-agents-2026-05-02.md -> sources/ghost-unlimited-postgres-for-agents-2026-05-02.md
+- raw/resources/refero-styles-design-reference-library-2026-05-02.md -> sources/refero-styles-design-reference-library-2026-05-02.md
+- raw/x-blogs/2026-05-02-x-blogs-digest.md -> sources/2026-05-02-x-blogs-digest.md
+- raw/x-threads/2026-05-02-googlecloudtech-harness-vs-warp-agent-architecture.md -> sources/googlecloudtech-harness-vs-warp-agent-architecture-2026.md
+- raw/youtube/2026-05-02-nate-herk-build-sell-claude-code-operating-systems.md -> sources/nate-herk-build-sell-claude-code-operating-systems-2026.md
+

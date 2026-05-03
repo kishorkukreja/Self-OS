@@ -3,6 +3,7 @@ source: https://styles.refero.design/
 date: 2026-05-02
 type: resource
 tags: [design-creation, design-systems, design-md, refero, ai-coding-agents, ui-inspiration, mcp]
+status: processed
 ---
 
 # Refero Styles — Design Reference Library for AI Agents

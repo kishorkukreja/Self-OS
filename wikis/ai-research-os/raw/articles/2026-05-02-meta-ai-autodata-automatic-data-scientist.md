@@ -3,6 +3,7 @@ source: https://facebookresearch.github.io/RAM/blogs/autodata/
 date: 2026-05-02
 type: article
 tags: [autodata, meta-ai, synthetic-data, data-generation, agentic-ai, self-instruct, meta-optimization, rl, grpo]
+status: processed
 ---
 
 # Autodata: an automatic data scientist to create high-quality data

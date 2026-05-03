@@ -24,3 +24,14 @@ _Last updated: 2026-04-30_
 - 2026-04-30: Added evidence from [[sources/daily-research-2026]].
 - 2026-04-30: Added evidence from [[sources/sources-2026]].
 
+## 2026-05-03 update
+
+This page was linked from [[sources/2026-05-02-daily-research]]. Supply Chain Signals as evidenced by Supply Chain Signals Daily Research — 2026-05-02.
+
+**Sources:** [[sources/2026-05-02-daily-research]]
+
+## 2026-05-03 update
+
+This page was linked from [[sources/2026-05-02-sources]]. Supply Chain Signals as evidenced by Supply Chain Signals Sources — 2026-05-02.
+
+**Sources:** [[sources/2026-05-02-sources]]

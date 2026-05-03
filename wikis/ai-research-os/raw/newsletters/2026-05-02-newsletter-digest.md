@@ -1,3 +1,6 @@
+---
+status: processed
+---
 # Newsletter Digest — Saturday, 02 May 2026
 
 > Digest generated automatically on Saturday, 02 May 2026.

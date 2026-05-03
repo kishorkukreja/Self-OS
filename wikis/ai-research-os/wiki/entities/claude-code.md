@@ -39,3 +39,21 @@ _Last updated: 2026-05-01_
 ## Update — 2026-05-02
 
 [[sources/alphasignal-2026-claude-code-setup-plugin]] adds Anthropic's `claude-code-setup` plugin as evidence that Claude Code is becoming a configurable project runtime. The plugin scans a repo read-only and recommends targeted MCP servers, skills, hooks, subagents, and slash commands suited to the current codebase.
+
+## 2026-05-03 update
+
+This page was linked from [[sources/claude-code-game-studios-2026-05-02]]. Claude Code is an entity referenced by Donchitos/Claude-Code-Game-Studios.
+
+**Sources:** [[sources/claude-code-game-studios-2026-05-02]]
+
+## 2026-05-03 update
+
+This page was linked from [[sources/github-trending-weekly-2026-05-02]]. Claude Code is an entity referenced by GitHub Trending Weekly Repositories — 2026-05-02.
+
+**Sources:** [[sources/github-trending-weekly-2026-05-02]]
+
+## 2026-05-03 update
+
+This page was linked from [[sources/nate-herk-build-sell-claude-code-operating-systems-2026]]. Claude Code is an entity referenced by Build & Sell Claude Code Operating Systems (2+ Hour Course).
+
+**Sources:** [[sources/nate-herk-build-sell-claude-code-operating-systems-2026]]

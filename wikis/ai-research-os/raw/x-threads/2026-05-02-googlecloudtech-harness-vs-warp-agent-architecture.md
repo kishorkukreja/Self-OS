@@ -3,6 +3,7 @@ source: https://x.com/GoogleCloudTech/status/2047567704807346675
 date: 2026-05-02
 type: thread
 tags: [agent-harness, warp, agent-architecture, orchestration, multi-agent-systems, a2a, mcp, google-cloud, gemini-enterprise, agent-interoperability]
+status: processed
 ---
 
 # Harness vs Warp (Agent Architecture Overview)

@@ -3,6 +3,7 @@ source: https://github.com/nexu-io/open-design
 date: 2026-05-02
 type: repo
 tags: [open-design, claude-design, design-systems, ai-design, coding-agents, agent-skills, local-first, byok, prototypes, hyperframes, hermes-agent]
+status: processed
 ---
 
 # nexu-io/open-design

@@ -3,6 +3,7 @@ source: https://docs.firecrawl.dev/features/parse; https://docs.firecrawl.dev/ap
 date: 2026-05-02
 type: resource
 tags: [knowledge-ingest, firecrawl, document-parsing, browser-automation, observability, hermes-skills, self-os]
+status: processed
 ---
 
 # Firecrawl `/parse` and `/browser-trace` Skill Integration

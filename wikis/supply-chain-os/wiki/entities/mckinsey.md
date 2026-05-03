@@ -24,3 +24,15 @@ status: final
 **Sources:** [[sources/mckinsey-2026-consumer-centric-supply-chain.md]], [[sources/doss-2026-cpg-trends.md]], [[sources/aws-2026-demand-forecasting-amazon.md]]
 
 _Last updated: 2026-04-27_
+
+## 2026-05-03 update
+
+This page was linked from [[sources/2026-05-02-daily-research]]. McKinsey is an entity referenced by Supply Chain Signals Daily Research — 2026-05-02.
+
+**Sources:** [[sources/2026-05-02-daily-research]]
+
+## 2026-05-03 update
+
+This page was linked from [[sources/2026-05-02-sources]]. McKinsey is an entity referenced by Supply Chain Signals Sources — 2026-05-02.
+
+**Sources:** [[sources/2026-05-02-sources]]

@@ -45,3 +45,9 @@ _Last updated: 2026-05-01_
 ## Update — 2026-05-02
 
 Two 2026-05-01 newsletter sources, [[sources/newsletter-digest-2026-05-01]] and [[sources/newsletter-digest-v2-2026-05-01]], show coding agents being packaged as managed work systems: Cursor SDK, OpenAI Symphony, Claude Security, and Warp-style agent boards all turn coding assistance into orchestration, review, security scanning, and CI/CD integration.
+
+## 2026-05-03 update
+
+This page was linked from [[sources/ghost-unlimited-postgres-for-agents-2026-05-02]]. Coding Agents as evidenced by Ghost — Unlimited Postgres for Agents.
+
+**Sources:** [[sources/ghost-unlimited-postgres-for-agents-2026-05-02]]
