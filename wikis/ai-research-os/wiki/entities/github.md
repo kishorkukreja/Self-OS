@@ -1,13 +1,21 @@
 ---
-title: "GitHub"
+title: GitHub
 date_created: 2026-05-03
-date_modified: 2026-05-03
-summary: "GitHub is an entity referenced by Autodata: an automatic data scientist to create high-quality data."
-tags: [autodata, meta-ai, synthetic-data, data-generation, agentic-ai, self-instruct, meta-optimization, rl]
+date_modified: '2026-05-04'
+summary: 'GitHub is an entity referenced by Autodata: an automatic data scientist
+  to create high-quality data.'
+tags:
+- autodata
+- meta-ai
+- synthetic-data
+- data-generation
+- agentic-ai
+- self-instruct
+- meta-optimization
+- rl
 type: entity
 status: draft
 ---
-
 # GitHub
 
 **Type:** tool | company | framework | organization | source entity
@@ -53,3 +61,11 @@ This page was linked from [[sources/ruflo-2026-05-02]]. GitHub is an entity refe
 This page was linked from [[sources/2026-05-02-x-blogs-digest]]. GitHub is an entity referenced by X/Twitter AI Blogs and Articles — 2026-05-02.
 
 **Sources:** [[sources/2026-05-02-x-blogs-digest]]
+
+## 2026-05-04 update
+
+Referenced by [[sources/2026-05-03-10-github-repos-that-print-money-while-you-sleep]].
+
+## 2026-05-04 update
+
+Referenced by [[sources/2026-05-03-x-blogs-digest]].

@@ -5,7 +5,7 @@ type: newsletter-ppt-outline
 client: internal
 confidential: false
 tags: [supply-chain-signals, newsletter, ppt-outline]
-status: draft
+status: processed
 ---
 
 # Supply Chain Signals — 2026-W18 PPT / consulting-style outline

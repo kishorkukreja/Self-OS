@@ -3,6 +3,7 @@ source: https://medium.com/@CodeCoup/10-github-repos-that-print-money-while-you-
 date: 2026-05-03
 type: article
 tags: [github-repos, ai-agents, automation, trading, monetization, medium]
+status: processed
 ---
 
 # 10 GitHub Repos that Print Money While You Sleep

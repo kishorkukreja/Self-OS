@@ -1,13 +1,20 @@
 ---
-title: "OpenAI"
+title: OpenAI
 date_created: 2026-04-30
-date_modified: 2026-04-30
-summary: "OpenAI is an entity referenced by ingested source material."
-tags: [openai, realtime-api, voice-ui, react, browser-agents, tool-use, typescript, apache-2]
+date_modified: '2026-05-04'
+summary: OpenAI is an entity referenced by ingested source material.
+tags:
+- openai
+- realtime-api
+- voice-ui
+- react
+- browser-agents
+- tool-use
+- typescript
+- apache-2
 type: entity
 status: draft
 ---
-
 # OpenAI
 
 **Type:** tool
@@ -30,3 +37,7 @@ _Last updated: 2026-04-30_
 This page was linked from [[sources/2026-05-02-x-blogs-digest]]. OpenAI is an entity referenced by X/Twitter AI Blogs and Articles — 2026-05-02.
 
 **Sources:** [[sources/2026-05-02-x-blogs-digest]]
+
+## 2026-05-04 update
+
+Referenced by [[sources/2026-05-03-newsletter-digest]].

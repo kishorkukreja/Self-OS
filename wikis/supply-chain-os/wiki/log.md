@@ -41,3 +41,9 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: concepts/daily-supply-chain-research.md, concepts/supply-chain-signals.md, concepts/supply-chain.md, entities/mckinsey.md, index.md, ingest-log.md, log.md
 - Conflicts: none
 
+## 2026-05-04 00:05
+- Ingested: 7 file(s) from newsletters
+- Files: raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-brief.md, raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-carousel-outline.md, raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-linkedin.md, raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-ppt-outline.md, raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-x-thread.md, raw/newsletters/supply-chain-signals/2026-W18/daily/2026-05-03-daily-research.md, raw/newsletters/supply-chain-signals/2026-W18/sources/2026-05-03-sources.md
+- Added: sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-brief-2026-05-03.md, concepts/tariffs.md, concepts/logistics.md, concepts/inventory.md, concepts/procurement.md, sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-carousel-outline-2026-05-03.md, concepts/manufacturing.md, sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-linkedin-2026-05-03.md, sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-ppt-outline-2026-05-03.md, sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-x-thread-2026-05-03.md, concepts/resilience.md, sources/supply-chain-signals-daily-2026-05-03-daily-research.md, sources/supply-chain-signals-sources-2026-05-03-sources.md
+- Updated: index.md, ingest-log.md, log.md
+- Conflicts: none

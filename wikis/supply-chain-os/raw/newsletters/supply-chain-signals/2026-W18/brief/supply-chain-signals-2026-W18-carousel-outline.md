@@ -5,7 +5,7 @@ type: newsletter-carousel-outline
 client: internal
 confidential: false
 tags: [supply-chain-signals, newsletter, carousel, baoyu-infographic]
-status: draft
+status: processed
 ---
 
 # Supply Chain Signals — 2026-W18 carousel outline

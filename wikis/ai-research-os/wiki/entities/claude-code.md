@@ -1,13 +1,19 @@
 ---
-title: "Claude Code"
+title: Claude Code
 date_created: 2026-04-12
-date_modified: 2026-05-02
-summary: "Anthropic's official CLI for Claude enabling agentic coding sessions with file system access, tool use, hooks, and skills — the primary interface for Self OS on the laptop."
-tags: [tool, claude-code, cli, agentic, self-os]
+date_modified: '2026-05-04'
+summary: Anthropic's official CLI for Claude enabling agentic coding sessions with
+  file system access, tool use, hooks, and skills — the primary interface for Self
+  OS on the laptop.
+tags:
+- tool
+- claude-code
+- cli
+- agentic
+- self-os
 type: entity
 status: final
 ---
-
 # Claude Code
 
 **Type:** tool
@@ -57,3 +63,7 @@ This page was linked from [[sources/github-trending-weekly-2026-05-02]]. Claude 
 This page was linked from [[sources/nate-herk-build-sell-claude-code-operating-systems-2026]]. Claude Code is an entity referenced by Build & Sell Claude Code Operating Systems (2+ Hour Course).
 
 **Sources:** [[sources/nate-herk-build-sell-claude-code-operating-systems-2026]]
+
+## 2026-05-04 update
+
+Referenced by [[sources/2026-05-03-x-blogs-digest]].
