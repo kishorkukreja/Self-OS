@@ -3,6 +3,7 @@ source: newsletter-digest
 date: 2026-05-03
 type: newsletter
 tags: [digest, ai, the-rundown, superhuman, alpha-signal, daily-dose-of-ds, dair-ai]
+status: processed
 ---
 
 # Newsletter Digest — Sunday, 3 May 2026

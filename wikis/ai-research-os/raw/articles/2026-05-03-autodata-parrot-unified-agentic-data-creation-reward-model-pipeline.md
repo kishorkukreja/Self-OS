@@ -3,6 +3,7 @@ source: https://facebookresearch.github.io/RAM/blogs/autodata/
 date: 2026-05-03
 type: article
 tags: [autodata, parrot, agentic-data-creation, reward-models, synthetic-data, grpo, meta-ai]
+status: processed
 ---
 
 # Autodata x PARROT — Unified Agentic Data Creation + Reward Model Pipeline

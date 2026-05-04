@@ -3,6 +3,7 @@ source: user-provided framework
 date: 2026-05-03
 type: article
 tags: [agentic-memory, skill-embeddings, sleep-cycle-architecture, self-improving-agents, adapter-distillation]
+status: processed
 ---
 
 # Contextual Agentic Memory — Sleep-Cycle Architecture with Skill Embeddings

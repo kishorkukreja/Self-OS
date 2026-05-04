@@ -2,6 +2,7 @@
 date: 2026-05-03
 session: 2026-05-03-wrap-up-skill-discovery
 project: projectsOS
+status: processed
 ---
 
 # Decisions — 2026-05-03 Wrap-Up Skill Discovery

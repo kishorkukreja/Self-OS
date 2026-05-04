@@ -5,7 +5,7 @@ type: newsletter-social
 client: internal
 confidential: false
 tags: [supply-chain-signals, newsletter, linkedin]
-status: draft
+status: processed
 ---
 
 # Supply Chain Signals — 2026-W18 LinkedIn drafts

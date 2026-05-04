@@ -3,6 +3,7 @@ source: hermes-chat-paste
 date: 2026-05-03
 type: resource
 tags: [raw-capture, test-payload]
+status: processed
 ---
 
 # Pasted X Payload

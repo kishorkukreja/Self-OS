@@ -1,15 +1,17 @@
 ---
-title: "Agent Evaluation"
+title: Agent Evaluation
 date_created: 2026-05-01
-date_modified: 2026-05-02
-summary: "Methods and benchmarks for measuring agent reliability, generalization, trajectories, cost, and safety across realistic tasks."
-tags: [wiki, concept]
+date_modified: '2026-05-04'
+summary: Methods and benchmarks for measuring agent reliability, generalization, trajectories,
+  cost, and safety across realistic tasks.
+tags:
+- wiki
+- concept
 type: concept
 status: draft
 confidence: emerging
 source_count: 1
 ---
-
 # Agent Evaluation
 
 **Definition:** Methods and benchmarks for measuring agent reliability, generalization, trajectories, cost, and safety across realistic tasks.
@@ -31,3 +33,7 @@ The 2026-05-01 X/blog digest added three evaluation signals: [[sources/x-blogs-d
 This page was linked from [[sources/2026-05-02-newsletter-digest]]. Agent Evaluation as evidenced by Newsletter Digest — Saturday, 02 May 2026.
 
 **Sources:** [[sources/2026-05-02-newsletter-digest]]
+
+## 2026-05-04 update
+
+This concept is also evidenced by [[sources/agentic-harness-engineering-2026-05-03]], which adds another captured signal for the wiki.

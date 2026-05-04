@@ -1,15 +1,16 @@
 ---
-title: "Coding Agents"
+title: Coding Agents
 date_created: 2026-04-29
-date_modified: 2026-05-02
-summary: "Concept stub created from restored AI research queue items."
-tags: [ai-tools, research]
+date_modified: '2026-05-04'
+summary: Concept stub created from restored AI research queue items.
+tags:
+- ai-tools
+- research
 type: concept
 status: draft
 confidence: emerging
 source_count: 1
 ---
-
 # Coding Agents
 
 **Definition:** Coding Agents is a recurring theme in the AI Research OS corpus, currently represented by [[sources/apply-yc-2026-apply-yc-2026-04-28]].
@@ -51,3 +52,7 @@ Two 2026-05-01 newsletter sources, [[sources/newsletter-digest-2026-05-01]] and 
 This page was linked from [[sources/ghost-unlimited-postgres-for-agents-2026-05-02]]. Coding Agents as evidenced by Ghost — Unlimited Postgres for Agents.
 
 **Sources:** [[sources/ghost-unlimited-postgres-for-agents-2026-05-02]]
+
+## 2026-05-04 update
+
+This concept is also evidenced by [[sources/agentic-harness-engineering-2026-05-03]], which adds another captured signal for the wiki.

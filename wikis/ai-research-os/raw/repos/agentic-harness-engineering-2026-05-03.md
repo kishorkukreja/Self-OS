@@ -3,6 +3,7 @@ source: https://github.com/china-qijizhifeng/agentic-harness-engineering
 date: 2026-05-03
 type: repo
 tags: [agents, coding-agents, harness-engineering, observability, agent-evaluation, terminal-bench]
+status: processed
 ---
 
 # Agentic Harness Engineering

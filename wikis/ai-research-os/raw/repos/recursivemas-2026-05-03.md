@@ -3,6 +3,7 @@ source: https://github.com/RecursiveMAS/RecursiveMAS
 date: 2026-05-03
 type: repo
 tags: [agents, multi-agent-systems, recursive-agents, latent-space-recursion, agent-collaboration]
+status: processed
 ---
 
 # RecursiveMAS
