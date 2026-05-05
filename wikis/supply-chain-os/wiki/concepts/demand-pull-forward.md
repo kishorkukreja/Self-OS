@@ -19,7 +19,7 @@ source_count: 1
 
 **Why it matters:** The daily research flags new-order strength as potentially distorted by preemptive buying rather than pure end-demand strength.
 
-**Related:** [[concepts/agent-harness-engineering]]
+**Related:** [[concepts/procurement]], [[concepts/tariffs]], [[concepts/demand-forecasting]]
 
 **Sources:** [[sources/supply-chain-signals-2026-05-04-daily-research]]
 

@@ -34,7 +34,7 @@ This cross-newsletter digest synthesizes nine AI/programming/newsletter items in
 - Captures AI-generated codebase maintenance debt as a risk that harness and review practices must manage.
 
 ## Linked concepts and entities
-- Concepts: [[concepts/agent-evaluation]], [[concepts/agent-governance]], [[concepts/coding-agents]]
+- Concepts: [[concepts/agent-evaluation]], [[concepts/tool-governance]], [[concepts/coding-agents]]
 - Entities: [[entities/openai]], [[entities/claude-code]], [[entities/cursor]]
 
 **Tags:** digest, ai, the-rundown, unwind-ai, the-code, superhuman, alpha-signal, daily-dose-of-ds

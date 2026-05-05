@@ -18,7 +18,7 @@ source_count: 2
 
 **Why it matters:** The 2026-05-04 research links the NY Fed pressure index, ISM prices paid, and supplier-delivery readings into an operating signal that pressure is rising from a low base.
 
-**Related:** [[concepts/agent-harness-engineering]]
+**Related:** [[concepts/resilience]], [[concepts/logistics]], [[concepts/procurement]]
 
 **Sources:** [[sources/supply-chain-signals-2026-05-04-sources]], [[sources/supply-chain-signals-2026-05-04-daily-research]]
 

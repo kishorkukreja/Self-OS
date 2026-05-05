@@ -33,6 +33,6 @@ This daily X/Twitter-oriented digest collects AI/ML article signals around markd
 
 ## Linked concepts and entities
 - Concepts: [[concepts/knowledge-ingest]], [[concepts/agent-evaluation]], [[concepts/agent-harness-engineering]]
-- Entities: [[entities/twitter]]
+- Platforms: [[concepts/twitter]], [[concepts/x]]
 
 **Tags:** x, twitter, blogs, articles, ai-research, daily-digest

@@ -32,7 +32,7 @@ AutoHarness is a governance wrapper for LLM clients and agent loops. It emphasiz
 - Frames production agent readiness as harness controls, not model prompting alone.
 
 ## Linked concepts and entities
-- Concepts: [[concepts/agent-governance]], [[concepts/harness-engineering]], [[concepts/tool-governance]]
+- Concepts: [[concepts/tool-governance]], [[concepts/harness-engineering]], [[concepts/tool-governance]]
 - Entities: [[entities/autoharness]]
 
 **Tags:** agent-governance, harness-engineering, safety, audit-logs, tool-governance, github-repo

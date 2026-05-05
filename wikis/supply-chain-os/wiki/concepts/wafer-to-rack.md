@@ -19,7 +19,7 @@ source_count: 3
 
 **Why it matters:** The W19 newsletter folder names Wafer to Rack as the preferred Chain of the Week, tying AI infrastructure growth to supply-chain strategy.
 
-**Related:** [[concepts/agent-harness-engineering]]
+**Related:** [[concepts/wafer-to-rack-supply-chain]], [[concepts/critical-mineral-traceability]], [[concepts/decision-grade-visibility]]
 
 **Sources:** [[sources/supply-chain-signals-2026-w19-overview]], [[sources/supply-chain-signals-2026-05-04-sources]], [[sources/supply-chain-signals-2026-05-04-daily-research]]
 

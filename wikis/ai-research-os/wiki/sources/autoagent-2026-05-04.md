@@ -32,7 +32,7 @@ AutoAgent is a compact framework for autonomous harness engineering. A human wri
 - Runs Harbor-format tasks and hill-climbs on score as the feedback signal.
 
 ## Linked concepts and entities
-- Concepts: [[concepts/autonomous-harness-engineering]], [[concepts/self-improving-agents]], [[concepts/agent-evaluation]]
+- Concepts: [[concepts/agent-harness-engineering]], [[concepts/self-improving-agents]], [[concepts/agent-evaluation]]
 - Entities: [[entities/autoagent]]
 
 **Tags:** autonomous-agents, harness-engineering, harbor, evaluation, self-improving-agents, github-repo

@@ -19,7 +19,7 @@ source_count: 2
 
 **Why it matters:** The daily research emphasizes that the ugly signal is not headline expansion but the price index and supplier delivery mix facing procurement and planning teams.
 
-**Related:** [[concepts/agent-harness-engineering]]
+**Related:** [[concepts/manufacturing]], [[concepts/procurement]], [[concepts/supply-chain-pressure]]
 
 **Sources:** [[sources/supply-chain-signals-2026-05-04-sources]], [[sources/supply-chain-signals-2026-05-04-daily-research]]
 

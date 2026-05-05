@@ -32,7 +32,7 @@ Autoreason addresses a failure mode in iterative AI workflows: critique-and-revi
 - Provides a pattern for safer review loops in subjective and open-ended domains.
 
 ## Linked concepts and entities
-- Concepts: [[concepts/self-refinement]], [[concepts/agent-evaluation]], [[concepts/judge-panels]]
+- Concepts: [[concepts/self-improving-agents]], [[concepts/agent-evaluation]], [[concepts/judge-panels]]
 - Entities: [[entities/autoreason]]
 
 **Tags:** self-refinement, evaluation, ai-reasoning, judge-panels, autoresearch, github-repo

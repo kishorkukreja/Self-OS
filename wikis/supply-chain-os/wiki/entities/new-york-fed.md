@@ -19,7 +19,7 @@ status: draft
 **Key facts:**
 - Institution referenced for the Global Supply Chain Pressure Index.
 
-**Relationships:** [[concepts/agent-harness-engineering]]
+**Relationships:** [[concepts/supply-chain-pressure]]
 
 **Sources:** [[sources/supply-chain-signals-2026-05-04-sources]], [[sources/supply-chain-signals-2026-05-04-daily-research]]
 

@@ -29,7 +29,7 @@ This source registers the working folder for the 2026-W19 Supply Chain Signals n
 - Frames supply chain through resilience, margin, innovation, and strategy rather than cost alone.
 
 ## Linked concepts and entities
-- Concepts: [[concepts/supply-chain-signals]], [[concepts/wafer-to-rack]], [[concepts/supply-chain-strategy]]
+- Concepts: [[concepts/supply-chain-signals]], [[concepts/wafer-to-rack]], [[concepts/supply-chain-signals]]
 - Entities: [[entities/supply-chain-signals]]
 
 **Tags:** wiki-compile
