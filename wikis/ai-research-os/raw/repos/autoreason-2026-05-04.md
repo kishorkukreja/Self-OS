@@ -3,6 +3,7 @@ source: https://github.com/NousResearch/autoreason
 date: 2026-05-04
 type: repo
 tags: [self-refinement, evaluation, ai-reasoning, judge-panels, autoresearch, github-repo]
+status: processed
 ---
 
 # Autoreason — Self-Refinement That Knows When to Stop

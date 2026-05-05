@@ -1,3 +1,7 @@
+---
+status: processed
+---
+
 # Supply Chain Signals — 2026-W19
 
 Weekly research folder for the **Supply Chain Signals** newsletter.

@@ -1,7 +1,7 @@
 ---
 title: Supply Chain Signals
-date_created: 2026-04-30
-date_modified: '2026-05-04'
+date_created: '2026-04-30'
+date_modified: '2026-05-05'
 summary: Supply Chain Signals is an entity referenced by ingested source material.
 tags:
 - supply-chain-signals
@@ -10,6 +10,7 @@ tags:
 type: entity
 status: draft
 ---
+
 # Supply Chain Signals
 
 **Type:** framework
@@ -60,3 +61,8 @@ Referenced by [[sources/supply-chain-signals-daily-2026-05-03-daily-research]].
 ## 2026-05-04 update
 
 Referenced by [[sources/supply-chain-signals-sources-2026-05-03-sources]].
+
+## 2026-05-05 compile note
+- Internal non-confidential newsletter research stream for supply-chain operating signals.
+
+**Sources:** [[sources/supply-chain-signals-2026-w19-overview]], [[sources/supply-chain-signals-2026-05-04-daily-research]]

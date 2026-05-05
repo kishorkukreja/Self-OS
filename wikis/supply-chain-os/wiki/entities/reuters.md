@@ -1,7 +1,7 @@
 ---
 title: Reuters
-date_created: 2026-05-01
-date_modified: '2026-05-04'
+date_created: '2026-05-01'
+date_modified: '2026-05-05'
 summary: News publisher used as a source for logistics disruption and freight-routing
   reporting.
 tags:
@@ -10,6 +10,7 @@ tags:
 type: entity
 status: draft
 ---
+
 # Reuters
 
 **Type:** publisher
@@ -50,3 +51,8 @@ Referenced by [[sources/supply-chain-signals-daily-2026-05-03-daily-research]].
 ## 2026-05-04 update
 
 Referenced by [[sources/supply-chain-signals-sources-2026-05-03-sources]].
+
+## 2026-05-05 compile note
+- News publisher used as a source for manufacturing, PMI, and pressure-index reporting.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-04-sources]], [[sources/supply-chain-signals-2026-05-04-daily-research]]

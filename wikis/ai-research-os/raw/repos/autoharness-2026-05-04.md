@@ -3,6 +3,7 @@ source: https://github.com/aiming-lab/AutoHarness
 date: 2026-05-04
 type: repo
 tags: [agent-governance, harness-engineering, safety, audit-logs, tool-governance, github-repo]
+status: processed
 ---
 
 # AutoHarness — Automated Harness Engineering for AI Agents

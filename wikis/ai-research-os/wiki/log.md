@@ -78,3 +78,8 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/2026-05-03-10-github-repos-that-print-money-while-you-sleep.md, concepts/github-repos.md, concepts/ai-agents.md, concepts/automation.md, concepts/trading.md, concepts/monetization.md, sources/2026-05-03-autodata-parrot-unified-agentic-data-creation-reward-model-pipeline.md, concepts/autodata.md, concepts/parrot.md, concepts/agentic-data-creation.md, concepts/reward-models.md, entities/autodata.md, entities/parrot.md, sources/2026-05-03-contextual-agentic-memory-sleep-cycle-architecture.md, concepts/agentic-memory.md, concepts/skill-embeddings.md, concepts/sleep-cycle-architecture.md, concepts/self-improving-agents.md, concepts/adapter-distillation.md, sources/2026-05-03-newsletter-digest.md, concepts/digest.md, concepts/ai.md, concepts/the-rundown.md, concepts/superhuman.md, concepts/alpha-signal.md, entities/recursivemas.md, sources/agentic-harness-engineering-2026-05-03.md, concepts/agents.md, concepts/harness-engineering.md, concepts/observability.md, sources/recursivemas-2026-05-03.md, concepts/multi-agent-systems.md, concepts/recursive-agents.md, concepts/latent-space-recursion.md, concepts/agent-collaboration.md, sources/pasted-x-payload-2026-05-03.md, concepts/raw-capture.md, concepts/test-payload.md, sources/2026-05-03-x-blogs-digest.md, concepts/x.md, concepts/twitter.md, concepts/blogs.md, concepts/articles.md
 - Updated: index.md, ingest-log.md, log.md
 - Conflicts: none
+
+## 2026-05-05 00:04
+- Ingested: 12 files from article, newsletter, repo
+- Added/updated: 12 source summaries plus harness-engineering concepts/entities
+- Conflicts: none

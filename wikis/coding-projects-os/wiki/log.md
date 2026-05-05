@@ -24,3 +24,10 @@ _Append-only. Updated automatically by ingest runs._
 - Added: projects/projectsos.md, patterns/wrap-up-skill-discovery.md, decisions/2026-05-03-2026-05-03-wrap-up-skill-discovery-decisions.md
 - Updated: index.md, ingest-log.md, log.md, projects/projectsos.md, projects/self-os-operating-loop.md
 - Conflicts: none
+
+## 2026-05-05 00:04
+- Session ingested: self-os-operating-loop 2026-05-04 morning brief
+- Project: self-os-operating-loop
+- Patterns extracted: 1 (daily-operating-brief)
+- Decisions extracted: 0
+- Updated: projects/self-os-operating-loop.md

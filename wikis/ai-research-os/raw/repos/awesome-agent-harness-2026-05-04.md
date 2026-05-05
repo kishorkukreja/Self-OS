@@ -3,6 +3,7 @@ source: https://github.com/Picrew/awesome-agent-harness
 date: 2026-05-04
 type: repo
 tags: [agent-harness, awesome-list, ai-agents, evaluation, observability, governance, github-repo]
+status: processed
 ---
 
 # Awesome Agent Harness — Implementation-First Harness Engineering Catalog

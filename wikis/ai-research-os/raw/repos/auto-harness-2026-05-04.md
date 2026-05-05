@@ -3,6 +3,7 @@ source: https://github.com/neosigmaai/auto-harness
 date: 2026-05-04
 type: repo
 tags: [self-improving-agents, harness-engineering, evaluation, regression-testing, benchmarks, github-repo]
+status: processed
 ---
 
 # auto-harness — Self-Improving Agentic Systems via Benchmarks and Gating
