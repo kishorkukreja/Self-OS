@@ -3,6 +3,7 @@ source: https://github.com/HKUDS/OpenHarness
 date: 2026-05-04
 type: repo
 tags: [ai-agents, agent-harness, personal-agent, skills, memory, multi-agent, github-repo]
+status: processed
 ---
 
 # OpenHarness — Open Agent Harness with Built-in Personal Agent Ohmo

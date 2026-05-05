@@ -13,3 +13,9 @@
 - Added: projects/projectsos.md, patterns/wrap-up-skill-discovery.md, decisions/2026-05-03-2026-05-03-wrap-up-skill-discovery-decisions.md
 - Updated: index.md, ingest-log.md, log.md, projects/projectsos.md, projects/self-os-operating-loop.md
 - Conflicts: none
+
+## 2026-05-05 00:04
+- Ingested: 1 file from raw/projects/self-os-operating-loop/ops/daily
+- Added: patterns/daily-operating-brief.md if absent
+- Updated: projects/self-os-operating-loop.md, index.md
+- Conflicts: none

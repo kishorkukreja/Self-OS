@@ -3,6 +3,7 @@ source: https://github.com/kevinrgu/autoagent
 date: 2026-05-04
 type: repo
 tags: [autonomous-agents, harness-engineering, harbor, evaluation, self-improving-agents, github-repo]
+status: processed
 ---
 
 # AutoAgent — Autonomous Harness Engineering

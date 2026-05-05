@@ -1,7 +1,7 @@
 # Supply Chain OS — Index
-_Last updated: 2026-05-04_
+_Last updated: 2026-05-05_
 
-## Concepts (29)
+## Concepts (33)
 - [3Pl](concepts/3pl.md) — Stub page for 3Pl.
 - [Continuous Supplier Monitoring](concepts/continuous-supplier-monitoring.md) — Ongoing supplier-risk monitoring after onboarding across regulatory, sanctions, ESG, litigation, reputational, and operational signals.
 - [CPG Supply Chain](concepts/cpg-supply-chain.md) — Supply chain practices specific to consumer packaged goods, characterized by high volume, rapid turnover, and retail dependency.
@@ -10,12 +10,14 @@ _Last updated: 2026-05-04_
 - [Decision-Centric Planning](concepts/decision-centric-planning.md) — Supply chain planning approach that centers on decision quality and business outcomes rather than forecast accuracy alone.
 - [Decision-Grade Visibility](concepts/decision-grade-visibility.md) — Supply-chain visibility that converts alerts into recommended actions, owners, time windows, and financial trade-offs.
 - [Demand Forecasting](concepts/demand-forecasting.md) — The process of predicting future customer demand to optimize inventory and supply chain planning.
+- [Demand Pull-Forward](concepts/demand-pull-forward.md) — Orders placed earlier than normal to avoid anticipated shortages, tariffs, or price increases.
 - [Freight Market Disruption](concepts/freight-market-disruption.md) — Freight Market Disruption as tracked across source material.
 - [Freight Spend Governance](concepts/freight-spend-governance.md) — Control discipline for freight costs that manages accessorials, dimensional thresholds, service modifiers, minimums, contract logic, auditability, and payment leakage.
 - [Inventory](concepts/inventory.md) — Inventory is a supply-chain theme captured in Supply Chain Signals 2026 W18 Brief.
 - [Kaizen](concepts/kaizen.md) — Stub page for Kaizen.
 - [Last-Mile Delivery](concepts/last-mile-delivery.md) — The final leg of the delivery process from distribution center to end customer, often the most expensive and complex.
 - [Logistics](concepts/logistics.md) — Logistics is a supply-chain theme captured in Supply Chain Signals 2026 W18 Brief.
+- [Manufacturing Input-Cost Inflation](concepts/manufacturing-input-cost-inflation.md) — Cost pressure on manufacturers from materials, energy, tariffs, logistics, or constrained supply.
 - [Manufacturing](concepts/manufacturing.md) — Manufacturing is a supply-chain theme captured in Supply Chain Signals 2026 W18 Carousel Outline.
 - [Mode-Switching Optionality](concepts/mode-switching-optionality.md) — The ability to reroute across transport modes, ports, brokers, and lanes when normal freight choices become distorted.
 - [Omnichannel Fulfillment](concepts/omnichannel-fulfillment.md) — Coordinating inventory and logistics across multiple sales channels to deliver a unified customer experience.
@@ -24,15 +26,17 @@ _Last updated: 2026-05-04_
 - [Source Registry](concepts/source-registry.md) — Source Registry as tracked across source material.
 - [Sources](concepts/sources.md) — Sources as evidenced by Supply Chain Signals Sources — 2026-05-02.
 - [Supply Chain Newsletter Research](concepts/supply-chain-newsletter-research.md) — Supply Chain Newsletter Research as tracked across source material.
+- [Supply-Chain Pressure](concepts/supply-chain-pressure.md) — Rising friction in production, logistics, prices, and supplier delivery performance.
 - [Supply Chain Research](concepts/supply-chain-research.md) — Supply Chain Research as tracked across source material.
 - [Supply Chain Signals](concepts/supply-chain-signals.md) — Supply Chain Signals as tracked across source material.
 - [Supply Chain](concepts/supply-chain.md) — Supply Chain as evidenced by Supply Chain Signals Daily Research — 2026-05-02.
 - [Tariff Refund Operations](concepts/tariff-refund-operations.md) — The operational process of reconciling customs-entry data, eligibility, broker workflows, and finance treatment for tariff refund claims.
 - [Tariffs](concepts/tariffs.md) — Tariffs is a supply-chain theme captured in Supply Chain Signals 2026 W18 Brief.
 - [Wafer to Rack Supply Chain](concepts/wafer-to-rack-supply-chain.md) — The end-to-end physical chain that turns semiconductor capacity, memory, power, cooling, networking, logistics, and integration into deployable AI racks.
+- [Wafer to Rack](concepts/wafer-to-rack.md) — The AI-infrastructure supply chain from semiconductor wafers through servers, racks, power, cooling, and data-center deployment.
 - [Weekly Newsletter Folder](concepts/weekly-newsletter-folder.md) — Weekly Newsletter Folder as tracked across source material.
 
-## Entities (35)
+## Entities (36)
 - [AI in the Chain](entities/ai-in-the-chain.md) — Industry publication focused on artificial intelligence applications in supply chain management.
 - [Amazon Forecast](entities/amazon-forecast.md) — AWS managed machine-learning service for time-series demand forecasting, requiring no deep ML expertise.
 - [Amazon](entities/amazon.md) — Global e-commerce and cloud-computing leader, also a 1P retailer and supply-chain technology provider via Vendor Central and AWS.
@@ -50,6 +54,7 @@ _Last updated: 2026-05-04_
 - [Institute for Supply Management](entities/ism.md) — Professional association and research publisher behind the ISM Manufacturing PMI report.
 - [McKinsey & Company](entities/mckinsey.md) — Global management consultancy publishing influential supply-chain strategy frameworks and consumer-centric segmentation models.
 - [MIT Sloan School of Management](entities/mit-sloan.md) — Business school and research centre whose faculty and students produce applied operations-research work on demand forecasting and supply chain segmentation.
+- [New York Fed](entities/new-york-fed.md) — Institution referenced for the Global Supply Chain Pressure Index.
 - [Norfolk Southern](entities/norfolk-southern.md) — North American Class I railroad involved in the proposed UP/Norfolk Southern transcontinental rail merger.
 - [NVIDIA](entities/nvidia.md) — Technology company whose 2026 State of AI in Retail and CPG survey is widely cited as a benchmark for agentic AI and robotics adoption.
 - [Prologis](entities/prologis.md) — Global logistics real-estate firm and research publisher focused on omnichannel distribution and supply-chain infrastructure.
@@ -69,7 +74,7 @@ _Last updated: 2026-05-04_
 - [World Bank](entities/world-bank.md) — International development institution publishing commodity-market outlooks and macroeconomic risk analysis.
 - [WTO](entities/wto.md) — World Trade Organization, source for global trade outlook data.
 
-## Sources (34)
+## Sources (37)
 - [Supply Chain Signals Daily Research — 2026-05-02](sources/2026-05-02-daily-research.md) — Trump hikes EU auto tariffs to 25%, escalating transatlantic trade friction What happened: On May 1, President Trump announced he would raise tariffs on cars and trucks from the European Union to 25% next week, up from the previously agreed
 - [Supply Chain Signals Sources — 2026-05-02](sources/2026-05-02-sources.md) — Supply Chain Signals Sources — 2026 05 02 Extracted sources Trump says he will raise tariff on autos from European Union to 25% URL: https://www.reuters.com/business/autos transportation/trump says he will raise tariffs eu autos 25 2026 05 
 - [AI in the Chain: AI-Driven Demand Sensing Lessons from Unilever and Amazon](sources/ai-in-the-chain-2026-demand-sensing.md) — Survey of AI-driven demand sensing, contrasting traditional forecasting limitations with ML-based approaches and providing a five-step adoption roadmap.
@@ -93,7 +98,10 @@ _Last updated: 2026-05-04_
 - [Supply Chain Signals Sources — 2026-04-30](sources/supply-chain-signals-2026-04-30-source-registry.md) — This non-confidential source registry collects the external inputs behind the 2026-04-30 Supply Chain Signals research run.
 - [Supply Chain Signals Daily Research — 2026-05-01](sources/supply-chain-signals-2026-05-01-daily-research.md) — This daily research file turns the 2026-05-01 source registry into editorial candidates and operator questions. It identifies six top moves: faster-than-expected CBP tariff refunds through CAPE, UP/Norfolk Southern's...
 - [Supply Chain Signals Sources — 2026-05-01](sources/supply-chain-signals-2026-05-01-source-registry.md) — This non-confidential source registry captures the external inputs behind the 2026-05-01 Supply Chain Signals research run. The strongest operational themes are customs cash recovery, rail consolidation,...
+- [Supply Chain Signals Daily Research — 2026-05-04](sources/supply-chain-signals-2026-05-04-daily-research.md) — The daily research argues that the April manufacturing headline is less important than the price-and-delivery mix underneath it. U.S. manufacturing is expanding, but prices paid and supplier-delivery readings suggest ope
+- [Supply Chain Signals Sources — 2026-05-04](sources/supply-chain-signals-2026-05-04-sources.md) — This source file collects the evidence base for the 2026-05-04 Supply Chain Signals daily research. The main pattern is that supply-chain pressure is rising from a low base while input-cost and delivery indicators are al
 - [Supply Chain Signals — 2026-W18](sources/supply-chain-signals-2026-w18-overview.md) — This source was captured for wiki ingestion and future synthesis.
+- [Supply Chain Signals — 2026-W19 Overview](sources/supply-chain-signals-2026-w19-overview.md) — This source registers the working folder for the 2026-W19 Supply Chain Signals newsletter. It establishes the weekly editorial context: daily research is in progress, the material is non-confidential internal newsletter 
 - [Supply Chain Signals 2026 W18 Brief](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-brief-2026-05-03.md) — Supply Chain Signals — 2026-W18 The big signal This week’s supply-chain story is cash, not chaos. The familiar disruption headlines are all here: Hormuz, tariffs, port dwell, air rates, slower supplier deliveries, AI-chi
 - [Supply Chain Signals 2026 W18 Carousel Outline](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-carousel-outline-2026-05-03.md) — Supply Chain Signals — 2026-W18 carousel outline Recommended visual direction: baoyu-infographic style, dense-modules or bento-grid layout, technical-schematic with restrained corporate color. Landscape LinkedIn document
 - [Supply Chain Signals 2026 W18 Linkedin](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-linkedin-2026-05-03.md) — Supply Chain Signals — 2026-W18 LinkedIn drafts Post 1: big signal This week’s supply-chain story is cash, not chaos. Hormuz, tariffs, port dwell, slower supplier deliveries, AI infrastructure constraints: the headlines 

@@ -3,6 +3,7 @@ source: https://github.com/earthtojake/text-to-cad
 date: 2026-05-04
 type: repo
 tags: [cad, ai-agents, domain-specific-agents, agent-skills, robotics, harness-engineering, github-repo]
+status: processed
 ---
 
 # text-to-cad — Local Agent Harness for CAD Generation

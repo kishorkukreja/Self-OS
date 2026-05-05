@@ -1,3 +1,7 @@
+---
+status: processed
+---
+
 # Supply Chain Signals — 2026-W19
 
 Weekly working folder for Supply Chain Signals research and draft assets.
