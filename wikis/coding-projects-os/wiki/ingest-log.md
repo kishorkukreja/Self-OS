@@ -19,3 +19,11 @@
 - Added: patterns/daily-operating-brief.md if absent
 - Updated: projects/self-os-operating-loop.md, index.md
 - Conflicts: none
+## 2026-05-06 00:04
+- Ingested: 1 file(s) from project-brief
+- Added: none
+- Updated: index.md, ingest-log.md, log.md, patterns/self-os-operating-brief.md, projects/self-os-operating-loop.md
+- Conflicts: none
+
+- raw/projects/self-os-operating-loop/ops/daily/2026-05-05-morning.md -> projects/self-os-operating-loop.md
+

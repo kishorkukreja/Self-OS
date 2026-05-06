@@ -53,3 +53,15 @@ Referenced by [[sources/supply-chain-signals-daily-2026-05-03-daily-research]].
 ## 2026-05-04 update
 
 Referenced by [[sources/supply-chain-signals-sources-2026-05-03-sources]].
+
+## 2026-05-06 update
+
+This page was linked from [[sources/supply-chain-signals-2026-05-05-daily-research]]. ISM is an entity referenced by Supply Chain Signals Daily Research — 2026-05-05.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-05-daily-research]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/supply-chain-signals-2026-05-05-sources]]. ISM is an entity referenced by Supply Chain Signals Sources — 2026-05-05.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-05-sources]]

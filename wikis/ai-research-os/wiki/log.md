@@ -83,3 +83,9 @@ _Append-only. Updated automatically by ingest runs._
 - Ingested: 12 files from article, newsletter, repo
 - Added/updated: 12 source summaries plus harness-engineering concepts/entities
 - Conflicts: none
+## 2026-05-06 00:04
+- Ingested: 4 file(s) from article, newsletter, repo
+- Added: concepts/agent-native-authoring.md, concepts/presentations.md, concepts/programming.md, concepts/slides.md, concepts/the-code.md, entities/the-code-newsletter.md, entities/hermes.md, sources/2026-05-05-newsletter-digest.md, sources/2026-05-05-x-blogs-digest.md, sources/open-slide-2026-05-05.md, sources/the-code-2026-05-05.md
+- Updated: concepts/agent-infrastructure.md, concepts/ai-research-discovery.md, concepts/ai-research.md, concepts/ai.md, concepts/digest.md, concepts/the-rundown.md, entities/claude-code.md, entities/github.md, entities/openai.md, index.md, ingest-log.md, log.md
+- Conflicts: none
+

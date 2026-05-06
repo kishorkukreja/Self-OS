@@ -21,3 +21,15 @@ source_count: 1
 **Sources:** [[sources/2026-05-03-newsletter-digest]]
 
 _Last updated: 2026-05-04_
+
+## 2026-05-06 update
+
+This page was linked from [[sources/2026-05-05-newsletter-digest]]. AI as evidenced by Newsletter Digest — Tuesday, 5 May 2026.
+
+**Sources:** [[sources/2026-05-05-newsletter-digest]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/the-code-2026-05-05]]. AI as evidenced by 2026 05 05 The Code.
+
+**Sources:** [[sources/the-code-2026-05-05]]

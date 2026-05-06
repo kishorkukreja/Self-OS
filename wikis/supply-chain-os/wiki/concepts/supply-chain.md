@@ -27,3 +27,15 @@ _Last updated: 2026-05-03_
 This page was linked from [[sources/2026-05-02-sources]]. Supply Chain as evidenced by Supply Chain Signals Sources — 2026-05-02.
 
 **Sources:** [[sources/2026-05-02-sources]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/supply-chain-signals-2026-05-05-daily-research]]. Supply Chain as evidenced by Supply Chain Signals Daily Research — 2026-05-05.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-05-daily-research]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/supply-chain-signals-2026-05-05-sources]]. Supply Chain as evidenced by Supply Chain Signals Sources — 2026-05-05.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-05-sources]]

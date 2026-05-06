@@ -41,3 +41,9 @@ This page was linked from [[sources/2026-05-02-x-blogs-digest]]. OpenAI is an en
 ## 2026-05-04 update
 
 Referenced by [[sources/2026-05-03-newsletter-digest]].
+
+## 2026-05-06 update
+
+This page was linked from [[sources/2026-05-05-newsletter-digest]]. OpenAI is an entity referenced by Newsletter Digest — Tuesday, 5 May 2026.
+
+**Sources:** [[sources/2026-05-05-newsletter-digest]]

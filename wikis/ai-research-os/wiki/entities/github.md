@@ -69,3 +69,21 @@ Referenced by [[sources/2026-05-03-10-github-repos-that-print-money-while-you-sl
 ## 2026-05-04 update
 
 Referenced by [[sources/2026-05-03-x-blogs-digest]].
+
+## 2026-05-06 update
+
+This page was linked from [[sources/2026-05-05-newsletter-digest]]. GitHub is an entity referenced by Newsletter Digest — Tuesday, 5 May 2026.
+
+**Sources:** [[sources/2026-05-05-newsletter-digest]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/the-code-2026-05-05]]. GitHub is an entity referenced by 2026 05 05 The Code.
+
+**Sources:** [[sources/the-code-2026-05-05]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/open-slide-2026-05-05]]. GitHub is an entity referenced by open-slide.
+
+**Sources:** [[sources/open-slide-2026-05-05]]

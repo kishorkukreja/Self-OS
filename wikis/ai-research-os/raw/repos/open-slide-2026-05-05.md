@@ -3,8 +3,8 @@ source: https://github.com/1weiho/open-slide
 date: 2026-05-05
 type: repo
 tags: [slides, presentations, agent-native-authoring, react, coding-agents, open-slide]
+status: processed
 ---
-
 # open-slide
 
 ## Summary
