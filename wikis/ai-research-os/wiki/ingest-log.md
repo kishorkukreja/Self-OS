@@ -69,3 +69,14 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/2026-05-04-x-blogs-digest.md, sources/2026-05-04-newsletter-digest.md, sources/the-code-2026-05-04.md, sources/text-to-cad-2026-05-04.md, sources/autoharness-2026-05-04.md, sources/openharness-2026-05-04.md, sources/awesome-agent-harness-2026-05-04.md, sources/autoreason-2026-05-04.md, sources/halo-2026-05-04.md, sources/auto-harness-2026-05-04.md, sources/harness-2026-05-04.md, sources/autoagent-2026-05-04.md
 - Updated: index.md, concept/entity pages for harness engineering, evaluation, governance, and agent tools
 - Conflicts: none
+## 2026-05-06 00:04
+- Ingested: 4 file(s) from article, newsletter, repo
+- Added: concepts/agent-native-authoring.md, concepts/presentations.md, concepts/programming.md, concepts/slides.md, concepts/the-code.md, entities/the-code-newsletter.md, entities/hermes.md, sources/2026-05-05-newsletter-digest.md, sources/2026-05-05-x-blogs-digest.md, sources/open-slide-2026-05-05.md, sources/the-code-2026-05-05.md
+- Updated: concepts/agent-infrastructure.md, concepts/ai-research-discovery.md, concepts/ai-research.md, concepts/ai.md, concepts/digest.md, concepts/the-rundown.md, entities/claude-code.md, entities/github.md, entities/openai.md, index.md, ingest-log.md, log.md
+- Conflicts: none
+
+- raw/newsletters/2026-05-05-newsletter-digest.md -> sources/2026-05-05-newsletter-digest.md
+- raw/newsletters/2026-05-05-the-code.md -> sources/the-code-2026-05-05.md
+- raw/repos/open-slide-2026-05-05.md -> sources/open-slide-2026-05-05.md
+- raw/x-blogs/2026-05-05-x-blogs-digest.md -> sources/2026-05-05-x-blogs-digest.md
+

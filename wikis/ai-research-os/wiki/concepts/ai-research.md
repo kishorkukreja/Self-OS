@@ -30,3 +30,9 @@ _Last updated: 2026-05-03_
 ## 2026-05-04 update
 
 This concept is also evidenced by [[sources/2026-05-03-x-blogs-digest]], which adds another captured signal for the wiki.
+
+## 2026-05-06 update
+
+This page was linked from [[sources/2026-05-05-x-blogs-digest]]. AI Research as evidenced by X/Twitter AI Blogs and Articles — 2026-05-05.
+
+**Sources:** [[sources/2026-05-05-x-blogs-digest]]

@@ -31,6 +31,7 @@ The current loop is repository-native: raw operational captures are saved under 
 ## Sessions
 | Session ID | Date | What happened |
 |------------|------|----------------|
+| 2026-05-05-morning | 2026-05-05 | Manual operating brief captured repo state, recent commits/raw changes, and the next move for shaping the Self-OS brief workflow. |
 | 2026-05-03-morning | 2026-05-03 | Self-OS Morning Brief — 2026-05-03 TL;DR - repo is clean at collection time; 1 open PR s ; no injected cron failures. - Top next move: inspect this first manual |
 | 2026-05-02-manual | 2026-05-02 | Manual operating brief captured repo state, recent commits/raw changes, and the next move for shaping the Self-OS brief workflow. |
 

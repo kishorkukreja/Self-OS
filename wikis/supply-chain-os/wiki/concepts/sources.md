@@ -21,3 +21,9 @@ source_count: 1
 **Sources:** [[sources/2026-05-02-sources]]
 
 _Last updated: 2026-05-03_
+
+## 2026-05-06 update
+
+This page was linked from [[sources/supply-chain-signals-2026-05-05-sources]]. Sources as evidenced by Supply Chain Signals Sources — 2026-05-05.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-05-sources]]

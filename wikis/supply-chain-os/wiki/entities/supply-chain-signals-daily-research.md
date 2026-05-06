@@ -23,3 +23,9 @@ status: draft
 **Sources:** [[sources/2026-05-02-daily-research]]
 
 _Last updated: 2026-05-03_
+
+## 2026-05-06 update
+
+This page was linked from [[sources/supply-chain-signals-2026-05-05-daily-research]]. Supply Chain Signals Daily Research is an entity referenced by Supply Chain Signals Daily Research — 2026-05-05.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-05-daily-research]]

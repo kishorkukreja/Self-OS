@@ -67,3 +67,9 @@ This page was linked from [[sources/nate-herk-build-sell-claude-code-operating-s
 ## 2026-05-04 update
 
 Referenced by [[sources/2026-05-03-x-blogs-digest]].
+
+## 2026-05-06 update
+
+This page was linked from [[sources/open-slide-2026-05-05]]. Claude Code is an entity referenced by open-slide.
+
+**Sources:** [[sources/open-slide-2026-05-05]]

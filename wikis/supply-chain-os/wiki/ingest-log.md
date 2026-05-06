@@ -43,3 +43,13 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/supply-chain-signals-2026-w19-overview.md, sources/supply-chain-signals-2026-05-04-sources.md, sources/supply-chain-signals-2026-05-04-daily-research.md
 - Updated: index.md, concepts/supply-chain-pressure.md, concepts/manufacturing-input-cost-inflation.md, concepts/wafer-to-rack.md, concepts/demand-pull-forward.md, entities/supply-chain-signals.md, entities/reuters.md, entities/new-york-fed.md
 - Conflicts: none
+## 2026-05-06 00:04
+- Ingested: 3 file(s) from newsletter-research, newsletter-sources, source
+- Added: sources/supply-chain-signals-2026-05-05-daily-research.md, sources/supply-chain-signals-2026-05-05-sources.md, sources/newsletters-supply-chain-signals-2026-w19-visuals-readme.md
+- Updated: concepts/daily-supply-chain-research.md, concepts/sources.md, concepts/supply-chain-signals.md, concepts/supply-chain.md, entities/ism.md, entities/supply-chain-signals-daily-research.md, entities/supply-chain-signals-sources.md, index.md, ingest-log.md, log.md
+- Conflicts: none
+
+- raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-05-daily-research.md -> sources/supply-chain-signals-2026-05-05-daily-research.md
+- raw/newsletters/supply-chain-signals/2026-W19/sources/supply-chain-signals-2026-05-05-sources.md -> sources/supply-chain-signals-2026-05-05-sources.md
+- raw/newsletters/supply-chain-signals/2026-W19/visuals/README.md -> sources/newsletters-supply-chain-signals-2026-w19-visuals-readme.md
+

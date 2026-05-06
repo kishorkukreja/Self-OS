@@ -30,3 +30,4 @@ Generate a raw brief with `scripts/generate_self_os_brief.py`, inspect it for us
 - [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-02-manual.md]]
 
 _Last updated: 2026-05-03_
+- [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-05-morning.md]]

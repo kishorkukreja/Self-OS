@@ -27,3 +27,9 @@ _Last updated: 2026-04-30_
 This page was linked from [[sources/2026-05-02-x-blogs-digest]]. AI Research Discovery as evidenced by X/Twitter AI Blogs and Articles — 2026-05-02.
 
 **Sources:** [[sources/2026-05-02-x-blogs-digest]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/2026-05-05-x-blogs-digest]]. AI Research Discovery as evidenced by X/Twitter AI Blogs and Articles — 2026-05-05.
+
+**Sources:** [[sources/2026-05-05-x-blogs-digest]]

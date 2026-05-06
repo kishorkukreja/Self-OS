@@ -52,3 +52,9 @@ _Append-only. Updated automatically by ingest runs._
 - Ingested: 3 files from newsletter-research
 - Added/updated: Supply Chain Signals W19 sources, pressure concepts, and source entities
 - Conflicts: none
+## 2026-05-06 00:04
+- Ingested: 3 file(s) from newsletter-research, newsletter-sources, source
+- Added: sources/supply-chain-signals-2026-05-05-daily-research.md, sources/supply-chain-signals-2026-05-05-sources.md, sources/newsletters-supply-chain-signals-2026-w19-visuals-readme.md
+- Updated: concepts/daily-supply-chain-research.md, concepts/sources.md, concepts/supply-chain-signals.md, concepts/supply-chain.md, entities/ism.md, entities/supply-chain-signals-daily-research.md, entities/supply-chain-signals-sources.md, index.md, ingest-log.md, log.md
+- Conflicts: none
+

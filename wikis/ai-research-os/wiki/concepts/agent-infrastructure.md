@@ -27,3 +27,9 @@ _Last updated: 2026-05-03_
 This page was linked from [[sources/ghost-unlimited-postgres-for-agents-2026-05-02]]. Agent Infrastructure as evidenced by Ghost — Unlimited Postgres for Agents.
 
 **Sources:** [[sources/ghost-unlimited-postgres-for-agents-2026-05-02]]
+
+## 2026-05-06 update
+
+This page was linked from [[sources/2026-05-05-x-blogs-digest]]. Agent Infrastructure as evidenced by X/Twitter AI Blogs and Articles — 2026-05-05.
+
+**Sources:** [[sources/2026-05-05-x-blogs-digest]]
