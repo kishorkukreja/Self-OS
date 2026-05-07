@@ -3,6 +3,7 @@ source: https://developers.openai.com/cookbook/examples/agents_sdk/building_reli
 date: 2026-05-06
 type: article
 tags: [openai-agents-sdk, memory, compaction, reliable-agents, sandbox-agents, agent-architecture, long-context]
+status: processed
 ---
 
 # Building Reliable Agents with Memory and Compaction

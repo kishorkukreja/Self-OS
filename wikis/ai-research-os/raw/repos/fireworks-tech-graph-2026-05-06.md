@@ -3,6 +3,7 @@ source: https://github.com/yizhiyanhua-ai/fireworks-tech-graph
 date: 2026-05-06
 type: repo
 tags: [technical-diagrams, svg, png, ai-agents, architecture-diagrams, claude-code-skills, rag, multi-agent-systems]
+status: processed
 ---
 
 # fireworks-tech-graph

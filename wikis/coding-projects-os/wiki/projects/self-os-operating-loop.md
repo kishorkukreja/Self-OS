@@ -1,7 +1,7 @@
 ---
 title: Self Os Operating Loop
 date_created: '2026-05-03'
-date_modified: '2026-05-05'
+date_modified: 2026-05-07
 summary: Project memory for the Self-OS operating loop and daily brief workflow.
 tags:
 - self-os
@@ -51,3 +51,9 @@ The current loop is repository-native: raw operational captures are saved under 
 **Decisions / implications:** This raw operating brief supports the Self-OS operating loop as a recurring project artifact: briefs should summarize system state, surface failures, and propose the next action without becoming a substitute for the canonical raw logs.
 
 **Remaining work:** Decide whether the brief shape should remain a script-only output, become a Hermes skill, or feed a daily project dashboard.
+
+## 2026-05-06 morning brief ingest
+
+The 2026-05-06 morning brief reported a clean repository at collection time, one open wiki-compile PR, no injected cron failures, and a recommended next move to inspect the manual brief before turning the shape into a Hermes skill. It also surfaced raw backlog counts across AI, coding-projects, and supply-chain wikis and pointed to the Self-OS operating contract as the source for the brief generator.
+
+**Raw source:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-06-morning.md]]

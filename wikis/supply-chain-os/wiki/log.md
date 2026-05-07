@@ -58,3 +58,8 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: concepts/daily-supply-chain-research.md, concepts/sources.md, concepts/supply-chain-signals.md, concepts/supply-chain.md, entities/ism.md, entities/supply-chain-signals-daily-research.md, entities/supply-chain-signals-sources.md, index.md, ingest-log.md, log.md
 - Conflicts: none
 
+## 2026-05-07 00:06
+- Ingested: 2 Supply Chain Signals research files for 2026-05-06.
+- Added source summaries for the source registry and daily research note.
+- Updated concepts/entities for supplier diversification, AI infrastructure supply chain, planning discipline, Gartner, BCG, and MIT CTL.
+- Conflicts: none

@@ -1,7 +1,7 @@
 ---
 title: Agent Evaluation
 date_created: 2026-05-01
-date_modified: '2026-05-04'
+date_modified: 2026-05-07
 summary: Methods and benchmarks for measuring agent reliability, generalization, trajectories,
   cost, and safety across realistic tasks.
 tags:
@@ -37,3 +37,7 @@ This page was linked from [[sources/2026-05-02-newsletter-digest]]. Agent Evalua
 ## 2026-05-04 update
 
 This concept is also evidenced by [[sources/agentic-harness-engineering-2026-05-03]], which adds another captured signal for the wiki.
+
+## 2026-05-07 update
+
+The May 2026 digest shows evaluation becoming both expensive and attackable, making methodology and cost part of trustworthy capability claims. Source: [[sources/x-blogs-digest-2026-05-06]].

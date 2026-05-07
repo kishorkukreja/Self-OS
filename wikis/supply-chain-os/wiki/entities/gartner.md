@@ -1,7 +1,7 @@
 ---
 title: "Gartner"
 date_created: 2026-04-27
-date_modified: 2026-04-27
+date_modified: 2026-05-07
 summary: "Leading technology research and advisory firm, publisher of the Supply Chain Top 25 and Magic Quadrant for supply chain planning."
 tags: ["analyst", "advisory"]
 type: entity
@@ -24,3 +24,7 @@ status: final
 **Sources:** [[sources/gartner-2026-future-supply-chain.md]], [[sources/toolsgroup-2026-decision-centric-planning.md]], [[sources/unilever-2026-kaizen-amazon-supply-chain.md]]
 
 _Last updated: 2026-04-27_
+
+## 2026-05-07 update
+
+Gartner is an analyst firm referenced for forecasts about agentic AI adoption and spend in supply chain management software. Source: [[sources/supply-chain-signals-2026-05-06-daily-research]].

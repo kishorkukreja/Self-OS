@@ -38,3 +38,9 @@ _Append-only. Updated automatically by ingest runs._
 - Decisions extracted: 0
 - Updated: projects/self-os-operating-loop.md
 
+## 2026-05-07 00:06
+- Session ingested: 2026-05-06-morning (self-os-operating-brief)
+- Project: self-os-operating-loop
+- Patterns extracted: 1 (daily-operating-brief)
+- Decisions extracted: 0
+- Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md

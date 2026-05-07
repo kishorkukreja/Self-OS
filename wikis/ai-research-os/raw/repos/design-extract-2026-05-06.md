@@ -3,6 +3,7 @@ source: https://github.com/Manavarya09/design-extract
 date: 2026-05-06
 type: repo
 tags: [design-systems, design-tokens, frontend-tooling, agent-tools, figma, tailwind, shadcn, mcp]
+status: processed
 ---
 
 # Designlang / design-extract
