@@ -353,10 +353,10 @@ PageIndex Blog, Sep 2025.
 
 <div align="center">
 
-[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/PageIndexAI)&ensp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/vectify-ai/)&ensp;
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/VuXuf29EUj)&ensp;
-[![Contact Us](https://img.shields.io/badge/Contact_Us-3B82F6?style=for-the-badge&logo=envelope&logoColor=white)](https://ii2abc2jejf.typeform.com/to/tK3AXl8T)
+[![[58a7bec54e9218b076e3489bb17f59f1_MD5.svg]]](https://x.com/PageIndexAI)&ensp;
+[![[165807ca7e53aae7d7a0677010028d1e_MD5.svg]]](https://www.linkedin.com/company/vectify-ai/)&ensp;
+[![[a1e5e56cbdcc97300e3228bc0aabc119_MD5.svg]]](https://discord.com/invite/VuXuf29EUj)&ensp;
+[![[1dae56cdd2a5f4ef03de327a67cba659_MD5.svg]]](https://ii2abc2jejf.typeform.com/to/tK3AXl8T)
 
 </div>
 
