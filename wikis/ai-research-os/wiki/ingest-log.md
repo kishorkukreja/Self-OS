@@ -80,3 +80,9 @@ _Append-only. Updated automatically by ingest runs._
 - raw/repos/open-slide-2026-05-05.md -> sources/open-slide-2026-05-05.md
 - raw/x-blogs/2026-05-05-x-blogs-digest.md -> sources/2026-05-05-x-blogs-digest.md
 
+## 2026-05-07 00:06
+- Ingested: 7 files from x-blogs, newsletters, repos, articles
+- Added: sources/x-blogs-digest-2026-05-06.md, sources/the-code-2026-05-06.md, sources/newsletter-digest-2026-05-06.md, sources/designlang-2026-design-extract.md, sources/fireworks-tech-graph-2026.md, sources/openai-2026-reliable-agents-memory-compaction.md, sources/schmid-2026-subagent-patterns.md
+- Updated: index.md, concepts/entities touched for agent evaluation, skill architecture, design extraction, memory/compaction, and subagent orchestration
+- Raw files: wikis/ai-research-os/raw/x-blogs/2026-05-06-x-blogs-digest.md; wikis/ai-research-os/raw/newsletters/2026-05-06-the-code.md; wikis/ai-research-os/raw/newsletters/2026-05-06-newsletter-digest.md; wikis/ai-research-os/raw/repos/design-extract-2026-05-06.md; wikis/ai-research-os/raw/repos/fireworks-tech-graph-2026-05-06.md; wikis/ai-research-os/raw/articles/2026-05-06-openai-building-reliable-agents-memory-compaction.md; wikis/ai-research-os/raw/articles/2026-05-06-subagent-patterns-2026.md
+- Conflicts: none

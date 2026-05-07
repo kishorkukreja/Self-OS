@@ -53,3 +53,9 @@ _Append-only. Updated automatically by ingest runs._
 - raw/newsletters/supply-chain-signals/2026-W19/sources/supply-chain-signals-2026-05-05-sources.md -> sources/supply-chain-signals-2026-05-05-sources.md
 - raw/newsletters/supply-chain-signals/2026-W19/visuals/README.md -> sources/newsletters-supply-chain-signals-2026-w19-visuals-readme.md
 
+## 2026-05-07 00:06
+- Ingested: 2 files from newsletter-research
+- Added: sources/supply-chain-signals-2026-05-06-sources.md, sources/supply-chain-signals-2026-05-06-daily-research.md
+- Updated: index.md, concepts/supplier-diversification.md, concepts/ai-infrastructure-supply-chain.md, concepts/supply-chain-planning-discipline.md, entities/gartner.md, entities/bcg.md, entities/mit-ctl.md
+- Raw files: wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-06-sources.md; wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-06-daily-research.md
+- Conflicts: none

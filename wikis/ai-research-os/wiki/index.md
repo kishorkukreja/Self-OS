@@ -1,9 +1,10 @@
 # AI Research OS — Index
-_Last updated: 2026-05-06_
+_Last updated: 2026-05-07_
 
-## Concepts (135)
+## Concepts (153)
 - [3d Generation](concepts/3d-generation.md) — 3d Generation as tracked across source material.
 - [Adapter Distillation](concepts/adapter-distillation.md) — Adapter Distillation is a theme captured in Contextual Agentic Memory Sleep Cycle Architecture.
+- [Agent Architecture Diagrams](concepts/agent-architecture-diagrams.md) — Agent architecture diagrams visualize planners, tools, memory stores, retrieval layers, and handoffs inside AI systems.
 - [Agent Architecture](concepts/agent-architecture.md) — Agent Architecture as evidenced by Harness vs Warp (Agent Architecture Overview).
 - [Agent Collaboration](concepts/agent-collaboration.md) — Agent Collaboration is a theme captured in Recursivemas 2026 05 03.
 - [Agent Engineering](concepts/agent-engineering.md) — Agent Engineering as tracked across source material.
@@ -13,6 +14,7 @@ _Last updated: 2026-05-06_
 - [Agent Infrastructure](concepts/agent-infrastructure.md) — Agent Infrastructure as evidenced by Donchitos/Claude-Code-Game-Studios.
 - [Agent Memory](concepts/agent-memory.md) — Systems that enable agents to store, retrieve, and learn from historical experiences to improve future reasoning and planning.
 - [Agent Native Authoring](concepts/agent-native-authoring.md) — Agent Native Authoring as evidenced by open-slide.
+- [Agent-Native UI Generation](concepts/agent-native-ui-generation.md) — Agent-native UI generation uses structured tokens, components, references, and prompt packs to help coding agents produce consistent interfaces.
 - [Agent Orchestration](concepts/agent-orchestration.md) — Concept stub created from restored AI research queue items.
 - [Agent Skills](concepts/agent-skills.md) — Agent Skills as tracked across source material.
 - [Agent Verification](concepts/agent-verification.md) — Agent Verification as tracked across source material.
@@ -53,12 +55,15 @@ _Last updated: 2026-05-06_
 - [Design Creation](concepts/design-creation.md) — Design Creation as evidenced by Refero Styles — Design Reference Library for AI Agents.
 - [Design Engineering Skills](concepts/design-engineering-skills.md) — Design Engineering Skills as tracked across source material.
 - [Design Md](concepts/design-md.md) — Design Md as evidenced by design-md-chrome (TypeUI DESIGN.md Extractor).
+- [Design System Extraction](concepts/design-system-extraction.md) — Design system extraction turns rendered products into structured design tokens, component anatomy, themes, and prompts for reuse.
 - [Design Systems For Agents](concepts/design-systems-for-agents.md) — Design Systems For Agents as evidenced by design-md-chrome (TypeUI DESIGN.md Extractor).
 - [Digest](concepts/digest.md) — Digest is a theme captured in Newsletter Digest.
 - [Document Parsing](concepts/document-parsing.md) — Document Parsing as evidenced by Firecrawl `/parse` and `/browser-trace` Skill Integration.
 - [Domain-Specific Agent Harnesses](concepts/domain-specific-agent-harnesses.md) — Harnesses tailored to a specialized work domain rather than generic chat.
 - [Embodied AI](concepts/embodied-ai.md) — AI systems that perceive, reason, and act within physical environments, bridging digital intelligence with real-world agents.
+- [Enterprise AI Agents](concepts/enterprise-ai-agents.md) — Enterprise AI agents are domain-specific agent workflows embedded into business systems, documents, and decision processes.
 - [Enterprise AI Workflows](concepts/enterprise-ai-workflows.md) — Enterprise AI Workflows as tracked across source material.
+- [Evidence Review Agents](concepts/evidence-review-agents.md) — Evidence review agents help inspect evolving document sets and draft reviewable artifacts with citations and uncertainty preserved.
 - [Foundation Models](concepts/foundation-models.md) — Foundation Models as evidenced by chiphuyen/aie-book — AI Engineering Book Resources.
 - [Frontend Agent Workflows](concepts/frontend-agent-workflows.md) — Frontend Agent Workflows as tracked across source material.
 - [Game Development](concepts/game-development.md) — Game Development as evidenced by Donchitos/Claude-Code-Game-Studios.
@@ -74,8 +79,11 @@ _Last updated: 2026-05-06_
 - [LLM Evaluation](concepts/llm-evaluation.md) — LLM Evaluation as tracked across source material.
 - [LLM Inference Infrastructure](concepts/llm-inference-infrastructure.md) — Systems, hardware, data architecture, and serving techniques needed to run LLM and agent workloads at production scale.
 - [LLM Knowledge Base](concepts/llm-knowledge-base.md) — LLM-maintained repository where an AI reads raw inputs and writes synthesised wiki entries, enabling compounding knowledge accumulation over time.
+- [LLM Knowledge Bases](concepts/llm-knowledge-bases.md) — LLM knowledge bases are AI-assisted personal or organizational knowledge stores assembled and queried with language models.
 - [Llms](concepts/llms.md) — Llms as evidenced by chiphuyen/aie-book — AI Engineering Book Resources.
+- [Long-Context Models](concepts/long-context-models.md) — Long-context models extend the amount of text, code, or evidence a model can consider in a single run.
 - [Long Running Agents](concepts/long-running-agents.md) — Long Running Agents as tracked across source material.
+- [Memory and Compaction](concepts/memory-compaction.md) — Memory and compaction separate temporary working-state compression from durable reusable workflow lessons.
 - [Meta AI](concepts/meta-ai.md) — Meta AI as evidenced by Autodata: an automatic data scientist to create high-quality data.
 - [Meta-Harness](concepts/meta-harness.md) — System where a coding agent autonomously improves LLM evaluation harnesses by reading the full history of prior attempts and proposing targeted modifications.
 - [Mixture Of Experts](concepts/mixture-of-experts.md) — Mixture Of Experts as tracked across source material.
@@ -85,14 +93,17 @@ _Last updated: 2026-05-06_
 - [Monetization](concepts/monetization.md) — Monetization is a theme captured in 10 Github Repos That Print Money While You Sleep.
 - [Multi-Agent Financial Analysis](concepts/multi-agent-financial-analysis.md) — Financial research workflows that decompose analysis across specialized LLM roles and structured review stages.
 - [Multi Agent Systems](concepts/multi-agent-systems.md) — Multi Agent Systems is a theme captured in Recursivemas 2026 05 03.
+- [Multi-Agent Teams](concepts/multi-agent-teams.md) — Multi-agent teams let agents communicate with each other directly under roles established by a main coordinator.
 - [Multi Agent](concepts/multi-agent.md) — Multi Agent as evidenced by Ruflo.
 - [Observability](concepts/observability.md) — Observability is a theme captured in Agentic Harness Engineering 2026 05 03.
 - [Open Design](concepts/open-design.md) — Open Design as evidenced by nexu-io/open-design.
 - [Open Source AI Signals](concepts/open-source-ai-signals.md) — Open Source AI Signals as tracked across source material.
 - [Orchestration](concepts/orchestration.md) — Orchestration as evidenced by Ruflo.
 - [Parrot](concepts/parrot.md) — Parrot is a theme captured in Autodata Parrot Unified Agentic Data Creation Reward Model Pipeline.
+- [Persistent Agent Pools](concepts/persistent-agent-pools.md) — Persistent agent pools are groups of stateful subagents that can receive follow-up messages and retain task context across steps.
 - [Persistent Agent State](concepts/persistent-agent-state.md) — Persistent Agent State as tracked across source material.
 - [Persona-Based Prompting](concepts/persona-based-prompting.md) — Technique of assigning a specific role or identity to an LLM to shape its tone, reasoning style, and output format for a given task.
+- [Pre-Commit AI Review](concepts/pre-commit-ai-review.md) — Pre-commit AI review uses an AI model at commit time to inspect staged diffs for secrets, debug residue, and unfinished work.
 - [Presentations](concepts/presentations.md) — Presentations as evidenced by open-slide.
 - [Programmable Coding Agents](concepts/programmable-coding-agents.md) — Coding agents exposed through SDKs, APIs, CLIs, and event streams so they can be embedded in custom developer tools.
 - [Programming](concepts/programming.md) — Programming as evidenced by 2026 05 05 The Code.
@@ -105,21 +116,27 @@ _Last updated: 2026-05-06_
 - [Recursive Agents](concepts/recursive-agents.md) — Recursive Agents is a theme captured in Recursivemas 2026 05 03.
 - [Regression Testing for Agents](concepts/regression-testing.md) — Evaluation gates that prevent agent changes from degrading previously working
 - [Reward Models](concepts/reward-models.md) — Reward Models is a theme captured in Autodata Parrot Unified Agentic Data Creation Reward Model Pipeline.
+- [Sandbox Agents](concepts/sandbox-agents.md) — Sandbox agents operate inside controlled workspaces with explicit files, tools, manifests, and output locations.
 - [Sandboxed Coding Agents](concepts/sandboxed-coding-agents.md) — Coding agents executed in isolated workspaces, containers, microVMs, branches, or worktrees to reduce host risk and support parallel work.
+- [Self-Hosted Deep Research](concepts/self-hosted-deep-research.md) — Self-hosted deep research combines retrieval, orchestration, and report writing on infrastructure controlled by the user or organization.
 - [Self Improving Agents](concepts/self-improving-agents.md) — Self Improving Agents is a theme captured in Contextual Agentic Memory Sleep Cycle Architecture.
 - [Self Learning Ai Agent](concepts/self-learning-ai-agent.md) — Stub page for Self Learning Ai Agent.
 - [Self Os](concepts/self-os.md) — Self Os as evidenced by Build & Sell Claude Code Operating Systems (2+ Hour Course).
 - [Skill Embeddings](concepts/skill-embeddings.md) — Skill Embeddings is a theme captured in Contextual Agentic Memory Sleep Cycle Architecture.
 - [Skill Evolution](concepts/skill-evolution.md) — The process by which agent skills improve automatically through usage, feedback, and collective experience aggregation.
+- [SKILL.md Architecture](concepts/skill-file-architecture.md) — SKILL.md architecture is the design of agent skill files as staged, maintainable instruction programs rather than one large prompt.
 - [Skill Retrieval](concepts/skill-retrieval.md) — Methods for selecting relevant agent skills from large libraries at inference time, balancing relevance with dependency completeness.
 - [Sleep Cycle Architecture](concepts/sleep-cycle-architecture.md) — Sleep Cycle Architecture is a theme captured in Contextual Agentic Memory Sleep Cycle Architecture.
 - [Slides](concepts/slides.md) — Slides as evidenced by open-slide.
+- [Small Language Model Agents](concepts/small-language-model-agents.md) — Small language model agents use specialized smaller models for narrow, repetitive subtasks inside a broader agentic system.
 - [Software Factory Workflows](concepts/software-factory-workflows.md) — Agentic software-development workflows that coordinate multiple implementation, review, and merge steps as a repeatable production system.
 - [Structured Latents](concepts/structured-latents.md) — Structured Latents as tracked across source material.
 - [Structured Output Generation](concepts/structured-output-generation.md) — Structured Output Generation as tracked across source material.
+- [Subagent Orchestration](concepts/subagent-orchestration.md) — Subagent orchestration is the design of how a main agent delegates to, supervises, and collects results from other agents.
 - [Superhuman](concepts/superhuman.md) — Superhuman is a theme captured in Newsletter Digest.
-- [Synthetic Data](concepts/synthetic-data.md) — Synthetic Data as evidenced by Autodata: an automatic data scientist to
+- [Synthetic Data](concepts/synthetic-data.md) — 'Synthetic Data as evidenced by Autodata: an automatic data scientist to
 - [Synthetic Training Data](concepts/synthetic-training-data.md) — Synthetic Training Data as tracked across source material.
+- [Technical Diagram Generation](concepts/technical-diagram-generation.md) — Technical diagram generation converts system descriptions into editable architecture, flow, sequence, or concept diagrams.
 - [Test Payload](concepts/test-payload.md) — Test Payload is a theme captured in Pasted X Payload 2026 05 03.
 - [The Code](concepts/the-code.md) — The Code as evidenced by 2026 05 05 The Code.
 - [The Rundown](concepts/the-rundown.md) — The Rundown is a theme captured in Newsletter Digest.
@@ -129,6 +146,7 @@ _Last updated: 2026-05-06_
 - [Trace-Driven Agent Optimization](concepts/trace-driven-agent-optimization.md) — Using execution traces to diagnose and improve agent harness behavior.
 - [Trading](concepts/trading.md) — Trading is a theme captured in 10 Github Repos That Print Money While You Sleep.
 - [Trending](concepts/trending.md) — Trending as evidenced by GitHub Trending Weekly Repositories — 2026-05-02.
+- [Trustworthy Agents](concepts/trustworthy-agents.md) — Trustworthy agents are tool-using AI systems designed with human control, value alignment, secure interactions, transparency, and privacy boundaries.
 - [Twitter](concepts/twitter.md) — Twitter is a theme captured in X Blogs Digest.
 - [Vision Language Model](concepts/vision-language-model.md) — Stub page for Vision Language Model.
 - [Voice Agent Interfaces](concepts/voice-agent-interfaces.md) — Voice Agent Interfaces as tracked across source material.
@@ -138,14 +156,14 @@ _Last updated: 2026-05-06_
 - [Wiki Agent Memory](concepts/wiki-agent-memory.md) — Pattern of giving an LLM agent lifecycle hooks into a knowledge wiki — loading context on session start, filing insights on session end, and running maintenance on schedule.
 - [X](concepts/x.md) — X is a theme captured in X Blogs Digest.
 
-## Entities (95)
-- [2026 05 05 The Code](entities/the-code-newsletter.md) — 2026 05 05 The Code is an entity referenced by 2026 05 05 The Code.
+## Entities (108)
 - [40 Powerful AI Prompts for Claude That Produce Expert-Level Results](entities/40-powerful-ai-prompts-for-claude-that-produce-expert-level.md) — AI research entity captured from the queued source 40-powerful-ai-prompts-for-claude-that-produce-expert-level.
 - [ACE](entities/ace.md) — AI research entity captured from the queued source ace-2026-ace-agentic-context-engineering-2026-04-28.
 - [Addy Osmani](entities/addy-osmani.md) — Addy Osmani is an entity referenced by ingested source material.
 - [Agent of Empires](entities/agent-of-empires.md) — AI research entity captured from the queued source agent-of-empires-2026-agent-of-empires-2026-04-28.
 - [AgentConnect](entities/agentconnect.md) — AI research entity captured from the queued source agentconnect-2026-agentconnect-2026-04-28.
 - [AgentField](entities/agentfield.md) — AI research entity captured from the queued source agentfield-2026-agentfield-2026-04-28.
+- [Agno](entities/agno.md) — Agno is associated with Scout, an open-source context agent pattern that navigates company tools live instead of relying only on a stale index.
 - [AI Engineering](entities/ai-engineering.md) — AI Engineering is an entity referenced by chiphuyen/aie-book — AI Engineering Book Resources.
 - [Andrej Karpathy](entities/andrej-karpathy.md) — AI researcher and engineer who popularised the raw→wiki LLM knowledge base pattern in April 2026.
 - [Anthropic](entities/anthropic.md) — AI safety company and creator of Claude, the Claude Agent SDK, and Claude Code — the primary AI infrastructure underlying Self OS.
@@ -170,15 +188,19 @@ _Last updated: 2026-05-06_
 - [Cursor](entities/cursor.md) — AI research entity captured from the queued source cursor-2026-2026-04-28-leerob-cursor-coding-agents-tutorial.
 - [design-md-chrome (TypeUI DESIGN.md Extractor)](entities/design-md-chrome-typeui-design-md-extractor.md) — design-md-chrome (TypeUI DESIGN.md Extractor) is an entity referenced by design-md-chrome (TypeUI DESIGN.md Extractor).
 - [DESIGN.md](entities/design-md.md) — DESIGN.md is an entity referenced by design-md-chrome (TypeUI DESIGN.md Extractor).
+- [Designlang](entities/designlang.md) — Designlang is a design-system extraction tool that emits tokens, themes, Figma variables, report cards, and prompt packs from live websites.
+- [Figma](entities/figma.md) — Figma is a collaborative design tool referenced as a target for variables exported by Designlang.
 - [Firecrawl](entities/firecrawl.md) — Firecrawl is an entity referenced by Firecrawl `/parse` and `/browser-trace` Skill Integration.
+- [fireworks-tech-graph](entities/fireworks-tech-graph.md) — fireworks-tech-graph is a Claude Code skill/repository for generating technical SVG and PNG diagrams from natural language.
 - [Galileo AI](entities/galileo-ai.md) — AI evaluation and observability platform/source publishing practical agent-evaluation framework guidance.
 - [Gencay](entities/gencay.md) — AI educator and newsletter author focused on practical prompting techniques and tool workflows.
 - [Ghost](entities/ghost.md) — Ghost is an entity referenced by Ghost — Unlimited Postgres for Agents.
-- [GitHub](entities/github.md) — GitHub is an entity referenced by Autodata: an automatic data scientist
+- [GitHub](entities/github.md) — 'GitHub is an entity referenced by Autodata: an automatic data scientist
 - [GitReverse](entities/gitreverse.md) — AI research entity captured from the queued source gitreverse-2026-gitreverse-2026-04-28.
 - [Google Cloud](entities/google-cloud.md) — Google Cloud is an entity referenced by Harness vs Warp (Agent Architecture Overview).
 - [Google DeepMind](entities/google-deepmind.md) — Google AI organization publishing Gemini model cards and research artifacts.
 - [Google NotebookLM](entities/google-notebooklm.md) — Google's AI-powered research and note-taking tool that lets users upload sources, query them conversationally, and generate multi-modal Studio outputs including audio overviews, sl
+- [Google](entities/google.md) — Google is an AI and developer-platform company referenced for Gemini API File Search, Gemma updates, and agent-development guidance.
 - [Graph Of Skills](entities/graph-of-skills.md) — Stub page for Graph Of Skills.
 - [Grok](entities/grok.md) — Grok is an entity referenced by ingested source material.
 - [HALO](entities/halo.md) — Hierarchical Agent Loop Optimization toolchain for trace-driven harness improvement.
@@ -198,21 +220,26 @@ _Last updated: 2026-05-06_
 - [Mem0](entities/mem0.md) — Open-source memory layer for LLM applications providing adaptive personalization.
 - [Memento](entities/memento.md) — Memory fine-tuning framework for agents that freezes LLMs while optimizing memory parameters.
 - [Meta AI](entities/meta-ai.md) — Meta AI is an entity referenced by Autodata: an automatic data scientist to create high-quality data.
+- [METR](entities/metr.md) — METR is an AI evaluation organization referenced for frontier-model task-completion time-horizon measurement.
 - [Microsoft Research](entities/microsoft-research.md) — Research division of Microsoft, authors of the Universal Verifier for computer-use agents.
 - [Microsoft TRELLIS.2](entities/microsoft-trellis-2.md) — Microsoft TRELLIS.2 is an entity referenced by ingested source material.
 - [Mistral AI Workflows](entities/mistral-ai-workflows.md) — Mistral AI Workflows is an entity referenced by ingested source material.
 - [nia-docs / agentsearch.sh](entities/nia-docs.md) — Tool that mounts any documentation website as a Unix filesystem, letting AI agents browse docs with cat, grep, tree and find — no RAG or MCP schemas needed.
 - [notebooklm-py](entities/notebooklm-py.md) — Unofficial Python library and CLI providing full programmatic access to Google NotebookLM, used in Self OS for deep research automation.
+- [NVIDIA](entities/nvidia.md) — NVIDIA is an AI infrastructure company referenced for small-language-model agent architecture guidance.
 - [Obscura](entities/obscura.md) — Rust-based headless browser engine for AI agents, scraping, and CDP-compatible browser automation.
 - [Obsidian](entities/obsidian.md) — Local-first markdown note-taking application with graph view and wikilinks — used as the visual IDE and frontend for the knowledge base.
 - [Ohmo](entities/ohmo.md) — Personal-agent application included with OpenHarness.
+- [Onyx](entities/onyx.md) — Onyx is an open-source self-hostable deep research and retrieval stack referenced as competitive on DeepResearch Bench.
 - [Open Design](entities/open-design.md) — Open Design is an entity referenced by nexu-io/open-design.
+- [OpenAI Agents SDK](entities/openai-agents-sdk.md) — The OpenAI Agents SDK provides agent, sandbox, session, compaction, and memory primitives used in OpenAI’s reliability cookbook example.
 - [OpenAI Symphony](entities/openai-symphony.md) — AI research entity captured from the queued source openai-symphony-2026-openai-symphony-2026-04-28.
 - [OpenAI](entities/openai.md) — OpenAI is an entity referenced by ingested source material.
 - [OpenClaw](entities/openclaw.md) — Open-source personal AI assistant that runs locally and autonomously, capable of self-improving by writing its own skills and maintaining persistent memory via markdown memory file
 - [OpenHarness](entities/openharness.md) — Open Python agent harness with tool use, skills, memory, plugins, permissions,
 - [Parrot](entities/parrot.md) — Parrot is referenced by Autodata Parrot Unified Agentic Data Creation Reward Model Pipeline.
 - [Paul Bakaus](entities/paul-bakaus.md) — Creator of Impeccable, a frontend design skill for AI coding agents.
+- [Phil Schmid](entities/phil-schmid.md) — Phil Schmid is the author of the four-subagent-patterns article captured in the AI Research OS.
 - [Plurai](entities/plurai.md) — Plurai is an entity referenced by ingested source material.
 - [Prompt Master](entities/prompt-master.md) — AI research entity captured from the queued source prompt-master-2026-prompt-master-2026-04-28.
 - [Qwen](entities/qwen.md) — Family of large language and vision-language models by Alibaba Cloud, used in agent and embodied systems.
@@ -226,16 +253,20 @@ _Last updated: 2026-05-06_
 - [Sandcastle](entities/sandcastle.md) — TypeScript toolkit for orchestrating coding agents in isolated sandboxes.
 - [Scaling Test-Time Compute for Agentic Coding](entities/scaling-test-time-compute-for-agentic-coding.md) — AI research entity captured from the queued source scaling-test-time-compute-for-agentic-coding-2026-scaling-test.
 - [Self-OS](entities/self-os.md) — Self-OS is an entity referenced by Firecrawl `/parse` and `/browser-trace` Skill Integration.
+- [shadcn/ui](entities/shadcn.md) — shadcn/ui is a component/theme system referenced as an output target for Designlang design extraction.
+- [SubQ](entities/subq.md) — SubQ is Subquadratic’s long-context model/platform highlighted for claimed sparse subquadratic attention and agent-coding use cases.
+- [Tailwind CSS](entities/tailwind.md) — Tailwind CSS is a utility-first CSS framework referenced as a theme/config output target for Designlang.
 - [Tauric Research](entities/tauric-research.md) — Organization behind the TradingAgents multi-agent financial research framework.
 - [Tencent](entities/tencent.md) — Chinese technology company developing embodied AI models including HY-Embodied-0.5.
 - [text-to-cad](entities/text-to-cad.md) — Open-source local harness for source-controlled CAD generation with coding
+- [2026 05 05 The Code](entities/the-code-newsletter.md) — 2026 05 05 The Code is an entity referenced by 2026 05 05 The Code.
 - [TradingAgents](entities/tradingagents.md) — Open-source multi-agent LLM framework for financial trading research.
 - [UI Skills](entities/ui-skills.md) — UI Skills is an entity referenced by ingested source material.
 - [Warp](entities/warp.md) — Warp is an entity referenced by Harness vs Warp (Agent Architecture Overview).
 - [WUPHF](entities/wuphf.md) — AI research entity captured from the queued source wuphf-2026-wuphf-2026-04-27.
 - [xAI](entities/xai.md) — xAI is an entity referenced by ingested source material.
 
-## Sources (128)
+## Sources (135)
 - [Newsletter Digest — Saturday, 02 May 2026](sources/2026-05-02-newsletter-digest.md) — Newsletter Digest — Saturday, 02 May 2026 Digest generated automatically on Saturday, 02 May 2026. 2 of ~8 expected daily newsletters received (typical for Saturday — most newslett
 - [X/Twitter AI Blogs and Articles — 2026-05-02](sources/2026-05-02-x-blogs-digest.md) — Daily digest of AI/ML articles and blog links discovered via X/Twitter search and web search fallback. Key themes this cycle: agent harness engineering , evaluation cost and redund
 - [10 Github Repos That Print Money While You Sleep](sources/2026-05-03-10-github-repos-that-print-money-while-you-sleep.md) — 10 GitHub Repos that Print Money While You Sleep Summary Code Coup's Medium article frames a set of GitHub repositories as automation tools that can create financial leverage acros
@@ -265,11 +296,11 @@ _Last updated: 2026-05-06_
 - [SkillClaw — Skill Collective Evolution Framework](sources/amap-ml-2026-skillclaw.md) — Framework for evolving reusable skills in multi-user OpenClaw-style agent ecosystems by automatically distilling session experience into shared SKILL.md files.
 - [apply-yc — Claude Code Skill for YC Applications](sources/apply-yc-2026-apply-yc-2026-04-28.md) — apply-yc — Claude Code Skill for YC Applications captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is usefu
 - [Turning the Entire Web Into a Filesystem](sources/arlanr-web-as-filesystem-2026.md) — Code hallucination is a docs staleness problem — the solution is mounting documentation sites as Unix filesystems so agents browse with familiar shell tools instead of RAG.
-- [auto-harness — Self-Improving Agentic Systems via Benchmarks and Gating](sources/auto-harness-2026-05-04.md) — auto-harness is a self-improvement loop for agentic systems: run benchmarks,
+- [auto-harness — Self-Improving Agentic Systems via Benchmarks and Gating](sources/auto-harness-2026-05-04.md) — 'auto-harness is a self-improvement loop for agentic systems: run benchmarks,
 - [AutoAgent — Autonomous Harness Engineering](sources/autoagent-2026-05-04.md) — AutoAgent is a compact framework for autonomous harness engineering. A human
 - [Autogenesis: A Self-Evolving Agent Protocol](sources/autogenesis-2026-autogenesis-2026-04-27.md) — Autogenesis: A Self-Evolving Agent Protocol captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is useful bec
-- [AutoHarness — Automated Harness Engineering for AI Agents](sources/autoharness-2026-05-04.md) — AutoHarness is a governance wrapper for LLM clients and agent loops. It
-- [Autoreason — Self-Refinement That Knows When to Stop](sources/autoreason-2026-05-04.md) — Autoreason addresses a failure mode in iterative AI workflows: critique-and-revise
+- [AutoHarness — Automated Harness Engineering for AI Agents](sources/autoharness-2026-05-04.md) — 'AutoHarness is a governance wrapper for LLM clients and agent loops. It
+- [Autoreason — Self-Refinement That Knows When to Stop](sources/autoreason-2026-05-04.md) — 'Autoreason addresses a failure mode in iterative AI workflows: critique-and-revise
 - [Awesome Agent Harness — Implementation-First Harness Engineering Catalog](sources/awesome-agent-harness-2026-05-04.md) — Awesome Agent Harness is a catalog rather than a single implementation, but
 - [Donchitos/Claude-Code-Game-Studios](sources/claude-code-game-studios-2026-05-02.md) — Claude Code Game Studios is a Claude Code project template for turning a single Claude Code session into a structured game development “studio.” It packages a large set of speciali
 - [Claude Code Hook — Context Timeline](sources/claude-code-hook-2026-claude-code-hook-context-timeline-2026.md) — Claude Code Hook — Context Timeline captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is useful because it 
@@ -283,7 +314,9 @@ _Last updated: 2026-05-06_
 - [Cursor: Coding Agents Tutorial (2026) — Lee Robinson](sources/cursor-2026-2026-04-28-leerob-cursor-coding-agents-tutorial.md) — Cursor: Coding Agents Tutorial (2026) — Lee Robinson captures a video relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is 
 - [cursor/cookbook](sources/cursor-2026-cookbook.md) — [[entities/cursor-cookbook]] is Cursor's public examples repository for building with Cursor's coding-agent SDK.
 - [design-md-chrome (TypeUI DESIGN.md Extractor)](sources/design-md-chrome-2026-05-02.md) — A Chrome extension by Bergside that extracts visual styles and design tokens from any website and generates a DESIGN.md or SKILL.md file. The output follows the open source TypeUI 
+- [Designlang / design-extract](sources/designlang-2026-design-extract.md) — Repository summary for Designlang, a tool that extracts live website design systems into tokens, Tailwind/shadcn themes, Figma variables, prompt packs, and MCP payloads.
 - [Firecrawl `/parse` and `/browser-trace` Skill Integration](sources/firecrawl-parse-browser-trace-skill-integration-2026-05-02.md) — Firecrawl /parse should be incorporated into Self OS/Hermes knowledge ingestion as an optional document parsing path for local or private files. It is especially useful for PDFs, D
+- [fireworks-tech-graph](sources/fireworks-tech-graph-2026.md) — Repository summary for a Claude Code skill that generates publication-ready technical SVG/PNG diagrams from natural language, including AI-agent workflow patterns.
 - [Karpathy-Inspired Claude Code Guidelines](sources/forrestchang-2026-karpathy-skills.md) — CLAUDE.md plugin derived from Andrej Karpathy's observations on LLM coding pitfalls, enforcing four principles: Think Before Coding, Simplicity First, Surgical Changes, and Goal-Dr
 - [GBrain — Garry Tan's Opinionated Agent Brain](sources/garry-tan-2026-gbrain.md) — Open-source agent brain built on Bun with hybrid search, code intelligence, and automatic typed-link extraction, compatible with OpenClaw and Hermes Agent.
 - [How to really stop your agents from making the same mistakes](sources/garrytan-2026-skillify.md) — Garry Tan's Skillify pattern: every agent failure becomes a permanent structural fix with tests, resolver routing, and daily evals via the 10-step Skillify checklist.
@@ -295,7 +328,7 @@ _Last updated: 2026-05-06_
 - [DESIGN.md — Google Labs Format Specification](sources/google-labs-2026-design-md.md) — Alpha-format specification from Google Labs for describing visual design systems to coding agents using machine-readable YAML tokens combined with human-readable Markdown rationale
 - [Harness vs Warp (Agent Architecture Overview)](sources/googlecloudtech-harness-vs-warp-agent-architecture-2026.md) — Harness vs Warp (Agent Architecture Overview) Capture note: the user supplied the neutral Harness vs Warp summary below and attached the X URL as context/source. Browser extraction
 - [HALO — Hierarchical Agent Loop Optimization](sources/halo-2026-05-04.md) — HALO is a trace-driven methodology for improving agent harnesses. It instruments
-- [Harness — Team-Architecture Factory for Claude Code](sources/harness-2026-05-04.md) — Harness is a Claude Code meta-skill for generating project-specific teams
+- [Harness — Team-Architecture Factory for Claude Code](sources/harness-2026-05-04.md) — 'Harness is a Claude Code meta-skill for generating project-specific teams
 - [Hermes Labyrinth](sources/hermes-labyrinth-2026-hermes-labyrinth-2026-04-27.md) — Hermes Labyrinth captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is useful because it records concrete ca
 - [I Want to Extend My Claude Sessions (Full Guide)](sources/hooeem-extend-claude-sessions-2026.md) — Guide to four workflows for extending Claude sessions beyond context limits, centred on running /wrap-up before closing each session to extract and persist insights.
 - [How to Create Your Own LLM Knowledge Bases Today (Full Course)](sources/hooeem-llm-knowledge-base-guide-2026.md) — Step-by-step guide covering three levels of LLM knowledge base implementation — no-code, semi-automated, and fully automated with GitHub Actions.
@@ -329,11 +362,13 @@ _Last updated: 2026-05-06_
 - [Multica — Managed Agents Platform](sources/multica-ai-2026-multica.md) — Open-source managed agents platform that turns coding agents into team members with task assignment, autonomous execution, skill compounding, and unified runtime management.
 - [Build & Sell Claude Code Operating Systems (2+ Hour Course)](sources/nate-herk-build-sell-claude-code-operating-systems-2026.md) — Nate Herk frames a Claude Code based AI Operating System as a persistent working environment that can see business files, communications, priorities, tasks, and data; interact with
 - [Newsletter Digest — 2026-05-01](sources/newsletter-digest-2026-05-01.md) — This multi-newsletter digest summarizes AI, tech, and product signals from The Rundown, Unwind AI, Superhuman, Alpha Signal, TLDR AI, and TLDR Main. The AI-specific center of gravi
+- [AI Newsletter Digest — 2026-05-06](sources/newsletter-digest-2026-05-06.md) — Cross-newsletter digest tracking SubQ, GPT-5.5 Instant, Anthropic enterprise agents, skill architecture, self-hosted research, and enterprise AI implications.
 - [Newsletter Digest v2 — 2026-05-01](sources/newsletter-digest-v2-2026-05-01.md) — This second 2026-05-01 newsletter digest overlaps with the daily digest but is preserved as a separate source because it may contain alternate extraction, phrasing, or outlet cover
 - [notebooklm-py — Unofficial Python API and CLI for Google NotebookLM](sources/notebooklm-py-repo.md) — Unofficial Python library and CLI for Google NotebookLM with native Claude Code skill integration, used in Self OS for deep research automation.
 - [Obscura — Headless Browser for AI Agents](sources/obscura-2026-headless-browser-for-ai-agents.md) — Obscura is a Rust-based headless browser engine aimed at AI agents, web scraping, and large-scale browser automation. Its main promise is operational: run real JavaScript through V
 - [nexu-io/open-design](sources/open-design-2026-05-02.md) — Open Design is a local first, open source alternative to Anthropic’s Claude Design. It connects existing coding agent CLIs to a structured design artifact workflow, allowing users 
 - [open-slide](sources/open-slide-2026-05-05.md) — 1weiho/open slide is an MIT licensed TypeScript/React slide framework built for coding agents. The core idea is that slides are visual code: the user describes a deck in natural la
+- [OpenAI — Reliable Agents with Memory and Compaction](sources/openai-2026-reliable-agents-memory-compaction.md) — OpenAI Cookbook example separating compaction for current long-running runs from memory for reusable lessons across future sandbox-agent runs.
 - [OpenAI Symphony](sources/openai-symphony-2026-openai-symphony-2026-04-28.md) — OpenAI Symphony captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is useful because it records concrete cap
 - [OpenHarness — Open Agent Harness with Built-in Personal Agent Ohmo](sources/openharness-2026-05-04.md) — OpenHarness is a broad Python harness for tool use, skills, memory, plugin
 - [Pasted X Payload 2026 05 03](sources/pasted-x-payload-2026-05-03.md) — Pasted X Payload Summary A raw chat paste consisting of a long repeated x character payload. Captured directly into ai-research-os as a raw resource. Key points - User requested: '
@@ -348,19 +383,22 @@ _Last updated: 2026-05-06_
 - [Replit Slides](sources/replit-slides-2026.md) — Replit Slides is an AI slide-deck creation workflow inside Replit Agent. Users describe the deck they want, upload source material or brand guidelines, and Replit generates a compl
 - [Ruflo](sources/ruflo-2026-05-02.md) — Ruflo is a comprehensive multi agent AI orchestration framework designed specifically for Claude Code. It transforms Claude Code into a development platform with 100+ specialized a
 - [Scaling Test-Time Compute for Agentic Coding](sources/scaling-test-time-compute-for-agentic-coding-2026-scaling-test.md) — Scaling Test-Time Compute for Agentic Coding captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is useful be
+- [Phil Schmid — Four Subagent Patterns in 2026](sources/schmid-2026-subagent-patterns.md) — Article classifying subagent orchestration by lifecycle control: inline tools, fan-out, persistent pools, and teams that communicate directly.
 - [The Art of Building Verifiers for Computer Use Agents](sources/sharma-2026-cua-verifier.md) — Microsoft Research paper presenting four design principles for reliable CUA trajectory verification, the Universal Verifier system, and the CUAVerifierBench benchmark.
 - [TauricResearch/TradingAgents](sources/tauricresearch-2026-tradingagents.md) — [[entities/tradingagents]] is an open-source multi-agent LLM research framework for financial trading analysis.
 - [HY-Embodied — Embodied Foundation Models](sources/tencent-2026-hy-embodied.md) — Tencent's family of embodied foundation models for real-world agents, featuring a Mixture-of-Transformers architecture with 2B edge and 32B reasoning variants trained on 100M+ embo
 - [text-to-cad — Local Agent Harness for CAD Generation](sources/text-to-cad-2026-05-04.md) — text-to-cad is a concrete example of domain-specific harness engineering.
-- [The Code — 2026-05-04](sources/the-code-2026-05-04.md) — This issue of The Code centers on the programming-agent stack: Claude Security
+- [The Code — 2026-05-04](sources/the-code-2026-05-04.md) — 'This issue of The Code centers on the programming-agent stack: Claude Security
 - [2026 05 05 The Code](sources/the-code-2026-05-05.md) — 📰 The Code — Tuesday, May 5 2026 🗞️ Today in Programming Vercel takes on cybersecurity with DeepSec: Vercel launched DeepSec, an open source agent scanner that deploys coding agent
+- [The Code — 2026-05-06](sources/the-code-2026-05-06.md) — The Code issue covering GPT-5.5 Instant, SubQ, multimodal file search, SKILL.md architecture, and AI-coding workflows.
 - [Microsoft TRELLIS.2: Native and Compact Structured Latents for 3D Generation](sources/trellis-2-2026.md) — microsoft/TRELLIS.2 is Microsoft's repository for Native and Compact Structured Latents for 3D Generation. It is a 3D generation research/codebase release with assets, configs, dat
 - [ibelick/ui-skills](sources/ui-skills-2026.md) — ibelick/ui-skills is the GitHub repository behind UI Skills, a public collection and website for “Skills for Design Engineers.” The project is built primarily with TypeScript and A
 - [UI Skills Directory for Design Engineers](sources/ui-skills-directory-2026.md) — UI Skills is a directory of design-engineering skills for frontend teams and AI coding workflows. The directory describes itself as a thoughtful collection of 109 high-quality skil
 - [Using xAI Grok for slide generation workflows](sources/using-xai-grok-for-slides-2026.md) — xAI does not currently present Grok as a dedicated slide-deck product in the same way Replit does, but Grok's official product and developer documentation show the building blocks 
-- [WUPHF ("woof") — Slack for AI Employees](sources/wuphf-2026-wuphf-2026-04-27.md) — WUPHF (\"woof\") — Slack for AI Employees captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is useful becau
+- [WUPHF (\"woof\") — Slack for AI Employees](sources/wuphf-2026-wuphf-2026-04-27.md) — WUPHF (\"woof\") — Slack for AI Employees captures a repo relevant to AI engineering workflows, agent infrastructure, and knowledge-management practices. The source is useful becau
 - [X/Twitter AI Blogs and Articles — 2026-04-30](sources/x-blogs-digest-2026-04-30.md) — The 2026-04-30 X/Twitter AI blog digest captures a day dominated by [[concepts/agent-evaluation]] and benchmark trustworthiness.
 - [X/Twitter AI Blogs and Articles — 2026-05-01](sources/x-blogs-digest-2026-05-01.md) — This daily X/blog digest captures a broad AI-research and AI-engineering snapshot from 2026-05-01. The strongest cluster is around agent infrastructure: Qwen-Scope applies sparse a
+- [X/Twitter AI Blogs and Articles — 2026-05-06](sources/x-blogs-digest-2026-05-06.md) — Daily X-oriented AI article discovery emphasizing agent evaluation, trustworthy agents, model releases, scalable agent infrastructure, and LLM knowledge bases.
 - [X/Twitter AI Blogs and Articles — 2026-04-29](sources/x-blogs-digest-2026.md) — Daily digest of AI/ML articles and blog links discovered via X/Twitter-oriented search. xurl is not currently installed/authenticated in this environment, so this first run used we
 - [Meta-Harness: Autonomously Improving LLM Harnesses](sources/yoonholeee-meta-harness-2026.md) — Research introducing Meta-Harness — a coding agent that autonomously optimises LLM evaluation harnesses by reading the full history of prior attempts.
 - [Claude Context — Semantic Code Search MCP Plugin](sources/zilliztech-2026-claude-context.md) — MCP plugin from Zilliz that adds hybrid semantic code search to Claude Code and other AI coding agents, reducing token usage by ~40% through Milvus-backed retrieval.
@@ -370,3 +408,4 @@ _Last updated: 2026-05-06_
 
 ## Outputs (1)
 - [Lint Report: AI Research OS — 2026-05-02](outputs/lint-report-2026-05-02.md) — Weekly health check for AI Research OS
+

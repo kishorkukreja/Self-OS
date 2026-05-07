@@ -3,6 +3,7 @@ source: https://www.philschmid.de/subagent-patterns-2026
 date: 2026-05-06
 type: article
 tags: [subagents, multi-agent-systems, agent-orchestration, ai-agents, agent-architecture, agent-lifecycle]
+status: processed
 ---
 
 # How Agents Manage Other Agents: Four Subagents Patterns in 2026

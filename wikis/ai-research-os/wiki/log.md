@@ -89,3 +89,8 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: concepts/agent-infrastructure.md, concepts/ai-research-discovery.md, concepts/ai-research.md, concepts/ai.md, concepts/digest.md, concepts/the-rundown.md, entities/claude-code.md, entities/github.md, entities/openai.md, index.md, ingest-log.md, log.md
 - Conflicts: none
 
+## 2026-05-07 00:06
+- Ingested: 7 AI research raw files from 2026-05-06.
+- Added source summaries for X/blog discovery, The Code, newsletter digest, Designlang, fireworks-tech-graph, OpenAI memory/compaction, and subagent patterns.
+- Updated index plus concepts/entities for evaluation, trustworthy agents, skill architecture, long-context models, design extraction, memory/compaction, and subagent orchestration.
+- Conflicts: none
