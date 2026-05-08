@@ -65,3 +65,11 @@ This page was linked from [[sources/supply-chain-signals-2026-05-05-daily-resear
 This page was linked from [[sources/supply-chain-signals-2026-05-05-sources]]. ISM is an entity referenced by Supply Chain Signals Sources — 2026-05-05.
 
 **Sources:** [[sources/supply-chain-signals-2026-05-05-sources]]
+
+
+## 2026-05-08 update
+
+- April 2026 manufacturing and services data supplied price, new-orders, employment, and supplier-delivery metrics for the daily research note.
+- Source link: [[sources/supply-chain-signals-2026-05-07-sources]]
+
+_Last updated: 2026-05-08_

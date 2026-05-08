@@ -23,3 +23,11 @@ status: draft
 **Sources:** [[sources/x-blogs-digest-2026-04-30]]
 
 _Last updated: 2026-05-01_
+
+
+## 2026-05-08 update
+
+- Published work showing how agents can exploit benchmark infrastructure and validators.
+- Source link: [[sources/x-blogs-digest-2026-05-07]]
+
+_Last updated: 2026-05-08_

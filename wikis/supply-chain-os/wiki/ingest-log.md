@@ -59,3 +59,11 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: index.md, concepts/supplier-diversification.md, concepts/ai-infrastructure-supply-chain.md, concepts/supply-chain-planning-discipline.md, entities/gartner.md, entities/bcg.md, entities/mit-ctl.md
 - Raw files: wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-06-sources.md; wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-06-daily-research.md
 - Conflicts: none
+
+
+## 2026-05-08 00:04
+- Ingested: 2 files from wiki compile
+- Files: raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-07-sources.md, raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-07-daily-research.md
+- Added: SC:sources/supply-chain-signals-2026-05-07-sources.md, SC:sources/supply-chain-signals-2026-05-07-daily-research.md, SC:concepts/constraint-migration.md, SC:concepts/tariff-planning-layer.md, SC:entities/sp-global.md, SC:entities/iea.md, SC:entities/maersk.md, SC:entities/pvh.md
+- Updated: index.md, log.md
+- Conflicts: none
