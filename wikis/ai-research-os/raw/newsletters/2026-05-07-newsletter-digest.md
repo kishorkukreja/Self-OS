@@ -3,7 +3,7 @@ source: newsletter-digest
 date: 2026-05-07
 type: newsletter
 tags: [digest, ai, the-rundown, the-code, superhuman, alpha-signal, daily-dose-of-ds]
-status: pending
+status: processed
 ---
 
 # Newsletter Digest — Thursday, 7 May 2026

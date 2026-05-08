@@ -44,3 +44,7 @@ _Append-only. Updated automatically by ingest runs._
 - Patterns extracted: 1 (daily-operating-brief)
 - Decisions extracted: 0
 - Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md
+
+
+## 2026-05-08 00:04
+- wiki compile processed 1 raw file: raw/projects/self-os-operating-loop/ops/daily/2026-05-07-morning.md

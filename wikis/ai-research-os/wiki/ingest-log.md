@@ -86,3 +86,11 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: index.md, concepts/entities touched for agent evaluation, skill architecture, design extraction, memory/compaction, and subagent orchestration
 - Raw files: wikis/ai-research-os/raw/x-blogs/2026-05-06-x-blogs-digest.md; wikis/ai-research-os/raw/newsletters/2026-05-06-the-code.md; wikis/ai-research-os/raw/newsletters/2026-05-06-newsletter-digest.md; wikis/ai-research-os/raw/repos/design-extract-2026-05-06.md; wikis/ai-research-os/raw/repos/fireworks-tech-graph-2026-05-06.md; wikis/ai-research-os/raw/articles/2026-05-06-openai-building-reliable-agents-memory-compaction.md; wikis/ai-research-os/raw/articles/2026-05-06-subagent-patterns-2026.md
 - Conflicts: none
+
+
+## 2026-05-08 00:04
+- Ingested: 4 files from wiki compile
+- Files: raw/x-blogs/2026-05-07-x-blogs-digest.md, raw/newsletters/2026-05-07-newsletter-digest.md, raw/newsletters/2026-05-07-the-code.md, raw/repos/pageindex-2026-05-07.md
+- Added: sources/x-blogs-digest-2026-05-07.md, sources/newsletter-digest-2026-05-07.md, sources/the-code-2026-05-07.md, sources/pageindex-2026-vectorless-rag.md, concepts/enterprise-rag-evaluation.md, concepts/managed-agents.md, concepts/vectorless-rag.md, concepts/tree-indexed-document-memory.md, concepts/open-weight-models.md, entities/pageindex.md, entities/vectifyai.md, entities/zyphra.md, entities/rowboat.md, entities/space-x.md, entities/galileo.md
+- Updated: index.md, log.md
+- Conflicts: none

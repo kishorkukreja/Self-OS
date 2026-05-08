@@ -94,3 +94,7 @@ _Append-only. Updated automatically by ingest runs._
 - Added source summaries for X/blog discovery, The Code, newsletter digest, Designlang, fireworks-tech-graph, OpenAI memory/compaction, and subagent patterns.
 - Updated index plus concepts/entities for evaluation, trustworthy agents, skill architecture, long-context models, design extraction, memory/compaction, and subagent orchestration.
 - Conflicts: none
+
+
+## 2026-05-08 00:04
+- wiki compile processed 4 raw files: raw/x-blogs/2026-05-07-x-blogs-digest.md, raw/newsletters/2026-05-07-newsletter-digest.md, raw/newsletters/2026-05-07-the-code.md, raw/repos/pageindex-2026-05-07.md

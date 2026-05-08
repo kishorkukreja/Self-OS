@@ -57,3 +57,17 @@ The current loop is repository-native: raw operational captures are saved under 
 The 2026-05-06 morning brief reported a clean repository at collection time, one open wiki-compile PR, no injected cron failures, and a recommended next move to inspect the manual brief before turning the shape into a Hermes skill. It also surfaced raw backlog counts across AI, coding-projects, and supply-chain wikis and pointed to the Self-OS operating contract as the source for the brief generator.
 
 **Raw source:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-06-morning.md]]
+
+
+## Session: 2026-05-07 Morning Brief
+
+**Source:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-07-morning.md]]
+
+The first manual Self-OS morning brief reported a clean repository, one open wiki-compile PR, recent raw/wiki changes, and a backlog signal across AI, supply-chain, and coding-project wikis. It recommended reviewing the brief shape before wrapping it in a Hermes skill and surfaced the decision of whether to schedule daily delivery or keep the script manual for one more iteration. The run also established that the brief should include cron snapshots later rather than relying only on local git state.
+
+**Follow-ups:**
+- Decide whether the brief format should become a `self-os-daily-brief` Hermes skill.
+- Add Hermes cron snapshots to the wrapper before scheduling automated delivery.
+- Keep backlog counts coarse unless the compile scanner is reused directly.
+
+_Last updated: 2026-05-08_

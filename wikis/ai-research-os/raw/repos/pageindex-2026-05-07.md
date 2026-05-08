@@ -3,6 +3,7 @@ source: https://github.com/VectifyAI/PageIndex
 date: 2026-05-07
 type: repo
 tags: [rag, retrieval, vectorless-rag, document-ai, llm-agents, pdf-processing, reasoning]
+status: processed
 ---
 
 # PageIndex: Vectorless, Reasoning-based RAG

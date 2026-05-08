@@ -39,3 +39,13 @@ The latest raw operating brief confirms the useful minimum structure: TL;DR, cha
 **Discovered in:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-06-morning.md]]
 
 _Last updated: 2026-05-07_
+
+
+## 2026-05-07 example
+
+The first manual morning brief shows the **daily operating brief** pattern as a compact repo-and-automation snapshot: recent commits, changed raw/wiki files, open PRs, safe next actions, decisions needed, health notes, and raw backlog signal. Its main lesson is that a useful brief should combine git state with cron state; local repository cleanliness alone does not prove scheduled jobs ran or delivered.
+
+**Discovered in**
+- [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-07-morning.md]]
+
+_Last updated: 2026-05-08_

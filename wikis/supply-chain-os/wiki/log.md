@@ -63,3 +63,7 @@ _Append-only. Updated automatically by ingest runs._
 - Added source summaries for the source registry and daily research note.
 - Updated concepts/entities for supplier diversification, AI infrastructure supply chain, planning discipline, Gartner, BCG, and MIT CTL.
 - Conflicts: none
+
+
+## 2026-05-08 00:04
+- wiki compile processed 2 raw files: raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-07-sources.md, raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-07-daily-research.md
