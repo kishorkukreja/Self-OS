@@ -1,7 +1,7 @@
 ---
 title: "Agent Harness Engineering"
 date_created: 2026-04-30
-date_modified: 2026-04-30
+date_modified: 2026-05-09
 summary: "Agent Harness Engineering as tracked across source material."
 tags: [agents, harness-engineering, coding-agents, ai-engineering, verification, agentic-workflows]
 type: concept
@@ -21,7 +21,7 @@ The pos
 
 **Sources:** [[sources/addy-osmani-agent-harness-engineering-2026]]
 
-_Last updated: 2026-04-30_
+_Last updated: 2026-05-09_
 - 2026-04-30: Added evidence from [[sources/addy-osmani-long-running-agents-2026]].
 - 2026-04-30: Added evidence from [[sources/context-mode-2026]].
 - 2026-04-30: Added evidence from [[sources/claude-code-monitor-tool-background-tasks-2026]].
@@ -31,3 +31,9 @@ _Last updated: 2026-04-30_
 This page was linked from [[sources/2026-05-02-x-blogs-digest]]. Agent Harness Engineering as evidenced by X/Twitter AI Blogs and Articles — 2026-05-02.
 
 **Sources:** [[sources/2026-05-02-x-blogs-digest]]
+
+## 2026-05-09 — Harnesses as training infrastructure
+
+The Prime Intellect Lab source reinforces that harnesses are no longer only test scaffolds. They can become the unit of training, rollout inspection, reward collection, adapter deployment, and iterative improvement. The Code and X/Twitter digests add the developer-tool angle: coding-agent PR workflows and coding-agent harness guidance both depend on repeatable task setup and review gates.
+
+**Sources:** [[sources/prime-intellect-lab-self-improving-agents-2026]], [[sources/the-code-2026-05-08]], [[sources/x-blogs-digest-2026-05-08]]

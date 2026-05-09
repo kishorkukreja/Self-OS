@@ -67,3 +67,10 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-08 00:04
 - wiki compile processed 2 raw files: raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-07-sources.md, raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-07-daily-research.md
+
+## 2026-05-09 00:00
+- Ingested: 3 files from industry-report=1, newsletter-research=1, source-log=1
+- Raw files: raw/industry-reports/2026-05-08-logistics-viewpoints-supply-chain-news-week-may-7-2026.md, raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-08-daily-research.md, raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-08-sources.md
+- Added: sources/supply-chain-logistics-viewpoints-2026-05-08-news.md, sources/supply-chain-signals-2026-05-08-daily-research.md, sources/supply-chain-signals-2026-05-08-sources.md, concepts/live-constraint-map.md, concepts/logistics-platforms.md, concepts/food-inflation.md, concepts/logistics-optionality.md, concepts/supply-chain-decision-intelligence.md, entities/amazon-supply-chain-services.md, entities/amd.md, entities/logistics-viewpoints.md, entities/fourkites.md
+- Updated: index.md, concepts/constraint-migration.md, concepts/wafer-to-rack-supply-chain.md, concepts/supply-chain-pressure.md
+- Conflicts: none

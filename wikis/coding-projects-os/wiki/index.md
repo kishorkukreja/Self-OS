@@ -1,5 +1,5 @@
 # Coding Projects OS — Index
-_Last updated: 2026-05-08_
+_Last updated: 2026-05-09_
 
 ## Projects (2)
 - [Projectsos](projects/projectsos.md) — Project memory compiled from coding session captures.
