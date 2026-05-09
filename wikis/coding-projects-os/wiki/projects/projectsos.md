@@ -10,6 +10,7 @@ type: project
 status: active
 project_status: active
 tech_stack: []
+tags: [wiki, maintenance]
 ---
 # Projectsos
 _Status: active_

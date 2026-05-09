@@ -98,3 +98,6 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-08 00:04
 - wiki compile processed 4 raw files: raw/x-blogs/2026-05-07-x-blogs-digest.md, raw/newsletters/2026-05-07-newsletter-digest.md, raw/newsletters/2026-05-07-the-code.md, raw/repos/pageindex-2026-05-07.md
+
+## 2026-05-09 06:03
+- Lint run: 415 pages, 73 orphans, 8 broken links (5 stubbed), 36 missing frontmatter fixed

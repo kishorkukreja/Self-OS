@@ -67,3 +67,6 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-08 00:04
 - wiki compile processed 2 raw files: raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-07-sources.md, raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-07-daily-research.md
+
+## 2026-05-09 06:03
+- Lint run: 128 pages, 14 orphans, 31 broken links (5 stubbed), 18 missing frontmatter fixed

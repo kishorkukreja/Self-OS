@@ -13,6 +13,7 @@ tags:
 - self-os
 type: entity
 status: final
+tags: [wiki, maintenance]
 ---
 # Claude Code
 

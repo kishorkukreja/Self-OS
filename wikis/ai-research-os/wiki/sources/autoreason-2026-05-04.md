@@ -14,6 +14,7 @@ tags:
 - github-repo
 type: source
 status: final
+tags: [wiki, maintenance]
 ---
 
 # Autoreason — Self-Refinement That Knows When to Stop

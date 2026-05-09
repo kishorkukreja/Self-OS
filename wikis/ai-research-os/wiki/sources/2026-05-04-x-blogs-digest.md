@@ -14,6 +14,7 @@ tags:
 - daily-digest
 type: source
 status: final
+tags: [wiki, maintenance]
 ---
 
 # X/Twitter AI Blogs and Articles — 2026-05-04

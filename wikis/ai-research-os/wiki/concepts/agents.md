@@ -11,6 +11,7 @@ type: concept
 status: draft
 confidence: speculative
 source_count: 1
+tags: [wiki, maintenance]
 ---
 # Agents
 

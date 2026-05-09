@@ -14,6 +14,7 @@ tags:
 - apache-2
 type: entity
 status: draft
+tags: [wiki, maintenance]
 ---
 # OpenAI
 

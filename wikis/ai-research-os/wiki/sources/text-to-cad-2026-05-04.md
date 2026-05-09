@@ -15,6 +15,7 @@ tags:
 - github-repo
 type: source
 status: final
+tags: [wiki, maintenance]
 ---
 
 # text-to-cad — Local Agent Harness for CAD Generation
