@@ -238,7 +238,7 @@ def build_weekly(cron_snapshot: str | None) -> tuple[str, str, Path]:
 
     automation_candidates = []
     if themes:
-        automation_candidates.append(f"Promote `{themes[0][0]}` into either a wiki synthesis page, skill patch, or Kanban/taskOS task.")
+        automation_candidates.append(f"Promote `{themes[0][0]}` into either a wiki synthesis page, skill patch, idea inbox note, taskOS folder, or Kanban task depending on maturity.")
     if cron_failures:
         automation_candidates.append("Fix failing cron jobs before adding new automations.")
     if len(recent_raw) > 10:
@@ -258,7 +258,7 @@ def build_weekly(cron_snapshot: str | None) -> tuple[str, str, Path]:
     if themes:
         priorities.append(f"Turn `{themes[0][0]}` into one concrete next action with an owner/path.")
     priorities.append("Continue saving daily briefs and this weekly synthesis back to the Self-OS wiki as the durable record.")
-    priorities.append("Route implementation ideas into Kanban/taskOS only after the daily/weekly synthesis identifies repeated demand.")
+    priorities.append("Route implementation ideas into the idea inbox first; promote to taskOS once shaped, then create Kanban tasks only for execution-ready work.")
 
     health = []
     if branch_rc != 0 or branch != "master":
@@ -286,7 +286,7 @@ source: scripts/generate_self_os_weekly_synthesis.py
 
 - {emerging_thesis}
 - Health: {health[0] if health else 'No blocking issue detected.'}
-- Recommended next move: choose one weekly theme and route it into wiki synthesis, skill patch, Kanban/taskOS, or a decision prompt.
+- Recommended next move: choose one weekly theme and route it into wiki synthesis, skill patch, idea inbox, taskOS, Kanban, or a decision prompt.
 
 ## Major Changes This Week
 
@@ -361,7 +361,7 @@ source: scripts/generate_self_os_weekly_synthesis.py
 ## Next Suggested Prompt
 
 ```text
-Use this weekly synthesis to pick one operational improvement: wiki synthesis, skill patch, Kanban/taskOS implementation task, or decision prompt for Kishor. Do not add a dashboard until the brief loop repeatedly proves the signal.
+Use this weekly synthesis to pick one operational improvement: wiki synthesis, skill patch, idea inbox note, taskOS implementation candidate, Kanban execution task, or decision prompt for Kishor. Do not add a dashboard until the brief loop repeatedly proves the signal.
 ```
 """
 
@@ -371,7 +371,7 @@ Use this weekly synthesis to pick one operational improvement: wiki synthesis, s
         f"- Activity: {len(log.splitlines()) if log.strip() else 0} commit(s), {len(recent_raw)} recent raw/wiki file(s), {len(prs)} open PR(s).",
         f"- Cron: {len(cron_successes)} ok / {len(cron_failures)} issue(s) from injected snapshot.",
         f"- Health: {health[0] if health else 'No blocking issue detected.'}",
-        "- Suggested next: promote the top theme into wiki synthesis, skill patch, Kanban/taskOS, or decision.",
+        "- Suggested next: route the top theme into wiki synthesis, skill patch, idea inbox, taskOS, Kanban, or decision.",
     ])
     return markdown, telegram_summary, out_path
 

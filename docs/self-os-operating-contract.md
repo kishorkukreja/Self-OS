@@ -165,7 +165,9 @@ Each daily brief should push at least one insight toward an explicit route:
 
 - Passive knowledge → wiki synthesis or wait for wiki compile.
 - Operational workflow → patch/create a Hermes skill.
-- Implementation idea → Kanban/taskOS task.
+- Early implementation idea → capture or update an idea note in `wikis/coding-projects-os/raw/ideas/`.
+- Shaped implementation idea → promote to `/data/taskOS/tasks/<slug>/` with `README.md` + `docs/idea.md`.
+- Execution-ready work → create Hermes Kanban task(s), then link task IDs back to the taskOS/idea note.
 - Needs decision → concise Telegram question for Kishor.
 - Needs code/repo work → branch/PR workflow unless it is a raw/generated operating artifact.
 

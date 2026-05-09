@@ -18,6 +18,9 @@ raw/
     prd.md                 ← Product requirements document
     architecture.md        ← System design and key decisions
     specs/                 ← Detailed specifications per component
+  ideas/                   — Lightweight raw idea inbox before taskOS/Kanban promotion
+    YYYY-MM-DD-{slug}.md   ← Seed/shaping note for implementation-shaped ideas
+    templates/idea.md      ← Idea capture template
 
 wiki/index.md        — Master index linking every page with a one-line summary
 wiki/log.md          — Append-only changelog of all operations
@@ -54,6 +57,25 @@ session: {session-id}
 project: {project-name or "standalone"}
 ---
 ```
+
+Required frontmatter on raw idea notes in `raw/ideas/`:
+
+```yaml
+---
+title: "Short Human Title"
+date: YYYY-MM-DD
+type: idea
+status: seed | shaping | ready-for-taskos | promoted-taskos | promoted-kanban | archived | killed
+domain: coding-projects-os
+source: telegram | daily-brief | weekly-synthesis | conversation | manual
+origin_ref: "optional link/path/message reference"
+tags: [idea]
+taskos_path: null
+kanban_tasks: []
+---
+```
+
+Idea notes are the middle layer between wiki knowledge and execution. Promote them to `/data/taskOS/tasks/<slug>/` only once the outcome, constraints, and acceptance criteria are clear. Create Hermes Kanban tasks only after taskOS capture or when the user explicitly asks for immediate execution.
 
 ## Wiki File Conventions
 

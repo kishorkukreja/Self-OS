@@ -347,7 +347,7 @@ def build_brief(kind: str, cron_snapshot: str | None) -> tuple[str, str, Path]:
         safe_actions.append("Poll and fulfill pending wiki research requests using the `wiki-research` workflow.")
     if not CONTRACT_PATH.exists():
         safe_actions.append("Create the Self-OS operating contract.")
-    safe_actions.append("Use the Thinking Loop below to promote one useful insight into either a wiki synthesis, a skill patch, or a Kanban/taskOS action.")
+    safe_actions.append("Use the Thinking Loop below to route one useful insight: wiki synthesis, skill patch, idea inbox capture, taskOS promotion, Kanban task, or decision prompt.")
 
     top_changed = []
     if log.strip():
@@ -421,7 +421,7 @@ source: scripts/generate_self_os_brief.py
 
 ## Decisions Needed
 
-- Which Thinking Loop item should become an action: passive wiki synthesis, skill patch, Kanban/taskOS task, or decision for Kishor?
+- Which Thinking Loop item should become an action: passive wiki synthesis, skill patch, idea inbox note, taskOS promotion, Kanban task, or decision for Kishor?
 - Are any recent captures important enough to compile into canonical wiki concepts before the normal wiki-compile cadence?
 - Should any repeated operational failure be promoted into a skill patch today?
 
@@ -463,7 +463,7 @@ This is a coarse local scan. It counts raw markdown files that do not appear to 
 ## Next Suggested Prompt
 
 ```text
-Use this daily brief's Thinking Loop to choose one action: create a wiki synthesis, patch/create a Hermes skill, create a Kanban/taskOS task, or ask Kishor for a decision.
+Use this daily brief's Thinking Loop to choose one route: create a wiki synthesis, patch/create a Hermes skill, capture/update an idea inbox note, promote a shaped idea to taskOS, create a Kanban task, or ask Kishor for a decision.
 ```
 """
 
@@ -474,7 +474,7 @@ Use this daily brief's Thinking Loop to choose one action: create a wiki synthes
         f"- Thinking Loop: {thinking_pattern}",
         f"- Question: {thinking_question}",
         f"- Health: {health[0] if health else 'No blocking issue detected.'}",
-        "- Suggested next: choose one loop item to promote into wiki synthesis, skill patch, Kanban/taskOS task, or decision.",
+        "- Suggested next: choose one loop item and route it to wiki synthesis, skill patch, idea inbox, taskOS, Kanban, or decision.",
     ])
     return markdown, telegram_summary, out_path
 
