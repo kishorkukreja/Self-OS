@@ -3,6 +3,7 @@ source: https://www.youtube.com/watch?v=efVfydaUIrM
 date: 2026-05-07
 type: video
 tags: [claude-code, anthropic, ai-agents, agent-platforms, routines, managed-agents, multi-agent-orchestration, agent-memory, developer-tools]
+status: processed
 ---
 
 # Claude Code Just Got WAY More Powerful

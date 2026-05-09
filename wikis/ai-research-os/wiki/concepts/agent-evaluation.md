@@ -1,7 +1,7 @@
 ---
 title: Agent Evaluation
 date_created: 2026-05-01
-date_modified: 2026-05-07
+date_modified: 2026-05-09
 summary: Methods and benchmarks for measuring agent reliability, generalization, trajectories,
   cost, and safety across realistic tasks.
 tags:
@@ -22,7 +22,7 @@ source_count: 1
 
 **Sources:** [[sources/x-blogs-digest-2026-04-30]]
 
-_Last updated: 2026-05-01_
+_Last updated: 2026-05-09_
 
 ## Update — 2026-05-02
 
@@ -41,3 +41,9 @@ This concept is also evidenced by [[sources/agentic-harness-engineering-2026-05-
 ## 2026-05-07 update
 
 The May 2026 digest shows evaluation becoming both expensive and attackable, making methodology and cost part of trustworthy capability claims. Source: [[sources/x-blogs-digest-2026-05-06]].
+
+## 2026-05-09 — Agent benchmarks and reward-bearing environments
+
+New sources add two complementary evaluation threads. Prime Intellect Lab treats environments as reward-bearing evaluation and training units, while the 2026-05-08 X/Twitter digest groups domain-specific benchmarks for legal work, CRM workflows, lifelong learning, and combinatorial optimization. Together they show evaluation moving from static QA sets toward realistic task trajectories and operational reward signals.
+
+**Sources:** [[sources/prime-intellect-lab-self-improving-agents-2026]], [[sources/x-blogs-digest-2026-05-08]]

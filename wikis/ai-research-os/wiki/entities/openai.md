@@ -1,7 +1,7 @@
 ---
 title: OpenAI
 date_created: 2026-04-30
-date_modified: '2026-05-04'
+date_modified: 2026-05-09
 summary: OpenAI is an entity referenced by ingested source material.
 tags:
 - openai
@@ -30,7 +30,7 @@ It is useful for teams buildin
 
 **Sources:** [[sources/realtime-voice-component-2026]]
 
-_Last updated: 2026-04-30_
+_Last updated: 2026-05-09_
 
 ## 2026-05-03 update
 
@@ -47,3 +47,9 @@ Referenced by [[sources/2026-05-03-newsletter-digest]].
 This page was linked from [[sources/2026-05-05-newsletter-digest]]. OpenAI is an entity referenced by Newsletter Digest — Tuesday, 5 May 2026.
 
 **Sources:** [[sources/2026-05-05-newsletter-digest]]
+
+## 2026-05-09 — Daily compile update
+
+The 2026-05-08 AI newsletter sources add this entity to the current agent-platform signal set, alongside voice APIs, coding-agent workflows, office integration, and review/routine automation.
+
+**Sources:** [[sources/newsletter-digest-2026-05-08]], [[sources/the-code-2026-05-08]], [[sources/claire-vo-2026-claude-code-agent-platform]]

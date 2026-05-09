@@ -1,7 +1,7 @@
 ---
 title: Supply-Chain Pressure
 date_created: '2026-05-05'
-date_modified: '2026-05-05'
+date_modified: 2026-05-09
 summary: Rising friction in production, logistics, prices, and supplier delivery performance.
 tags:
 - supply-chain
@@ -22,4 +22,10 @@ source_count: 2
 
 **Sources:** [[sources/supply-chain-signals-2026-05-04-sources]], [[sources/supply-chain-signals-2026-05-04-daily-research]]
 
-_Last updated: 2026-05-05_
+_Last updated: 2026-05-09_
+
+## 2026-05-09 — Food, energy, ISM, WTO, and World Bank signals
+
+The May 8 source registry strengthens the pressure picture with FAO food prices, ISM manufacturing/services indexes, WTO trade forecasts, and World Bank commodity forecasts. These should be interpreted together because energy and shipping disruption can flow into fertilizer, food, factory inputs, freight budgets, and service-sector margins.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-08-sources]], [[sources/supply-chain-signals-2026-05-08-daily-research]]

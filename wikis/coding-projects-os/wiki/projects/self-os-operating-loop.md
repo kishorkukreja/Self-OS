@@ -1,7 +1,7 @@
 ---
 title: Self Os Operating Loop
 date_created: '2026-05-03'
-date_modified: 2026-05-07
+date_modified: 2026-05-09
 summary: Project memory for the Self-OS operating loop and daily brief workflow.
 tags:
 - self-os
@@ -70,4 +70,15 @@ The first manual Self-OS morning brief reported a clean repository, one open wik
 - Add Hermes cron snapshots to the wrapper before scheduling automated delivery.
 - Keep backlog counts coarse unless the compile scanner is reused directly.
 
-_Last updated: 2026-05-08_
+_Last updated: 2026-05-09_
+
+## Session: 2026-05-08 Morning Brief
+
+**Source:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-08-morning.md]]
+
+The 2026-05-08 morning brief reported a clean repository at collection time, one open wiki-compile PR, recent raw/wiki changes across AI, supply-chain, coding-project, and personal wikis, and no injected cron failures. It recommended inspecting the first manual brief and deciding whether the format should become a `self-os-daily-brief` Hermes skill before scheduling delivery.
+
+**Follow-ups:**
+- Decide whether the brief shape is useful enough to turn into a Hermes skill.
+- Add Hermes cron snapshots through the skill wrapper rather than keeping the collector local-only.
+- Keep the raw backlog signal coarse unless the compile scanner is reused directly.

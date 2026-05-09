@@ -3,6 +3,7 @@ source: https://www.primeintellect.ai/blog/lab-is-open
 date: 2026-05-08
 type: article
 tags: [self-improving-agents, reinforcement-learning, agent-evaluation, agent-harnesses, environments, hosted-training, open-superintelligence-stack]
+status: processed
 ---
 
 # Releasing Lab: the training platform for self-improving agents

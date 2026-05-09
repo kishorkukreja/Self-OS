@@ -5,6 +5,7 @@ type: industry-report
 client: internal
 confidential: false
 tags: [weekly-news, supply-chain-resilience, logistics, decision-intelligence, amazon-supply-chain-services, ford-ev-supply-chain, hormuz-risk, fourkites, cost-engineering]
+status: processed
 ---
 
 # Supply Chain and Logistics News — Week of May 7, 2026
