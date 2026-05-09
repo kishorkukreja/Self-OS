@@ -9,6 +9,7 @@ tags:
 - weekly-folder
 type: entity
 status: draft
+tags: [wiki, maintenance]
 ---
 
 # Supply Chain Signals

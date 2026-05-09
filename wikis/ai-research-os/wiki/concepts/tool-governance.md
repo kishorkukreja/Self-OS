@@ -10,6 +10,7 @@ type: concept
 status: draft
 confidence: emerging
 source_count: 2
+tags: [wiki, maintenance]
 ---
 
 # Tool Governance

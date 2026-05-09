@@ -11,6 +11,7 @@ type: source
 status: final
 client: internal
 confidential: false
+tags: [wiki, maintenance]
 ---
 
 # Supply Chain Signals — 2026-W19 Overview

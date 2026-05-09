@@ -74,3 +74,6 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/supply-chain-logistics-viewpoints-2026-05-08-news.md, sources/supply-chain-signals-2026-05-08-daily-research.md, sources/supply-chain-signals-2026-05-08-sources.md, concepts/live-constraint-map.md, concepts/logistics-platforms.md, concepts/food-inflation.md, concepts/logistics-optionality.md, concepts/supply-chain-decision-intelligence.md, entities/amazon-supply-chain-services.md, entities/amd.md, entities/logistics-viewpoints.md, entities/fourkites.md
 - Updated: index.md, concepts/constraint-migration.md, concepts/wafer-to-rack-supply-chain.md, concepts/supply-chain-pressure.md
 - Conflicts: none
+
+## 2026-05-09 06:03
+- Lint run: 128 pages, 14 orphans, 31 broken links (5 stubbed), 18 missing frontmatter fixed

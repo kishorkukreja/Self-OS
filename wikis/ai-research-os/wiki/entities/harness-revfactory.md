@@ -9,6 +9,7 @@ tags:
 - harness-engineering
 type: entity
 status: draft
+tags: [wiki, maintenance]
 ---
 
 # Harness

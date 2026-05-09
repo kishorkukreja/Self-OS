@@ -10,6 +10,7 @@ type: concept
 status: draft
 confidence: emerging
 source_count: 1
+tags: [wiki, maintenance]
 ---
 # Coding Agents
 

@@ -15,6 +15,7 @@ tags:
 - github-repo
 type: source
 status: final
+tags: [wiki, maintenance]
 ---
 
 # Awesome Agent Harness — Implementation-First Harness Engineering Catalog

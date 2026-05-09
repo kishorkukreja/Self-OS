@@ -8,6 +8,7 @@ tags:
 - newsletter
 type: entity
 status: draft
+tags: [wiki, maintenance]
 ---
 
 # New York Fed
