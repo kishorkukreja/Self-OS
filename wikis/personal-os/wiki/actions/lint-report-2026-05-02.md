@@ -6,6 +6,7 @@ summary: "Weekly health check for Personal OS"
 tags: [lint, maintenance]
 type: output
 status: final
+domain: self-finance
 ---
 
 # Lint Report: Personal OS — 2026-05-02

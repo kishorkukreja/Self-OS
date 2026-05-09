@@ -15,6 +15,7 @@ tags:
 - github-repo
 type: source
 status: final
+tags: [wiki, maintenance]
 ---
 
 # OpenHarness — Open Agent Harness with Built-in Personal Agent Ohmo

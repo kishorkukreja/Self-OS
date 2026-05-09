@@ -10,6 +10,7 @@ tags:
 - workflow
 type: pattern
 status: draft
+tags: [wiki, maintenance]
 ---
 
 # Daily Operating Brief

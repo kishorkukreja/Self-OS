@@ -15,6 +15,7 @@ tags:
 - rl
 type: entity
 status: draft
+tags: [wiki, maintenance]
 ---
 # GitHub
 

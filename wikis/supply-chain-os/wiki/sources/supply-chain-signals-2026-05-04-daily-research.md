@@ -14,6 +14,7 @@ type: source
 status: final
 client: internal
 confidential: false
+tags: [wiki, maintenance]
 ---
 
 # Supply Chain Signals Daily Research — 2026-05-04

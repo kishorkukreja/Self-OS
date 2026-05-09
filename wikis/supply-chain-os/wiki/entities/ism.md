@@ -9,6 +9,7 @@ tags:
 - macro
 type: entity
 status: draft
+tags: [wiki, maintenance]
 ---
 # Institute for Supply Management
 

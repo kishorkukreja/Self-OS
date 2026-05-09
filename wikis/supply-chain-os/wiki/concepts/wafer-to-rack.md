@@ -11,6 +11,7 @@ type: concept
 status: draft
 confidence: emerging
 source_count: 3
+tags: [wiki, maintenance]
 ---
 
 # Wafer to Rack

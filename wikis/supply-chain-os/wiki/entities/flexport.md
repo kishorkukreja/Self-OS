@@ -8,6 +8,7 @@ tags:
 - entity
 type: entity
 status: draft
+tags: [wiki, maintenance]
 ---
 # Flexport
 

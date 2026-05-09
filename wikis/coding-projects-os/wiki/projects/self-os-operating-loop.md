@@ -14,6 +14,7 @@ tech_stack:
 - python
 - github-actions
 - hermes
+tags: [wiki, maintenance]
 ---
 
 # Self Os Operating Loop

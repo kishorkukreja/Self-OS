@@ -16,6 +16,7 @@ tags:
 - daily-dose-of-ds
 type: source
 status: final
+tags: [wiki, maintenance]
 ---
 
 # Newsletter Digest — 2026-05-04
