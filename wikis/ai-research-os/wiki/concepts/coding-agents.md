@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 date_created: 2026-04-29
-date_modified: '2026-05-04'
+date_modified: 2026-05-09
 summary: Concept stub created from restored AI research queue items.
 tags:
 - ai-tools
@@ -18,11 +18,11 @@ tags: [wiki, maintenance]
 
 **Why it matters:** This concept helps group related tools, papers, and workflows so future wiki compilation can compare approaches rather than leaving each source isolated.
 
-**Related:** [[agent-orchestration]], [[context-engineering]], [[coding-agents]]
+**Related:** [[concepts/agent-orchestration]], [[concepts/context-engineering]], coding-agents
 
 **Sources:** [[sources/apply-yc-2026-apply-yc-2026-04-28]]
 
-_Last updated: 2026-04-30_
+_Last updated: 2026-05-09_
 - [[sources/claude-code-hook-2026-claude-code-hook-context-timeline-2026]] adds another example touching this concept.
 - [[sources/keep-your-claude-code-context-clean-with-subagents-2026-claude]] adds another example touching this concept.
 - [[sources/how-to-give-claude-perfect-memory-2026-claude-perfect-memory]] adds another example touching this concept.
@@ -37,12 +37,12 @@ _Last updated: 2026-04-30_
 ## Update — 2026-05-01
 Coding Agents is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/mattpocock-2026-sandcastle]].
 
-_Last updated: 2026-05-01_
+_Last updated: 2026-05-09_
 
 ## Update — 2026-05-01
 Coding Agents is referenced by this source and tracked as a wiki concept. New supporting source: [[sources/cursor-2026-cookbook]].
 
-_Last updated: 2026-05-01_
+_Last updated: 2026-05-09_
 
 ## Update — 2026-05-02
 
@@ -57,3 +57,9 @@ This page was linked from [[sources/ghost-unlimited-postgres-for-agents-2026-05-
 ## 2026-05-04 update
 
 This concept is also evidenced by [[sources/agentic-harness-engineering-2026-05-03]], which adds another captured signal for the wiki.
+
+## 2026-05-09 — PR workflows, routines, and platformization
+
+New sources show coding agents becoming more operational. Cursor v3.3 adds PR review and parallel build surfaces, Codex approval workflows route risk through an auto-reviewer, and Claude Code routines/outcomes turn coding work into scheduled or triggerable agent runs with rubrics. The durable pattern is platformization: coding agents are becoming systems for planning, execution, review, recovery, and memory.
+
+**Sources:** [[sources/newsletter-digest-2026-05-08]], [[sources/the-code-2026-05-08]], [[sources/claire-vo-2026-claude-code-agent-platform]]
