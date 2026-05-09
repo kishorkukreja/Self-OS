@@ -156,7 +156,18 @@ wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/daily/YYYY-MM-D
 4. **Safe Agent Actions** — things agents can do without additional judgment.
 5. **Decisions Needed** — explicit decision prompts.
 6. **Health / Failures** — failed cron jobs, git divergence, extraction failures, missing config.
-7. **Next Suggested Prompt** — one copy-pasteable prompt for the user.
+7. **Thinking Loop** — connections between recent captures and older notes, the strongest pattern, and one non-task question.
+8. **Next Suggested Prompt** — one copy-pasteable prompt for the user.
+
+### Feedback-loop routing
+
+Each daily brief should push at least one insight toward an explicit route:
+
+- Passive knowledge → wiki synthesis or wait for wiki compile.
+- Operational workflow → patch/create a Hermes skill.
+- Implementation idea → Kanban/taskOS task.
+- Needs decision → concise Telegram question for Kishor.
+- Needs code/repo work → branch/PR workflow unless it is a raw/generated operating artifact.
 
 ### Telegram version
 
@@ -171,7 +182,13 @@ Telegram should be shorter than the markdown artifact. It should emphasize:
 
 ## 7. Weekly Review Contract
 
-A weekly review should summarize operating-loop quality, not just content volume.
+A weekly review should summarize operating-loop quality, not just content volume. It must also be saved as a markdown artifact before or alongside Telegram delivery.
+
+### Required durable output path
+
+```text
+wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/weekly/YYYY-Www-review.md
+```
 
 Required sections:
 
@@ -183,6 +200,8 @@ Required sections:
 - Workflows that should be automated next.
 - Decisions Kishor should make.
 - Proposed next week operating priorities.
+
+The weekly Telegram version should be short: the emerging thesis, activity counts, cron reliability, the top health issue, and the one recommended action.
 
 ---
 

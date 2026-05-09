@@ -186,6 +186,116 @@ def first_line_commit_summary(line: str) -> str:
     return line.strip()
 
 
+def read_excerpt(path: Path, limit: int = 1800) -> str:
+    try:
+        return path.read_text(errors="replace")[:limit]
+    except Exception:
+        return ""
+
+
+def extract_title(path: Path, text: str | None = None) -> str:
+    text = text if text is not None else read_excerpt(path)
+    for line in text.splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return path.stem.replace("-", " ").title()
+
+
+def extract_tags(text: str) -> list[str]:
+    match = re.search(r"(?im)^tags:\s*\[(.*?)\]", text)
+    if not match:
+        return []
+    return [tag.strip().strip("'\"") for tag in match.group(1).split(",") if tag.strip()]
+
+
+def theme_counts(paths: list[Path], limit: int = 8) -> list[tuple[str, int]]:
+    counts: dict[str, int] = {}
+    stop = {
+        "raw", "wiki", "source", "sources", "article", "repo", "video", "thread",
+        "daily", "brief", "self", "os", "project", "projects", "notes", "system",
+        "knowledge", "research", "markdown", "output", "outputs", "internal",
+    }
+    for path in paths:
+        text = read_excerpt(path, 2500).lower()
+        for tag in extract_tags(text):
+            key = tag.lower().replace("_", "-")
+            if key and key not in stop:
+                counts[key] = counts.get(key, 0) + 3
+        for token in re.findall(r"[a-z][a-z0-9-]{4,}", rel(path).lower() + "\n" + text[:1200]):
+            token = token.strip("-")
+            if token and token not in stop:
+                counts[token] = counts.get(token, 0) + 1
+    return sorted(counts.items(), key=lambda item: (-item[1], item[0]))[:limit]
+
+
+def build_thinking_loop(recent_paths: list[Path], since: dt.datetime) -> tuple[list[str], str, str]:
+    """Generate a lightweight feedback loop from recent captures.
+
+    This intentionally stays deterministic and local-only: the scheduled Hermes
+    agent can still add judgment in its Telegram response, while the saved wiki
+    artifact always contains a durable connection/pattern/question block.
+    """
+    unique_recent: list[Path] = []
+    seen: set[Path] = set()
+    for path in recent_paths:
+        if path not in seen and path.exists():
+            unique_recent.append(path)
+            seen.add(path)
+
+    if not unique_recent:
+        return (
+            ["No fresh captures detected in the last 24 hours, so no new cross-note connections were generated."],
+            "No dominant new capture pattern detected today.",
+            "What should Self-OS deliberately capture or review next so the feedback loop has better signal tomorrow?",
+        )
+
+    recent_themes = theme_counts(unique_recent, limit=5)
+    older_candidates: list[Path] = []
+    since_ts = since.timestamp()
+    for path in RAW_ROOT.rglob("*.md"):
+        try:
+            if path.stat().st_mtime < since_ts:
+                older_candidates.append(path)
+        except OSError:
+            continue
+
+    connections: list[str] = []
+    for recent in unique_recent[:8]:
+        recent_text = read_excerpt(recent, 2200)
+        recent_title = extract_title(recent, recent_text)
+        recent_tags = set(extract_tags(recent_text.lower()))
+        recent_tokens = set(token for token, _ in theme_counts([recent], limit=10))
+        terms = {t.lower() for t in recent_tags | recent_tokens if len(t) >= 5}
+        best: tuple[int, Path] | None = None
+        for older in older_candidates[:500]:
+            if older == recent:
+                continue
+            older_blob = (rel(older) + "\n" + read_excerpt(older, 1800)).lower()
+            score = sum(1 for term in terms if term in older_blob)
+            if score and (best is None or score > best[0]):
+                best = (score, older)
+        if best:
+            older_title = extract_title(best[1])
+            shared = ", ".join(list(terms)[:3]) or "shared theme"
+            connections.append(
+                f"`{rel(recent)}` ({recent_title}) connects to `{rel(best[1])}` ({older_title}) via {shared}."
+            )
+        if len(connections) >= 3:
+            break
+
+    if not connections:
+        connections.append("Recent captures did not strongly match older notes by local keyword scan; this is a cue for the next wiki compile/synthesis pass to add better concept links.")
+
+    if recent_themes:
+        pattern_terms = ", ".join(term for term, _ in recent_themes[:4])
+        pattern = f"Recent captures cluster around: {pattern_terms}."
+        question = f"Given today’s {recent_themes[0][0]} signal, what should become an operational workflow rather than another passive note?"
+    else:
+        pattern = "Recent captures are too sparse or heterogeneous to infer a strong pattern."
+        question = "Which recurring Self-OS decision should the next capture/synthesis loop make easier?"
+    return connections, pattern, question
+
+
 def build_brief(kind: str, cron_snapshot: str | None) -> tuple[str, str, Path]:
     now = utc_now()
     since = now - dt.timedelta(hours=24)
@@ -205,6 +315,7 @@ def build_brief(kind: str, cron_snapshot: str | None) -> tuple[str, str, Path]:
 
     recent_raw = recent_files(RAW_ROOT, since, limit=30)
     recent_plans = recent_files(REPO / "docs", since, limit=10)
+    thinking_connections, thinking_pattern, thinking_question = build_thinking_loop(recent_raw + recent_plans, since)
     prs, pr_error = github_open_prs()
     cron_rows, cron_failures = load_cron_snapshot(cron_snapshot)
     pending = pending_requests()
@@ -236,7 +347,7 @@ def build_brief(kind: str, cron_snapshot: str | None) -> tuple[str, str, Path]:
         safe_actions.append("Poll and fulfill pending wiki research requests using the `wiki-research` workflow.")
     if not CONTRACT_PATH.exists():
         safe_actions.append("Create the Self-OS operating contract.")
-    safe_actions.append("Keep daily brief manual until the format proves useful; do not schedule cron yet.")
+    safe_actions.append("Use the Thinking Loop below to promote one useful insight into either a wiki synthesis, a skill patch, or a Kanban/taskOS action.")
 
     top_changed = []
     if log.strip():
@@ -274,7 +385,7 @@ source: scripts/generate_self_os_brief.py
 ## TL;DR
 
 - {"; ".join(tldr_bits)}.
-- Top next move: inspect this first manual brief, then decide whether the brief shape is useful enough to wrap in a Hermes skill.
+- Top next move: use the Thinking Loop to turn one recent capture into a connection, synthesis, or safe next action.
 
 ## Changed Since Last Brief
 
@@ -286,6 +397,20 @@ source: scripts/generate_self_os_brief.py
 
 {bullet([f"`{rel(path)}`" for path in recent_raw + recent_plans], "No recent markdown files detected.")}
 
+## Thinking Loop
+
+### Connections
+
+{bullet(thinking_connections, "No cross-note connections generated.")}
+
+### Pattern
+
+- {thinking_pattern}
+
+### Question
+
+- {thinking_question}
+
 ## Needs Kishor Review
 
 {bullet(review_items, "No review items detected by local collector.")}
@@ -296,9 +421,9 @@ source: scripts/generate_self_os_brief.py
 
 ## Decisions Needed
 
-- Is this daily brief shape useful enough to turn into the `self-os-daily-brief` Hermes skill?
-- Should the next run include Hermes cron snapshots via skill wrapper, or keep the script local-only for one more iteration?
-- Should daily briefs be sent once per day first, before adding morning/evening split?
+- Which Thinking Loop item should become an action: passive wiki synthesis, skill patch, Kanban/taskOS task, or decision for Kishor?
+- Are any recent captures important enough to compile into canonical wiki concepts before the normal wiki-compile cadence?
+- Should any repeated operational failure be promoted into a skill patch today?
 
 ## Health / Failures
 
@@ -338,7 +463,7 @@ This is a coarse local scan. It counts raw markdown files that do not appear to 
 ## Next Suggested Prompt
 
 ```text
-Use the Self-OS operating contract and this first manual brief to create the self-os-daily-brief Hermes skill, but do not schedule cron yet. Run the skill manually once and compare its Telegram summary against the saved markdown artifact.
+Use this daily brief's Thinking Loop to choose one action: create a wiki synthesis, patch/create a Hermes skill, create a Kanban/taskOS task, or ask Kishor for a decision.
 ```
 """
 
@@ -346,8 +471,10 @@ Use the Self-OS operating contract and this first manual brief to create the sel
         f"Self-OS {kind.title()} Brief — {date_slug}",
         f"- State: {'dirty working tree' if status.strip() else 'repo clean at collection time'}; {len(prs)} open PR(s); {len(pending)} pending request candidate(s).",
         f"- Recent files detected: {len(recent_raw) + len(recent_plans)} markdown file(s) in last 24h.",
+        f"- Thinking Loop: {thinking_pattern}",
+        f"- Question: {thinking_question}",
         f"- Health: {health[0] if health else 'No blocking issue detected.'}",
-        "- Suggested next: review this manual brief, then wrap it as `self-os-daily-brief` if useful.",
+        "- Suggested next: choose one loop item to promote into wiki synthesis, skill patch, Kanban/taskOS task, or decision.",
     ])
     return markdown, telegram_summary, out_path
 
