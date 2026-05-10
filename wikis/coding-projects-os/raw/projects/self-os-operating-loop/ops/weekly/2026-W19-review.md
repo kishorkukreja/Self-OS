@@ -2,7 +2,7 @@
 title: Self-OS Weekly Synthesis — 2026-W19
 type: self-os-weekly-synthesis
 status: raw
-created_at: 2026-05-09T00:30:39.802491+00:00
+created_at: 2026-05-10T22:31:38.753697+00:00
 week: 2026-W19
 source: scripts/generate_self_os_weekly_synthesis.py
 ---
@@ -11,40 +11,94 @@ source: scripts/generate_self_os_weekly_synthesis.py
 
 ## TL;DR
 
-- The week’s material clusters around wikis, concepts, chain, supply; convert the strongest recurring theme into an operational loop rather than another passive note.
+- The week’s material clusters around entities, wikis, newsletter, concepts; convert the strongest recurring theme into an operational loop rather than another passive note.
 - Health: No blocking weekly health issue detected by local collector.
-- Recommended next move: choose one weekly theme and route it into wiki synthesis, skill patch, Kanban/taskOS, or a decision prompt.
+- Recommended next move: choose one weekly theme and route it into wiki synthesis, skill patch, idea inbox, taskOS, Kanban, or a decision prompt.
 
 ## Major Changes This Week
 
-- e21ab76 ops: add Self-OS evening brief 2026-05-09
-- 72895a8 ops: add Self-OS feedback loop generators
-- 66750ce ingest: Obsidian vault feedback loop thread → ai-research-os
-- 65e4516 vault backup: 2026-05-09 01:10:59
-- 713f47d Merge remote-tracking branch 'origin/master'
-- bfa63e0 vault backup: 2026-05-09 01:05:39
-- d7ccafb ingest: Rowboat repo → ai-research-os/repos
-- 0f73ef1 ingest: Claude Code announcements video → ai-research-os/youtube
-- 778c90c vault backup: 2026-05-09 00:50:07
-- a4297d7 ingest: Logistics Viewpoints weekly news → supply-chain-os
-- 6458b83 vault backup: 2026-05-09 00:34:32
-- 5c895e8 ingest: Prime Intellect Lab → ai-research-os/raw/articles
-- Recent capture: `wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/daily/2026-05-09-evening.md` — Self-OS Evening Brief — 2026-05-09
-- Recent capture: `wikis/ai-research-os/raw/x-threads/2026-05-07-cyrilxbt-obsidian-vault-feedback-loop.md` — CyrilXBT — Obsidian Knowledge Vault That Gets Smarter Every Day
-- Recent capture: `wikis/ai-research-os/raw/repos/rowboat-2026-05-09.md` — Rowboat — open-source AI coworker with memory
-- Recent capture: `wikis/supply-chain-os/wiki/ingest-log.md` — supply-chain-os — Ingest Log
-- Recent capture: `wikis/supply-chain-os/wiki/index.md` — Supply Chain OS — Index
-- Recent capture: `wikis/supply-chain-os/wiki/log.md` — Supply Chain OS — Ingest Log
-- Recent capture: `wikis/supply-chain-os/wiki/entities/world-bank.md` — World Bank
-- Recent capture: `wikis/supply-chain-os/wiki/entities/wto.md` — WTO
-- Recent capture: `wikis/supply-chain-os/wiki/entities/reuters.md` — Reuters
-- Recent capture: `wikis/supply-chain-os/wiki/entities/sp-global.md` — S&P Global Market Intelligence
+- f634c3a vault backup: 2026-05-10 23:21:02
+- bcf011e ai-research: capture AI Jason goals command video
+- ceb4ca4 vault backup: 2026-05-10 23:10:06
+- d9c07c0 Add Self-OS evening brief 2026-05-10
+- 56d1ae0 vault backup: 2026-05-10 19:58:52
+- f0fc74e ingest: github/spec-kit → ai-research-os/raw/repos
+- c576bbf vault backup: 2026-05-10 16:01:35
+- b9b391b vault backup: 2026-05-10 15:50:38
+- 7621c53 vault backup: 2026-05-10 15:45:20
+- f94bdef vault backup: 2026-05-10 15:39:35
+- 70b0bde vault backup: 2026-05-10 15:34:05
+- 746fdf3 vault backup: 2026-05-10 15:23:35
+- Recent capture: `wikis/ai-research-os/raw/youtube/2026-05-10-ai-jason-goals-command-tips-mistakes.md` — AI Jason — I used /goals command wrong... Here are all tips & mistakes
+- Recent capture: `wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/daily/2026-05-10-evening.md` — Self-OS Evening Brief — 2026-05-10
+- Recent capture: `wikis/ai-research-os/raw/repos/spec-kit-2026-05-10.md` — GitHub Spec Kit — Spec-Driven Development Toolkit
+- Recent capture: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-brief.md` — Supply Chain Signals — 2026-W19
+- Recent capture: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-carousel-outline.md` — Supply Chain Signals — 2026-W19 carousel outline
+- Recent capture: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-linkedin.md` — Supply Chain Signals — 2026-W19 LinkedIn drafts
+- Recent capture: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-x-thread.md` — Supply Chain Signals — 2026-W19 X thread
+- Recent capture: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-ppt-outline.md` — Supply Chain Signals — 2026-W19 PPT / consulting-style outline
+- Recent capture: `wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-visuals.md` — Supply Chain Signals — 2026-W19 visuals plan
+- Recent capture: `wikis/supply-chain-os/wiki/syntheses/supply-chain-signals.md` — Supply Chain Signals
 
 ### Recent commits, last 7 days
 
 ```text
+f634c3a vault backup: 2026-05-10 23:21:02
+bcf011e ai-research: capture AI Jason goals command video
+ceb4ca4 vault backup: 2026-05-10 23:10:06
+d9c07c0 Add Self-OS evening brief 2026-05-10
+56d1ae0 vault backup: 2026-05-10 19:58:52
+f0fc74e ingest: github/spec-kit → ai-research-os/raw/repos
+c576bbf vault backup: 2026-05-10 16:01:35
+b9b391b vault backup: 2026-05-10 15:50:38
+7621c53 vault backup: 2026-05-10 15:45:20
+f94bdef vault backup: 2026-05-10 15:39:35
+70b0bde vault backup: 2026-05-10 15:34:05
+746fdf3 vault backup: 2026-05-10 15:23:35
+e7b48b9 vault backup: 2026-05-10 15:18:11
+f3fbabe vault backup: 2026-05-10 15:12:45
+edd5f8b vault backup: 2026-05-10 15:07:26
+4e116de newsletter: revise Supply Chain Signals W19 assets
+7a9c613 vault backup: 2026-05-10 15:02:06
+dde1058 vault backup: 2026-05-10 14:56:54
+e1f98a8 vault backup: 2026-05-10 14:51:35
+e243e97 vault backup: 2026-05-10 13:24:09
+368c544 newsletter: Supply Chain Signals weekly brief 2026-W19
+dc65704 vault backup: 2026-05-10 09:12:18
+df1bcad docs: add Hermes Kanban Self-OS setup note
+c15dc8b vault backup: 2026-05-10 08:41:25
+acd7d46 ingest: X AI blogs daily digest → ai-research-os/raw/x-blogs
+3476148 vault backup: 2026-05-10 00:58:39
+f111413 Add newsletter digest for 2026-05-09 (#27)
+8237fce lint: wiki health check 2026-05-09 (#28)
+7b4d4d7 vault backup: 2026-05-10 00:48:10
+58b9c66 compile: process raw sources 2026-05-09 (#25)
+8efeda6 ops: add Self-OS evening brief 2026-05-09
+0e51ede vault backup: 2026-05-09 13:22:19
+aad7adf newsletter: Supply Chain Signals daily research 2026-05-09
+2ee5f8b vault backup: 2026-05-09 09:05:27
+6f49bd4 ingest: GitHub trending weekly repos → ai-research-os/raw/repos
+8bf89b0 vault backup: 2026-05-09 08:44:44
+1dad6a0 ingest: X AI blogs daily digest → ai-research-os/raw/x-blogs
+aba0aaa vault backup: 2026-05-09 03:00:05
+3c31e9e ingest: TabPFN → ai-research-os/repos
+3f56c48 vault backup: 2026-05-09 02:29:11
+c02ad94 idea: Experiment with Agno agent platform agent
+1b6c8b6 ingest: Thariq HTML artifacts thread → ai-research-os/x-threads
+9042a06 vault backup: 2026-05-09 02:08:32
+2ea16e7 Merge remote-tracking branch 'origin/master'
+3a6e3cc vault backup: 2026-05-09 02:03:13
+7e2679e ingest: How to Build an Agent Platform → ai-research-os/articles
+c3e87b3 Capture Claude swarm multi-agent framework idea
+a9a1521 ingest: Codex auto-review approvals → ai-research-os/resources
+de88dbe vault backup: 2026-05-09 01:47:38
+668e923 ops: add Self-OS idea inbox flow
+321519c vault backup: 2026-05-09 01:37:11
+612d45b Merge branch 'master' of https://github.com/kishorkukreja/Self-OS
+08cae29 ops: add Self-OS weekly synthesis 2026-W19
 e21ab76 ops: add Self-OS evening brief 2026-05-09
 72895a8 ops: add Self-OS feedback loop generators
+3c5ea3a vault backup: 2026-05-09 01:21:33
 66750ce ingest: Obsidian vault feedback loop thread → ai-research-os
 65e4516 vault backup: 2026-05-09 01:10:59
 713f47d Merge remote-tracking branch 'origin/master'
@@ -136,100 +190,36 @@ ac4ce25 vault backup: 2026-05-04 13:20:40
 55f56d4 Add newsletter digest for 2026-05-03
 25ee258 compile: process raw sources 2026-05-03
 a62318b ingest: agentic harness and recursive MAS repos → ai-research-os/repos
-9443ec9 vault backup: 2026-05-03 23:18:14
-59669f7 ingest: contextual agentic memory → ai-research-os/raw/articles
-c56c946 vault backup: 2026-05-03 22:16:33
-06b75d7 ingest: 10 GitHub repos that print money while you sleep → ai-research-os/articles
-dd8e27e vault backup: 2026-05-03 17:42:18
-46a1dc8 vault backup: 2026-05-03 17:31:13
-c830185 vault backup: 2026-05-03 17:25:43
-f436545 vault backup: 2026-05-03 17:19:53
-b79fbbf session: 2026-05-03-wrap-up-skill-discovery (claude)
-b2d9f8e vault backup: 2026-05-03 17:13:27
-13229d1 vault backup: 2026-05-03 17:02:43
-07d9d72 ingest: Autodata x PARROT pipeline → ai-research-os/articles
-885479b vault backup: 2026-05-03 16:20:51
-12d945d ingest: pasted x payload → ai-research-os/raw/resources
-577123d vault backup: 2026-05-03 15:33:22
-9be3c6b vault backup: 2026-05-03 13:29:45
-d23c325 vault backup: 2026-05-03 13:19:17
-98df682 newsletter: Supply Chain Signals weekly brief 2026-W18
-5deb8a0 vault backup: 2026-05-03 08:46:45
-b6bfeac ingest: X AI blogs daily digest → ai-research-os/raw/x-blogs
-66ceb2b vault backup: 2026-05-03 08:10:34
-04ca0b6 ops: add Self-OS daily brief 2026-05-03
-b34c46e ops: refresh Self-OS manual daily brief
-178c308 vault backup: 2026-05-03 00:38:27
-d104e59 feat: add Self-OS operating brief v0
-b559bbd vault backup: 2026-05-03 00:28:05
-888a408 Merge remote-tracking branch 'origin/master'
-ba037c6 vault backup: 2026-05-03 00:22:44
-95b8bef Merge branch 'master' of https://github.com/kishorkukreja/Self-OS
-d4d0aeb docs: plan Self-OS operating loop v0
-5e254f6 Add newsletter digest — Saturday, 02 May 2026 (#7)
-7c63b2c lint: wiki health check 2026-05-02 (#6)
-3fe1dbb Merge remote-tracking branch 'origin/master'
-5665de1 vault backup: 2026-05-03 00:17:27
-03933d8 compile: process raw sources 2026-05-02 (#5)
-065b6f8 Merge branch 'master' of https://github.com/kishorkukreja/Self-OS
-8c0c0a9 ingest(raw): add Chip Huyen AI Engineering book repo
-31d3682 vault backup: 2026-05-03 00:07:04
-72bcb49 ingest(raw): add Ghost Postgres for agents
-fe96c93 vault backup: 2026-05-02 22:55:02
-98a16c3 Merge remote-tracking branch 'origin/master'
-7be5cf5 vault backup: 2026-05-02 22:49:44
-26f5606 ingest(raw): add Refero Styles design resource
-7d02705 ingest(raw): add Firecrawl parse and browser trace integration note
-0ac488f vault backup: 2026-05-02 22:29:06
-da1a641 ingest(raw): add harness vs Warp agent architecture note
-d1e382c ingest(raw): add Open Design repo
-9395a13 vault backup: 2026-05-02 22:08:22
-9b15daa ingest(raw): add Claude Code AIOS course video
-94f8b92 vault backup: 2026-05-02 21:32:14
-9b9da1e ingest(raw): add Claude Code Game Studios repo
-042fedf vault backup: 2026-05-02 20:45:58
-48632d1 ingest(raw): Meta AI Autodata blog article
-bc153aa vault backup: 2026-05-02 13:28:16
-3ece729 newsletter: Supply Chain Signals daily research 2026-05-02
-5ffcb89 vault backup: 2026-05-02 09:06:45
-70104d3 ingest: GitHub trending weekly repos → ai-research-os/raw/repos
-40c8e20 vault backup: 2026-05-02 08:46:02
-fce104a ingest: X AI blogs daily digest → ai-research-os/raw/x-blogs
-0731fc6 vault backup: 2026-05-02 02:00:43
-3113d3f ingest: Ruflo + design-md-chrome → ai-research-os/raw/repos
 ```
 
 ### Merged PRs / merge commits, last 7 days
 
 ```text
+2ea16e7 Merge remote-tracking branch 'origin/master'
+612d45b Merge branch 'master' of https://github.com/kishorkukreja/Self-OS
 713f47d Merge remote-tracking branch 'origin/master'
 993f78f Merge remote-tracking branch 'origin/master'
 72aa7b8 Merge remote-tracking branch 'origin/master'
 ef696ae Merge pull request #11 from kishorkukreja/claude/festive-feynman-bhZMY
 0cc08b2 Merge pull request #10 from kishorkukreja/wiki-compile/2026-05-04-0000
-888a408 Merge remote-tracking branch 'origin/master'
-95b8bef Merge branch 'master' of https://github.com/kishorkukreja/Self-OS
-3fe1dbb Merge remote-tracking branch 'origin/master'
-065b6f8 Merge branch 'master' of https://github.com/kishorkukreja/Self-OS
-98a16c3 Merge remote-tracking branch 'origin/master'
 ```
 
 ## Repeated Captures / Themes
 
-- wikis (119)
-- concepts (99)
-- chain (94)
-- supply (92)
-- newsletter (90)
-- vault (83)
-- backup (79)
-- agent (76)
-- entities (76)
-- supply-chain (65)
+- entities (123)
+- wikis (109)
+- newsletter (103)
+- concepts (100)
+- backup (98)
+- vault (98)
+- chain (96)
+- supply (94)
+- supply-chain-signals (85)
+- updated (83)
 
 ## Feedback Loop Synthesis
 
-- Emerging thesis: The week’s material clusters around wikis, concepts, chain, supply; convert the strongest recurring theme into an operational loop rather than another passive note.
+- Emerging thesis: The week’s material clusters around entities, wikis, newsletter, concepts; convert the strongest recurring theme into an operational loop rather than another passive note.
 - Contradictions to inspect: look for places where recent captures add information but did not change any workflow, skill, or decision.
 - Knowledge gaps: identify missing source classes around the top theme before treating it as a settled thesis.
 - One action: promote the top theme into one operational artifact this week.
@@ -238,7 +228,7 @@ ef696ae Merge pull request #11 from kishorkukreja/claude/festive-feynman-bhZMY
 
 ### Open PRs
 
-- #25 — compile: process raw sources 2026-05-09 (`wiki-compile/2026-05-09-0009`) https://github.com/kishorkukreja/Self-OS/pull/25
+- #29 — compile: process raw sources 2026-05-10 (`wiki-compile/2026-05-10-0001`) https://github.com/kishorkukreja/Self-OS/pull/29
 
 ### Remote wiki branches
 
@@ -251,42 +241,47 @@ origin/wiki-compile/2026-05-02-0000
   origin/wiki-compile/2026-05-07-0001
   origin/wiki-compile/2026-05-08-0000
   origin/wiki-compile/2026-05-09-0009
+  origin/wiki-compile/2026-05-10-0001
+  origin/wiki-lint-2026-05-09-v2
   origin/wiki-lint/2026-05-02-0601
+  origin/wiki-lint/2026-05-09-0601
 ```
 
 ## Cron Reliability
 
-- wiki-compile-daily: last `ok`, enabled `True`, next `2026-05-10T00:00:00+00:00`
-- wiki-lint-weekly: last `ok`, enabled `True`, next `2026-05-09T06:00:00+00:00`
-- wiki-research-poll: last `ok`, enabled `True`, next `2026-05-09T09:00:00+00:00`
-- github-trending-weekly-to-ai-research-os: last `ok`, enabled `True`, next `2026-05-09T08:00:00+00:00`
-- x-blogs-daily-to-ai-research-os: last `ok`, enabled `True`, next `2026-05-09T07:30:00+00:00`
-- supply-chain-signals-daily-and-sunday-brief (BST months): last `ok`, enabled `True`, next `2026-05-09T12:00:00+00:00`
-- Daily 10pm UK profile news digest (BST months): last `ok`, enabled `True`, next `2026-05-09T21:00:00+00:00`
+- wiki-compile-daily: last `ok`, enabled `True`, next `2026-05-11T00:00:00+00:00`
+- wiki-lint-weekly: last `ok`, enabled `True`, next `2026-05-16T06:00:00+00:00`
+- wiki-research-poll: last `ok`, enabled `True`, next `2026-05-11T09:00:00+00:00`
+- github-trending-weekly-to-ai-research-os: last `ok`, enabled `True`, next `2026-05-16T08:00:00+00:00`
+- x-blogs-daily-to-ai-research-os: last `ok`, enabled `True`, next `2026-05-11T07:30:00+00:00`
+- supply-chain-signals-daily-and-sunday-brief (BST months): last `ok`, enabled `True`, next `2026-05-11T12:00:00+00:00`
+- Daily 10pm UK profile news digest (BST months): last `ok`, enabled `True`, next `2026-05-11T21:00:00+00:00`
 - Daily 10pm UK profile news digest (GMT months): last `never-run`, enabled `True`, next `2026-11-01T22:00:00+00:00`
 - supply-chain-signals-daily-and-sunday-brief (GMT months): last `never-run`, enabled `True`, next `2026-11-01T13:00:00+00:00`
-- self-os-daily-brief 11pm UK (BST months): last `ok`, enabled `True`, next `2026-05-09T22:00:00+00:00`
+- self-os-daily-brief 11pm UK (BST months): last `ok`, enabled `True`, next `2026-05-11T22:00:00+00:00`
 - self-os-daily-brief 11pm UK (GMT months): last `never-run`, enabled `True`, next `2026-11-01T23:00:00+00:00`
-- personal-context-daily-question-bst: last `ok`, enabled `True`, next `2026-05-09T08:00:00+00:00`
+- personal-context-daily-question-bst: last `ok`, enabled `True`, next `2026-05-11T08:00:00+00:00`
 - personal-context-daily-question-gmt: last `never-run`, enabled `True`, next `2026-11-01T09:00:00+00:00`
-- set-up-hermes-kanban-sunday: last `never-run`, enabled `True`, next `2026-05-10T08:00:00+00:00`
-- self-os-weekly-synthesis 11:30pm UK Sunday (BST months): last `never-run`, enabled `True`, next `2026-05-10T22:30:00+00:00`
+- self-os-weekly-synthesis 11:30pm UK Sunday (BST months): last `never-run`, enabled `True`, next `2026-05-17T22:30:00+00:00`
 - self-os-weekly-synthesis 11:30pm UK Sunday (GMT months): last `never-run`, enabled `True`, next `2026-11-01T23:30:00+00:00`
+- check Self-OS feedback-loop Kanban tasks after 10 days: last `never-run`, enabled `True`, next `2026-05-19T08:00:00+00:00`
+- supply-chain-signal-translation-weekly (BST months): last `never-run`, enabled `True`, next `2026-05-17T13:30:00+00:00`
+- supply-chain-signal-translation-weekly (GMT months): last `never-run`, enabled `True`, next `2026-11-01T14:30:00+00:00`
 
 ## Skills Patched or Needing Patches
 
-- `docs/self-os-operating-contract.md` mentions skill/workflow changes
-- `wikis/ai-research-os/raw/x-threads/2026-05-07-cyrilxbt-obsidian-vault-feedback-loop.md` mentions skill/workflow changes
-- `wikis/coding-projects-os/wiki/ingest-log.md` mentions skill/workflow changes
-- `wikis/coding-projects-os/wiki/log.md` mentions skill/workflow changes
+- `wikis/ai-research-os/raw/repos/spec-kit-2026-05-10.md` mentions skill/workflow changes
 - `wikis/coding-projects-os/wiki/projects/self-os-operating-loop.md` mentions skill/workflow changes
+- `wikis/coding-projects-os/wiki/ingest-log.md` mentions skill/workflow changes
 - `wikis/coding-projects-os/wiki/index.md` mentions skill/workflow changes
-- `wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/daily/2026-05-08-morning.md` mentions skill/workflow changes
+- `wikis/coding-projects-os/wiki/log.md` mentions skill/workflow changes
 - `wikis/ai-research-os/wiki/log.md` mentions skill/workflow changes
+- `wikis/ai-research-os/wiki/entities/openclaw.md` mentions skill/workflow changes
+- `wikis/ai-research-os/wiki/entities/claude-code.md` mentions skill/workflow changes
 
 ## Workflows That Should Be Automated Next
 
-- Promote `wikis` into either a wiki synthesis page, skill patch, or Kanban/taskOS task.
+- Promote `entities` into either a wiki synthesis page, skill patch, idea inbox note, taskOS folder, or Kanban task depending on maturity.
 - Run or inspect wiki compile output so raw captures do not accumulate without interpretation.
 - Keep the daily Thinking Loop as the control surface; only add dashboards after repeated weekly synthesis proves which signals matter.
 
@@ -298,9 +293,9 @@ origin/wiki-compile/2026-05-02-0000
 
 ## Proposed Next Week Operating Priorities
 
-- Turn `wikis` into one concrete next action with an owner/path.
+- Turn `entities` into one concrete next action with an owner/path.
 - Continue saving daily briefs and this weekly synthesis back to the Self-OS wiki as the durable record.
-- Route implementation ideas into Kanban/taskOS only after the daily/weekly synthesis identifies repeated demand.
+- Route implementation ideas into the idea inbox first; promote to taskOS once shaped, then create Kanban tasks only for execution-ready work.
 
 ## Health / Failures
 
@@ -322,5 +317,5 @@ Working tree clean.
 ## Next Suggested Prompt
 
 ```text
-Use this weekly synthesis to pick one operational improvement: wiki synthesis, skill patch, Kanban/taskOS implementation task, or decision prompt for Kishor. Do not add a dashboard until the brief loop repeatedly proves the signal.
+Use this weekly synthesis to pick one operational improvement: wiki synthesis, skill patch, idea inbox note, taskOS implementation candidate, Kanban execution task, or decision prompt for Kishor. Do not add a dashboard until the brief loop repeatedly proves the signal.
 ```
