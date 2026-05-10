@@ -1,7 +1,7 @@
 ---
 title: Daily Operating Brief
 date_created: '2026-05-05'
-date_modified: 2026-05-09
+date_modified: 2026-05-10
 summary: A recurring project-health artifact that summarizes repo state, cron status,
   recent changes, and the next best action.
 tags:
@@ -56,3 +56,9 @@ _Last updated: 2026-05-09_
 The 2026-05-08 brief reinforces the pattern that a daily operating brief should capture repo cleanliness, open PRs, recent raw/wiki changes, cron or automation health, backlog signal, and one concrete next move. The next design decision is whether to wrap the script in a Hermes skill before adding schedule-based delivery.
 
 **Sources:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-08-morning.md]]
+
+## Evidence — 2026-05-10
+- [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-09-evening.md]] contributed another example of this workflow pattern.
+
+## Evidence — 2026-05-10
+- [[../raw/projects/self-os-operating-loop/ops/weekly/2026-W19-review.md]] contributed another example of this workflow pattern.

@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 date_created: 2026-04-12
-date_modified: 2026-05-09
+date_modified: 2026-05-10
 summary: Anthropic's official CLI for Claude enabling agentic coding sessions with
   file system access, tool use, hooks, and skills — the primary interface for Self
   OS on the laptop.
@@ -80,3 +80,19 @@ This page was linked from [[sources/open-slide-2026-05-05]]. Claude Code is an e
 The 2026-05-08 AI newsletter sources add this entity to the current agent-platform signal set, alongside voice APIs, coding-agent workflows, office integration, and review/routine automation.
 
 **Sources:** [[sources/newsletter-digest-2026-05-08]], [[sources/the-code-2026-05-08]], [[sources/claire-vo-2026-claude-code-agent-platform]]
+
+
+## Update — 2026-05-10
+- Claude Code is referenced in [[sources/2026-05-09-how-to-build-an-agent-platform]] as part of the latest compiled source set.
+
+
+## Update — 2026-05-10
+- Claude Code is referenced in [[sources/newsletter-digest-2026-05-09]] as part of the latest compiled source set.
+
+
+## Update — 2026-05-10
+- Claude Code is referenced in [[sources/github-trending-weekly-2026-05-09]] as part of the latest compiled source set.
+
+
+## Update — 2026-05-10
+- Claude Code is referenced in [[sources/2026-05-09-trq212-unreasonable-effectiveness-html]] as part of the latest compiled source set.

@@ -1,7 +1,7 @@
 ---
 title: "Anthropic"
 date_created: 2026-04-12
-date_modified: 2026-05-09
+date_modified: 2026-05-10
 summary: "AI safety company and creator of Claude, the Claude Agent SDK, and Claude Code — the primary AI infrastructure underlying Self OS."
 tags: [company, anthropic, claude, ai-safety]
 type: entity
@@ -31,3 +31,7 @@ _Last updated: 2026-05-09_
 The 2026-05-08 AI newsletter sources add this entity to the current agent-platform signal set, alongside voice APIs, coding-agent workflows, office integration, and review/routine automation.
 
 **Sources:** [[sources/newsletter-digest-2026-05-08]], [[sources/the-code-2026-05-08]], [[sources/claire-vo-2026-claude-code-agent-platform]]
+
+
+## Update — 2026-05-10
+- Anthropic is referenced in [[sources/github-trending-weekly-2026-05-09]] as part of the latest compiled source set.

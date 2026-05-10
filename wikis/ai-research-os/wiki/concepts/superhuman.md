@@ -1,7 +1,7 @@
 ---
 title: "Superhuman"
 date_created: 2026-05-04
-date_modified: 2026-05-04
+date_modified: 2026-05-10
 summary: "Superhuman is a theme captured in Newsletter Digest."
 tags: [digest, ai, the-rundown]
 type: concept
@@ -21,3 +21,7 @@ source_count: 1
 **Sources:** [[sources/2026-05-03-newsletter-digest]]
 
 _Last updated: 2026-05-04_
+
+
+## Update — 2026-05-10
+- Superhuman appeared again in [[sources/newsletter-digest-2026-05-09]], adding evidence that it remains relevant to current source material.

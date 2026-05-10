@@ -1,7 +1,7 @@
 ---
 title: "Logistics Optionality"
 date_created: 2026-05-09
-date_modified: 2026-05-09
+date_modified: 2026-05-10
 summary: "The deliberate creation of alternate routes, modes, partners, and physical buffers so supply chains can adapt when constraints move."
 tags: [logistics, resilience]
 type: concept
@@ -21,3 +21,7 @@ source_count: 1
 **Sources:** [[sources/supply-chain-logistics-viewpoints-2026-05-08-news]]
 
 _Last updated: 2026-05-09_
+
+
+## Update — 2026-05-10
+- Logistics Optionality appeared again in [[sources/supply-chain-signals-2026-05-09-sources]], adding evidence that it remains relevant to current source material.

@@ -1,7 +1,7 @@
 ---
 title: GitHub
 date_created: 2026-05-03
-date_modified: '2026-05-04'
+date_modified: 2026-05-10
 summary: 'GitHub is an entity referenced by Autodata: an automatic data scientist
   to create high-quality data.'
 tags:
@@ -88,3 +88,11 @@ This page was linked from [[sources/the-code-2026-05-05]]. GitHub is an entity r
 This page was linked from [[sources/open-slide-2026-05-05]]. GitHub is an entity referenced by open-slide.
 
 **Sources:** [[sources/open-slide-2026-05-05]]
+
+
+## Update — 2026-05-10
+- GitHub is referenced in [[sources/tabpfn-2026-05-09]] as part of the latest compiled source set.
+
+
+## Update — 2026-05-10
+- GitHub is referenced in [[sources/2026-05-09-trq212-unreasonable-effectiveness-html]] as part of the latest compiled source set.
