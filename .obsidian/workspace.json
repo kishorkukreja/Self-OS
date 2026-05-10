@@ -200,6 +200,9 @@
   },
   "active": "1433a768e31291b7",
   "lastOpenFiles": [
+    "workspaces/hermes-experiments/_template/runs/desktop.ini",
+    "workspaces/hermes-experiments/_template/reviews/desktop.ini",
+    "workspaces/hermes-experiments/_template/artifacts/desktop.ini",
     "wikis/ai-research-os/raw/repos/2026-05-10-cli-printing-press-and-library.md",
     "workspaces/hermes-experiments/_template/runs/README.md",
     "workspaces/hermes-experiments/_template/reviews/README.md",
@@ -237,15 +240,12 @@
     "d48b83ed2feae9f8a49491caff4c7ce6_MD5.svg",
     "0d7e04f36eb3e8c04e2593d90cf97acb_MD5.svg",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/README.md",
-    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/visuals/README.md",
     "01c6a8e4672a2336dbb51021bc2859ec_MD5.svg",
     "1e0c7bec27b66d8a0de0f5c4fa6356d5_MD5.svg",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief",
     "95c8e424546fbaa612a34a1468ea26fd_MD5.svg",
     "b45a94bba784a257b552a7a91d96916e_MD5.svg",
     "wikis/coding-projects-os/raw/ideas/templates",
-    "wikis/coding-projects-os/raw/ideas",
-    "wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/weekly",
     "Untitled.canvas"
   ]
 }
