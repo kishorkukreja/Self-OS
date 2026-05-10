@@ -4,7 +4,7 @@ date: 2026-05-10
 type: newsletter-social
 client: internal
 confidential: false
-tags: [supply-chain-signals, newsletter, x-thread]
+tags: [supply-chain-signals, newsletter, x-thread, farm-to-fork]
 status: draft
 ---
 
@@ -30,7 +30,7 @@ That deadline belongs in sourcing, pricing, and inventory plans.
 
 4/ FAO’s Food Price Index hit 130.7 in April, up 1.6% from March.
 
-Reuters said it was the highest since Feb. 2023. Vegetable oils carried much of the pressure, tied to energy costs, biofuels demand, and Strait of Hormuz disruption.
+Reuters said it was the highest since Feb. 2023. Vegetable oils carried much of the pressure; FAO put the vegetable oil index at 193.9, up 5.9% month over month.
 
 Energy is a food-chain issue too.
 
@@ -40,19 +40,23 @@ FreightWaves says contract rates are up about 8% since last fall and tender reje
 
 Weak imports do not guarantee cheap freight if fuel, routing, and secondary capacity are doing the pricing work.
 
-6/ Chain of the week: Wafer to Rack.
+6/ Chain of the week: Farm to Fork.
 
-AI infrastructure goes well beyond GPUs: wafers, HBM, packaging, substrates, copper, power gear, cooling, servers, networking, transformers, data-center construction, grid interconnection, and logistics.
+The food chain starts before the farm: fertilizer, fuel, seed, crop protection, equipment, labor, water, and finance.
 
-The bottleneck may sit far outside the chip.
+Then come harvest, storage, processing, packaging, cold chain, transport, retail, and the consumer wallet.
 
-7/ The trap: managing yesterday’s constraint.
+7/ The trap is averaging the chain.
 
-A static risk register does not help much when the constraint moves from duty rate to supplier lead time to power availability to freight surcharge.
+Average food inflation will not tell you which SKU is exposed, which supplier has energy pass-through clauses, which lane carries fuel pressure, or which pack size can hold margin.
 
-You need a live constraint map, not another dashboard.
+8/ AI infrastructure still matters.
 
-8/ Four weekly questions:
+Wafer to Rack remains on the watchlist: HBM, packaging, power gear, cooling, grid connection, and construction.
+
+But it was last week’s chain. This week’s live evidence points to Farm to Fork.
+
+9/ Four weekly questions:
 
 - Which constraint is binding now?
 - What decision does it change?
@@ -61,15 +65,7 @@ You need a live constraint map, not another dashboard.
 
 If nobody owns the trade-off, visibility just lets you watch the miss in higher resolution.
 
-9/ Metrics to watch:
-
-ISM PMI: 52.7
-ISM Prices: 84.6
-ISM Supplier Deliveries: 60.6
-FAO Food Price Index: 130.7
-WTO 2026 merchandise trade growth forecast: 1.9%
-
-10/ The operator takeaway:
+10/ Operator takeaway:
 
 Do not ask “what happened this week?” first.
 
