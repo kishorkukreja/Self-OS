@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 date_created: 2026-04-29
-date_modified: 2026-05-09
+date_modified: 2026-05-10
 summary: Concept stub created from restored AI research queue items.
 tags:
 - ai-tools
@@ -63,3 +63,7 @@ This concept is also evidenced by [[sources/agentic-harness-engineering-2026-05-
 New sources show coding agents becoming more operational. Cursor v3.3 adds PR review and parallel build surfaces, Codex approval workflows route risk through an auto-reviewer, and Claude Code routines/outcomes turn coding work into scheduled or triggerable agent runs with rubrics. The durable pattern is platformization: coding agents are becoming systems for planning, execution, review, recovery, and memory.
 
 **Sources:** [[sources/newsletter-digest-2026-05-08]], [[sources/the-code-2026-05-08]], [[sources/claire-vo-2026-claude-code-agent-platform]]
+
+
+## Update — 2026-05-10
+- Coding Agents appeared again in [[sources/codex-auto-review-approvals-2026-05-09]], adding evidence that it remains relevant to current source material.

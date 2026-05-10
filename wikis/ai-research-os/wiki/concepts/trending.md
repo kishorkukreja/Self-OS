@@ -1,7 +1,7 @@
 ---
 title: "Trending"
 date_created: 2026-05-03
-date_modified: 2026-05-03
+date_modified: 2026-05-10
 summary: "Trending as evidenced by GitHub Trending Weekly Repositories — 2026-05-02."
 tags: [github, trending, weekly, repositories, ai-research]
 type: concept
@@ -21,3 +21,7 @@ source_count: 1
 **Sources:** [[sources/github-trending-weekly-2026-05-02]]
 
 _Last updated: 2026-05-03_
+
+
+## Update — 2026-05-10
+- Trending appeared again in [[sources/github-trending-weekly-2026-05-09]], adding evidence that it remains relevant to current source material.

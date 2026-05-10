@@ -1,7 +1,7 @@
 ---
 title: "Digest"
 date_created: 2026-05-04
-date_modified: 2026-05-04
+date_modified: 2026-05-10
 summary: "Digest is a theme captured in Newsletter Digest."
 tags: [digest, ai, the-rundown]
 type: concept
@@ -27,3 +27,7 @@ _Last updated: 2026-05-04_
 This page was linked from [[sources/2026-05-05-newsletter-digest]]. Digest as evidenced by Newsletter Digest — Tuesday, 5 May 2026.
 
 **Sources:** [[sources/2026-05-05-newsletter-digest]]
+
+
+## Update — 2026-05-10
+- Digest appeared again in [[sources/newsletter-digest-2026-05-09]], adding evidence that it remains relevant to current source material.

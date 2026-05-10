@@ -74,3 +74,10 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/supply-chain-logistics-viewpoints-2026-05-08-news.md, sources/supply-chain-signals-2026-05-08-daily-research.md, sources/supply-chain-signals-2026-05-08-sources.md, concepts/live-constraint-map.md, concepts/logistics-platforms.md, concepts/food-inflation.md, concepts/logistics-optionality.md, concepts/supply-chain-decision-intelligence.md, entities/amazon-supply-chain-services.md, entities/amd.md, entities/logistics-viewpoints.md, entities/fourkites.md
 - Updated: index.md, concepts/constraint-migration.md, concepts/wafer-to-rack-supply-chain.md, concepts/supply-chain-pressure.md
 - Conflicts: none
+
+## 2026-05-10 00:04
+- Ingested: 2 file(s) from wiki compile
+- Files: raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-09-daily-research.md, raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-09-sources.md
+- Added: concepts/daily-research.md, entities/deloitte.md, entities/freightos.md, entities/freightwaves.md, entities/s-and-p-global.md, sources/supply-chain-signals-2026-05-09-daily-research.md, sources/supply-chain-signals-2026-05-09-sources.md
+- Updated: concepts/logistics-optionality.md, concepts/supply-chain-pressure.md, concepts/supply-chain-signals.md, concepts/supply-chain.md, entities/freightwaves.md, entities/reuters.md, entities/s-and-p-global.md, index.md, ingest-log.md, log.md
+- Conflicts: none

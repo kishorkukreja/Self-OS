@@ -1,7 +1,7 @@
 ---
 title: "Ai Agents"
 date_created: 2026-05-04
-date_modified: 2026-05-04
+date_modified: 2026-05-10
 summary: "Ai Agents is a theme captured in 10 Github Repos That Print Money While You Sleep."
 tags: [github-repos, ai-agents, automation]
 type: concept
@@ -21,3 +21,7 @@ source_count: 1
 **Sources:** [[sources/2026-05-03-10-github-repos-that-print-money-while-you-sleep]]
 
 _Last updated: 2026-05-04_
+
+
+## Update — 2026-05-10
+- AI Agents appeared again in [[sources/2026-05-09-how-to-build-an-agent-platform]], adding evidence that it remains relevant to current source material.

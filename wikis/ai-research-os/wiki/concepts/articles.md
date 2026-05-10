@@ -1,7 +1,7 @@
 ---
 title: "Articles"
 date_created: 2026-05-04
-date_modified: 2026-05-04
+date_modified: 2026-05-10
 summary: "Articles is a theme captured in X Blogs Digest."
 tags: [x, twitter, blogs]
 type: concept
@@ -21,3 +21,7 @@ source_count: 1
 **Sources:** [[sources/2026-05-03-x-blogs-digest]]
 
 _Last updated: 2026-05-04_
+
+
+## Update — 2026-05-10
+- Articles appeared again in [[sources/x-blogs-digest-2026-05-09]], adding evidence that it remains relevant to current source material.
