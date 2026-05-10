@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-brief.md",
+                "file": "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-x-thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "supply-chain-signals-2026-W19-brief"
+              "title": "supply-chain-signals-2026-W19-x-thread"
             }
           }
         ]
@@ -200,8 +200,8 @@
   },
   "active": "1433a768e31291b7",
   "lastOpenFiles": [
-    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-visuals.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-brief.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-visuals.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-brief.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-carousel-outline.md",
     "MASTER.md",
