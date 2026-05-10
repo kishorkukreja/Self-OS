@@ -99,13 +99,13 @@ The companies that do this well will look slightly boring from the outside. Fewe
 
 ## Metrics that matter
 
-| Metric | Latest value | Why it matters | Source |
-|---|---:|---|---|
-| ISM Manufacturing PMI | 52.7 | Expansion continues, but internals matter more | ISM [S1] |
-| ISM Prices Index | 84.6 | Four-year-high input-cost pressure | ISM [S1] |
-| ISM Supplier Deliveries | 60.6 | Slowest delivery performance since May 2022 | ISM [S1] |
-| FAO Food Price Index | 130.7 | Third monthly rise; highest since Feb. 2023 per Reuters | FAO/Reuters [S4][S5] |
-| WTO 2026 merchandise trade growth forecast | 1.9% | Slower trade growth with oil and AI goods pulling in opposite directions | WTO [S9] |
+| Metric                                     | Latest value | Why it matters                                                           | Source               |
+| ------------------------------------------ | -----------: | ------------------------------------------------------------------------ | -------------------- |
+| ISM Manufacturing PMI                      |         52.7 | Expansion continues, but internals matter more                           | ISM [S1]             |
+| ISM Prices Index                           |         84.6 | Four-year-high input-cost pressure                                       | ISM [S1]             |
+| ISM Supplier Deliveries                    |         60.6 | Slowest delivery performance since May 2022                              | ISM [S1]             |
+| FAO Food Price Index                       |        130.7 | Third monthly rise; highest since Feb. 2023 per Reuters                  | FAO/Reuters [S4][S5] |
+| WTO 2026 merchandise trade growth forecast |         1.9% | Slower trade growth with oil and AI goods pulling in opposite directions | WTO [S9]             |
 
 ## What to watch next
 

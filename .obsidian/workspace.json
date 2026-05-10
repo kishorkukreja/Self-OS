@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/README.md",
+                "file": "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-x-thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "supply-chain-signals-2026-W19-x-thread"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 522.5
+    "width": 463.5
   },
   "right": {
     "id": "4583a8ac9f8083fb",
@@ -198,16 +198,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f9c07bf788430d03",
+  "active": "1433a768e31291b7",
   "lastOpenFiles": [
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-visuals.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-ppt-outline.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-linkedin.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-carousel-outline.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-brief.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-brief.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-linkedin.md",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/brief/supply-chain-signals-2026-W18-carousel-outline.md",
+    "01c6a8e4672a2336dbb51021bc2859ec_MD5.svg",
+    "1e0c7bec27b66d8a0de0f5c4fa6356d5_MD5.svg",
+    "0d7e04f36eb3e8c04e2593d90cf97acb_MD5.svg",
+    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W18/README.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-10-sources.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-10-daily-research.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-x-thread.md",
-    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-visuals.md",
-    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-ppt-outline.md",
-    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-carousel-outline.md",
-    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-linkedin.md",
-    "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-brief.md",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/brief",
     "docs/hermes-kanban-self-os.md",
     "wikis/ai-research-os/raw/x-blogs/2026-05-10-x-blogs-digest.md",
@@ -223,10 +230,6 @@
     "wikis/ai-research-os/wiki/sources/hermes-agent-docs-2026.md",
     "wikis/ai-research-os/wiki/outputs/lint-report-2026-05-09.md",
     "wikis/ai-research-os/wiki/entities/skillclaw.md",
-    "wikis/ai-research-os/wiki/entities/mia.md",
-    "wikis/ai-research-os/wiki/concepts/adaptive-computing.md",
-    "wikis/ai-research-os/raw/newsletters/2026-05-09-newsletter-digest.md",
-    "wikis/supply-chain-os/wiki/entities/amazon-supply-chain-services.md",
     "95c8e424546fbaa612a34a1468ea26fd_MD5.svg",
     "b45a94bba784a257b552a7a91d96916e_MD5.svg",
     "2b1461724e5f06ecbd4d8d94ffe9c175_MD5.svg",
@@ -238,9 +241,6 @@
     "wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/weekly",
     "scripts/generate_self_os_weekly_synthesis.py",
     "ed85a85ed119acd2777ddb33cdc2e221_MD5.gif",
-    "58a7bec54e9218b076e3489bb17f59f1_MD5.svg",
-    "1dae56cdd2a5f4ef03de327a67cba659_MD5.svg",
-    "165807ca7e53aae7d7a0677010028d1e_MD5.svg",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/visuals",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/sources",
     "wikis/supply-chain-os/raw/newsletters/supply-chain-signals/2026-W19/daily",
