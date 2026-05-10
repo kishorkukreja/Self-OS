@@ -43,7 +43,8 @@ Use these defaults when the user provides a bare link or says “add this,” �
 - Official plans → `docs/plans/`
 - Operating contracts/reference docs → `docs/`
 - Daily/weekly operating briefs → `wikis/coding-projects-os/raw/projects/self-os-operating-loop/ops/`
-- Project implementation sessions → `wikis/coding-projects-os/raw/projects/...`
+- Agent experiment workspaces → `workspaces/hermes-experiments/<slug>/` for mission files, run logs, reviews, and curated artifacts.
+- Project implementation sessions → `wikis/coding-projects-os/raw/projects/...` only when the session itself is a durable raw project note, not temporary runtime output.
 
 ### Personal / travel / reminders
 
@@ -232,6 +233,12 @@ The first implementation should stay intentionally narrow:
 
 ---
 
-## 10. Maintenance Rule
+## 10. Hermes Experiment Workspace Rule
+
+Use `/data/Self-OS/workspaces/hermes-experiments/<slug>/` for long-running Hermes/agent workflow experiments that need `mission.md`, reward cycles, run logs, reviews, and curated artifacts. Keep temporary runtime outputs out of wiki raw folders unless they are summarized as durable source captures or operating briefs. Use `/data/taskOS/tasks/<slug>/` instead when the item is primarily an implementation backlog/spec candidate.
+
+---
+
+## 11. Maintenance Rule
 
 If this contract conflicts with a more specific wiki `CLAUDE.md` or Hermes skill, follow the more specific operational instruction for that workflow, then update this contract if the conflict reveals a durable Self-OS rule.

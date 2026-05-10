@@ -38,6 +38,7 @@ Use Kanban as the persistent routing layer for daily operating work:
 2. **Research / analysis / writing / ops lanes** can initially all use assignee `default`, with role intent in the title, for example `[research]`, `[analysis]`, `[writer]`, `[ops]`.
 3. Add named Hermes profiles later only when separation is useful: different tools, models, working directories, memory, or safety boundaries.
 4. **Night shift review** checks completed/blocked cards, unblocks anything needing Kishor input, and converts learnings back into Self-OS notes.
+5. For long-running agent experiments, put files under `/data/Self-OS/workspaces/hermes-experiments/<slug>/` and reference that path in the Kanban card. Use Kanban for execution state; use the workspace for `mission.md`, run logs, reviews, and curated artifacts.
 
 Minimal first recurring workflow:
 
