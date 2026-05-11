@@ -1,7 +1,7 @@
 ---
 title: Self Os Operating Loop
 date_created: '2026-05-03'
-date_modified: 2026-05-10
+date_modified: 2026-05-11
 summary: Project memory for the Self-OS operating loop and daily brief workflow.
 tags:
 - self-os
@@ -118,3 +118,13 @@ The 2026-05-08 morning brief reported a clean repository at collection time, one
 
 - Raw file: [[../raw/projects/self-os-operating-loop/ops/weekly/2026-W19-review.md]]
 - Summary: Self OS Weekly Synthesis — 2026 W19 TL;DR The week’s material clusters around wikis, concepts, chain, supply; convert the strongest recurring theme into an operational loop rather than another passive note. Health: No blocking weekly health issue detected by local collector. Recommended next move: choose one weekly theme and route it into wiki synthesis, skill patch, Kanban/taskOS, or a decision prompt.
+
+## Operating brief — 2026-05-10 evening
+
+**Source:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-10-evening.md]]
+
+The 2026-05-10 evening brief reported a clean repository at collection time, one open PR, no injected cron failures, and several newly captured raw/wiki/doc files across AI research, Supply Chain Signals, and Self-OS operations. Its recommended next move was to use the Thinking Loop to turn a recent capture into a connection, synthesis, or safe next action. The brief reinforces the Self-OS operating-loop pattern: daily status should combine repo state, raw capture backlog, open PR context, and one concrete next action rather than becoming a passive activity log.
+
+**Implication:** The operating loop should continue treating daily briefs as routing artifacts that identify which raw captures need interpretation and which wiki compiles or PRs are active.
+
+_Last updated: 2026-05-11_

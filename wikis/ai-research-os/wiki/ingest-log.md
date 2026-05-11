@@ -108,3 +108,18 @@ _Append-only. Updated automatically by ingest runs._
 - Added: concepts/agent-operating-system.md, concepts/agent-outputs.md, concepts/agent-permissions.md, concepts/agent-platforms.md, concepts/claude-code.md, concepts/codex.md, concepts/html-artifacts.md, concepts/knowledge-vault.md, concepts/obsidian.md, concepts/second-brain.md, concepts/tabpfn.md, concepts/tabular-foundation-models.md, concepts/tabular-ml.md, concepts/the-deep-view.md, entities/aembit.md, entities/agentos.md, entities/cyrilxbt.md, entities/goodfire.md, entities/harvey.md, entities/priorlabs.md, entities/railway.md, entities/tabpfn.md, entities/thariq.md, sources/2026-05-07-cyrilxbt-obsidian-vault-feedback-loop.md, sources/2026-05-09-how-to-build-an-agent-platform.md, sources/2026-05-09-trq212-unreasonable-effectiveness-html.md, sources/codex-auto-review-approvals-2026-05-09.md, sources/github-trending-weekly-2026-05-09.md, sources/newsletter-digest-2026-05-09.md, sources/tabpfn-2026-05-09.md, sources/x-blogs-digest-2026-05-09.md
 - Updated: concepts/ai-agents.md, concepts/ai-research.md, concepts/articles.md, concepts/blogs.md, concepts/coding-agents.md, concepts/digest.md, concepts/github.md, concepts/superhuman.md, concepts/trending.md, concepts/weekly.md, entities/agno.md, entities/anthropic.md, entities/claude-code.md, entities/codex.md, entities/github.md, entities/openai.md, entities/openclaw.md, index.md, ingest-log.md, log.md
 - Conflicts: none
+
+## 2026-05-11 00:04
+- Ingested: 10 file(s) from raw
+- Raw: raw/x-blogs/2026-05-10-x-blogs-digest.md
+- Raw: raw/papers/2026-05-04-wang-heavyskill-heavy-thinking-agentic-harness.md
+- Raw: raw/papers/2026-04-30-xu-contextual-agentic-memory-memo-not-true-memory.md
+- Raw: raw/papers/2026-05-05-singh-agentic-imodels-agentic-interpretability-tools-autoresearch.md
+- Raw: raw/papers/2026-05-05-nechepurenko-coordination-architectural-layer-llm-multi-agent-systems.md
+- Raw: raw/papers/2025-12-04-nielsen-learning-to-orchestrate-agents-conductor.md
+- Raw: raw/newsletters/2026-05-10-newsletter-digest.md
+- Raw: raw/youtube/2026-05-10-ai-jason-goals-command-tips-mistakes.md
+- Raw: raw/repos/2026-05-10-cli-printing-press-and-library.md
+- Raw: raw/repos/spec-kit-2026-05-10.md
+- Added: sources/x-blogs-digest-2026-05-10.md, sources/wang-2026-heavyskill.md, sources/xu-2026-contextual-agentic-memory.md, sources/singh-2026-agentic-imodels.md, sources/nechepurenko-2026-coordination-architectural-layer.md, sources/nielsen-2025-conductor.md, sources/newsletter-digest-2026-05-10.md, sources/ai-jason-2026-goals-command.md, sources/mvanhorn-2026-cli-printing-press.md, sources/github-2026-spec-kit.md, concepts/heavy-thinking.md, concepts/skill-consolidation.md, concepts/agent-readable-tools.md, concepts/multi-agent-coordination.md, concepts/learned-orchestration.md, concepts/goal-loops.md, concepts/spec-driven-development.md, entities/conductor.md, entities/cli-printing-press.md, entities/github-spec-kit.md
+- Conflicts: none

@@ -1,7 +1,7 @@
 ---
 title: "Live Constraint Map"
 date_created: 2026-05-09
-date_modified: 2026-05-09
+date_modified: 2026-05-11
 summary: "Operating discipline for identifying the currently binding supply-chain constraint and updating decisions as the bottleneck migrates."
 tags: [constraint-mapping, supply-chain-planning]
 type: concept
@@ -21,3 +21,11 @@ source_count: 1
 **Sources:** [[sources/supply-chain-signals-2026-05-08-daily-research]]
 
 _Last updated: 2026-05-09_
+
+## 2026-05-11 — Weekly publishing package
+
+The 2026-W19 brief, carousel outline, PPT outline, and social drafts translate the live constraint map into a reusable management artifact. The map should identify the current bottleneck, the exposed revenue or service promise, the available moves, the cost or trade-off of each move, and the person with authority to change the plan. The same structure is proposed for manufacturing-cost pressure, tariff deadlines, Farm to Fork exposure, freight ambiguity, and infrastructure bottlenecks.
+
+**Sources:** [[sources/supply-chain-signals-2026-w19-brief]], [[sources/supply-chain-signals-2026-w19-carousel-outline]], [[sources/supply-chain-signals-2026-w19-ppt-outline]]
+
+_Last updated: 2026-05-11_

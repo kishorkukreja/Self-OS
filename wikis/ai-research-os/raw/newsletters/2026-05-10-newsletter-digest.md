@@ -3,7 +3,7 @@ source: newsletter-digest
 date: 2026-05-10
 type: newsletter
 tags: [digest, ai, superhuman, alpha-signal, daily-dose-of-ds, dair-ai]
-status: pending
+status: processed
 ---
 
 # Newsletter Digest — Sunday, 10 May 2026

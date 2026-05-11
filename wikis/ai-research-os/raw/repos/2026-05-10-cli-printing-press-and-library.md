@@ -5,6 +5,7 @@ source:
 date: 2026-05-10
 type: repo
 tags: [cli, agent-tools, ai-agents, mcp, go, sqlite, code-generation, developer-tools, self-os, hermes-agent]
+status: processed
 ---
 
 # CLI Printing Press and Printing Press Library

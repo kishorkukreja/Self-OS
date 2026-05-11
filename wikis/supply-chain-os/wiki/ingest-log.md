@@ -81,3 +81,16 @@ _Append-only. Updated automatically by ingest runs._
 - Added: concepts/daily-research.md, entities/deloitte.md, entities/freightos.md, entities/freightwaves.md, entities/s-and-p-global.md, sources/supply-chain-signals-2026-05-09-daily-research.md, sources/supply-chain-signals-2026-05-09-sources.md
 - Updated: concepts/logistics-optionality.md, concepts/supply-chain-pressure.md, concepts/supply-chain-signals.md, concepts/supply-chain.md, entities/freightwaves.md, entities/reuters.md, entities/s-and-p-global.md, index.md, ingest-log.md, log.md
 - Conflicts: none
+
+## 2026-05-11 00:04
+- Ingested: 8 file(s) from raw
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-10-sources.md
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-10-daily-research.md
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-carousel-outline.md
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-linkedin.md
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-x-thread.md
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-ppt-outline.md
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-brief.md
+- Raw: raw/newsletters/supply-chain-signals/2026-W19/brief/supply-chain-signals-2026-W19-visuals.md
+- Added: sources/supply-chain-signals-2026-05-10-sources.md, sources/supply-chain-signals-2026-05-10-daily-research.md, sources/supply-chain-signals-2026-w19-carousel-outline.md, sources/supply-chain-signals-2026-w19-linkedin.md, sources/supply-chain-signals-2026-w19-x-thread.md, sources/supply-chain-signals-2026-w19-ppt-outline.md, sources/supply-chain-signals-2026-w19-brief.md, sources/supply-chain-signals-2026-w19-visuals.md, concepts/constraint-migration.md, concepts/live-constraint-map.md, concepts/farm-to-fork-supply-chain.md, concepts/supply-chain-risk.md, concepts/sales-and-operations-planning.md
+- Conflicts: none

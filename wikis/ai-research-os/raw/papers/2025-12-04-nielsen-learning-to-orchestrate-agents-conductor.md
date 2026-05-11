@@ -3,6 +3,7 @@ source: https://arxiv.org/abs/2512.04388
 date: 2025-12-04
 type: paper
 tags: [multi-agent-systems, agent-orchestration, reinforcement-learning, conductor-model, test-time-scaling, ai-agents]
+status: processed
 ---
 
 # Learning to Orchestrate Agents in Natural Language with the Conductor
