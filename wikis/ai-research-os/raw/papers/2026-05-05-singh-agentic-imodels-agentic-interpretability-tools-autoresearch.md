@@ -3,6 +3,7 @@ source: https://arxiv.org/abs/2605.03808
 date: 2026-05-05
 type: paper
 tags: [agentic-data-science, interpretability, autoresearch, tabular-ml, agent-tools, ai-agents]
+status: processed
 ---
 
 # Agentic-imodels: Evolving agentic interpretability tools via autoresearch

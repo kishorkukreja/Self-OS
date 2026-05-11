@@ -3,6 +3,7 @@ source: https://arxiv.org/abs/2605.02396
 date: 2026-05-04
 type: paper
 tags: [agentic-harness, heavy-thinking, multi-agent-reasoning, reinforcement-learning, self-evolving-llms, ai-agents]
+status: processed
 ---
 
 # HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness

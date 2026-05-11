@@ -1,7 +1,7 @@
 # Supply Chain OS — Index
-_Last updated: 2026-05-10_
+_Last updated: 2026-05-11_
 
-## Concepts (50)
+## Concepts (51)
 - [2026 04 26 Ai In The Chain Ai Demand Sensing Unilever Amazon](concepts/2026-04-26-ai-in-the-chain-ai-demand-sensing-unilever-amazon.md) — Stub page for 2026 04 26 Ai In The Chain Ai Demand Sensing Unilever Amazon.
 - [2026 04 26 Amazon Vendor Central Demand Forecast Guide](concepts/2026-04-26-amazon-vendor-central-demand-forecast-guide.md) — Stub page for 2026 04 26 Amazon Vendor Central Demand Forecast Guide.
 - [2026 04 26 Atomix Last Mile Cpg Customer Experience](concepts/2026-04-26-atomix-last-mile-cpg-customer-experience.md) — Stub page for 2026 04 26 Atomix Last Mile Cpg Customer Experience.
@@ -18,6 +18,7 @@ _Last updated: 2026-05-10_
 - [Decision-Grade Visibility](concepts/decision-grade-visibility.md) — Supply-chain visibility that converts alerts into recommended actions, owners, time windows, and financial trade-offs.
 - [Demand Forecasting](concepts/demand-forecasting.md) — The process of predicting future customer demand to optimize inventory and supply chain planning.
 - [Demand Pull-Forward](concepts/demand-pull-forward.md) — Orders placed earlier than normal to avoid anticipated shortages, tariffs,
+- [Farm-to-Fork Supply Chain](concepts/farm-to-fork-supply-chain.md) — Farm to Fork is the end-to-end food supply chain from inputs and production through processing, packaging, cold chain, retail, and consumer substitution.
 - [Food Inflation as Supply-Chain Signal](concepts/food-inflation.md) — Use of food-price movement as an operational signal for energy, fertilizer, weather, freight, and procurement risk.
 - [Freight Market Disruption](concepts/freight-market-disruption.md) — Freight Market Disruption as tracked across source material.
 - [Freight Spend Governance](concepts/freight-spend-governance.md) — Control discipline for freight costs that manages accessorials, dimensional thresholds, service modifiers, minimums, contract logic, auditability, and payment leakage.
@@ -105,9 +106,9 @@ _Last updated: 2026-05-10_
 - [World Bank](entities/world-bank.md) — International development institution publishing commodity-market outlooks and macroeconomic risk analysis.
 - [WTO](entities/wto.md) — World Trade Organization, source for global trade outlook data.
 
-## Sources (49)
+## Sources (57)
 - [Supply Chain Signals Daily Research — 2026-05-02](sources/2026-05-02-daily-research.md) — Trump hikes EU auto tariffs to 25%, escalating transatlantic trade friction What happened: On May 1, President Trump announced he would raise tariffs on cars and trucks from the European Union to 25% next week, up from the previously agreed
-- [Supply Chain Signals Sources — 2026-05-02](sources/2026-05-02-sources.md) — Supply Chain Signals Sources — 2026 05 02 Extracted sources Trump says he will raise tariff on autos from European Union to 25% URL: https://www.reuters.com/business/autos transportation/trump says he will raise tariffs eu autos 25 2026 05 
+- [Supply Chain Signals Sources — 2026-05-02](sources/2026-05-02-sources.md) — Supply Chain Signals Sources — 2026 05 02 Extracted sources Trump says he will raise tariff on autos from European Union to 25% URL: https://www.reuters.com/business/autos transportation/trump says he will raise tariffs eu autos 25 2026 05
 - [AI in the Chain: AI-Driven Demand Sensing Lessons from Unilever and Amazon](sources/ai-in-the-chain-2026-demand-sensing.md) — Survey of AI-driven demand sensing, contrasting traditional forecasting limitations with ML-based approaches and providing a five-step adoption roadmap.
 - [Amazon Vendor Central Demand Forecast Guide](sources/amazon-2026-vendor-central-demand-forecast.md) — Amazon guide explaining how Vendor Central demand forecasts are generated, how to interpret P-levels, and how vendors should use the data for planning.
 - [Atomix Logistics: How Last-Mile Delivery Impacts CPG Customer Experience](sources/atomix-2026-last-mile-cpg-customer-experience.md) — Atomix Logistics guide linking last-mile performance to brand loyalty, with optimisation tactics including 3PL partnerships, AI route planning, and micro-fulfillment.
@@ -143,14 +144,22 @@ _Last updated: 2026-05-10_
 - [Supply Chain Signals Sources — 2026-05-08](sources/supply-chain-signals-2026-05-08-sources.md) — Source registry for the May 8 Supply Chain Signals research, including FAO, Reuters, AMD, ISM, WTO, World Bank, and S&P Global items.
 - [Supply Chain Signals Daily Research — 2026-05-09](sources/supply-chain-signals-2026-05-09-daily-research.md) — Supply Chain Signals Daily Research — 2026-05-09 compiled from raw Self-OS source material.
 - [Supply Chain Signals Sources — 2026-05-09](sources/supply-chain-signals-2026-05-09-sources.md) — Supply Chain Signals Sources — 2026-05-09 compiled from raw Self-OS source material.
+- [Supply Chain Signals Daily Research — 2026-05-10](sources/supply-chain-signals-2026-05-10-daily-research.md) — The daily research note synthesizes the week’s candidate signals into an operator-focused view. It argues that stable headline manufacturing demand is masking deteriorating internals: input prices, supplier deliveries, t
+- [Supply Chain Signals Sources — 2026-05-10](sources/supply-chain-signals-2026-05-10-sources.md) — This source registry records the evidence base for Supply Chain Signals on 2026-05-10. It combines primary and secondary sources on ISM manufacturing indicators, Reuters coverage of costs and tariffs, FAO food-price move
 - [Supply Chain Signals — 2026-W18](sources/supply-chain-signals-2026-w18-overview.md) — This source was captured for wiki ingestion and future synthesis.
-- [Supply Chain Signals — 2026-W19 Overview](sources/supply-chain-signals-2026-w19-overview.md) — 'This source registers the working folder for the 2026-W19 Supply Chain Signals
+- [Supply Chain Signals — 2026-W19](sources/supply-chain-signals-2026-w19-brief.md) — The weekly brief is the canonical 2026-W19 Supply Chain Signals draft. Its central argument is that the week’s supply-chain story is constraint migration: tariffs, manufacturing cost pressure, supplier-delivery delays, f
+- [Supply Chain Signals — 2026-W19 Carousel Outline](sources/supply-chain-signals-2026-w19-carousel-outline.md) — The carousel outline converts the 2026-W19 issue into an eight-card executive visual story. It is less a research source than a publishing scaffold: each card names the core point, a suggested visual, and the source note
+- [Supply Chain Signals — 2026-W19 LinkedIn Drafts](sources/supply-chain-signals-2026-w19-linkedin.md) — The LinkedIn drafts adapt the weekly brief into social posts for three angles: the big signal, Farm to Fork, and the management failure beneath the headlines. The writing emphasizes that this week’s issue is not about on
+- [Supply Chain Signals — 2026-W19 Overview](sources/supply-chain-signals-2026-w19-overview.md) — This source registers the working folder for the 2026-W19 Supply Chain Signals
+- [Supply Chain Signals — 2026-W19 PPT Outline](sources/supply-chain-signals-2026-w19-ppt-outline.md) — The PPT outline translates the weekly brief into a seven-slide consulting-style storyline. It starts with an executive message that the constraint keeps moving, then develops the evidence through manufacturing, tariff an
+- [Supply Chain Signals — 2026-W19 Visuals Plan](sources/supply-chain-signals-2026-w19-visuals.md) — The visuals plan specifies how to represent the 2026-W19 issue without inventing figures. It defines a hero image prompt for Farm to Fork under energy pressure, candidate charts for ISM manufacturing squeeze indicators a
+- [Supply Chain Signals — 2026-W19 X Thread](sources/supply-chain-signals-2026-w19-x-thread.md) — The X thread compresses the Supply Chain Signals 2026-W19 argument into ten posts. It keeps the same evidence stack as the longer brief but tightens the message around constraint migration: PMI expansion with ugly intern
 - [Supply Chain Signals 2026 W18 Brief](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-brief-2026-05-03.md) — Supply Chain Signals — 2026-W18 The big signal This week’s supply-chain story is cash, not chaos. The familiar disruption headlines are all here: Hormuz, tariffs, port dwell, air rates, slower supplier deliveries, AI-chi
 - [Supply Chain Signals 2026 W18 Carousel Outline](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-carousel-outline-2026-05-03.md) — Supply Chain Signals — 2026-W18 carousel outline Recommended visual direction: baoyu-infographic style, dense-modules or bento-grid layout, technical-schematic with restrained corporate color. Landscape LinkedIn document
-- [Supply Chain Signals 2026 W18 Linkedin](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-linkedin-2026-05-03.md) — Supply Chain Signals — 2026-W18 LinkedIn drafts Post 1: big signal This week’s supply-chain story is cash, not chaos. Hormuz, tariffs, port dwell, slower supplier deliveries, AI infrastructure constraints: the headlines 
+- [Supply Chain Signals 2026 W18 Linkedin](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-linkedin-2026-05-03.md) — Supply Chain Signals — 2026-W18 LinkedIn drafts Post 1: big signal This week’s supply-chain story is cash, not chaos. Hormuz, tariffs, port dwell, slower supplier deliveries, AI infrastructure constraints: the headlines
 - [Supply Chain Signals 2026 W18 Ppt Outline](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-ppt-outline-2026-05-03.md) — Supply Chain Signals — 2026-W18 PPT / consulting-style outline Recommended deck style: 6-slide executive story. Use a 'Midnight Executive' palette: navy title/conclusion slides, off-white content slides, amber constraint
 - [Supply Chain Signals 2026 W18 X Thread](sources/supply-chain-signals-brief-supply-chain-signals-2026-w18-x-thread-2026-05-03.md) — Supply Chain Signals — 2026-W18 X thread 1/ This week’s supply-chain story is cash, not chaos. Hormuz, tariffs, slower supplier deliveries, port dwell, AI infrastructure constraints. Familiar headlines. New pressure poin
-- [Daily Research](sources/supply-chain-signals-daily-2026-05-03-daily-research.md) — Supply Chain Signals Daily Research — 2026-05-03 Top Moves Candidates 1. U.S. manufacturing grows, but the cost signal got ugly - What happened: Reuters and ISM report that the April Manufacturing PMI held at 52.7%, its 
+- [Daily Research](sources/supply-chain-signals-daily-2026-05-03-daily-research.md) — Supply Chain Signals Daily Research — 2026-05-03 Top Moves Candidates 1. U.S. manufacturing grows, but the cost signal got ugly - What happened: Reuters and ISM report that the April Manufacturing PMI held at 52.7%, its
 - [Sources](sources/supply-chain-signals-sources-2026-05-03-sources.md) — Supply Chain Signals Sources — 2026-05-03 Extracted sources US manufacturing sector holds steady in April; input costs hit 4-year high - URL: - Publisher/domain: Reuters - Date: May 1, 2026 - Section relevance: Top Moves
 - [Tompkins Solutions: Designing Omnichannel Distribution Centers](sources/tompkins-2026-omnichannel-distribution-centers.md) — Tompkins guide to omnichannel DC design, emphasising flexible layouts, integrated WMS/OMS/TMS, adaptive automation, and embedded reverse logistics.
 - [ToolsGroup: Decision-Centric Supply Chain Planning Outlook 2026](sources/toolsgroup-2026-decision-centric-planning.md) — ToolsGroup analysis of the 2026 Gartner Magic Quadrant, arguing that planning is shifting from forecast accuracy to decision quality under uncertainty.
@@ -165,3 +174,4 @@ _Last updated: 2026-05-10_
 ## Outputs (2)
 - [Lint Report: Supply Chain OS — 2026-05-02](outputs/lint-report-2026-05-02.md) — Weekly health check for Supply Chain OS
 - [Lint Report: Supply Chain Os — 2026-05-09](outputs/lint-report-2026-05-09.md) — Weekly health check for supply-chain-os
+

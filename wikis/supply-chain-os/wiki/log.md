@@ -80,3 +80,9 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-10 00:04
 - Wiki compile processed 2 raw file(s): raw/newsletters/supply-chain-signals/2026-W19/daily/2026-05-09-daily-research.md, raw/newsletters/supply-chain-signals/2026-W19/sources/2026-05-09-sources.md.
+
+## 2026-05-11 00:04
+- Ingested: 8 files from raw compile.
+- Added: sources/supply-chain-signals-2026-05-10-sources.md, sources/supply-chain-signals-2026-05-10-daily-research.md, sources/supply-chain-signals-2026-w19-carousel-outline.md, sources/supply-chain-signals-2026-w19-linkedin.md, sources/supply-chain-signals-2026-w19-x-thread.md, sources/supply-chain-signals-2026-w19-ppt-outline.md, sources/supply-chain-signals-2026-w19-brief.md, sources/supply-chain-signals-2026-w19-visuals.md, concepts/constraint-migration.md, concepts/live-constraint-map.md, concepts/farm-to-fork-supply-chain.md, concepts/supply-chain-risk.md, concepts/sales-and-operations-planning.md
+- Updated: index.md, ingest-log.md, log.md
+- Conflicts: none

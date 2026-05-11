@@ -1,5 +1,5 @@
 # Coding Projects OS — Index
-_Last updated: 2026-05-10_
+_Last updated: 2026-05-11_
 
 ## Projects (2)
 - [Projectsos](projects/projectsos.md) — Project memory compiled from coding session captures.
@@ -17,3 +17,4 @@ _Last updated: 2026-05-10_
 ## Outputs (2)
 - [Lint Report: Coding Projects OS — 2026-05-02](outputs/lint-report-2026-05-02.md) — Weekly health check for Coding Projects OS
 - [Lint Report: Coding Projects Os — 2026-05-09](outputs/lint-report-2026-05-09.md) — Weekly health check for coding-projects-os
+

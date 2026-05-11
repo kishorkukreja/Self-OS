@@ -3,6 +3,7 @@ source: https://arxiv.org/abs/2605.03310
 date: 2026-05-05
 type: paper
 tags: [multi-agent-systems, coordination, architecture, prediction-markets, agent-failures, ai-agents]
+status: processed
 ---
 
 # Coordination as an Architectural Layer for LLM-Based Multi-Agent Systems

@@ -3,6 +3,7 @@ source: https://arxiv.org/abs/2604.27707
 date: 2026-04-30
 type: paper
 tags: [agent-memory, retrieval, rag, memory-consolidation, self-os, ai-agents]
+status: processed
 ---
 
 # Contextual Agentic Memory is a Memo, Not True Memory

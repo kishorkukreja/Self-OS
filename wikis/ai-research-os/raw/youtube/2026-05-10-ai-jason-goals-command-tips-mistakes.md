@@ -3,6 +3,7 @@ source: https://youtu.be/rIs802-bXDY?si=7OdzYUm_fDprjvL4
 date: 2026-05-10
 type: video
 tags: [ai-agents, coding-agents, codex, hermes-agent, goals, goal-buddy, mission-md, long-running-agents, rewards-loop, self-os]
+status: processed
 ---
 
 # AI Jason — I used /goals command wrong... Here are all tips & mistakes

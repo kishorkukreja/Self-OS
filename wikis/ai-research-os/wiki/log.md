@@ -111,3 +111,9 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-10 00:04
 - Wiki compile processed 8 raw file(s): raw/articles/2026-05-09-how-to-build-an-agent-platform.md, raw/newsletters/2026-05-09-newsletter-digest.md, raw/repos/github-trending-weekly-2026-05-09.md, raw/repos/tabpfn-2026-05-09.md, raw/resources/codex-auto-review-approvals-2026-05-09.md, raw/x-blogs/2026-05-09-x-blogs-digest.md, raw/x-threads/2026-05-07-cyrilxbt-obsidian-vault-feedback-loop.md, raw/x-threads/2026-05-09-trq212-unreasonable-effectiveness-html.md.
+
+## 2026-05-11 00:04
+- Ingested: 10 files from raw compile.
+- Added: sources/x-blogs-digest-2026-05-10.md, sources/wang-2026-heavyskill.md, sources/xu-2026-contextual-agentic-memory.md, sources/singh-2026-agentic-imodels.md, sources/nechepurenko-2026-coordination-architectural-layer.md, sources/nielsen-2025-conductor.md, sources/newsletter-digest-2026-05-10.md, sources/ai-jason-2026-goals-command.md, sources/mvanhorn-2026-cli-printing-press.md, sources/github-2026-spec-kit.md, concepts/heavy-thinking.md, concepts/skill-consolidation.md, concepts/agent-readable-tools.md, concepts/multi-agent-coordination.md, concepts/learned-orchestration.md, concepts/goal-loops.md, concepts/spec-driven-development.md, entities/conductor.md, entities/cli-printing-press.md, entities/github-spec-kit.md
+- Updated: index.md, ingest-log.md, log.md
+- Conflicts: none
