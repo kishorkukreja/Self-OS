@@ -1,7 +1,7 @@
 ---
 title: "Agent Platforms"
 date_created: 2026-05-10
-date_modified: 2026-05-10
+date_modified: 2026-05-12
 summary: "Agent Platforms compiled from raw Self-OS source material."
 tags: [agent-platforms, compiled]
 type: concept
@@ -21,3 +21,15 @@ source_count: 1
 **Sources:** [[sources/2026-05-09-how-to-build-an-agent-platform]]
 
 _Last updated: 2026-05-10_
+
+## Compile update — 2026-05-12
+
+**Sources:** [[sources/the-code-2026-05-11-hermes-agent]]
+
+This concept was referenced by the The Code — Hermes Agent and AI Developer Tooling source during the 2026-05-12 compile. It should be expanded when additional independent sources make the pattern durable rather than one-off.
+
+## Compile update — 2026-05-12
+
+**Sources:** [[sources/auto-improving-software-2026-05-11]]
+
+This concept was referenced by the Auto-Improving Software source during the 2026-05-12 compile. It should be expanded when additional independent sources make the pattern durable rather than one-off.

@@ -5,6 +5,7 @@ type: newsletter-research
 client: internal
 confidential: false
 tags: [supply-chain-signals, newsletter, daily-research, supply-chain]
+status: processed
 ---
 
 # Supply Chain Signals Daily Research — 2026-05-11

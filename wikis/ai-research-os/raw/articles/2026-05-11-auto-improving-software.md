@@ -3,6 +3,7 @@ source: https://www.ashpreetbedi.com/auto-improving-software
 date: 2026-05-11
 type: article
 tags: [auto-improving-software, coding-agents, agent-platforms, evals, self-os, recursive-improvement]
+status: processed
 ---
 
 # Auto-Improving Software

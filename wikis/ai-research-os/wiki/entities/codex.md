@@ -1,7 +1,7 @@
 ---
 title: "Codex"
 date_created: 2026-05-09
-date_modified: 2026-05-10
+date_modified: 2026-05-12
 summary: "OpenAI coding-agent product referenced for auto-review approvals and risk-vetting workflows."
 tags: [tool, coding-agent]
 type: entity
@@ -35,3 +35,19 @@ _Last updated: 2026-05-09_
 
 ## Update — 2026-05-10
 - Codex is referenced in [[sources/codex-auto-review-approvals-2026-05-09]] as part of the latest compiled source set.
+
+## Compile update — 2026-05-12
+
+**Type:** tool or organization
+
+**Sources:** [[sources/goalbuddy-2026-codex-goal-companion]]
+
+This entity was referenced by Goal Buddy — Codex /goal Companion.
+
+## Compile update — 2026-05-12
+
+**Type:** tool or organization
+
+**Sources:** [[sources/tolibear-2026-goalbuddy-codex-goal-kanban]]
+
+This entity was referenced by ToliBear Thread — Goal Buddy, Codex /goal, and Kanban.

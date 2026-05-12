@@ -123,3 +123,16 @@ _Append-only. Updated automatically by ingest runs._
 - Raw: raw/repos/spec-kit-2026-05-10.md
 - Added: sources/x-blogs-digest-2026-05-10.md, sources/wang-2026-heavyskill.md, sources/xu-2026-contextual-agentic-memory.md, sources/singh-2026-agentic-imodels.md, sources/nechepurenko-2026-coordination-architectural-layer.md, sources/nielsen-2025-conductor.md, sources/newsletter-digest-2026-05-10.md, sources/ai-jason-2026-goals-command.md, sources/mvanhorn-2026-cli-printing-press.md, sources/github-2026-spec-kit.md, concepts/heavy-thinking.md, concepts/skill-consolidation.md, concepts/agent-readable-tools.md, concepts/multi-agent-coordination.md, concepts/learned-orchestration.md, concepts/goal-loops.md, concepts/spec-driven-development.md, entities/conductor.md, entities/cli-printing-press.md, entities/github-spec-kit.md
 - Conflicts: none
+## 2026-05-12 00:05
+- Ingested: 7 files from resources, x-blogs, newsletters, x-threads, articles
+- Added: sources/goalbuddy-2026-codex-goal-companion.md, sources/x-twitter-2026-ai-blogs-digest-2026-05-11.md, sources/newsletter-digest-2026-05-11.md, sources/the-code-2026-05-11-hermes-agent.md, sources/tolibear-2026-goalbuddy-codex-goal-kanban.md, sources/mnilax-2026-12-rule-claude-md-template.md, sources/auto-improving-software-2026-05-11.md
+- Updated: index.md and related concept/entity pages
+- Conflicts: none
+
+- raw/resources/goalbuddy-codex-goal-companion-2026-05-11.md -> sources/goalbuddy-2026-codex-goal-companion.md
+- raw/x-blogs/2026-05-11-x-blogs-digest.md -> sources/x-twitter-2026-ai-blogs-digest-2026-05-11.md
+- raw/newsletters/2026-05-11-newsletter-digest.md -> sources/newsletter-digest-2026-05-11.md
+- raw/newsletters/2026-05-11-the-code.md -> sources/the-code-2026-05-11-hermes-agent.md
+- raw/x-threads/2026-05-11-tolibear-goalbuddy-codex-goal-kanban.md -> sources/tolibear-2026-goalbuddy-codex-goal-kanban.md
+- raw/x-threads/2026-05-11-mnilax-12-rule-claude-md-template.md -> sources/mnilax-2026-12-rule-claude-md-template.md
+- raw/articles/2026-05-11-auto-improving-software.md -> sources/auto-improving-software-2026-05-11.md

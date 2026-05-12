@@ -3,6 +3,7 @@ source: https://x.com/tolibear_/status/2053859040556360116
 date: 2026-05-11
 type: thread
 tags: [codex, goalbuddy, kanban, goal-command, coding-agents, agent-workflows, local-state, self-os]
+status: processed
 ---
 
 # tolibear: Codex /goal now has a native Kanban board

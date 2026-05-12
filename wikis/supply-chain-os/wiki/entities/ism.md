@@ -1,7 +1,7 @@
 ---
 title: Institute for Supply Management
 date_created: 2026-05-02
-date_modified: 2026-05-09
+date_modified: 2026-05-12
 summary: Professional association and research publisher behind the ISM Manufacturing
   PMI report.
 tags:
@@ -80,3 +80,19 @@ _Last updated: 2026-05-09_
 The May 8 source registry and daily research include this entity in the evidence base for food inflation, synchronized cost pressure, logistics platform strategy, AI infrastructure demand, and live constraint mapping.
 
 **Sources:** [[sources/supply-chain-signals-2026-05-08-daily-research]], [[sources/supply-chain-signals-2026-05-08-sources]]
+
+## Compile update — 2026-05-12
+
+**Type:** publisher or organization
+
+**Sources:** [[sources/supply-chain-signals-2026-05-11-sources]]
+
+Referenced by Supply Chain Signals Sources — 2026-05-11.
+
+## Compile update — 2026-05-12
+
+**Type:** publisher or organization
+
+**Sources:** [[sources/supply-chain-signals-2026-05-11-daily-research]]
+
+Referenced by Supply Chain Signals Daily Research — 2026-05-11.

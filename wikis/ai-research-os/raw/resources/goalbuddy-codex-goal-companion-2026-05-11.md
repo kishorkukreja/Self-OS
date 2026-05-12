@@ -3,6 +3,7 @@ source: https://goalbuddy.dev/
 date: 2026-05-11
 type: resource
 tags: [goalbuddy, codex, goal-command, kanban, coding-agents, local-state, agent-workflows, self-os]
+status: processed
 ---
 
 # Goal Buddy — open source Codex /goal companion

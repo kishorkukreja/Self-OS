@@ -1,7 +1,7 @@
 ---
 title: Daily Operating Brief
 date_created: '2026-05-05'
-date_modified: 2026-05-10
+date_modified: 2026-05-12
 summary: A recurring project-health artifact that summarizes repo state, cron status,
   recent changes, and the next best action.
 tags:
@@ -62,3 +62,9 @@ The 2026-05-08 brief reinforces the pattern that a daily operating brief should 
 
 ## Evidence — 2026-05-10
 - [[../raw/projects/self-os-operating-loop/ops/weekly/2026-W19-review.md]] contributed another example of this workflow pattern.
+
+## Compile update — 2026-05-12
+
+**Sources:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-11-evening.md]]
+
+The 2026-05-11 evening brief reinforces the pattern of using daily state snapshots as a lightweight control loop for deciding what to compile, synthesize, or promote next.

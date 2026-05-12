@@ -1,7 +1,7 @@
 ---
 title: Reuters
 date_created: '2026-05-01'
-date_modified: 2026-05-10
+date_modified: 2026-05-12
 summary: News publisher used as a source for logistics disruption and freight-routing
   reporting.
 tags:
@@ -71,3 +71,19 @@ The May 8 source registry and daily research include this entity in the evidence
 
 ## Update — 2026-05-10
 - Reuters is referenced in [[sources/supply-chain-signals-2026-05-09-sources]] as part of the latest compiled source set.
+
+## Compile update — 2026-05-12
+
+**Type:** publisher or organization
+
+**Sources:** [[sources/supply-chain-signals-2026-05-11-sources]]
+
+Referenced by Supply Chain Signals Sources — 2026-05-11.
+
+## Compile update — 2026-05-12
+
+**Type:** publisher or organization
+
+**Sources:** [[sources/supply-chain-signals-2026-05-11-daily-research]]
+
+Referenced by Supply Chain Signals Daily Research — 2026-05-11.
