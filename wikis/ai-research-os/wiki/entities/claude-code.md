@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 date_created: 2026-04-12
-date_modified: 2026-05-10
+date_modified: 2026-05-12
 summary: Anthropic's official CLI for Claude enabling agentic coding sessions with
   file system access, tool use, hooks, and skills — the primary interface for Self
   OS on the laptop.
@@ -96,3 +96,19 @@ The 2026-05-08 AI newsletter sources add this entity to the current agent-platfo
 
 ## Update — 2026-05-10
 - Claude Code is referenced in [[sources/2026-05-09-trq212-unreasonable-effectiveness-html]] as part of the latest compiled source set.
+
+## Compile update — 2026-05-12
+
+**Type:** tool or organization
+
+**Sources:** [[sources/mnilax-2026-12-rule-claude-md-template]]
+
+This entity was referenced by Mnilax Thread — 12-Rule CLAUDE.md Template.
+
+## Compile update — 2026-05-12
+
+**Type:** tool or organization
+
+**Sources:** [[sources/auto-improving-software-2026-05-11]]
+
+This entity was referenced by Auto-Improving Software.

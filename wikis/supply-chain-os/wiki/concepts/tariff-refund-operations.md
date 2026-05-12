@@ -1,7 +1,7 @@
 ---
 title: "Tariff Refund Operations"
 date_created: 2026-05-02
-date_modified: 2026-05-02
+date_modified: 2026-05-12
 summary: "The operational process of reconciling customs-entry data, eligibility, broker workflows, and finance treatment for tariff refund claims."
 tags: [trade-compliance, working-capital]
 type: concept
@@ -21,3 +21,9 @@ source_count: 2
 **Sources:** [[sources/supply-chain-signals-2026-05-01-daily-research.md]], [[sources/supply-chain-signals-2026-05-01-source-registry.md]]
 
 _Last updated: 2026-05-02_
+
+## Compile update — 2026-05-12
+
+**Sources:** [[sources/supply-chain-signals-2026-05-11-daily-research]]
+
+The Supply Chain Signals Daily Research — 2026-05-11 source adds evidence for this concept in the 2026-W20 Supply Chain Signals research stream.

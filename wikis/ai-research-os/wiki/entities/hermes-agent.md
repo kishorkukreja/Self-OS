@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent"
 date_created: 2026-04-26
-date_modified: 2026-04-26
+date_modified: 2026-05-12
 summary: "Open-source AI agent framework by Nous Research that learns from experience by saving reusable procedures as skills and persists memory across sessions via pluggable backends."
 tags: [tool, hermes, agent-framework, skills, persistent-memory, open-source, nous-research]
 type: entity
@@ -30,3 +30,19 @@ status: final
 **Sources:** [[sources/hermes-agent-docs-2026]]
 
 _Last updated: 2026-04-26_
+
+## Compile update — 2026-05-12
+
+**Type:** tool or organization
+
+**Sources:** [[sources/newsletter-digest-2026-05-11]]
+
+This entity was referenced by AI Newsletter Digest — 2026-05-11.
+
+## Compile update — 2026-05-12
+
+**Type:** tool or organization
+
+**Sources:** [[sources/the-code-2026-05-11-hermes-agent]]
+
+This entity was referenced by The Code — Hermes Agent and AI Developer Tooling.

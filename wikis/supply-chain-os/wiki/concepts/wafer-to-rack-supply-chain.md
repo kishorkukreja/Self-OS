@@ -1,7 +1,7 @@
 ---
 title: "Wafer to Rack Supply Chain"
 date_created: 2026-05-01
-date_modified: 2026-05-09
+date_modified: 2026-05-12
 summary: "The end-to-end physical chain that turns semiconductor capacity, memory, power, cooling, networking, logistics, and integration into deployable AI racks."
 tags: [wiki, concept]
 type: concept
@@ -31,3 +31,15 @@ _Last updated: 2026-05-09_
 The May 8 daily research adds AMD demand commentary to the wafer-to-rack thread. Inference and agentic AI broaden the supply chain beyond accelerators into CPUs, memory, networking, storage, power, cooling, construction sequencing, field service, and spares. The chain should be framed as delivery of usable compute, not shipment of a chip.
 
 **Sources:** [[sources/supply-chain-signals-2026-05-08-daily-research]], [[sources/supply-chain-signals-2026-05-08-sources]]
+
+## Compile update — 2026-05-12
+
+**Sources:** [[sources/supply-chain-signals-2026-w20-overview]]
+
+The Supply Chain Signals — 2026-W20 Overview source adds evidence for this concept in the 2026-W20 Supply Chain Signals research stream.
+
+## Compile update — 2026-05-12
+
+**Sources:** [[sources/supply-chain-signals-2026-05-11-daily-research]]
+
+The Supply Chain Signals Daily Research — 2026-05-11 source adds evidence for this concept in the 2026-W20 Supply Chain Signals research stream.

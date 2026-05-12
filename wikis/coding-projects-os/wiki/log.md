@@ -67,3 +67,9 @@ _Append-only. Updated automatically by ingest runs._
 - Added: none
 - Updated: projects/self-os-operating-loop.md, index.md, ingest-log.md, log.md
 - Conflicts: none
+## 2026-05-12 00:05
+- Ingested: 1 file from self-os-operating-loop daily ops
+- Raw: raw/projects/self-os-operating-loop/ops/daily/2026-05-11-evening.md
+- Added: none
+- Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md, index.md
+- Conflicts: none

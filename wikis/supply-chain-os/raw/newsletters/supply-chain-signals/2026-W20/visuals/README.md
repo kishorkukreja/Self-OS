@@ -1,3 +1,7 @@
+---
+status: processed
+---
+
 # Visual asset inventory — 2026-W20
 
 No generated media committed yet. Keep chart data, prompts, captions, and production notes in `brief/` or this folder when the Sunday issue is drafted.

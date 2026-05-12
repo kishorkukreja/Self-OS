@@ -86,3 +86,13 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/supply-chain-signals-2026-05-10-sources.md, sources/supply-chain-signals-2026-05-10-daily-research.md, sources/supply-chain-signals-2026-w19-carousel-outline.md, sources/supply-chain-signals-2026-w19-linkedin.md, sources/supply-chain-signals-2026-w19-x-thread.md, sources/supply-chain-signals-2026-w19-ppt-outline.md, sources/supply-chain-signals-2026-w19-brief.md, sources/supply-chain-signals-2026-w19-visuals.md, concepts/constraint-migration.md, concepts/live-constraint-map.md, concepts/farm-to-fork-supply-chain.md, concepts/supply-chain-risk.md, concepts/sales-and-operations-planning.md
 - Updated: index.md, ingest-log.md, log.md
 - Conflicts: none
+## 2026-05-12 00:05
+- Ingested: 4 files from newsletter-research
+- Added: sources/supply-chain-signals-2026-w20-overview.md, sources/supply-chain-signals-2026-05-11-sources.md, sources/supply-chain-signals-2026-05-11-daily-research.md, sources/supply-chain-signals-2026-w20-visual-direction.md
+- Updated: index.md and related concept/entity pages
+- Conflicts: none
+
+- raw/newsletters/supply-chain-signals/2026-W20/README.md -> sources/supply-chain-signals-2026-w20-overview.md
+- raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-11-sources.md -> sources/supply-chain-signals-2026-05-11-sources.md
+- raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-11-daily-research.md -> sources/supply-chain-signals-2026-05-11-daily-research.md
+- raw/newsletters/supply-chain-signals/2026-W20/visuals/README.md -> sources/supply-chain-signals-2026-w20-visual-direction.md

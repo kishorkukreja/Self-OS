@@ -3,6 +3,7 @@ source: https://x.com/Mnilax/status/2053116311132155938?s=20
 date: 2026-05-11
 type: thread
 tags: [claude-code, claude-md, coding-agents, development-rules, agent-guardrails, qa, self-os]
+status: processed
 ---
 
 # Mnimiy: 12-rule CLAUDE.md template for Claude Code
