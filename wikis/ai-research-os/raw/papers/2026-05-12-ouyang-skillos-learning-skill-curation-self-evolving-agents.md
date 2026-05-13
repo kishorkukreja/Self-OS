@@ -3,6 +3,7 @@ source: https://arxiv.org/html/2605.06614v1
 date: 2026-05-12
 type: paper
 tags: [skillos, skills, skill-curation, self-evolving-agents, reinforcement-learning, agent-memory, procedural-memory, markdown-skills]
+status: processed
 ---
 
 # SkillOS: Learning Skill Curation for Self-Evolving Agents

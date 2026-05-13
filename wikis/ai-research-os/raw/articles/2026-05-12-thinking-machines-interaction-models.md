@@ -3,6 +3,7 @@ source: https://thinkingmachines.ai/blog/interaction-models/
 date: 2026-05-12
 type: article
 tags: [interaction-models, multimodal-ai, real-time-ai, moe-models, tool-use, human-ai-collaboration, thinking-machines-lab]
+status: processed
 ---
 
 # Thinking Machines: Interaction Models

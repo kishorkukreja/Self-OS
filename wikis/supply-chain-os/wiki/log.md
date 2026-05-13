@@ -96,3 +96,6 @@ _Append-only. Updated automatically by ingest runs._
 - raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-11-sources.md -> sources/supply-chain-signals-2026-05-11-sources.md
 - raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-11-daily-research.md -> sources/supply-chain-signals-2026-05-11-daily-research.md
 - raw/newsletters/supply-chain-signals/2026-W20/visuals/README.md -> sources/supply-chain-signals-2026-w20-visual-direction.md
+
+## 2026-05-13 00:05
+- Wiki compile processed 2 raw file(s): raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-12-daily-research.md, raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-12-sources.md.

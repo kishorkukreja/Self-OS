@@ -3,6 +3,7 @@ source: https://github.com/walkinglabs/learn-harness-engineering
 date: 2026-05-12
 type: repo
 tags: [harness-engineering, coding-agents, agent-reliability, claude-code, ai-engineering, verification, self-os]
+status: processed
 ---
 
 # walkinglabs/learn-harness-engineering

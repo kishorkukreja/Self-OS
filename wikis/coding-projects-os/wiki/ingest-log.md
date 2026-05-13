@@ -67,3 +67,10 @@
 - Added: none
 - Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md, index.md
 - Conflicts: none
+## 2026-05-13 00:05
+- Ingested: 1 file(s) from self-os-operating-brief
+- Files: raw/projects/self-os-operating-loop/ops/daily/2026-05-12-evening.md
+- Added: none
+- Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md, index.md
+- Conflicts: none
+

@@ -104,3 +104,10 @@ _Append-only. Updated automatically by ingest runs._
 - raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-11-sources.md -> sources/supply-chain-signals-2026-05-11-sources.md
 - raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-11-daily-research.md -> sources/supply-chain-signals-2026-05-11-daily-research.md
 - raw/newsletters/supply-chain-signals/2026-W20/visuals/README.md -> sources/supply-chain-signals-2026-w20-visual-direction.md
+## 2026-05-13 00:05
+- Ingested: 2 file(s) from newsletter-research
+- Raw files: raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-12-daily-research.md, raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-12-sources.md
+- Added: sources/supply-chain-signals-daily-research-2026-05-12-2026-05-12.md, concepts/freight-capacity-cycle.md, concepts/supplier-risk-monitoring.md, entities/traffix.md, sources/supply-chain-signals-sources-2026-05-12-2026-05-12.md
+- Updated: concepts/tariff-refund-operations.md, concepts/freight-market-disruption.md, entities/freightwaves.md, entities/reuters.md, entities/supply-chain-signals.md, concepts/freight-capacity-cycle.md, concepts/source-registry.md, entities/traffix.md, index.md
+- Conflicts: none
+

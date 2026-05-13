@@ -3,6 +3,7 @@ source: https://x.com/steipete/status/2053032450138276274
 date: 2026-05-12
 type: thread
 tags: [codex, crabbox, agent-workflows, remote-sandboxes, bug-repair, parallel-agents, verification-loops, self-os]
+status: processed
 ---
 
 # Peter Steinberger — Codex + Crabbox for parallel bug repair

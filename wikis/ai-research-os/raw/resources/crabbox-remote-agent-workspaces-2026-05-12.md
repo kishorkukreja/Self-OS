@@ -3,6 +3,7 @@ source: https://crabbox.sh/
 date: 2026-05-12
 type: resource
 tags: [crabbox, remote-execution, agent-workspaces, sandboxing, ci-hydration, parallel-agents, verification-loops, self-os]
+status: processed
 ---
 
 # Crabbox — remote agent workspaces and warm boxes

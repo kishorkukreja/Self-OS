@@ -3,7 +3,7 @@ source: newsletter-digest
 date: 2026-05-12
 type: newsletter
 tags: [digest, ai, the-rundown, the-rundown-tech, unwind-ai, the-code, superhuman, alpha-signal]
-status: pending
+status: processed
 ---
 
 # Newsletter Digest — Tuesday, 12 May 2026

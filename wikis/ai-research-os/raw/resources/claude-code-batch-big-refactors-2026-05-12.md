@@ -3,6 +3,7 @@ source: user-pasted-text
 date: 2026-05-12
 type: resource
 tags: [claude-code, batch, big-refactors, git-worktrees, parallel-agents, code-review, night-shift, self-os]
+status: processed
 ---
 
 # Claude Code `/batch` — speeding up big refactors with parallel agents
