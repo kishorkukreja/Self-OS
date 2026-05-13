@@ -3,6 +3,7 @@ source: https://github.com/openai/openai-realtime-meeting-assistant
 date: 2026-05-12
 type: repo
 tags: [openai, realtime-api, meeting-assistant, kanban, webrtc, voice-agents, function-calling, collaborative-agents]
+status: processed
 ---
 
 # openai/openai-realtime-meeting-assistant

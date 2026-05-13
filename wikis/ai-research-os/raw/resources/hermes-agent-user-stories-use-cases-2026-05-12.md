@@ -3,6 +3,7 @@ source: https://hermes-agent.nousresearch.com/docs/user-stories
 date: 2026-05-12
 type: resource
 tags: [hermes-agent, ai-agents, self-os, user-stories, agent-workflows, personal-ai-os, automation]
+status: processed
 ---
 
 # Hermes Agent — User Stories & Use Cases

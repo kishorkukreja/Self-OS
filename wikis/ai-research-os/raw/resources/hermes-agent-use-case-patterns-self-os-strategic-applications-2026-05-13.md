@@ -3,6 +3,7 @@ source: https://hermes-agent.nousresearch.com/docs/user-stories
 date: 2026-05-13
 type: resource
 tags: [hermes-agent, self-os, agent-operating-system, persistent-memory, skills, user-stories]
+status: processed
 ---
 
 # Hermes Agent — Use Case Patterns and Self-OS Strategic Applications

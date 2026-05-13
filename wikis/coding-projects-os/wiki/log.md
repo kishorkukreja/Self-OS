@@ -73,3 +73,6 @@ _Append-only. Updated automatically by ingest runs._
 - Added: none
 - Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md, index.md
 - Conflicts: none
+
+## 2026-05-13 00:05
+- Wiki compile processed 1 Self-OS operating brief file(s): raw/projects/self-os-operating-loop/ops/daily/2026-05-12-evening.md.

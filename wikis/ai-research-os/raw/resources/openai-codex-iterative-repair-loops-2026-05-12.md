@@ -3,6 +3,7 @@ source: https://developers.openai.com/cookbook/examples/codex/build_iterative_re
 date: 2026-05-12
 type: resource
 tags: [openai, codex, iterative-repair, validation-loops, agent-workflows, notebooks, qa, self-os]
+status: processed
 ---
 
 # OpenAI Cookbook — Build iterative repair loops with Codex

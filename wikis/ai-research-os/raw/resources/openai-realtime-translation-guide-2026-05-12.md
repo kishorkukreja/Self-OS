@@ -3,6 +3,7 @@ source: https://developers.openai.com/cookbook/examples/voice_solutions/realtime
 date: 2026-05-12
 type: resource
 tags: [openai, realtime-api, speech-to-speech, translation, voice-ai, webrtc, websockets, twilio, livekit]
+status: processed
 ---
 
 # OpenAI Cookbook: Build Live Translation Apps with `gpt-realtime-translate`

@@ -3,6 +3,7 @@ source: https://github.com/0xNyk/awesome-hermes-agent
 date: 2026-05-12
 type: repo
 tags: [hermes-agent, awesome-list, skills, plugins, integrations, agent-ecosystem, self-os]
+status: processed
 ---
 
 # 0xNyk/awesome-hermes-agent

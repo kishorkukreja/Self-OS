@@ -3,6 +3,7 @@ source: telegram note + https://code.claude.com/docs/en/claude-code-on-the-web +
 date: 2026-05-12
 type: resource
 tags: [claude-code, teleport, remote-control, cross-device-workflows, coding-agents, mobile-coding, self-os]
+status: processed
 ---
 
 # Claude Code teleport and remote-control cross-device workflows

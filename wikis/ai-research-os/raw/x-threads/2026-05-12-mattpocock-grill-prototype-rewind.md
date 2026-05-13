@@ -3,6 +3,7 @@ source: https://x.com/mattpocockuk/status/2053459748532392343
 date: 2026-05-12
 type: thread
 tags: [matt-pocock, claude-code, prototyping, grill-me, rewind, ui-design, agent-workflows, self-os]
+status: processed
 ---
 
 # Matt Pocock — grill-with-docs, prototype, rewind, summarize

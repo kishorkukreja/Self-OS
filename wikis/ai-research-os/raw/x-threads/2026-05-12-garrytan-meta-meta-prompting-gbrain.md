@@ -3,6 +3,7 @@ source: https://x.com/garrytan/status/2053127519872614419?s=20
 date: 2026-05-12
 type: thread
 tags: [gbrain, garry-tan, personal-ai, skillify, fat-skills, thin-harness, openclaw, hermes-agent, knowledge-graph, self-os]
+status: processed
 ---
 
 # Garry Tan: Meta-Meta-Prompting — The Secret to Making AI Agents Work
