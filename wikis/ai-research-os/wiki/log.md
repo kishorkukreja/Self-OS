@@ -133,3 +133,9 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-13 00:05
 - Wiki compile processed 18 raw file(s): raw/articles/2026-05-12-thinking-machines-interaction-models.md, raw/newsletters/2026-05-12-newsletter-digest.md, raw/newsletters/2026-05-12-the-code.md, raw/papers/2026-05-12-ouyang-skillos-learning-skill-curation-self-evolving-agents.md, raw/repos/awesome-hermes-agent-2026-05-12.md, raw/repos/learn-harness-engineering-2026-05-12.md, raw/repos/openai-realtime-meeting-assistant-2026-05-12.md, raw/resources/claude-code-batch-big-refactors-2026-05-12.md, raw/resources/claude-code-teleport-remote-control-2026-05-12.md, raw/resources/crabbox-remote-agent-workspaces-2026-05-12.md, raw/resources/hermes-agent-use-case-patterns-self-os-strategic-applications-2026-05-13.md, raw/resources/hermes-agent-user-stories-use-cases-2026-05-12.md, raw/resources/openai-codex-iterative-repair-loops-2026-05-12.md, raw/resources/openai-realtime-translation-guide-2026-05-12.md, raw/x-blogs/2026-05-12-x-blogs-digest.md, raw/x-threads/2026-05-12-garrytan-meta-meta-prompting-gbrain.md, raw/x-threads/2026-05-12-mattpocock-grill-prototype-rewind.md, raw/x-threads/2026-05-12-steipete-codex-crabbox-bug-repair.md.
+
+## 2026-05-14 00:04
+- Ingested: 5 files from articles/newsletters/threads/repos
+- Added: sources/x-twitter-ai-blogs-and-articles-2026-05-13.md, sources/newsletter-digest-wednesday-13-may-2026.md, sources/the-code-2026-05-13.md, sources/ashpreet-bedi-auto-improving-agent-platform-2026-05-13.md, sources/agno-agent-platform-railway-2026-05-13.md, concepts/auto-improving-software.md, entities/ashpreet-bedi.md
+- Updated: concepts/agent-platforms.md, concepts/agent-evaluation.md, entities/claude-code.md, entities/agno.md, index.md
+- Conflicts: none

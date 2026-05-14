@@ -1,7 +1,7 @@
 ---
 title: "Source Registry"
 date_created: 2026-04-30
-date_modified: 2026-05-13
+date_modified: 2026-05-14
 summary: "Source Registry as tracked across source material."
 tags: [supply-chain-signals, newsletter, sources]
 type: concept
@@ -34,3 +34,7 @@ _Last updated: 2026-05-01_
 ## Evidence from Supply Chain Signals Sources — 2026-05-12 (2026-05-13)
 
 - [[sources/supply-chain-signals-sources-2026-05-12-2026-05-12.md|Supply Chain Signals Sources — 2026-05-12]] adds another signal for **Source Registry** in this wiki. The source is useful primarily as retrieval context and should be interpreted alongside earlier evidence before promoting broad claims.
+
+## Evidence from Supply Chain Signals — 2026-05-13
+
+[[sources/supply-chain-signals-2026-05-13-sources.md]] is another source-registry entry that records extraction quality, quantitative caveats, and which newsletter sections each source supports before claims are promoted into synthesis.

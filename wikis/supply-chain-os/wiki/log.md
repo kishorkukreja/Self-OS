@@ -99,3 +99,9 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-13 00:05
 - Wiki compile processed 2 raw file(s): raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-12-daily-research.md, raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-12-sources.md.
+
+## 2026-05-14 00:04
+- Ingested: 2 files from newsletter-research
+- Added: sources/supply-chain-signals-2026-05-13-sources.md, sources/supply-chain-signals-2026-05-13-daily-research.md
+- Updated: concepts/freight-market-disruption.md, concepts/supplier-risk-monitoring.md, concepts/source-registry.md, concepts/ai-infrastructure-supply-chain.md, entities/supply-chain-signals.md, index.md
+- Conflicts: none

@@ -1,7 +1,7 @@
 ---
 title: "Agent Platforms"
 date_created: 2026-05-10
-date_modified: 2026-05-12
+date_modified: 2026-05-14
 summary: "Agent Platforms compiled from raw Self-OS source material."
 tags: [agent-platforms, compiled]
 type: concept
@@ -33,3 +33,7 @@ This concept was referenced by the The Code — Hermes Agent and AI Developer To
 **Sources:** [[sources/auto-improving-software-2026-05-11]]
 
 This concept was referenced by the Auto-Improving Software source during the 2026-05-12 compile. It should be expanded when additional independent sources make the pattern durable rather than one-off.
+
+## Update — 2026-05-14
+
+[[sources/ashpreet-bedi-auto-improving-agent-platform-2026-05-13.md]] and [[sources/agno-agent-platform-railway-2026-05-13.md]] add a concrete agent-platform pattern: code, runtime APIs, logs, traces, evals, and deployment config are colocated so coding agents can create, improve, extend, hill-climb, and review agents without leaving the platform workspace.

@@ -1,7 +1,7 @@
 ---
 title: Daily Operating Brief
 date_created: '2026-05-05'
-date_modified: 2026-05-13
+date_modified: 2026-05-14
 summary: A recurring project-health artifact that summarizes repo state, cron status,
   recent changes, and the next best action.
 tags:
@@ -73,3 +73,8 @@ The 2026-05-11 evening brief reinforces the pattern of using daily state snapsho
 
 - [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-12-evening.md|Self-OS Evening Brief — 2026-05-12]] demonstrates the evening/morning brief capture loop as durable raw ops evidence.
 
+## 2026-05-13 evening brief update
+
+The evening brief reinforces the pattern's role as an operator dashboard: repo cleanliness, PR count, cron-failure check, recent raw/wiki changes, and a next-action prompt are captured together. The useful refinement is that the brief can route attention toward synthesis work when the system is healthy, not only toward incident response.
+
+**Discovered in:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-13-evening.md]]

@@ -3,6 +3,7 @@ source: https://x.com/ashpreetbedi/status/2053885390717890757?utm_source=tldrai
 date: 2026-05-13
 type: thread
 tags: [auto-improving-software, agent-platforms, agno, claude-code, evals, traces, agent-workflows, self-os]
+status: processed
 ---
 
 # Ashpreet Bedi — Auto-Improving Software

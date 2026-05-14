@@ -111,3 +111,9 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: concepts/tariff-refund-operations.md, concepts/freight-market-disruption.md, entities/freightwaves.md, entities/reuters.md, entities/supply-chain-signals.md, concepts/freight-capacity-cycle.md, concepts/source-registry.md, entities/traffix.md, index.md
 - Conflicts: none
 
+## 2026-05-14 00:04
+- Ingested: 2 files from newsletter-research
+- Added: sources/supply-chain-signals-2026-05-13-sources.md, sources/supply-chain-signals-2026-05-13-daily-research.md
+- Updated: concepts/freight-market-disruption.md, concepts/supplier-risk-monitoring.md, concepts/source-registry.md, concepts/ai-infrastructure-supply-chain.md, entities/supply-chain-signals.md, index.md
+- Conflicts: none
+- Raw files: raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-13-sources.md, raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-13-daily-research.md
