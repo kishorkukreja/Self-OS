@@ -1,7 +1,7 @@
 ---
 title: Agent Evaluation
 date_created: 2026-05-01
-date_modified: 2026-05-13
+date_modified: 2026-05-14
 summary: Methods and benchmarks for measuring agent reliability, generalization, trajectories,
   cost, and safety across realistic tasks.
 tags:
@@ -52,3 +52,7 @@ New sources add two complementary evaluation threads. Prime Intellect Lab treats
 ## Evidence from Thinking Machines: Interaction Models (2026-05-13)
 
 - [[sources/thinking-machines-interaction-models-2026-05-12.md|Thinking Machines: Interaction Models]] adds another signal for **Agent Evaluation** in this wiki. The source is useful primarily as retrieval context and should be interpreted alongside earlier evidence before promoting broad claims.
+
+## Update — 2026-05-14
+
+The 2026-05-13 sources expand evaluation from benchmark selection into live improvement loops. [[sources/x-twitter-ai-blogs-and-articles-2026-05-13.md]] points to standardized model-to-agent evaluation, while [[sources/ashpreet-bedi-auto-improving-agent-platform-2026-05-13.md]] shows evals driving concrete code changes through traces and probes.

@@ -1,7 +1,7 @@
 ---
 title: "Supplier Risk Monitoring"
 date_created: 2026-05-13
-date_modified: 2026-05-13
+date_modified: 2026-05-14
 summary: "Stub page for Supplier Risk Monitoring, created from current wiki compile evidence."
 tags: [supplier-risk-monitoring]
 type: concept
@@ -19,3 +19,7 @@ source_count: 1
 **Sources:** [[sources/supply-chain-signals-daily-research-2026-05-12-2026-05-12.md|Supply Chain Signals Daily Research — 2026-05-12]]
 
 _Last updated: 2026-05-13_
+
+## Evidence from Supply Chain Signals — 2026-05-13
+
+[[sources/supply-chain-signals-2026-05-13-daily-research.md]] reframes supplier risk around lead-time inflation and queue scarcity. The operational response differs from commodity-price management because teams need alternate supply, allocation visibility, and earlier exception detection.

@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 date_created: 2026-04-12
-date_modified: 2026-05-13
+date_modified: 2026-05-14
 summary: Anthropic's official CLI for Claude enabling agentic coding sessions with
   file system access, tool use, hooks, and skills — the primary interface for Self
   OS on the laptop.
@@ -136,3 +136,7 @@ This entity was referenced by Auto-Improving Software.
 ## Evidence from Matt Pocock — grill-with-docs, prototype, rewind, summarize (2026-05-13)
 
 - [[sources/matt-pocock-grill-with-docs-prototype-rewind-summarize-2026-05-12.md|Matt Pocock — grill-with-docs, prototype, rewind, summarize]] adds another signal for **Claude Code** in this wiki. The source is useful primarily as retrieval context and should be interpreted alongside earlier evidence before promoting broad claims.
+
+## Update — 2026-05-14
+
+[[sources/the-code-2026-05-13.md]] reports Claude Code's `/goal` command as a move toward evaluator-confirmed autonomous work loops. [[sources/ashpreet-bedi-auto-improving-agent-platform-2026-05-13.md]] separately shows Claude Code operating as the modifier inside an agent-platform improvement cycle.

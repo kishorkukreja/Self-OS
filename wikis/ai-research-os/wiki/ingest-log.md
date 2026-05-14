@@ -143,3 +143,9 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: concepts/agent-evaluation.md, concepts/coding-agents.md, concepts/interaction-models.md, entities/hermes-agent.md, entities/openai.md, entities/claude-code.md, concepts/skill-curation.md, concepts/agent-memory.md, concepts/prompt-engineering.md, entities/anthropic.md, concepts/harness-engineering.md, concepts/realtime-ai.md, concepts/ai-tools.md, concepts/remote-agent-workspaces.md, entities/openai-codex.md, concepts/iterative-repair-loops.md, entities/crabbox.md, entities/skillos.md, entities/gbrain.md, entities/matt-pocock.md, index.md
 - Conflicts: none
 
+## 2026-05-14 00:04
+- Ingested: 5 files from articles/newsletters/threads/repos
+- Added: sources/x-twitter-ai-blogs-and-articles-2026-05-13.md, sources/newsletter-digest-wednesday-13-may-2026.md, sources/the-code-2026-05-13.md, sources/ashpreet-bedi-auto-improving-agent-platform-2026-05-13.md, sources/agno-agent-platform-railway-2026-05-13.md, concepts/auto-improving-software.md, entities/ashpreet-bedi.md
+- Updated: concepts/agent-platforms.md, concepts/agent-evaluation.md, entities/claude-code.md, entities/agno.md, index.md
+- Conflicts: none
+- Raw files: raw/x-blogs/2026-05-13-x-blogs-digest.md, raw/newsletters/2026-05-13-newsletter-digest.md, raw/newsletters/2026-05-13-the-code.md, raw/x-threads/2026-05-13-ashpreetbedi-auto-improving-agent-platform.md, raw/repos/agent-platform-railway-2026-05-13.md
