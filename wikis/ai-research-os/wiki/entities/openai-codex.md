@@ -1,7 +1,7 @@
 ---
 title: "Codex"
 date_created: 2026-05-13
-date_modified: 2026-05-13
+date_modified: 2026-05-15
 summary: "Stub page for Codex, created from current wiki compile evidence."
 tags: [openai-codex]
 type: entity

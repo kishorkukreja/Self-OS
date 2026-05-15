@@ -3,6 +3,7 @@ source: https://codelabs.developers.google.com/codelabs/production-ready-ai-road
 date: 2026-05-14
 type: resource
 tags: [multi-agent-systems, google-cloud, adk, a2a, vertex-ai, cloud-run, orchestration, agent-evaluation, self-os]
+status: processed
 ---
 
 # Google Codelab — Building a Multi-Agent System

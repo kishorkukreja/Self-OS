@@ -3,6 +3,7 @@ source: https://x.com/ChrisHayduk/status/2053807198870880743
 date: 2026-05-11
 type: thread
 tags: [codex, goal-mode, coding-agents, agent-loops, autonomous-agents, qa, self-os]
+status: processed
 ---
 
 # Chris Hayduk — Using Codex `/goal` Mode Effectively

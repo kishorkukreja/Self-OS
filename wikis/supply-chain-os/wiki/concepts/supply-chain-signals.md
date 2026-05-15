@@ -1,7 +1,7 @@
 ---
 title: Supply Chain Signals
 date_created: 2026-04-30
-date_modified: 2026-05-10
+date_modified: 2026-05-15
 summary: Supply Chain Signals as tracked across source material.
 tags:
 - supply-chain-signals

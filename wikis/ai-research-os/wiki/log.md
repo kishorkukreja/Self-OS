@@ -139,3 +139,9 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/x-twitter-ai-blogs-and-articles-2026-05-13.md, sources/newsletter-digest-wednesday-13-may-2026.md, sources/the-code-2026-05-13.md, sources/ashpreet-bedi-auto-improving-agent-platform-2026-05-13.md, sources/agno-agent-platform-railway-2026-05-13.md, concepts/auto-improving-software.md, entities/ashpreet-bedi.md
 - Updated: concepts/agent-platforms.md, concepts/agent-evaluation.md, entities/claude-code.md, entities/agno.md, index.md
 - Conflicts: none
+
+## 2026-05-15 00:03
+- Compiled 13 raw file(s): raw/articles/2026-05-14-doug-turnbull-agentic-search-models.md, raw/newsletters/2026-05-14-newsletter-digest.md, raw/newsletters/2026-05-14-the-code.md, raw/repos/hermes-war-room-2026-05-14.md, raw/repos/openhands-2026-05-14.md, raw/repos/skill-set-2026-05-14.md, raw/resources/claude-managed-agents-memory-user-preferences-2026-05-14.md, raw/resources/google-codelab-building-multi-agent-system-2026-05-14.md, raw/resources/higgsfield-cli-claude-code-multi-model-image-comparison-2026-05-14.md, raw/resources/openai-codex-iterative-repair-loops-2026-05-14.md, raw/x-blogs/2026-05-14-x-blogs-digest.md, raw/x-threads/2026-05-14-kingbootoshi-npm-supply-chain-protection-prompt.md, raw/x-threads/2026-05-14-odysseus0z-claude-code-handoff-skill-context-preservation.md
+
+## 2026-05-15 00:04
+- Compiled 1 raw file(s): raw/x-threads/2026-05-11-chrishayduk-codex-goal-mode.md

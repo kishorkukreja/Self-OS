@@ -82,3 +82,6 @@ _Append-only. Updated automatically by ingest runs._
 - Added: none
 - Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md, index.md
 - Conflicts: none
+
+## 2026-05-15 00:03
+- Compiled 1 raw file(s): raw/projects/self-os-operating-loop/ops/daily/2026-05-14-evening.md

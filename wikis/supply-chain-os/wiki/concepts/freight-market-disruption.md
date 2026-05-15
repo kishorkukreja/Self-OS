@@ -1,7 +1,7 @@
 ---
 title: "Freight Market Disruption"
 date_created: 2026-04-30
-date_modified: 2026-05-14
+date_modified: 2026-05-15
 summary: "Freight Market Disruption as tracked across source material."
 tags: [supply-chain-signals, newsletter, sources]
 type: concept

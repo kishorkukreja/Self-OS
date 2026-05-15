@@ -3,6 +3,7 @@ source: https://x.com/KingBootoshi/status/2054025614798295530
 date: 2026-05-14
 type: thread
 tags: [software-supply-chain, npm, package-security, coding-agents, claude-code, codex, developer-workflows]
+status: processed
 ---
 
 # BOOTOSHI — NPM supply-chain protection prompt for Codex/Claude Code

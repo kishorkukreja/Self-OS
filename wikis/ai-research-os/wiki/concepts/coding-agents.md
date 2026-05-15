@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 date_created: 2026-04-29
-date_modified: 2026-05-13
+date_modified: 2026-05-15
 summary: Concept stub created from restored AI research queue items.
 tags:
 - ai-tools

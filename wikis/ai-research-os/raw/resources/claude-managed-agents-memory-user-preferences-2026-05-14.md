@@ -3,6 +3,7 @@ source: https://platform.claude.com/cookbook/managed-agents-cma-remember-user-pr
 date: 2026-05-14
 type: resource
 tags: [claude, managed-agents, agent-memory, user-preferences, memory-stores, persistent-context, anthropic]
+status: processed
 ---
 
 # Claude Cookbook — Build agents that remember your users

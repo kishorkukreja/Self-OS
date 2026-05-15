@@ -3,6 +3,7 @@ source: https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.h
 date: 2026-05-14
 type: article
 tags: [agentic-search, information-retrieval, search-systems, retrieval, llms, domain-adaptation, query-understanding, self-os]
+status: processed
 ---
 
 # Doug Turnbull — Agentic search models

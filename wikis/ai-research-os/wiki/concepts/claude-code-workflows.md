@@ -1,7 +1,7 @@
 ---
 title: "Claude Code Workflows"
 date_created: 2026-05-03
-date_modified: 2026-05-03
+date_modified: 2026-05-15
 summary: "Claude Code Workflows as evidenced by Donchitos/Claude-Code-Game-Studios."
 tags: [claude-code, game-development, ai-agents, agentic-workflows, skills, hooks, templates, gamedev]
 type: concept

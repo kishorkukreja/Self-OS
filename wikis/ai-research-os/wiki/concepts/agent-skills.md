@@ -1,7 +1,7 @@
 ---
 title: "Agent Skills"
 date_created: 2026-04-30
-date_modified: 2026-05-02
+date_modified: 2026-05-15
 summary: "Agent Skills as tracked across source material."
 tags: [ui-skills, design-engineering, frontend, skills, astro, typescript]
 type: concept
