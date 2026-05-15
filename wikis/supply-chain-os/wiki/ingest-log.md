@@ -117,3 +117,10 @@ _Append-only. Updated automatically by ingest runs._
 - Updated: concepts/freight-market-disruption.md, concepts/supplier-risk-monitoring.md, concepts/source-registry.md, concepts/ai-infrastructure-supply-chain.md, entities/supply-chain-signals.md, index.md
 - Conflicts: none
 - Raw files: raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-13-sources.md, raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-13-daily-research.md
+
+## 2026-05-15 00:03
+- Ingested: 2 file(s) from wiki compile
+- Files: raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-14-daily-research.md, raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-14-sources.md
+- Added: sources/supply-chain-signals-2026-05-14-daily-research.md, sources/supply-chain-signals-2026-05-14-sources.md
+- Updated: concepts/freight-market-disruption.md, concepts/logistics.md, concepts/manufacturing.md, concepts/procurement.md, concepts/supply-chain-signals.md, entities/reuters.md, entities/supply-chain-signals.md, index.md, ingest-log.md, log.md, sources/supply-chain-signals-2026-05-14-daily-research.md, sources/supply-chain-signals-2026-05-14-sources.md
+- Conflicts: none

@@ -3,6 +3,7 @@ source: conversation paste + https://higgsfield.ai/cli
 date: 2026-05-14
 type: resource
 tags: [higgsfield, claude-code, ai-image-generation, multi-model-comparison, creative-agents, cli-workflows, product-demo]
+status: processed
 ---
 
 # Higgsfield CLI + Claude Code — Multi-Model Image Comparison Workflow

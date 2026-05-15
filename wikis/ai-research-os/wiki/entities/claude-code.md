@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 date_created: 2026-04-12
-date_modified: 2026-05-14
+date_modified: 2026-05-15
 summary: Anthropic's official CLI for Claude enabling agentic coding sessions with
   file system access, tool use, hooks, and skills — the primary interface for Self
   OS on the laptop.

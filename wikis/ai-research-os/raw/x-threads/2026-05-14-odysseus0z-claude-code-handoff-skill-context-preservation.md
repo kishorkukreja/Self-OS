@@ -3,6 +3,7 @@ source: https://x.com/odysseus0z/status/2031850264240800131
 date: 2026-05-14
 type: thread
 tags: [claude-code, agent-memory, context-management, handoff, skills, matt-pocock, coding-agents, self-os]
+status: processed
 ---
 
 # George / odysseus0z — Claude Code handoff skill for preserving context between sessions

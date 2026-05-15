@@ -1,7 +1,7 @@
 ---
 title: "Agent Memory"
 date_created: 2026-04-27
-date_modified: 2026-05-13
+date_modified: 2026-05-15
 summary: "Systems that enable agents to store, retrieve, and learn from historical experiences to improve future reasoning and planning."
 tags: ['agent-memory', 'deep-research', 'parametric-memory', 'memory-system']
 type: concept

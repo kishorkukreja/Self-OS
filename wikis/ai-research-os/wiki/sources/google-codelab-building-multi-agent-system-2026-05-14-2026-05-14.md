@@ -1,0 +1,33 @@
+---
+title: "Google Codelab Building Multi Agent System 2026 05 14"
+date_created: 2026-05-15
+date_modified: 2026-05-15
+summary: "Compiled source summary for Google Codelab Building Multi Agent System 2026 05 14."
+tags: [compiled-source, resource]
+type: source
+status: draft
+source_date: 2026-05-14
+raw_path: "raw/resources/google-codelab-building-multi-agent-system-2026-05-14.md"
+---
+
+# Google Codelab Building Multi Agent System 2026 05 14
+
+**Raw source:** [[../raw/resources/google-codelab-building-multi-agent-system-2026-05-14.md]]
+
+## Summary
+
+This source records Google Codelab Building Multi Agent System 2026 05 14 (2026-05-14) as a resource capture in ai-research-os. It is useful because it turns an ephemeral raw note into a reviewable reference about agent, judge, cloud, researcher, google, agents. The strongest signal is not a single fact but the pattern the source exposes: what changed, which actors or systems are involved, and what the knowledge base should remember for later comparison.
+
+In practical terms, the capture highlights  Google Codelab — Building a Multi-Agent System  Summary This Google Codelab by Amit Maraj teaches how to build and deploy a production-ready distributed multi-agent system on Google Cloud.; The worked example is a Course Creation System with four specialist roles: Researcher, Judge, Content Builder, and Orchestrator.; The lab uses Google ADK orchestration primitives, structured Pydantic judge output, Agent-to-Agent A2A remote-agent connectivity, Vertex AI/Gemini, and Cloud Run microservice deployment.. These details should be read as directional evidence rather than a full reproduction of the raw file. The raw capture remains the authoritative record, while this source page preserves the concise interpretation needed for search, linking, and later synthesis.
+
+For Self-OS maintenance, the source should be connected to adjacent concepts and entities so future compile runs can aggregate repeated signals. Recurring terms in the capture include agent, judge, cloud, researcher, google, agents, content, builder, orchestrator, loop. Those terms suggest where later syntheses may look for changes in tooling, workflows, operating assumptions, risks, constraints, or implementation opportunities.
+
+The main takeaway is that the source adds one more dated observation to the wiki's longitudinal record. It should support later questions about what was noticed on this date, why it mattered, and how it related to existing projects, research themes, or operating loops without forcing readers to inspect the entire raw file first.
+
+## Connections
+- [[concepts/coding-agents.md]]
+- [[concepts/agentic-search.md]]
+- [[concepts/multi-agent-systems.md]]
+- [[concepts/agent-skills.md]]
+- [[entities/google.md]]
+- [[entities/hermes.md]]

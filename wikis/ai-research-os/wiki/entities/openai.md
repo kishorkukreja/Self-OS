@@ -1,7 +1,7 @@
 ---
 title: OpenAI
 date_created: 2026-04-30
-date_modified: 2026-05-13
+date_modified: 2026-05-15
 summary: OpenAI is an entity referenced by ingested source material.
 tags:
 - openai

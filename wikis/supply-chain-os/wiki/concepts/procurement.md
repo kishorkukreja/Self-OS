@@ -1,7 +1,7 @@
 ---
 title: Procurement
 date_created: 2026-05-04
-date_modified: '2026-05-04'
+date_modified: 2026-05-15
 summary: Procurement is a supply-chain theme captured in Supply Chain Signals 2026
   W18 Brief.
 tags:

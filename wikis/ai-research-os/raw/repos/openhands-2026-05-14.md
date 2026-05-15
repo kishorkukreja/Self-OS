@@ -3,6 +3,7 @@ source: https://github.com/OpenHands/OpenHands
 date: 2026-05-14
 type: repo
 tags: [ai-agents, coding-agents, developer-tools, open-source, agent-platforms, self-os]
+status: processed
 ---
 
 # OpenHands / OpenHands — AI-Driven Development

@@ -1,7 +1,7 @@
 ---
 title: Reuters
 date_created: '2026-05-01'
-date_modified: 2026-05-13
+date_modified: 2026-05-15
 summary: News publisher used as a source for logistics disruption and freight-routing
   reporting.
 tags:

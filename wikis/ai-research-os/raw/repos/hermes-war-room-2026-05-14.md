@@ -3,6 +3,7 @@ source: https://github.com/Naroh091/hermes-war-room
 date: 2026-05-14
 type: repo
 tags: [hermes, ai-agents, agent-orchestration, kanban, dashboard, agent-platforms, self-os]
+status: processed
 ---
 
 # Naroh091 / hermes-war-room — Orchestration War Room

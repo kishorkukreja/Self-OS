@@ -80,3 +80,10 @@
 - Updated: projects/self-os-operating-loop.md, patterns/daily-operating-brief.md, index.md
 - Conflicts: none
 - Raw files: raw/projects/self-os-operating-loop/ops/daily/2026-05-13-evening.md
+
+## 2026-05-15 00:03
+- Ingested: 1 file(s) from wiki compile
+- Files: raw/projects/self-os-operating-loop/ops/daily/2026-05-14-evening.md
+- Added: none
+- Updated: index.md, ingest-log.md, log.md, patterns/daily-operating-brief.md, projects/self-os-operating-loop.md
+- Conflicts: none
