@@ -1,7 +1,7 @@
 ---
 title: Agent Evaluation
 date_created: 2026-05-01
-date_modified: 2026-05-14
+date_modified: 2026-05-16
 summary: Methods and benchmarks for measuring agent reliability, generalization, trajectories,
   cost, and safety across realistic tasks.
 tags:
@@ -56,3 +56,9 @@ New sources add two complementary evaluation threads. Prime Intellect Lab treats
 ## Update — 2026-05-14
 
 The 2026-05-13 sources expand evaluation from benchmark selection into live improvement loops. [[sources/x-twitter-ai-blogs-and-articles-2026-05-13.md]] points to standardized model-to-agent evaluation, while [[sources/ashpreet-bedi-auto-improving-agent-platform-2026-05-13.md]] shows evals driving concrete code changes through traces and probes.
+
+## 2026-05-16 update
+
+The X blogs digest collects candidate leads for agent benchmarks, lifelong learning, HIL-Bench, PaperBench, and MCP-based evaluation. Source: [[sources/x-blogs-digest-2026-05-15.md|Agent Evaluation]].
+
+_Last updated: 2026-05-16_

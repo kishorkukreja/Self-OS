@@ -1,7 +1,7 @@
 ---
 title: "Constraint Migration"
 date_created: 2026-05-08
-date_modified: 2026-05-11
+date_modified: 2026-05-16
 summary: "The pattern where the active supply-chain bottleneck moves between cost, lead time, routing, tariff, qualification, power, or capacity layers."
 tags: [supply-chain, planning]
 type: concept
@@ -35,3 +35,9 @@ The 2026-W19 weekly package adds more evidence that the binding constraint moved
 **Sources:** [[sources/supply-chain-signals-2026-05-10-daily-research]], [[sources/supply-chain-signals-2026-w19-brief]], [[sources/supply-chain-signals-2026-w19-linkedin]]
 
 _Last updated: 2026-05-11_
+
+## 2026-05-16 update
+
+The research shows constraints shifting between semiconductor capacity, food-input categories, inland logistics, and compliance work. Source: [[sources/supply-chain-signals-2026-05-15-daily-research.md|Constraint Migration]].
+
+_Last updated: 2026-05-16_

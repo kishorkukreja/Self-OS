@@ -1,12 +1,12 @@
 # Coding Projects OS — Index
-_Last updated: 2026-05-15_
+_Last updated: 2026-05-16_
 
 ## Projects (2)
 - [Projectsos](projects/projectsos.md) — Project memory compiled from coding session captures.
 - [Self Os Operating Loop](projects/self-os-operating-loop.md) — Project memory for the Self-OS operating loop and daily brief workflow.
 
 ## Patterns (4)
-- [Daily Operating Brief](patterns/daily-operating-brief.md) — A recurring project-health artifact that summarizes repo state, cron status,
+- [Daily Operating Brief](patterns/daily-operating-brief.md) — A recurring project-health artifact that summarizes repo state, cron status, recent changes, and the next best action.
 - [Idea Inbox Routing](patterns/idea-inbox-routing.md) — Idea Inbox Routing compiled from raw Self-OS source material.
 - [Self-OS Operating Brief](patterns/self-os-operating-brief.md) — A workflow pattern for producing daily Self-OS status briefs from repo, cron, raw, and wiki signals.
 - [Wrap-Up Skill Discovery](patterns/wrap-up-skill-discovery.md) — Pattern for discovering and preserving reusable knowledge at the end of coding sessions.

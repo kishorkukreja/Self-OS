@@ -1,7 +1,7 @@
 ---
 title: Daily Operating Brief
 date_created: '2026-05-05'
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: A recurring project-health artifact that summarizes repo state, cron status,
   recent changes, and the next best action.
 tags:
@@ -83,3 +83,11 @@ The evening brief reinforces the pattern's role as an operator dashboard: repo c
 ## Self-OS Evening Brief — 2026-05-14 (2026-05-14)
 - Raw capture: [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-14-evening.md]]
 - Compile note: Self-OS Evening Brief TL DR repo is clean at collection time open PR no injected cron failures Top next move use the Thinking Loop to turn one recent capture into connection synthesis or safe next action Changed Since Last Brief Recent commits last text d5cdff8 ingest Hermes War Room and skill-set repos ai-research-os raw repos d36a94 ingest OpenHands ai-research-os raw repos ad747f6 newsletter Su
+
+## 2026-05-15 evening brief update
+
+The latest evening brief shows the pattern evolving from a static status report into a Thinking Loop: it links recent raw captures to existing wiki memory, names the strongest cross-domain pattern, and asks what should become an operational workflow. This keeps the daily brief useful as a routing artifact, not just a repo snapshot.
+
+**Discovered in:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-15-evening.md]]
+
+_Last updated: 2026-05-15_
