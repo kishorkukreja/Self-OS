@@ -1,13 +1,13 @@
 ---
 title: "Lint Report: Personal Os — 2026-05-09"
 date_created: 2026-05-09
-date_modified: 2026-05-09
-summary: "Weekly health check for personal-os"
+date_modified: 2026-05-16
+summary: Weekly health check for personal-os
 tags: [lint, maintenance]
 type: output
 status: final
+domain: self-finance
 ---
-
 # Lint Report: Personal Os — 2026-05-09
 
 ## Summary
