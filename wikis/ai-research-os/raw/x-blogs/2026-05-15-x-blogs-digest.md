@@ -3,6 +3,7 @@ source: X/Twitter daily search
 date: 2026-05-15
 type: article
 tags: [x, twitter, blogs, articles, ai-research, daily-digest]
+status: processed
 ---
 
 # X/Twitter AI/ML Blogs Daily Digest — 2026-05-15

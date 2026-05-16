@@ -85,5 +85,8 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-15 00:03
 - Compiled 1 raw file(s): raw/projects/self-os-operating-loop/ops/daily/2026-05-14-evening.md
+
+## 2026-05-16 00:04
+- Compiled the 2026-05-15 evening Self-OS operating brief into the operating-loop project and daily-brief pattern pages.
 ## 2026-05-16 06:03
 - Lint run: 9 pages, 9 orphans, 0 broken links (0 stubbed), 0 missing frontmatter fixed

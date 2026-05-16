@@ -3,6 +3,7 @@ source: https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/ad
 date: 2026-05-15
 type: repo
 tags: [google-adk, long-running-agents, durable-agent-state, event-driven-agents, human-in-the-loop, multi-agent-orchestration, self-os]
+status: processed
 ---
 
 # GoogleCloudPlatform/generative-ai — ADK New Hire Onboarding

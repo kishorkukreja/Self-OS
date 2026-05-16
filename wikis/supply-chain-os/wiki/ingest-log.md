@@ -124,3 +124,10 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/supply-chain-signals-2026-05-14-daily-research.md, sources/supply-chain-signals-2026-05-14-sources.md
 - Updated: concepts/freight-market-disruption.md, concepts/logistics.md, concepts/manufacturing.md, concepts/procurement.md, concepts/supply-chain-signals.md, entities/reuters.md, entities/supply-chain-signals.md, index.md, ingest-log.md, log.md, sources/supply-chain-signals-2026-05-14-daily-research.md, sources/supply-chain-signals-2026-05-14-sources.md
 - Conflicts: none
+
+## 2026-05-16 00:04
+- Ingested: 2 files from newsletter-research
+- Added: sources/supply-chain-signals-2026-05-15-daily-research.md, sources/supply-chain-signals-2026-05-15-sources.md
+- Processed raw: raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-15-daily-research.md; raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-15-sources.md
+- Updated: index.md, concepts/entities evidence pages
+- Conflicts: none

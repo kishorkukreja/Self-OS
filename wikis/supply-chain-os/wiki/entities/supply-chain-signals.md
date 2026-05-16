@@ -1,7 +1,7 @@
 ---
 title: Supply Chain Signals
 date_created: '2026-04-30'
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: Supply Chain Signals is an entity referenced by ingested source material.
 tags:
 - supply-chain-signals
@@ -95,3 +95,9 @@ Referenced by Supply Chain Signals — 2026-W20 Visual Direction.
 ## Update — 2026-05-14
 
 The 2026-05-13 research run added [[sources/supply-chain-signals-2026-05-13-daily-research.md]] and [[sources/supply-chain-signals-2026-05-13-sources.md]], emphasizing bifurcated freight signals, lead-time inflation, AI-infrastructure bottlenecks, and automation as facility design.
+
+## 2026-05-16 update
+
+Supply Chain Signals is the internal newsletter/research stream updated with May 15 operator themes and source provenance. Source: [[sources/supply-chain-signals-2026-05-15-daily-research.md|Supply Chain Signals]].
+
+_Last updated: 2026-05-16_

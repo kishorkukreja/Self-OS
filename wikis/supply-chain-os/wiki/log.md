@@ -108,5 +108,8 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-15 00:03
 - Compiled 2 raw file(s): raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-14-daily-research.md, raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-14-sources.md
+
+## 2026-05-16 00:04
+- Compiled 2 Supply Chain Signals raw files into source summaries and updated infrastructure, manufacturing, logistics, procurement, and source-entity pages.
 ## 2026-05-16 06:03
 - Lint run: 179 pages, 23 orphans, 76 broken links (5 stubbed), 0 missing frontmatter fixed

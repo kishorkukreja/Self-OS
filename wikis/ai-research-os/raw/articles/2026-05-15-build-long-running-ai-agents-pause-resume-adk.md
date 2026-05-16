@@ -3,6 +3,7 @@ source: https://developers.googleblog.com/build-long-running-ai-agents-that-paus
 date: 2026-05-15
 type: article
 tags: [google-adk, long-running-agents, durable-agent-state, event-driven-agents, agent-runtime, agents-cli, multi-agent-orchestration, self-os]
+status: processed
 ---
 
 # Build Long-running AI Agents That Pause, Resume, and Never Lose Context with ADK

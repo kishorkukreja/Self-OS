@@ -1,7 +1,7 @@
 ---
 title: "FAO"
 date_created: 2026-05-01
-date_modified: 2026-05-09
+date_modified: 2026-05-16
 summary: "UN Food and Agriculture Organization, source for food price index data."
 tags: [wiki, entity]
 type: entity
@@ -33,3 +33,9 @@ _Last updated: 2026-05-09_
 The May 8 source registry and daily research include this entity in the evidence base for food inflation, synchronized cost pressure, logistics platform strategy, AI infrastructure demand, and live constraint mapping.
 
 **Sources:** [[sources/supply-chain-signals-2026-05-08-daily-research]], [[sources/supply-chain-signals-2026-05-08-sources]]
+
+## 2026-05-16 update
+
+FAO Food Price Index data supports the food-input risk discussion in the May 15 Supply Chain Signals source map. Source: [[sources/supply-chain-signals-2026-05-15-sources.md|FAO]].
+
+_Last updated: 2026-05-16_

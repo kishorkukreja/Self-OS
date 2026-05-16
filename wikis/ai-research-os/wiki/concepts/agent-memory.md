@@ -1,7 +1,7 @@
 ---
 title: "Agent Memory"
 date_created: 2026-04-27
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: "Systems that enable agents to store, retrieve, and learn from historical experiences to improve future reasoning and planning."
 tags: ['agent-memory', 'deep-research', 'parametric-memory', 'memory-system']
 type: concept
@@ -61,3 +61,9 @@ Rowboat adds a concrete reference for local-first agent memory. It stores workin
 ## Evidence from Garry Tan: Meta-Meta-Prompting — The Secret to Making AI Agents Work (2026-05-13)
 
 - [[sources/garry-tan-meta-meta-prompting-the-secret-to-making-ai-agents-work-2026-05-12.md|Garry Tan: Meta-Meta-Prompting — The Secret to Making AI Agents Work]] adds another signal for **Agent Memory** in this wiki. The source is useful primarily as retrieval context and should be interpreted alongside earlier evidence before promoting broad claims.
+
+## 2026-05-16 update
+
+The ADK article distinguishes durable workflow state from raw transcript memory, reinforcing compact state over prompt replay. Source: [[sources/google-2026-long-running-agents-adk.md|Agent Memory]].
+
+_Last updated: 2026-05-16_

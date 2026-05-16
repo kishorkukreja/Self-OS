@@ -1,7 +1,7 @@
 ---
 title: "Codex"
 date_created: 2026-05-13
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: "Stub page for Codex, created from current wiki compile evidence."
 tags: [openai-codex]
 type: entity
@@ -33,3 +33,9 @@ _Last updated: 2026-05-13_
 ## Evidence from Peter Steinberger — Codex + Crabbox for parallel bug repair (2026-05-13)
 
 - [[sources/peter-steinberger-codex-crabbox-for-parallel-bug-repair-2026-05-12.md|Peter Steinberger — Codex + Crabbox for parallel bug repair]] adds another signal for **Codex** in this wiki. The source is useful primarily as retrieval context and should be interpreted alongside earlier evidence before promoting broad claims.
+
+## 2026-05-16 update
+
+OpenAI Codex is referenced for mobile review and approval workflows that let developers steer coding sessions from a phone. Source: [[sources/the-code-2026-05-15.md|OpenAI Codex]].
+
+_Last updated: 2026-05-16_
