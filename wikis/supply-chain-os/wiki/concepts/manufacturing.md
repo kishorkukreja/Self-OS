@@ -1,7 +1,7 @@
 ---
 title: Manufacturing
 date_created: 2026-05-04
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: Manufacturing is a supply-chain theme captured in Supply Chain Signals 2026
   W18 Carousel Outline.
 tags:
@@ -35,3 +35,9 @@ This concept is also evidenced by [[sources/supply-chain-signals-brief-supply-ch
 ## 2026-05-04 update
 
 This concept is also evidenced by [[sources/supply-chain-signals-sources-2026-05-03-sources]], which adds another captured signal for the wiki.
+
+## 2026-05-16 update
+
+Manufacturing demand is framed as a price-and-delivery problem, with supplier deliveries and input prices stressing service levels. Source: [[sources/supply-chain-signals-2026-05-15-daily-research.md|Manufacturing]].
+
+_Last updated: 2026-05-16_

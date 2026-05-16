@@ -1,7 +1,7 @@
 ---
 title: "Multi Agent Systems"
 date_created: 2026-05-04
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: "Multi Agent Systems is a theme captured in Recursivemas 2026 05 03."
 tags: [agents, multi-agent-systems, recursive-agents]
 type: concept
@@ -29,3 +29,9 @@ source_count: 1
 - Google Codelab Building Multi Agent System 2026 05 14 adds dated evidence about multi agent systems Source: [[sources/google-codelab-building-multi-agent-system-2026-05-14-2026-05-14.md]].
 
 _Last updated: 2026-05-15_
+
+## 2026-05-16 update
+
+Google ADK’s onboarding example uses delegation to keep specialized sub-workflows separate from the coordinator. Source: [[sources/google-2026-new-hire-onboarding-adk.md|Multi Agent Systems]].
+
+_Last updated: 2026-05-16_

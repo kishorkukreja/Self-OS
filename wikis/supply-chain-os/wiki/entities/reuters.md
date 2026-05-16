@@ -1,7 +1,7 @@
 ---
 title: Reuters
 date_created: '2026-05-01'
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: News publisher used as a source for logistics disruption and freight-routing
   reporting.
 tags:
@@ -91,3 +91,9 @@ Referenced by Supply Chain Signals Daily Research — 2026-05-11.
 ## Evidence from Supply Chain Signals Daily Research — 2026-05-12 (2026-05-13)
 
 - [[sources/supply-chain-signals-daily-research-2026-05-12-2026-05-12.md|Supply Chain Signals Daily Research — 2026-05-12]] adds another signal for **Reuters** in this wiki. The source is useful primarily as retrieval context and should be interpreted alongside earlier evidence before promoting broad claims.
+
+## 2026-05-16 update
+
+Reuters provided source evidence for SK Hynix, TSMC, semiconductor-market momentum, and food-price disruption in the May 15 source map. Source: [[sources/supply-chain-signals-2026-05-15-sources.md|Reuters]].
+
+_Last updated: 2026-05-16_

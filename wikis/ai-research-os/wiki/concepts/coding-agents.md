@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 date_created: 2026-04-29
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: Concept stub created from restored AI research queue items.
 tags:
 - ai-tools
@@ -83,3 +83,15 @@ New sources show coding agents becoming more operational. Cursor v3.3 adds PR re
 ## Evidence from X/Twitter AI Blogs and Articles — 2026-05-12 (2026-05-13)
 
 - [[sources/x-twitter-ai-blogs-and-articles-2026-05-12-2026-05-12.md|X/Twitter AI Blogs and Articles — 2026-05-12]] adds another signal for **Coding Agents** in this wiki. The source is useful primarily as retrieval context and should be interpreted alongside earlier evidence before promoting broad claims.
+
+## 2026-05-16 update
+
+Codex mobile and Grok Build add new evidence that coding agents are becoming ambient, parallel, and remotely supervised workflows. Source: [[sources/the-code-2026-05-15.md|Coding Agents]].
+
+_Last updated: 2026-05-16_
+
+## 2026-05-16 update
+
+The newsletter digest shows coding-agent interfaces and economics moving into mainstream developer operations. Source: [[sources/newsletter-digest-2026-05-15.md|Coding Agents]].
+
+_Last updated: 2026-05-16_

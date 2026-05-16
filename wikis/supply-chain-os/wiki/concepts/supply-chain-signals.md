@@ -1,7 +1,7 @@
 ---
 title: Supply Chain Signals
 date_created: 2026-04-30
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: Supply Chain Signals as tracked across source material.
 tags:
 - supply-chain-signals
@@ -86,3 +86,9 @@ This page was linked from [[sources/supply-chain-signals-2026-05-05-sources]]. S
 
 ## Update — 2026-05-10
 - Supply Chain Signals appeared again in [[sources/supply-chain-signals-2026-05-09-sources]], adding evidence that it remains relevant to current source material.
+
+## 2026-05-16 update
+
+The May 15 daily research adds another dated operator-facing newsletter input for the Supply Chain Signals corpus. Source: [[sources/supply-chain-signals-2026-05-15-daily-research.md|Supply Chain Signals]].
+
+_Last updated: 2026-05-16_

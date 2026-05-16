@@ -1,7 +1,7 @@
 ---
 title: Logistics
 date_created: 2026-05-04
-date_modified: 2026-05-15
+date_modified: 2026-05-16
 summary: Logistics is a supply-chain theme captured in Supply Chain Signals 2026 W18
   Brief.
 tags:
@@ -39,3 +39,9 @@ This concept is also evidenced by [[sources/supply-chain-signals-daily-2026-05-0
 ## 2026-05-04 update
 
 This concept is also evidenced by [[sources/supply-chain-signals-sources-2026-05-03-sources]], which adds another captured signal for the wiki.
+
+## 2026-05-16 update
+
+Lower ocean spot rates are offset by inland rail-terminal and handoff risk, keeping delivered-cost and service execution in focus. Source: [[sources/supply-chain-signals-2026-05-15-daily-research.md|Logistics]].
+
+_Last updated: 2026-05-16_

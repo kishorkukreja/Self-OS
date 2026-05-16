@@ -163,3 +163,10 @@ _Append-only. Updated automatically by ingest runs._
 - Added: sources/2026-05-11-chrishayduk-codex-goal-mode-2026-05-11.md
 - Updated: concepts/agent-memory.md, concepts/agentic-search.md, concepts/coding-agents.md, entities/hermes.md, entities/openai-codex.md, index.md, ingest-log.md, log.md, sources/2026-05-11-chrishayduk-codex-goal-mode-2026-05-11.md
 - Conflicts: none
+
+## 2026-05-16 00:04
+- Ingested: 5 files from article, newsletter, repo, x-blogs
+- Added: sources/google-2026-long-running-agents-adk.md, sources/newsletter-digest-2026-05-15.md, sources/the-code-2026-05-15.md, sources/google-2026-new-hire-onboarding-adk.md, sources/x-blogs-digest-2026-05-15.md
+- Processed raw: raw/articles/2026-05-15-build-long-running-ai-agents-pause-resume-adk.md; raw/newsletters/2026-05-15-newsletter-digest.md; raw/newsletters/2026-05-15-the-code.md; raw/repos/new-hire-onboarding-2026-05-15.md; raw/x-blogs/2026-05-15-x-blogs-digest.md
+- Updated: index.md, concepts/entities evidence pages
+- Conflicts: none

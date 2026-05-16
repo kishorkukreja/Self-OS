@@ -1,7 +1,7 @@
 ---
 title: "xAI"
 date_created: 2026-04-30
-date_modified: 2026-04-30
+date_modified: 2026-05-16
 summary: "xAI is an entity referenced by ingested source material."
 tags: [xai, grok, ai-slides, presentation-generation, document-analysis, structured-outputs]
 type: entity
@@ -23,3 +23,9 @@ status: draft
 **Sources:** [[sources/using-xai-grok-for-slides-2026]]
 
 _Last updated: 2026-04-30_
+
+## 2026-05-16 update
+
+xAI launched Grok Build CLI as an early beta coding agent with plan mode, large context, and parallel subagents. Source: [[sources/the-code-2026-05-15.md|xAI]].
+
+_Last updated: 2026-05-16_
