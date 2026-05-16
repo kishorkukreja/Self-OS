@@ -148,3 +148,5 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-16 00:04
 - Compiled 5 raw AI research sources into source summaries and updated durable-agent, coding-agent, evaluation, and entity pages.
+## 2026-05-16 06:03
+- Lint run: 578 pages, 95 orphans, 2 broken links (2 stubbed), 0 missing frontmatter fixed

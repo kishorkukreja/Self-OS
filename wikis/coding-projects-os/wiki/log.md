@@ -88,3 +88,5 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-16 00:04
 - Compiled the 2026-05-15 evening Self-OS operating brief into the operating-loop project and daily-brief pattern pages.
+## 2026-05-16 06:03
+- Lint run: 9 pages, 9 orphans, 0 broken links (0 stubbed), 0 missing frontmatter fixed

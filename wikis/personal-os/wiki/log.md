@@ -14,3 +14,5 @@ _Append-only. Updated automatically by ingest runs._
 
 ## 2026-05-09 06:03
 - Lint run: 1 pages, 0 orphans, 0 broken links (0 stubbed), 1 missing frontmatter fixed
+## 2026-05-16 06:03
+- Lint run: 2 pages, 2 orphans, 0 broken links (0 stubbed), 1 missing frontmatter fixed
