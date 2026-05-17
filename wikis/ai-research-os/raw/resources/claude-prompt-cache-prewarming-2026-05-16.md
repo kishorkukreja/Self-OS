@@ -3,6 +3,7 @@ source: conversation + https://platform.claude.com/docs/en/build-with-claude/pro
 date: 2026-05-16
 type: resource
 tags: [anthropic, claude-api, prompt-caching, cache-prewarming, latency, inference-optimization, system-prompts, agent-infrastructure, self-os]
+status: processed
 ---
 
 # Claude prompt cache pre-warming with `max_tokens=0`

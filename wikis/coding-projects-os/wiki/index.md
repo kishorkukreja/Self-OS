@@ -1,12 +1,12 @@
 # Coding Projects OS — Index
-_Last updated: 2026-05-16_
+_Last updated: 2026-05-17_
 
 ## Projects (2)
 - [Projectsos](projects/projectsos.md) — Project memory compiled from coding session captures.
 - [Self Os Operating Loop](projects/self-os-operating-loop.md) — Project memory for the Self-OS operating loop and daily brief workflow.
 
 ## Patterns (4)
-- [Daily Operating Brief](patterns/daily-operating-brief.md) — A recurring project-health artifact that summarizes repo state, cron status, recent changes, and the next best action.
+- [Daily Operating Brief](patterns/daily-operating-brief.md) — A recurring project-health artifact that summarizes repo state, cron status,
 - [Idea Inbox Routing](patterns/idea-inbox-routing.md) — Idea Inbox Routing compiled from raw Self-OS source material.
 - [Self-OS Operating Brief](patterns/self-os-operating-brief.md) — A workflow pattern for producing daily Self-OS status briefs from repo, cron, raw, and wiki signals.
 - [Wrap-Up Skill Discovery](patterns/wrap-up-skill-discovery.md) — Pattern for discovering and preserving reusable knowledge at the end of coding sessions.
@@ -14,6 +14,8 @@ _Last updated: 2026-05-16_
 ## Decisions (1)
 - [2026 05 03 Wrap Up Skill Discovery Decisions](decisions/2026-05-03-2026-05-03-wrap-up-skill-discovery-decisions.md) — Architectural and workflow decisions captured from 2026-05-03-wrap-up-skill-discovery.
 
-## Outputs (2)
+## Outputs (3)
 - [Lint Report: Coding Projects OS — 2026-05-02](outputs/lint-report-2026-05-02.md) — Weekly health check for Coding Projects OS
 - [Lint Report: Coding Projects Os — 2026-05-09](outputs/lint-report-2026-05-09.md) — Weekly health check for coding-projects-os
+- [Lint Report: Coding Projects Os — 2026-05-16](outputs/lint-report-2026-05-16.md) — Weekly health check for coding-projects-os
+

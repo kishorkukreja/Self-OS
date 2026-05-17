@@ -1,7 +1,7 @@
 ---
 title: Institute for Supply Management
 date_created: 2026-05-02
-date_modified: 2026-05-12
+date_modified: 2026-05-17
 summary: Professional association and research publisher behind the ISM Manufacturing
   PMI report.
 tags:
@@ -96,3 +96,15 @@ Referenced by Supply Chain Signals Sources — 2026-05-11.
 **Sources:** [[sources/supply-chain-signals-2026-05-11-daily-research]]
 
 Referenced by Supply Chain Signals Daily Research — 2026-05-11.
+
+**Type:** organization
+
+**Description:** Institute for Supply Management; source for Services PMI and supplier-delivery/price diffusion data.
+
+## 2026-05-17 evidence
+
+Referenced in the 2026-05-16 Supply Chain Signals source registry.
+
+**Sources:** [[sources/supply-chain-signals-2026-05-16-sources.md]]
+
+_Last updated: 2026-05-17_
