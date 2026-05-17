@@ -3,6 +3,7 @@ source: https://github.com/rjs/shaping-skills
 date: 2026-05-16
 type: repo
 tags: [claude-code, skills, shape-up, shaping, breadboarding, project-planning, agent-workflows, self-os]
+status: processed
 ---
 
 # rjs/shaping-skills

@@ -1,7 +1,7 @@
 ---
 title: Daily Operating Brief
 date_created: '2026-05-05'
-date_modified: 2026-05-16
+date_modified: 2026-05-17
 summary: A recurring project-health artifact that summarizes repo state, cron status,
   recent changes, and the next best action.
 tags:
@@ -91,3 +91,13 @@ The latest evening brief shows the pattern evolving from a static status report 
 **Discovered in:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-15-evening.md]]
 
 _Last updated: 2026-05-15_
+
+**Category:** workflow
+
+**Description:** Recurring operational brief that summarizes repo state, open review work, recent captures, cron status, and safe next actions.
+
+## 2026-05-17 evidence
+
+[[../raw/projects/self-os-operating-loop/ops/daily/2026-05-16-evening.md]] reinforces the pattern: the brief should not only report health, but also route one recent signal into a decision, synthesis, skill patch, taskOS capture, or Kanban task.
+
+_Last updated: 2026-05-17_

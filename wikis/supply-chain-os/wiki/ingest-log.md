@@ -131,3 +131,10 @@ _Append-only. Updated automatically by ingest runs._
 - Processed raw: raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-15-daily-research.md; raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-15-sources.md
 - Updated: index.md, concepts/entities evidence pages
 - Conflicts: none
+
+## 2026-05-17 00:00
+- Ingested: 2 files from newsletter-research
+- Added: sources/supply-chain-signals-2026-05-16-daily-research.md, sources/supply-chain-signals-2026-05-16-sources.md
+- Updated: index.md, log.md
+- Raw files: raw/newsletters/supply-chain-signals/2026-W20/daily/2026-05-16-daily-research.md, raw/newsletters/supply-chain-signals/2026-W20/sources/2026-05-16-sources.md
+- Conflicts: none

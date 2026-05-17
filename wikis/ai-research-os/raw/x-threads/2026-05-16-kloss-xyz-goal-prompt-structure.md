@@ -3,6 +3,7 @@ source: https://x.com/kloss_xyz/status/2054096165055217987
 date: 2026-05-16
 type: thread
 tags: [goal-prompt, codex, claude-code, hermes, agent-workflows, prompt-structure, task-scoping, verification, self-os]
+status: processed
 ---
 
 # klöss: /goal prompt structure for Codex, Claude Code, and Hermes

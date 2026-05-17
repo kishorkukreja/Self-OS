@@ -170,3 +170,10 @@ _Append-only. Updated automatically by ingest runs._
 - Processed raw: raw/articles/2026-05-15-build-long-running-ai-agents-pause-resume-adk.md; raw/newsletters/2026-05-15-newsletter-digest.md; raw/newsletters/2026-05-15-the-code.md; raw/repos/new-hire-onboarding-2026-05-15.md; raw/x-blogs/2026-05-15-x-blogs-digest.md
 - Updated: index.md, concepts/entities evidence pages
 - Conflicts: none
+
+## 2026-05-17 00:00
+- Ingested: 6 files from newsletter, repo, resource, article, thread
+- Added: sources/newsletter-digest-2026-05-16.md, sources/github-trending-weekly-2026-05-16.md, sources/shaping-skills-2026-05-16.md, sources/claude-prompt-cache-prewarming-2026-05-16.md, sources/x-blogs-digest-2026-05-16.md, sources/kloss-2026-goal-prompt-structure.md
+- Updated: index.md, log.md
+- Raw files: raw/newsletters/2026-05-16-newsletter-digest.md, raw/repos/github-trending-weekly-2026-05-16.md, raw/repos/shaping-skills-2026-05-16.md, raw/resources/claude-prompt-cache-prewarming-2026-05-16.md, raw/x-blogs/2026-05-16-x-blogs-digest.md, raw/x-threads/2026-05-16-kloss-xyz-goal-prompt-structure.md
+- Conflicts: none

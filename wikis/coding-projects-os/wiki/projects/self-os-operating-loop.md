@@ -1,7 +1,7 @@
 ---
 title: Self Os Operating Loop
 date_created: '2026-05-03'
-date_modified: 2026-05-16
+date_modified: 2026-05-17
 summary: Project memory for the Self-OS operating loop and daily brief workflow.
 tags:
 - self-os
@@ -163,3 +163,9 @@ The 2026-05-11 evening brief reported a clean repository at collection time, two
 **What happened:** The evening brief captured a clean repository snapshot, two open PRs requiring review, recent raw/wiki activity, and a Thinking Loop that connected new supply-chain research, AI durable-agent captures, and operating-loop maintenance. It identified the next useful move as turning one recent capture into a connection, synthesis, or safe next action rather than leaving it as passive context.
 
 **Decisions / implications:** The brief reinforces the Self-OS operating loop as a recurring review surface: git status, PR backlog, cron/automation health, recent captures, and the next action should be compiled into a safe project memory without exposing raw operational noise.
+
+## 2026-05-16 evening operating brief
+
+**Raw file:** [[../raw/projects/self-os-operating-loop/ops/daily/2026-05-16-evening.md]]
+
+The 2026-05-16 evening brief captured a clean repository state at collection time, two open review PRs, and no injected cron failures. Its next-move recommendation was to use the Thinking Loop to route one recent capture into a connection, synthesis, skill patch, taskOS promotion, Kanban task, or decision prompt rather than letting fresh raw inputs remain passive notes. The brief also recorded the day’s newly captured AI and supply-chain raw files as candidates for the normal compile cadence.
